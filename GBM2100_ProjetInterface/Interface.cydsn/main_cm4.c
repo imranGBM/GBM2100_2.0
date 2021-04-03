@@ -10,6 +10,14 @@
 #include <stdlib.h>
 #include "math.h"
 #include "TasksInterface.h"
+//Communication
+#include <stdio.h>
+#include "bmi160.h"     //proviens du driver sur github du capteur
+#include "motionTask.h"
+#include "event_groups.h"
+EventGroupHandle_t systemInputMode;     //make a variable for the event group called systemInputMode.
+//END
+
 
 volatile int CompteurSW2=0;
 volatile bool AffichageGraph=false;
@@ -24,6 +32,15 @@ void isr_SW2()
 int main(void)
 {   
     __enable_irq();
+    
+    //Communication
+    UART_1_Start();
+    systemInputMode = xEventGroupCreate();          //initialize event group
+    Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);            //Turn off LED on startup
+    xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //set the current mode to CapSense
+    xTaskCreate(motionTask,"motionTask",1024,0,1,0);        //Start motionTask
+    //END
+    
     Cy_SysInt_Init(&SW2_cfg, isr_SW2);
     NVIC_ClearPendingIRQ(SW2_cfg.intrSrc);
     NVIC_EnableIRQ(SW2_cfg.intrSrc);

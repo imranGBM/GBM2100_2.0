@@ -26,8 +26,8 @@
 #define Clock__DIV_TYPE CY_SYSCLK_DIV_16_BIT
 
 /* I2C_1 */
-#define I2C_1_SCB__HW SCB1
-#define I2C_1_SCB__IDX 1
+#define I2C_1_SCB__HW SCB3
+#define I2C_1_SCB__IDX 3
 #define I2C_1_SCB__SS0_POSITION 0u
 #define I2C_1_SCB__SS1_POSITION 1u
 #define I2C_1_SCB__SS2_POSITION 2u
@@ -37,8 +37,8 @@
 #define I2C_1_SCBCLK__DIV_TYPE CY_SYSCLK_DIV_8_BIT
 
 /* UART_1 */
-#define UART_1_SCB__HW SCB2
-#define UART_1_SCB__IDX 2
+#define UART_1_SCB__HW SCB5
+#define UART_1_SCB__IDX 5
 #define UART_1_SCB__SS0_POSITION 0u
 #define UART_1_SCB__SS1_POSITION 1u
 #define UART_1_SCB__SS2_POSITION 2u

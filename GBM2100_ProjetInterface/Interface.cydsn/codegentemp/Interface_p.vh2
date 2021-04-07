@@ -1,5 +1,5 @@
 -- Project:   Interface
--- Generated: 04/03/2021 10:48:53
+-- Generated: 04/07/2021 15:11:19
 -- PSoC Creator  4.4
 
 ENTITY Interface IS
@@ -223,10 +223,15 @@ ARCHITECTURE __DEFAULT__ OF Interface IS
     ATTRIBUTE lib_model OF PinSW2(0) : LABEL IS "iocell25";
     ATTRIBUTE Location OF PinSW2(0) : LABEL IS "P0[4]";
     ATTRIBUTE lib_model OF \I2C_1:scl(0)\ : LABEL IS "iocell26";
+    ATTRIBUTE Location OF \I2C_1:scl(0)\ : LABEL IS "P6[0]";
     ATTRIBUTE lib_model OF \I2C_1:sda(0)\ : LABEL IS "iocell27";
+    ATTRIBUTE Location OF \I2C_1:sda(0)\ : LABEL IS "P6[1]";
     ATTRIBUTE lib_model OF \UART_1:tx(0)\ : LABEL IS "iocell28";
+    ATTRIBUTE Location OF \UART_1:tx(0)\ : LABEL IS "P5[1]";
     ATTRIBUTE lib_model OF \UART_1:rx(0)\ : LABEL IS "iocell29";
+    ATTRIBUTE Location OF \UART_1:rx(0)\ : LABEL IS "P5[0]";
     ATTRIBUTE lib_model OF LED8(0) : LABEL IS "iocell30";
+    ATTRIBUTE Location OF LED8(0) : LABEL IS "P0[3]";
     ATTRIBUTE Location OF \CapSense:IDACMod\ : LABEL IS "F(CSIDAC7,0)";
     ATTRIBUTE Location OF \CapSense:IDACComp\ : LABEL IS "F(CSIDAC7,1)";
     ATTRIBUTE Location OF \CapSense:CSD\ : LABEL IS "F(CSD,0)";

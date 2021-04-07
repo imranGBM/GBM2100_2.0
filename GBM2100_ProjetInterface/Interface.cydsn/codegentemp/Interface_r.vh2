@@ -1,5 +1,5 @@
 -- Project:   Interface
--- Generated: 04/03/2021 10:48:55
+-- Generated: 04/07/2021 15:11:21
 -- PSoC Creator  4.4
 
 ENTITY Interface IS
@@ -225,15 +225,15 @@ ARCHITECTURE __DEFAULT__ OF Interface IS
     ATTRIBUTE lib_model OF PinSW2(0) : LABEL IS "iocell25";
     ATTRIBUTE Location OF PinSW2(0) : LABEL IS "P0[4]";
     ATTRIBUTE lib_model OF \I2C_1:scl(0)\ : LABEL IS "iocell26";
-    ATTRIBUTE Location OF \I2C_1:scl(0)\ : LABEL IS "P10[0]";
+    ATTRIBUTE Location OF \I2C_1:scl(0)\ : LABEL IS "P6[0]";
     ATTRIBUTE lib_model OF \I2C_1:sda(0)\ : LABEL IS "iocell27";
-    ATTRIBUTE Location OF \I2C_1:sda(0)\ : LABEL IS "P10[1]";
+    ATTRIBUTE Location OF \I2C_1:sda(0)\ : LABEL IS "P6[1]";
     ATTRIBUTE lib_model OF \UART_1:tx(0)\ : LABEL IS "iocell28";
-    ATTRIBUTE Location OF \UART_1:tx(0)\ : LABEL IS "P9[1]";
+    ATTRIBUTE Location OF \UART_1:tx(0)\ : LABEL IS "P5[1]";
     ATTRIBUTE lib_model OF \UART_1:rx(0)\ : LABEL IS "iocell29";
-    ATTRIBUTE Location OF \UART_1:rx(0)\ : LABEL IS "P9[0]";
+    ATTRIBUTE Location OF \UART_1:rx(0)\ : LABEL IS "P5[0]";
     ATTRIBUTE lib_model OF LED8(0) : LABEL IS "iocell30";
-    ATTRIBUTE Location OF LED8(0) : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF LED8(0) : LABEL IS "P0[3]";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB\ : LABEL IS "F(SCB,6)";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(47)]";
     ATTRIBUTE Location OF \CY_EINK_Timer:TCPWM\ : LABEL IS "F(TCPWM,0)";
@@ -243,10 +243,10 @@ ARCHITECTURE __DEFAULT__ OF Interface IS
     ATTRIBUTE Location OF \CapSense:CSD\ : LABEL IS "F(CSD,0)";
     ATTRIBUTE Location OF \CapSense:ISR\ : LABEL IS "[IntrContainer=(0)][IntrId=(49)]";
     ATTRIBUTE Location OF SW2 : LABEL IS "[IntrContainer=(0)][IntrId=(0)]";
-    ATTRIBUTE Location OF \I2C_1:SCB\ : LABEL IS "F(SCB,1)";
-    ATTRIBUTE Location OF \I2C_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(42)]";
-    ATTRIBUTE Location OF \UART_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(43)]";
-    ATTRIBUTE Location OF \UART_1:SCB\ : LABEL IS "F(SCB,2)";
+    ATTRIBUTE Location OF \I2C_1:SCB\ : LABEL IS "F(SCB,3)";
+    ATTRIBUTE Location OF \I2C_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(44)]";
+    ATTRIBUTE Location OF \UART_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(46)]";
+    ATTRIBUTE Location OF \UART_1:SCB\ : LABEL IS "F(SCB,5)";
     ATTRIBUTE Location OF IOSS : LABEL IS "F(IOSS,0)";
     COMPONENT CLK_GEN
         PORT (
@@ -701,10 +701,12 @@ BEGIN
             lfclk => ClockBlock_LFClk,
             ff_div_43 => \CapSense:Net_611_ff43\,
             ff_div_0 => open,
-            ff_div_1 => \I2C_1:clock_wire_ff1\,
-            ff_div_2 => \UART_1:Net_847_ff2\,
+            ff_div_1 => open,
+            ff_div_2 => open,
             ff_div_11 => Net_700_ff12,
             ff_div_12 => Net_568_ff11,
+            ff_div_3 => \I2C_1:clock_wire_ff1\,
+            ff_div_5 => \UART_1:Net_847_ff2\,
             ff_div_6 => \CY_EINK_SPIM:Net_847_ff0\,
             periclk_App => periclk_App);
 

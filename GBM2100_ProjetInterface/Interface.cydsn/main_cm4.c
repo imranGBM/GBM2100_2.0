@@ -37,8 +37,7 @@ int main(void)
     UART_1_Start();
     systemInputMode = xEventGroupCreate();          //initialize event group
     Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);            //Turn off LED on startup
-    xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //set the current mode to CapSense
-    xTaskCreate(motionTask,"motionTask",1024,0,1,0);        //Start motionTask
+    xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //set the current mode to CapSense        
     //END
     
     Cy_SysInt_Init(&SW2_cfg, isr_SW2);
@@ -48,6 +47,7 @@ int main(void)
     CapSense_ScanAllWidgets();
     GUI_Init(); Cy_EINK_Start(20); Cy_EINK_Power(1); GUI_SetColor(GUI_BLACK); GUI_SetBkColor(GUI_WHITE); GUI_Clear(); 
     PWMAlarmG_Start(); 
+    xTaskCreate(motionTask,"motionTask",1024,0,1,0); //Start motionTask
     xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,1,NULL);
     xTaskCreate(ChangeGraph,"ChangeGraph",configMINIMAL_STACK_SIZE,NULL,1,NULL);
     vTaskStartScheduler();

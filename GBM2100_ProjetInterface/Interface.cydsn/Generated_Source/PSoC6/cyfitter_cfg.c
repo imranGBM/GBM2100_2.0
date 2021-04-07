@@ -251,10 +251,10 @@ static void ClockInit(void)
 	Cy_SysLib_SetWaitStates(false, 100);
 
 	/* Configure peripheral clock dividers */
-	Cy_SysClk_PeriphAssignDivider(PCLK_SCB1_CLOCK, CY_SYSCLK_DIV_8_BIT, 2u);
+	Cy_SysClk_PeriphAssignDivider(PCLK_SCB3_CLOCK, CY_SYSCLK_DIV_8_BIT, 2u);
 	Cy_SysClk_PeriphSetDivider(CY_SYSCLK_DIV_8_BIT, 2u, 64u);
 	Cy_SysClk_PeriphEnableDivider(CY_SYSCLK_DIV_8_BIT, 2u);
-	Cy_SysClk_PeriphAssignDivider(PCLK_SCB2_CLOCK, CY_SYSCLK_DIV_8_BIT, 3u);
+	Cy_SysClk_PeriphAssignDivider(PCLK_SCB5_CLOCK, CY_SYSCLK_DIV_8_BIT, 3u);
 	Cy_SysClk_PeriphSetDivider(CY_SYSCLK_DIV_8_BIT, 3u, 71u);
 	Cy_SysClk_PeriphEnableDivider(CY_SYSCLK_DIV_8_BIT, 3u);
 	Cy_SysClk_PeriphAssignDivider(PCLK_SCB6_CLOCK, CY_SYSCLK_DIV_8_BIT, 1u);
@@ -626,11 +626,11 @@ void Cy_SystemInit(void)
 
 		cfg_write_bytes32(cy_cfg_addr_table, cy_cfg_data_table);
 
-		/* SCB1_CTRL Starting address: CYDEV_SCB1_CTRL */
-		CY_SET_REG32((void *)(CYREG_SCB1_CTRL), 0x0000000Fu);
+		/* SCB3_CTRL Starting address: CYDEV_SCB3_CTRL */
+		CY_SET_REG32((void *)(CYREG_SCB3_CTRL), 0x0000000Fu);
 
-		/* SCB1_TX Starting address: CYDEV_SCB1_TX_CTRL */
-		CY_SET_REG32((void *)(CYREG_SCB1_TX_CTRL), 0x00010107u);
+		/* SCB3_TX Starting address: CYDEV_SCB3_TX_CTRL */
+		CY_SET_REG32((void *)(CYREG_SCB3_TX_CTRL), 0x00010107u);
 
 		/* Enable digital routing */
 		CY_SET_REG32((void *)0x40347900u, CY_GET_REG32((void *)0x40347900u) | 0x102u);
@@ -643,7 +643,7 @@ void Cy_SystemInit(void)
 	        .out        = 0x00000010u,
 	        .intrMask   = 0x00000010u,
 	        .intrCfg    = 0x00000200u,
-	        .cfg        = 0x000B0606u,
+	        .cfg        = 0x000B6600u,
 	        .cfgIn      = 0x00000000u,
 	        .cfgOut     = 0x00000000u,
 	        .cfgSIO     = 0x00000000u,
@@ -674,14 +674,14 @@ void Cy_SystemInit(void)
 	{
 	    const cy_stc_gpio_prt_config_t port5_cfg =
 	    {
-	        .out        = 0x00000000u,
+	        .out        = 0x00000003u,
 	        .intrMask   = 0x00000000u,
 	        .intrCfg    = 0x00000000u,
-	        .cfg        = 0x06668600u,
+	        .cfg        = 0x06668668u,
 	        .cfgIn      = 0x00000000u,
 	        .cfgOut     = 0x00000000u,
 	        .cfgSIO     = 0x00000000u,
-	        .sel0Active = 0x00000000u,
+	        .sel0Active = 0x00001212u,
 	        .sel1Active = 0x00000000u,
 	    };
 	    (void)Cy_GPIO_Port_Init(GPIO_PRT5, &port5_cfg);
@@ -691,14 +691,14 @@ void Cy_SystemInit(void)
 	{
 	    const cy_stc_gpio_prt_config_t port6_cfg =
 	    {
-	        .out        = 0x00000000u,
+	        .out        = 0x00000003u,
 	        .intrMask   = 0x00000000u,
 	        .intrCfg    = 0x00000000u,
-	        .cfg        = 0xBA000000u,
+	        .cfg        = 0xBA0000CCu,
 	        .cfgIn      = 0x00000000u,
 	        .cfgOut     = 0x00000000u,
 	        .cfgSIO     = 0x00000000u,
-	        .sel0Active = 0x00000000u,
+	        .sel0Active = 0x00001313u,
 	        .sel1Active = 0x1D1D0000u,
 	    };
 	    (void)Cy_GPIO_Port_Init(GPIO_PRT6, &port6_cfg);
@@ -736,40 +736,6 @@ void Cy_SystemInit(void)
 	        .sel1Active = 0x00000000u,
 	    };
 	    (void)Cy_GPIO_Port_Init(GPIO_PRT8, &port8_cfg);
-	}
-
-	/* Port9 configuration */
-	{
-	    const cy_stc_gpio_prt_config_t port9_cfg =
-	    {
-	        .out        = 0x00000003u,
-	        .intrMask   = 0x00000000u,
-	        .intrCfg    = 0x00000000u,
-	        .cfg        = 0x00000068u,
-	        .cfgIn      = 0x00000000u,
-	        .cfgOut     = 0x00000000u,
-	        .cfgSIO     = 0x00000000u,
-	        .sel0Active = 0x00001212u,
-	        .sel1Active = 0x00000000u,
-	    };
-	    (void)Cy_GPIO_Port_Init(GPIO_PRT9, &port9_cfg);
-	}
-
-	/* Port10 configuration */
-	{
-	    const cy_stc_gpio_prt_config_t port10_cfg =
-	    {
-	        .out        = 0x00000003u,
-	        .intrMask   = 0x00000000u,
-	        .intrCfg    = 0x00000000u,
-	        .cfg        = 0x000000CCu,
-	        .cfgIn      = 0x00000000u,
-	        .cfgOut     = 0x00000000u,
-	        .cfgSIO     = 0x00000000u,
-	        .sel0Active = 0x00001313u,
-	        .sel1Active = 0x00000000u,
-	    };
-	    (void)Cy_GPIO_Port_Init(GPIO_PRT10, &port10_cfg);
 	}
 
 	/* Port12 configuration */

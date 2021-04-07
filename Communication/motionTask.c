@@ -151,7 +151,7 @@ void motionTask(void *arg)
             xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);          //Mode qui signal que ya pas de mouvement
             xEventGroupClearBits(systemInputMode,MODE_MOTION);          //Mode qui signal que ya du mouvement
             Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);                        //ici ya pas eu de mouvement depuis 1000ms, donc turn off alarm (LED)
-        }
+            }
         else
         {
             xEventGroupClearBits(systemInputMode,MODE_CAPSENSE);

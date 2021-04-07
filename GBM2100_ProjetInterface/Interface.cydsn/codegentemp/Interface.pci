@@ -1,5 +1,5 @@
 # Interface
-# 2021-04-03 14:48:53Z
+# 2021-04-07 19:11:19Z
 
 dont_use_location p4usbcell -1 -1 0
 dont_use_location USB -1 -1 0
@@ -30,6 +30,11 @@ set_io "\CapSense:Sns(3)\" iocell 8 6
 set_io "\CapSense:Sns(4)\" iocell 8 7
 set_io "\CapSense:Tx(0)\" iocell 1 0
 set_io "PinSW2(0)" iocell 0 4
+set_io "\I2C_1:scl(0)\" iocell 6 0
+set_io "\I2C_1:sda(0)\" iocell 6 1
+set_io "\UART_1:tx(0)\" iocell 5 1
+set_io "\UART_1:rx(0)\" iocell 5 0
+set_io "LED8(0)" iocell 0 3
 set_location "\CapSense:IDACMod\" CSIDAC7 -1 -1 0
 set_location "\CapSense:IDACComp\" CSIDAC7 -1 -1 1
 set_location "\CapSense:CSD\" CSD -1 -1 0

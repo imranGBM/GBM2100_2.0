@@ -145,7 +145,7 @@ void CapSense_ChangeLedIntensity()
         SliderPosI=CapSense_GetCentroidPos(CapSense_LINEARSLIDER0_WDGT_ID);
         if (SliderPosI<65534)
         {
-            int Current=2*SliderPsoI;
+            int Current=2*SliderPosI;
             // Write Register
         }
         SliderPosI=0;

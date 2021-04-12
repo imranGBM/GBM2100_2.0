@@ -26,18 +26,6 @@
         .intrPriority = SW2__INTC_CORTEXM4_PRIORITY
     };
 
-    /* I2C_1_SCB_IRQ */
-    const cy_stc_sysint_t I2C_1_SCB_IRQ_cfg = {
-        .intrSrc = (IRQn_Type)I2C_1_SCB_IRQ__INTC_NUMBER,
-        .intrPriority = I2C_1_SCB_IRQ__INTC_CORTEXM4_PRIORITY
-    };
-
-    /* UART_1_SCB_IRQ */
-    const cy_stc_sysint_t UART_1_SCB_IRQ_cfg = {
-        .intrSrc = (IRQn_Type)UART_1_SCB_IRQ__INTC_NUMBER,
-        .intrPriority = UART_1_SCB_IRQ__INTC_CORTEXM4_PRIORITY
-    };
-
     /* CY_EINK_SPIM_SCB_IRQ */
     const cy_stc_sysint_t CY_EINK_SPIM_SCB_IRQ_cfg = {
         .intrSrc = (IRQn_Type)CY_EINK_SPIM_SCB_IRQ__INTC_NUMBER,

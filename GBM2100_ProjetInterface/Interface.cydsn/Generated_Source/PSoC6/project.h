@@ -109,8 +109,6 @@
 #include "CY_EINK_SPIM.h"
 #include "EINK_Clock.h"
 #include "CY_EINK_Timer.h"
-#include "Clock.h"
-#include "PWMAlarmG.h"
 #include "CapSense.h"
 #include "CapSense_Control.h"
 #include "CapSense_Filter.h"
@@ -124,12 +122,8 @@
 #include "CapSense_RegisterMap.h"
 #include "CapSense_Centroid_LL.h"
 #include "CapSense_SmartSense_LL.h"
-#include "I2C_1.h"
-#include "UART_1.h"
 #include "CY_EINK_SPIM_SCBCLK.h"
 #include "CapSense_ModClk.h"
-#include "I2C_1_SCBCLK.h"
-#include "UART_1_SCBCLK.h"
 
 /*[]*/
 

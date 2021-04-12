@@ -24,12 +24,6 @@
     #define SW2__INTC_ASSIGNED 1u
     extern const cy_stc_sysint_t SW2_cfg;
 
-    #define I2C_1_SCB_IRQ__INTC_ASSIGNED 1u
-    extern const cy_stc_sysint_t I2C_1_SCB_IRQ_cfg;
-
-    #define UART_1_SCB_IRQ__INTC_ASSIGNED 1u
-    extern const cy_stc_sysint_t UART_1_SCB_IRQ_cfg;
-
     #define CY_EINK_SPIM_SCB_IRQ__INTC_ASSIGNED 1u
     extern const cy_stc_sysint_t CY_EINK_SPIM_SCB_IRQ_cfg;
 

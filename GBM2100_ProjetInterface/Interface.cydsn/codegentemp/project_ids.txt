@@ -1,6 +1,0 @@
-C:\Users\felha\OneDrive\Documents\PolyMTL\Projet\GBM2100_ProjetInterface\Interface.cydsn\Interface.cyprj|ee0c1642-4e74-4548-9ce9-5f249b208cb9
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|75ca285b-9ba6-4660-a048-9e4ea791c8f8
-C:\Users\felha\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|279448a7-7d93-4a2c-9597-2438987c432e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0d8a5d53-acce-4b06-b58e-6c7a54f0efb0
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f202a175-34cf-4906-8d20-1bdab8027126
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6737728c-3b7d-42d9-a2fc-93fee429c3cb

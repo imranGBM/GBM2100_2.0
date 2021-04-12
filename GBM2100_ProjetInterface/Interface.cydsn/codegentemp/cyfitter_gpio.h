@@ -18,6 +18,28 @@
 #define INCLUDED_CYFITTER_GPIO_H
 #include "cy_device_headers.h"
 
+/* Blue */
+#define Blue_0_DRIVEMODE CY_GPIO_DM_STRONG_IN_OFF
+#define Blue_0_INBUF_ENABLED 0u
+#define Blue_0_INIT_DRIVESTATE 0u
+#define Blue_0_INIT_MUXSEL 0u
+#define Blue_0_INPUT_SYNC 2u
+#define Blue_0_INTERRUPT_MODE CY_GPIO_INTR_DISABLE
+#define Blue_0_NUM 1u
+#define Blue_0_PORT GPIO_PRT11
+#define Blue_0_SLEWRATE CY_GPIO_SLEW_FAST
+#define Blue_0_THRESHOLD_LEVEL CY_GPIO_VTRIP_CMOS
+#define Blue_DRIVEMODE CY_GPIO_DM_STRONG_IN_OFF
+#define Blue_INBUF_ENABLED 0u
+#define Blue_INIT_DRIVESTATE 0u
+#define Blue_INIT_MUXSEL 0u
+#define Blue_INPUT_SYNC 2u
+#define Blue_INTERRUPT_MODE CY_GPIO_INTR_DISABLE
+#define Blue_NUM 1u
+#define Blue_PORT GPIO_PRT11
+#define Blue_SLEWRATE CY_GPIO_SLEW_FAST
+#define Blue_THRESHOLD_LEVEL CY_GPIO_VTRIP_CMOS
+
 /* LED8 */
 #define LED8_0_DRIVEMODE CY_GPIO_DM_STRONG_IN_OFF
 #define LED8_0_INBUF_ENABLED 0u
@@ -149,28 +171,6 @@
 #define UART_1_tx_PORT GPIO_PRT5
 #define UART_1_tx_SLEWRATE CY_GPIO_SLEW_FAST
 #define UART_1_tx_THRESHOLD_LEVEL CY_GPIO_VTRIP_CMOS
-
-/* GreenAlarm */
-#define GreenAlarm_0_DRIVEMODE CY_GPIO_DM_STRONG_IN_OFF
-#define GreenAlarm_0_INBUF_ENABLED 0u
-#define GreenAlarm_0_INIT_DRIVESTATE 1u
-#define GreenAlarm_0_INIT_MUXSEL 3u
-#define GreenAlarm_0_INPUT_SYNC 2u
-#define GreenAlarm_0_INTERRUPT_MODE CY_GPIO_INTR_DISABLE
-#define GreenAlarm_0_NUM 1u
-#define GreenAlarm_0_PORT GPIO_PRT1
-#define GreenAlarm_0_SLEWRATE CY_GPIO_SLEW_FAST
-#define GreenAlarm_0_THRESHOLD_LEVEL CY_GPIO_VTRIP_CMOS
-#define GreenAlarm_DRIVEMODE CY_GPIO_DM_STRONG_IN_OFF
-#define GreenAlarm_INBUF_ENABLED 0u
-#define GreenAlarm_INIT_DRIVESTATE 1u
-#define GreenAlarm_INIT_MUXSEL 3u
-#define GreenAlarm_INPUT_SYNC 2u
-#define GreenAlarm_INTERRUPT_MODE CY_GPIO_INTR_DISABLE
-#define GreenAlarm_NUM 1u
-#define GreenAlarm_PORT GPIO_PRT1
-#define GreenAlarm_SLEWRATE CY_GPIO_SLEW_FAST
-#define GreenAlarm_THRESHOLD_LEVEL CY_GPIO_VTRIP_CMOS
 
 /* CapSense_Rx */
 #define CapSense_Rx_0_DRIVEMODE CY_GPIO_DM_ANALOG

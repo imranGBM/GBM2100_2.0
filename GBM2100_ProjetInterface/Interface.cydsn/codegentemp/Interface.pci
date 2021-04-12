@@ -1,5 +1,5 @@
 # Interface
-# 2021-04-07 19:11:19Z
+# 2021-04-12 20:01:32Z
 
 dont_use_location p4usbcell -1 -1 0
 dont_use_location USB -1 -1 0
@@ -17,7 +17,6 @@ set_io "CY_EINK_Border(0)" iocell 5 6
 set_io "CY_EINK_DispIoEn(0)" iocell 0 2
 set_io "CY_EINK_DispBusy(0)" iocell 5 3
 set_io "CY_EINK_Ssel(0)" iocell 12 3
-set_io "GreenAlarm(0)" iocell 1 1
 set_io "\CapSense:Cmod(0)\" iocell 7 7
 set_io "\CapSense:Rx(0)\" iocell 8 1
 set_io "\CapSense:Rx(1)\" iocell 8 2
@@ -35,6 +34,7 @@ set_io "\I2C_1:sda(0)\" iocell 6 1
 set_io "\UART_1:tx(0)\" iocell 5 1
 set_io "\UART_1:rx(0)\" iocell 5 0
 set_io "LED8(0)" iocell 0 3
+set_io "Blue(0)" iocell 11 1
 set_location "\CapSense:IDACMod\" CSIDAC7 -1 -1 0
 set_location "\CapSense:IDACComp\" CSIDAC7 -1 -1 1
 set_location "\CapSense:CSD\" CSD -1 -1 0

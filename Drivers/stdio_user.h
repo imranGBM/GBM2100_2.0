@@ -159,8 +159,8 @@
 * \}
 */
 #include "cy_device_headers.h"
+#include "project.h"
 
-    //JAI CHANGER LE 3e et 4e TRUC
 /* Must remain uncommented to use this utility */
 #define IO_STDOUT_ENABLE
 #define IO_STDIN_ENABLE

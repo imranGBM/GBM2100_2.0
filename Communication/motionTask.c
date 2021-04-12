@@ -16,11 +16,14 @@
 #include "bmi160.h"         //proviens du driver sur github du capteur
 //Part 2
 #include "motionTask.h"
-//#include "bleTask.h"      //jai pas fait sa, c ds un autre tuto
 #include "math.h"
 //END
 
 static struct bmi160_dev bmi160Dev;  //Used as the interface point to my capteur
+
+//uint8_t, car c un 8bit adress
+//dev_addr = I2C address,   reg_addr = the register I want to write     *data = the data I want to write    len = the nb of bytes I want to write
+//def des fct ds OneNote
 
 static int8_t BMI160BurstWrite (uint8_t dev_addr, uint8_t reg_addr,uint8_t *data, uint16_t len)
 {
@@ -53,13 +56,25 @@ static int8_t BMI160BurstRead (uint8_t dev_addr, uint8_t reg_addr,uint8_t *data,
     return 0;
 }
 
+/*void write_Register_motion(uint8_t address, uint8_t data)      //adress du register et data qu'on veut write ds le register
+{ 
+    I2C_MAX_MasterSendStart(0x68,CY_SCB_I2C_WRITE_XFER,100);
+    I2C_MAX_MasterWriteByte(address,100);        
+    I2C_MAX_MasterWriteByte(data,100);         
+    I2C_MAX_MasterSendStop(100);   
+    
+}
+*/
+
+
+
 static void bmi160Init(void)
 {
     vTaskDelay(100); 
     
     /* BMI160 */
-    bmi160Dev.read = (bmi160_read_fptr_t)BMI160BurstRead;
-    bmi160Dev.write = (bmi160_read_fptr_t)BMI160BurstWrite;
+    bmi160Dev.read = (bmi160_read_fptr_t)BMI160BurstRead;           //c sa qui read selon un reg_addr, mais how code select sa
+    bmi160Dev.write = (bmi160_write_fptr_t)BMI160BurstWrite;        //UPDATE: changer le read en write
     bmi160Dev.delay_ms = (bmi160_delay_fptr_t)vTaskDelay;
     bmi160Dev.id = BMI160_I2C_ADDR; // I2C device address
     
@@ -77,8 +92,14 @@ static void bmi160Init(void)
     bmi160Dev.accel_cfg.bw = BMI160_ACCEL_BW_OSR4_AVG1;
     bmi160Dev.accel_cfg.power = BMI160_ACCEL_NORMAL_MODE;
     
+    //ANY-MOTION CONFIG
+    //write_Register_motion(BMI160_INT_MOTION_0_ADDR, 0b00000001);       //1+1 consecutive slope points
+    //write_Register_motion(BMI160_INT_MOTION_1_ADDR, 0b00001111);       //5% change
+    //write_Register_motion(BMI160_INT_MOTION_3_ADDR, 0b00000010);       // 1 selectes significant (anymotion) interrupt function
+    //END
+    
     /* Set the sensor configuration */
-    bmi160_set_sens_conf(&bmi160Dev);
+    bmi160_set_sens_conf(&bmi160Dev);               // save configuration en-haut
     bmi160Dev.delay_ms(50);
     
 }
@@ -121,7 +142,7 @@ void motionTask(void *arg)
     
     while(1)
     {
-        bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);
+        bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);          //c sa qui fait le reading du struct bmi160Dev
         
         //Convert counts to G
         gx = (double)acc.x/MAXACCEL;
@@ -151,7 +172,7 @@ void motionTask(void *arg)
             xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);          //Mode qui signal que ya pas de mouvement
             xEventGroupClearBits(systemInputMode,MODE_MOTION);          //Mode qui signal que ya du mouvement
             Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);                        //ici ya pas eu de mouvement depuis 1000ms, donc turn off alarm (LED)
-            }
+        }
         else
         {
             xEventGroupClearBits(systemInputMode,MODE_CAPSENSE);

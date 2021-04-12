@@ -109,8 +109,6 @@
 #include "CY_EINK_SPIM.h"
 #include "EINK_Clock.h"
 #include "CY_EINK_Timer.h"
-#include "Clock.h"
-#include "PWMAlarmG.h"
 #include "CapSense.h"
 #include "CapSense_Control.h"
 #include "CapSense_Filter.h"

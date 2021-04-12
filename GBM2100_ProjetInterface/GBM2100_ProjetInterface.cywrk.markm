@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\project.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GBM2100_ProjetInterface\Interface\Shared Files\stdio_user.h">
 <ExpandedNodeIds>
 <v>GBM2100_ProjetInterface</v>
 <v>GBM2100_ProjetInterface\Interface</v>
@@ -94,56 +94,7 @@
 <v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6</v>
 <v>GBM2100_ProjetInterface\CE223727_EmWin_EInk_Display.pdf</v>
 </ExpandedNodeIds>
-<VisibleNodeIds>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\debug.h</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\FreeRTOSConfig.h</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\motionTask.h</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\TasksInterface.h</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Images</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Images\Cypress Logo Full Color_PNG_1bpp.c</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\main_cm4.c</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\motionTask.c</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
-<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\TasksInterface.c</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\GUI_X_RTOS.c</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\GUIConf.c</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\GUIConf.h</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\LCDConf.c</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\LCDConf.h</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\stdio_user.c</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\stdio_user.h</v>
-<v>GBM2100_ProjetInterface\Interface\Shared Files\system_psoc6.h</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\pdl</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\CapSense</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\CapSense_ModClk</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\Clock</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\CY_EINK_SPIM</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\CY_EINK_SPIM_SCBCLK</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\CY_EINK_Timer</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\EINK_Clock</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\I2C_1</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\I2C_1_SCBCLK</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\Pins and Interrupts</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\PWMAlarmG</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\UART_1</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\UART_1_SCBCLK</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\cycodeshareexport.ld</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\cycodeshareimport.ld</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\cycodeshareimport.scat</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\cydevice_trm.h</v>
-<v>GBM2100_ProjetInterface\Interface\Generated_Source\PSoC6\cydevicegnu_trm.inc</v>
-</VisibleNodeIds>
+<VisibleNodeIds />
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
@@ -152,12 +103,7 @@
 <v>GBM2100_ProjetInterface\Interface\TopDesign</v>
 <v>GBM2100_ProjetInterface\Interface\TopDesign\TopDesign.cysch</v>
 </ExpandedNodeIds>
-<VisibleNodeIds>
-<v>GBM2100_ProjetInterface</v>
-<v>GBM2100_ProjetInterface\Interface</v>
-<v>GBM2100_ProjetInterface\Interface\TopDesign</v>
-<v>GBM2100_ProjetInterface\Interface\TopDesign\TopDesign.cysch</v>
-</VisibleNodeIds>
+<VisibleNodeIds />
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
@@ -166,6 +112,47 @@
 <v>GBM2100_ProjetInterface\Interface\CortexM0p</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_SPIM.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_Timer.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_counter.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUI_X_RTOS.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUIConf.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\LCDConf.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.elf</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.hex</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.map</v>
@@ -179,25 +166,7 @@
 <v>GBM2100_ProjetInterface\Interface\Interface.rpt</v>
 <v>GBM2100_ProjetInterface\Interface\Interface_timing.html</v>
 </ExpandedNodeIds>
-<VisibleNodeIds>
-<v>GBM2100_ProjetInterface</v>
-<v>GBM2100_ProjetInterface\Interface</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.elf</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.hex</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.map</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.elf</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.hex</v>
-<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.map</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.gpdsc</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.rpt</v>
-<v>GBM2100_ProjetInterface\Interface\Interface_timing.html</v>
-</VisibleNodeIds>
+<VisibleNodeIds />
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
 <TreeKeysV2>
@@ -219,32 +188,11 @@
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0</v>
-<v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0\SysClk_PDL_v1_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\TCPWM_PWM_PDL_v1_0.pdf</v>
 </ExpandedNodeIds>
-<VisibleNodeIds>
-<v>GBM2100_ProjetInterface</v>
-<v>GBM2100_ProjetInterface\Interface</v>
-<v>GBM2100_ProjetInterface\Interface\PSoC 6 Architecture TRM</v>
-<v>GBM2100_ProjetInterface\Interface\PSoC 63 Family Datasheet</v>
-<v>GBM2100_ProjetInterface\Interface\Peripheral Driver Library</v>
-<v>GBM2100_ProjetInterface\Interface\System Reference Guides</v>
-<v>GBM2100_ProjetInterface\Interface\CapSense_v3_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0</v>
-<v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0</v>
-<v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0\SysClk_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\TCPWM_PWM_PDL_v1_0.pdf</v>
-</VisibleNodeIds>
+<VisibleNodeIds />
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
@@ -254,11 +202,12 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Interface.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Interface.cydsn\main_cm4.c" />
 <name v=".\Interface.cydsn\Interface.cydwr" />
+<name v=".\Interface.cydsn\main_cm4.c" />
 <name v=".\Interface.cydsn\FreeRTOSConfig.h" />
-<name v=".\Interface.cydsn\stdio_user.h" />
 <name v="..\Communication\motionTask.c" />
+<name v="..\Communication\motionTask.h" />
+<name v=".\Interface.cydsn\Generated_Source\PSoC6\pdl\utilities\retarget_io\retarget.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -266,7 +215,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1463, 712" SelectedTabbedMdiWindow="46c2eb07-a9fb-4f6e-9925-5e20a8dc02a7"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8b1a8f02-12d6-426f-a4f5-bc522e9360d6" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TopDesign\TopDesign.cysch" Guid="2347a3dc-a7e4-445a-97a6-fd7a9635deab" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="46c2eb07-a9fb-4f6e-9925-5e20a8dc02a7" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Interface.cydwr" Guid="099ce192-e25d-45f7-beb7-a211aa815437" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\FreeRTOSConfig.h" Guid="e10c0cfd-81b1-4e61-82c4-2e0a720a13bc" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\stdio_user.h" Guid="7d8ac6b9-3d15-42f9-b4f4-3b6c4035edbd" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\Communication\motionTask.c" Guid="7c2f54b9-ad34-466d-86a6-00ba60c71670" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="755, 352" SelectedTabbedMdiWindow="3446613c-affa-4d90-9948-7d350871f17b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8b1a8f02-12d6-426f-a4f5-bc522e9360d6" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TopDesign\TopDesign.cysch" Guid="2347a3dc-a7e4-445a-97a6-fd7a9635deab" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Interface.cydwr" Guid="099ce192-e25d-45f7-beb7-a211aa815437" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="46c2eb07-a9fb-4f6e-9925-5e20a8dc02a7" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\FreeRTOSConfig.h" Guid="e10c0cfd-81b1-4e61-82c4-2e0a720a13bc" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\Communication\motionTask.c" Guid="7c2f54b9-ad34-466d-86a6-00ba60c71670" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\Communication\motionTask.h" Guid="6e319783-dded-4e33-a197-625839c2091d" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Generated_Source\PSoC6\pdl\utilities\retarget_io\retarget.c" Guid="3446613c-affa-4d90-9948-7d350871f17b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

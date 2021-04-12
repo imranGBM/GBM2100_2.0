@@ -2,7 +2,7 @@
 --	Conversion of Interface.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Apr 07 15:11:06 2021
+--	Mon Apr 12 16:01:23 2021
 --
 
 USE cypress.cypress.all;
@@ -88,21 +88,6 @@ SIGNAL Net_23 : bit;
 SIGNAL \CY_EINK_Timer:Net_1\ : bit;
 SIGNAL \CY_EINK_Timer:Net_2\ : bit;
 SIGNAL Net_22 : bit;
-SIGNAL Net_568 : bit;
-SIGNAL Net_588 : bit;
-SIGNAL tmpFB_0__GreenAlarm_net_0 : bit;
-SIGNAL tmpIO_0__GreenAlarm_net_0 : bit;
-TERMINAL tmpSIOVREF__GreenAlarm_net_0 : bit;
-SIGNAL \PWMAlarmG:swap\ : bit;
-SIGNAL \PWMAlarmG:count\ : bit;
-SIGNAL \PWMAlarmG:reload\ : bit;
-SIGNAL \PWMAlarmG:kill\ : bit;
-SIGNAL \PWMAlarmG:start\ : bit;
-SIGNAL Net_579 : bit;
-SIGNAL Net_569 : bit;
-SIGNAL Net_573 : bit;
-SIGNAL Net_575 : bit;
-SIGNAL Net_571 : bit;
 SIGNAL \CapSense:tmpFB_0__Cmod_net_0\ : bit;
 TERMINAL \CapSense:Net_314\ : bit;
 SIGNAL \CapSense:tmpIO_0__Cmod_net_0\ : bit;
@@ -263,6 +248,9 @@ SIGNAL Net_721 : bit;
 SIGNAL tmpFB_0__LED8_net_0 : bit;
 SIGNAL tmpIO_0__LED8_net_0 : bit;
 TERMINAL tmpSIOVREF__LED8_net_0 : bit;
+SIGNAL tmpFB_0__Blue_net_0 : bit;
+SIGNAL tmpIO_0__Blue_net_0 : bit;
+TERMINAL tmpSIOVREF__Blue_net_0 : bit;
 BEGIN
 
 one <=  ('1') ;
@@ -655,64 +643,6 @@ EINK_Clock:cy_clock_v1_0
 		line_compl=>\CY_EINK_Timer:Net_1\,
 		line=>\CY_EINK_Timer:Net_2\,
 		interrupt=>Net_22);
-Clock:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"f381da11-30d3-41c6-84a0-25bdc844e320",
-		source_clock_id=>"2FB4EC85-8328-4C5A-9ED9-8B63060178EB",
-		divisor=>0,
-		period=>"50000000000",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>Net_568,
-		dig_domain_out=>open);
-GreenAlarm:cy_mxs40_gpio_v1_0
-	GENERIC MAP(cy_registers=>"",
-		width=>1,
-		sio_grp_cnt=>0,
-		id=>"a61270bc-07ec-447d-ac9e-34cfe85c30e9",
-		drive_mode=>"6",
-		ibuf_enabled=>"0",
-		init_dr_st=>"1",
-		input_sync=>"0",
-		intr_mode=>"0",
-		io_voltage=>"",
-		output_conn=>"1",
-		oe_conn=>"0",
-		output_sync=>"0",
-		oe_sync=>"0",
-		drive_strength=>"0",
-		max_frequency=>"100",
-		output_current_cap=>"8",
-		i2c_mode=>"0",
-		pin_aliases=>"",
-		pin_mode=>"O",
-		slew_rate=>"0",
-		vtrip=>"0",
-		use_annotation=>"0",
-		hotswap_needed=>"0")
-	PORT MAP(oe=>(one),
-		y=>Net_588,
-		fb=>(tmpFB_0__GreenAlarm_net_0),
-		analog=>(open),
-		io=>(tmpIO_0__GreenAlarm_net_0),
-		annotation=>(open),
-		siovref=>(tmpSIOVREF__GreenAlarm_net_0));
-\PWMAlarmG:TCPWM\:cy_mxs40_tcpwm_v1_0
-	GENERIC MAP(cy_registers=>"",
-		width=>16,
-		exact_width=>'0')
-	PORT MAP(clock=>Net_568,
-		capture=>zero,
-		count=>one,
-		reload=>zero,
-		stop=>zero,
-		start=>zero,
-		tr_underflow=>Net_579,
-		tr_compare_match=>Net_569,
-		tr_overflow=>Net_573,
-		line_compl=>Net_575,
-		line=>Net_588,
-		interrupt=>Net_571);
 \CapSense:Cmod\:cy_mxs40_gpio_v1_0
 	GENERIC MAP(cy_registers=>"",
 		width=>1,
@@ -1254,7 +1184,7 @@ LED8:cy_mxs40_gpio_v1_0
 	GENERIC MAP(cy_registers=>"",
 		width=>1,
 		sio_grp_cnt=>0,
-		id=>"b26cea37-776a-4cfa-bb06-a0228bb88e77",
+		id=>"a61270bc-07ec-447d-ac9e-34cfe85c30e9",
 		drive_mode=>"6",
 		ibuf_enabled=>"0",
 		init_dr_st=>"0",
@@ -1282,5 +1212,37 @@ LED8:cy_mxs40_gpio_v1_0
 		io=>(tmpIO_0__LED8_net_0),
 		annotation=>(open),
 		siovref=>(tmpSIOVREF__LED8_net_0));
+Blue:cy_mxs40_gpio_v1_0
+	GENERIC MAP(cy_registers=>"",
+		width=>1,
+		sio_grp_cnt=>0,
+		id=>"cd9f7e69-253f-4671-8021-de6928f08fb3",
+		drive_mode=>"6",
+		ibuf_enabled=>"0",
+		init_dr_st=>"0",
+		input_sync=>"0",
+		intr_mode=>"0",
+		io_voltage=>"",
+		output_conn=>"0",
+		oe_conn=>"0",
+		output_sync=>"0",
+		oe_sync=>"0",
+		drive_strength=>"0",
+		max_frequency=>"100",
+		output_current_cap=>"8",
+		i2c_mode=>"0",
+		pin_aliases=>"",
+		pin_mode=>"O",
+		slew_rate=>"0",
+		vtrip=>"0",
+		use_annotation=>"0",
+		hotswap_needed=>"0")
+	PORT MAP(oe=>(one),
+		y=>(zero),
+		fb=>(tmpFB_0__Blue_net_0),
+		analog=>(open),
+		io=>(tmpIO_0__Blue_net_0),
+		annotation=>(open),
+		siovref=>(tmpSIOVREF__Blue_net_0));
 
 END R_T_L;

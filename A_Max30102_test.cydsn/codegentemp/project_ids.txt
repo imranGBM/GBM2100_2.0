@@ -1,0 +1,13 @@
+C:\Users\markm\Documents\PSoC Creator\ProjetTEST\Test_1_Vid_Based_BMI160.cydsn\Test_1_Vid_Based_BMI160.cyprj|4bc9e1c1-6a11-4e7c-93d1-aa54a9bf439b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0ef7b00e-f8be-4571-a9c4-0e1d23ac1805
+C:\Users\markm\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|3c84315a-38d3-420a-9ee6-3a313607445d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8654f29d-529e-4c82-9230-7ec278b7960b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|0a2eba07-6045-4cd4-aa1c-b116d20cca4a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|368bd5a5-7453-4ff6-9ebb-138eaaf92959
+C:\Users\markm\Documents\PSoC Creator\ProjetTEST\CODE_TEMPLATE.cydsn\CODE_TEMPLATE.cyprj|56b0d0d8-2376-4909-bb64-15d2b015a27f
+C:\Users\markm\Documents\PSoC Creator\ProjetTEST\Adding LED.cydsn\Adding LED.cyprj|a76bdd72-ce9e-4280-88d1-4f64c36a2ba5
+C:\Users\markm\Documents\PSoC Creator\Labo4\Labo4.cydsn\Labo4.cyprj|9663b13d-9f29-469d-998e-e02d193c10dc
+C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Labo\Labo 3\Laboratoire3\Laboratoire3.cydsn\Laboratoire3.cyprj|3e5d3ef0-b5d7-4b28-a870-4332186341f3
+C:\Users\markm\Documents\PSoC Creator\Real Lab 2\Real Projet Lab 2.cydsn\Real Projet Lab 2.cyprj|11ae7e36-b625-4421-8d17-892997c5216c
+C:\Users\markm\Documents\PSoC Creator\ProjetTEST\A_Max30102_test.cydsn\A_Max30102_test.cyprj|b3f9ce46-2d4c-4e96-a342-0acb9f4a9505
+C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\Examples\Design01.cydsn\Design01.cyprj|9b80d8c1-d240-4b88-8e51-0dfd57346c68

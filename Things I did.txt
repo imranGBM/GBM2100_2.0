@@ -1,6 +1,0 @@
-J'ai pas vraiment écris du nouveau code, j'ai fait de la recherche:
-Essayé de debug alarme du capteur (Any-Motion)
-Compréhension des fonctions read_Register et le write 
-Lecture des datasheets pr capteur SpO2
-Compréhension du processus de réalisation pour capteur SpO2
-Savoir comment wire le SpO2 avec le accéléromètre en même temps

@@ -53,6 +53,7 @@
       <Data key="bdbb81e9-3277-493d-963f-3670b40ba7f2/b7e8018e-1ef7-49c0-b5a5-61641a03e31c" value="UART_1_rx" />
       <Data key="c3ebdaf0-2922-44d8-bb3e-57ebf7663a2a" value="CY_EINK_DispRst" />
       <Data key="c932a304-7fee-45e3-92f6-c51270dee3cf" value="CY_EINK_DispIoEn" />
+      <Data key="cd9f7e69-253f-4671-8021-de6928f08fb3" value="Blue" />
       <Data key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f" value="DebugUART_tx" />
       <Data key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/b7e8018e-1ef7-49c0-b5a5-61641a03e31c" value="DebugUART_rx" />
     </Group>
@@ -934,6 +935,11 @@
     <Group key="c932a304-7fee-45e3-92f6-c51270dee3cf">
       <Group key="0">
         <Data key="Port Format" value="0,2" />
+      </Group>
+    </Group>
+    <Group key="cd9f7e69-253f-4671-8021-de6928f08fb3">
+      <Group key="0">
+        <Data key="Port Format" value="11,1" />
       </Group>
     </Group>
     <Group key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f">

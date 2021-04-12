@@ -11,9 +11,9 @@
 #include "math.h"
 #include "TasksInterface.h"
 
-//--------------------------------------------------------------- Fonctions d'affichage -----------------------------------------------------------
+//---------------------------------------------------- Fonctions d'affichage / Fonctions appelées dans les tâches ------------------------------------------------------
 
-// Fonction pour mettre à jour l'écran
+// 1)Fonction pour mettre à jour l'écran
 uint8 imageBufferCache[CY_EINK_FRAME_SIZE] = {0};
 void UpdateDisplay(cy_eink_update_t updateMethod, bool powerCycle)
 {
@@ -23,7 +23,7 @@ void UpdateDisplay(cy_eink_update_t updateMethod, bool powerCycle)
     memcpy(imageBufferCache, pEmwinBuffer, CY_EINK_FRAME_SIZE);
 }
 
-// Fonction pour effacer l'écran
+// 2)Fonction pour effacer l'écran
 void ClearScreen(void)
 {
     GUI_SetColor(GUI_BLACK);
@@ -32,7 +32,7 @@ void ClearScreen(void)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
-//Fonction pour tracer le graphe d'un vecteur de 750 éléments
+// 3)Fonction pour tracer le graphe d'un vecteur de 750 éléments
 void drawGraph(float *vector750elements) 
 {
     int x=0; uint32_t max=0;
@@ -58,7 +58,7 @@ void drawGraph(float *vector750elements)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
-// Fonction pour afficher des données à jour (param1 et param2) sur l'écran
+// 4)Fonction pour afficher des données à jour (param1 et param2) sur l'écran
 void updateParameters(int param1, int param2) 
 {
     char Parametre1[6]; char Parametre2[6];
@@ -70,6 +70,7 @@ void updateParameters(int param1, int param2)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true); 
 }
 
+// 5)Fonction pour afficher la valeur inférieure du rythme cardiaque définie par l'utilisateur
 void updateLowHeartRateLimit(int HeartRate)
 {
     ClearScreen();
@@ -82,6 +83,7 @@ void updateLowHeartRateLimit(int HeartRate)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
+// 6)Fonction pour afficher la valeur supérieure du rythme cardiaque définie par l'utilisatuer
 void updateHighHeartRateLimit(int HeartRate)
 {
     ClearScreen();
@@ -94,6 +96,7 @@ void updateHighHeartRateLimit(int HeartRate)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
+// 7)Fonction pour afficher la page actuelle et le curseur définissant le paramètre à modifier dans la page
 void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
     ClearScreen();
     GUI_SetPenSize(7); GUI_SetFont(GUI_FONT_13_1);
@@ -107,8 +110,6 @@ void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
         GUI_DispStringAt("Parameters page 1",80,0);
         GUI_DispStringAt("1)Change LED intensity",30,50);
         GUI_DispStringAt("2)Enable/Disable motion sensor alarm",30,80);
-        GUI_DispStringAt("3)Enable/Disable heart rate alarm",30,110);
-        GUI_DispStringAt("4)Enable/Disable oxygen saturation alarm",30,140);
         if (ParamP1==1)
         {
             GUI_DrawCircle(15,55,5);
@@ -116,14 +117,6 @@ void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
         if (ParamP1==2)
         {
             GUI_DrawCircle(15,85,5);
-        }
-        if (ParamP1==3)
-        {
-            GUI_DrawCircle(15,115,5);
-        }
-        if (ParamP1==4)
-        {
-            GUI_DrawCircle(15,145,5);
         }
     }
     if (PageNumber==2)
@@ -144,35 +137,27 @@ void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
-
-//--------------------------------------------------------------- Fonctions d'interaction avec l'usager -------------------------------------------------------
-
-volatile uint32_t SliderPosI=0;
-
-uint32_t CapSense_ChangeLedIntensity()
+// 8)Fonction pour changer l'intensité de la LED du capteur SpO2
+volatile uint32_t SliderPosI=0; volatile bool StopChangeLedIntensity=false; 
+void CapSense_ChangeLedIntensity()
 {      
         CapSense_ProcessAllWidgets();
         SliderPosI=CapSense_GetCentroidPos(CapSense_LINEARSLIDER0_WDGT_ID);
         if (SliderPosI<65534)
         {
-            SliderPosI=100-SliderPosI;
-            Cy_TCPWM_PWM_SetCompare0(PWMAlarmG_HW,PWMAlarmG_CNT_NUM,SliderPosI);
+            int Current=2*SliderPsoI;
+            // Write Register
         }
         SliderPosI=0;
         CapSense_UpdateAllBaselines();
         CapSense_ScanAllWidgets();
         if (CapSense_IsWidgetActive(CapSense_BUTTON0_WDGT_ID)){
-            return 1;
-        }
-        else{
-            return 0;
+        StopChangeLedIntensity=true;
         }
 }
 
-volatile uint32_t SliderPosIII=50; volatile uint32_t SliderPosIV=50;
-volatile int LowHeartRateI=60; volatile int LowHeartRateF=60;
-volatile int HighHeartRateI=70; volatile int HighHeartRateF=70;
-volatile bool StopChangeLowHeartRate=false; volatile bool StopChangeHighHeartRate=false;
+// 9)Fonction pour changer la valeur inférieure du rythme cardiaque définie par l'utilisateur
+volatile int LowHeartRateI=60; volatile int LowHeartRateF=60; volatile uint32_t SliderPosIII=50; volatile bool StopChangeLowHeartRate=false;
 void CapSense_ChangeLowHeartRateLimit()
 {      
     CapSense_ProcessAllWidgets();
@@ -206,6 +191,9 @@ void CapSense_ChangeLowHeartRateLimit()
         StopChangeLowHeartRate=true;
     }
 }
+
+// 10)Fonction pour changer la valeur supérieure du rythme cardiaque définie par l'utilisateur
+volatile int HighHeartRateI=70; volatile int HighHeartRateF=70; volatile uint32_t SliderPosIV=50; volatile bool StopChangeHighHeartRate=false;
 void CapSense_ChangeHighHeartRateLimit()
 {      
     CapSense_ProcessAllWidgets();
@@ -240,12 +228,50 @@ void CapSense_ChangeHighHeartRateLimit()
     }
 }
 
-volatile int CompteurSW2;
-volatile bool AffichageGraph;
-float bufferInfrarouge[750];
-float bufferRouge[750];
-int Saturation=0;
-int RythmeCardiaque=0;
+// 11)Fonction pour afficher l'état de l'alarme (enabled/disabled) issue de l'accéléromètre
+volatile bool MotionAlarmEnable=true;
+void updateMotionAlarm(){
+    ClearScreen();GUI_SetPenSize(7); GUI_SetFont(GUI_FONT_13_1);
+    if (MotionAlarmEnable==true)
+    {
+        GUI_DispStringAt("Alarm enabled",80,80);
+    }
+    if (MotionAlarmEnable==false)
+    {
+        GUI_DispStringAt("Alarm disabled",80,80);
+    }
+    UpdateDisplay(CY_EINK_FULL_4STAGE, true);
+}
+
+// 12)Fonction pour changer un flag correspondant à l'état de l'alarme (enabled/disabled) issue de l'accéléromètre
+volatile uint32_t SliderPosV=50; volatile bool StopDisableAlarm=false;
+void CapSense_EnableDisableMotionAlarm()
+{      
+    CapSense_ProcessAllWidgets();
+    SliderPosV=CapSense_GetCentroidPos(CapSense_LINEARSLIDER0_WDGT_ID);
+    if (SliderPosV<65534&&SliderPosV>50)
+    {
+        MotionAlarmEnable=true;
+        updateMotionAlarm();
+    }
+    if (SliderPosV<50)
+    {
+        MotionAlarmEnable=false;
+        updateMotionAlarm();
+    }
+    SliderPosV=50;
+    CapSense_UpdateAllBaselines();
+    CapSense_ScanAllWidgets();
+    CapSense_ProcessAllWidgets();
+    if (CapSense_IsWidgetActive(CapSense_BUTTON0_WDGT_ID)){
+        StopDisableAlarm=true;
+    }
+}
+
+//------------------------------------------------------------------- Tâches ----------------------------------------------------------------
+
+// 1)Tâche pour afficher les graphiques ainsi que pour changer la courbe affichée 
+volatile int CompteurSW2; volatile bool AffichageGraph; float bufferInfrarouge[750]; float bufferRouge[750]; int Saturation=0; int RythmeCardiaque=65;
 void ChangeGraph()
 {
     for (;;)
@@ -269,8 +295,27 @@ void ChangeGraph()
         vTaskDelay(pdMS_TO_TICKS(200));
     }
 }
+
+// 2)Tâche pour allumer ou éteindre une alarme lorsque le rythme cardiaque est à l'extérieur des bornes définies par l'usager 
+void HeartRateAlarm()
+{
+    for(;;)
+    {
+        if (RythmeCardiaque>HighHeartRateI || RythmeCardiaque<LowHeartRateI)
+        {
+            Cy_GPIO_Write(Blue_0_PORT,Blue_0_NUM,0);
+        }
+        else
+        {
+            Cy_GPIO_Write(Blue_0_PORT,Blue_0_NUM,1);
+        }
+        vTaskDelay(pdMS_TO_TICKS(200));
+    }
+}
+
+// 3)Tâche pour naviguer entre les pages et les paramètres en fonction des boutons appuyés par l'utilisateur
 /*
-Page1: 4 paramètres; 1)ChangeLedIntensity 2)Enable/Disable GLed 3)Enable/Disable BLed 4)Enable/Disable RLed
+Page1: 2 paramètres; 1)ChangeLedIntensity 2)Enable/Disable BLed 
 Page2: 2 paramètres; 1)Borne inférieure bpm 2)Borne supérieure bpm 
 */
 volatile int Page1Params=0;
@@ -313,7 +358,7 @@ void CapSense_ChangeMenu()
             if (SliderPosII>50 && SliderPosII<65535)
             {
                 Page1Params++;
-                if (Page1Params>4)
+                if (Page1Params>2)
                 {
                     Page1Params=0;
                 }
@@ -324,9 +369,38 @@ void CapSense_ChangeMenu()
                 Page1Params--;
                 if (Page1Params<0)
                 {
-                    Page1Params=4;
+                    Page1Params=2;
                 }  
                 DisplayPage(ScreenNumber,Page1Params,Page2Params);
+            }
+            if (Page1Params==1)
+            {
+                CapSense_ProcessAllWidgets();
+                if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
+                {
+                    while (StopChangeLedIntensity==false)
+                    {
+                        CapSense_ChangeLedIntensity();
+                        vTaskDelay(pdMS_TO_TICKS(10));
+                    }
+                    StopChangeLedIntensity=false;
+                    //DisplayPage(ScreenNumber,Page1Params,Page2Params);
+                }
+            }
+            if (Page1Params==2)
+            {
+                CapSense_ProcessAllWidgets();
+                if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
+                {
+                    updateMotionAlarm();
+                    while (StopDisableAlarm==false)
+                    {
+                        CapSense_EnableDisableMotionAlarm();
+                        vTaskDelay(pdMS_TO_TICKS(200));
+                    }
+                    StopDisableAlarm=false;
+                    DisplayPage(ScreenNumber,Page1Params,Page2Params);
+                }
             }
         }
         if (ScreenNumber==2)

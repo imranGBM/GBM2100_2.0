@@ -271,12 +271,14 @@ void CapSense_EnableDisableMotionAlarm()
 //------------------------------------------------------------------- Tâches ----------------------------------------------------------------
 
 // 1)Tâche pour afficher les graphiques ainsi que pour changer la courbe affichée 
-volatile int CompteurSW2; volatile bool AffichageGraph; float bufferInfrarouge[750]; float bufferRouge[750]; int Saturation=0; int RythmeCardiaque=65;
+volatile int CompteurSW2; volatile bool AffichageGraph; float bufferInfrarouge[750]; float bufferRouge[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
 void ChangeGraph()
 {
     for (;;)
     {
         //Remplissage des buffers des courbes rouge et infrarouge et des paramètres
+        
+        
         if (AffichageGraph==true){
             ClearScreen();
             if (CompteurSW2%2==0)

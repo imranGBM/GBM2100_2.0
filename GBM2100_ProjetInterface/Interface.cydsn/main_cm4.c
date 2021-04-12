@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include "math.h"
 #include "TasksInterface.h"
+#include "traitementSignal.h"
 
 volatile int CompteurSW2=0;
 volatile bool AffichageGraph=false;
@@ -30,7 +31,6 @@ int main(void)
     CapSense_Start();
     CapSense_ScanAllWidgets();
     GUI_Init(); Cy_EINK_Start(20); Cy_EINK_Power(1); GUI_SetColor(GUI_BLACK); GUI_SetBkColor(GUI_WHITE); GUI_Clear(); 
-    //Cy_GPIO_Write(Blue_0_PORT,Blue_0_NUM,1);
     xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,1,NULL);
     xTaskCreate(ChangeGraph,"ChangeGraph",configMINIMAL_STACK_SIZE,NULL,1,NULL);
     xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,1,NULL);

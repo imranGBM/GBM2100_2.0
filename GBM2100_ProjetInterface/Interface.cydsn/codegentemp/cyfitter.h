@@ -20,6 +20,28 @@
 #include "cyfitter_gpio.h"
 #include "cyfitter_sysint.h"
 
+/* I2C_1 */
+#define I2C_1_SCB__HW SCB3
+#define I2C_1_SCB__IDX 3
+#define I2C_1_SCB__SS0_POSITION 0u
+#define I2C_1_SCB__SS1_POSITION 1u
+#define I2C_1_SCB__SS2_POSITION 2u
+#define I2C_1_SCB__SS3_POSITION 3u
+#define I2C_1_SCBCLK__DIV_IDX 2
+#define I2C_1_SCBCLK__DIV_NUM 2
+#define I2C_1_SCBCLK__DIV_TYPE CY_SYSCLK_DIV_8_BIT
+
+/* I2C_MAX */
+#define I2C_MAX_SCB__HW SCB2
+#define I2C_MAX_SCB__IDX 2
+#define I2C_MAX_SCB__SS0_POSITION 0u
+#define I2C_MAX_SCB__SS1_POSITION 1u
+#define I2C_MAX_SCB__SS2_POSITION 2u
+#define I2C_MAX_SCB__SS3_POSITION 3u
+#define I2C_MAX_SCBCLK__DIV_IDX 3
+#define I2C_MAX_SCBCLK__DIV_NUM 3
+#define I2C_MAX_SCBCLK__DIV_TYPE CY_SYSCLK_DIV_8_BIT
+
 /* CapSense */
 #define CapSense_CSD__CMOD_PAD 1u
 #define CapSense_CSD__CSH_TANK_PAD 2u

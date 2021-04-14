@@ -35,7 +35,7 @@
 //float fs=100; // Fréquence d'échantillonnage
 //uint16_t fc=1; // Fréquence de coupure du filtre passe-haut en Hz (sera pt pas nécessaire)
 //uint16_t fcpb=5; // Fréquence de coupure du filtre passe-bas en Hz (sera pt pas nécessaire)
-//uint16_t dureeTraitement=3; // Durée, en secondes, entre les affichages (donc durée du signal qui est traité à chaque fois qu'on répète le programme
+//uint16_t dureeTraitement=7.5; // Durée, en secondes, entre les affichages (donc durée du signal qui est traité à chaque fois qu'on répète le programme
 //
 //float32_t redCoeffPB[]={1,2};
 //float32_t infraCoeffPB[]={1,2}; // Peut être obtenu sur Matlab, fonction de freq dechantillonnage/2, de la freq de coupure et de la longueur du vecteur input
@@ -44,7 +44,7 @@
 //
 //uint32_t nombreSamples=sizeof(vectorRed)/sizeof(vectorRed[0]); // Correspond au nombre de composantes des vecteurs contenant le signal
 //uint32_t sampleSize=32; // Les vecteurs traités sont tous constitués d'échantillons qui sont des float 32 bits
-//uint32_t blockSize=1; // Déterminer quelle valeur ça doit prendre, je comprends pas exactement ca représente quoi, mais j'ai mis 1 car de la manière que j'ai fait la fonction filtre, on filtre 1 block de 1 sample à chaque itération de la petite boucle à la fin de la fonction
+//uint32_t blockSize=750; // Déterminer quelle valeur ça doit prendre, je comprends pas exactement ca représente quoi, mais j'ai mis 1 car de la manière que j'ai fait la fonction filtre, on filtre 1 block de 1 sample à chaque itération de la petite boucle à la fin de la fonction
 //uint32_t num_taps=1;
 //
 //float32_t meanRythm;
@@ -54,8 +54,8 @@
 //volatile int RythmeCardiaque;
 //
 //
-//// fonction filtre. Le type de filtre est déterminé par le vecteur de coefficient utilisé lors de l'appel de la fonction.
-//void filtre(float signal[],float32_t Coefficients[]){
+// fonction filtre. Le type de filtre est déterminé par le vecteur de coefficient utilisé lors de l'appel de la fonction.
+//float filtre(float signal[],float32_t Coefficients[]){
 //    
 //    arm_fir_instance_f32* structureFiltre;
 //    
@@ -76,14 +76,14 @@
 //    arm_fir_init_f32(&structureFiltre,nombreCoefficients,(float32_t*)&Coefficients[0],&stateBuffer[0],blockSize);
 //    
 //  // Fonction de processing du filtre  
-//
-//    for (uint32_t i = 0; i < nombreSamples; i++){
-//        arm_fir_f32(&structureFiltre,vecteurBrut+i,vecteurClean+i,blockSize); // voir si on doit mettre les [0] ou pas, dans le code exemple en ligne ils en mettent pas ici
-//        signal[i]=signalClean[i];
+//    arm_fir_f32(&structureFiltre,vecteurBrut,vecteurClean,blockSize); // voir si on doit mettre les [0] ou pas, dans le code exemple en ligne ils en mettent pas ici
+//   
+//    for (uint32_t i = 0; i < blockSize; i++){
+//        signal[i]=vecteurClean[i];
 //    }
-//    
 //}
-//
+
+
 //void traitement_signal()
 //{        
 //    float32_t vectorBrutRed[nombreSamples];              // Copie du vecteur non traité du signal pour la longueur d'onde rouge

@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include "math.h"
 #include "TasksInterface.h"
+#include "Max30102_task.h"
 
 //---------------------------------------------------- Fonctions d'affichage / Fonctions appelées dans les tâches ------------------------------------------------------
 
@@ -145,8 +146,9 @@ void CapSense_ChangeLedIntensity()
         SliderPosI=CapSense_GetCentroidPos(CapSense_LINEARSLIDER0_WDGT_ID);
         if (SliderPosI<65534)
         {
-            int Current=2*SliderPosI;
-            // Write Register
+            uint8_t Current=2*SliderPosI;
+            write_Register(REG_LED1_PA, Current);  //8bits varie de 0 à 255, 0=0ma et 255=51ma
+            write_Register(REG_LED2_PA, Current);  //
         }
         SliderPosI=0;
         CapSense_UpdateAllBaselines();

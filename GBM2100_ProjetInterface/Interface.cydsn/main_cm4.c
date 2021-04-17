@@ -32,10 +32,10 @@ int main(void)
     Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);            //Turn off LED on startup
     xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //set the current mode to CapSense
     //end
-    xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,3,NULL);
-    xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,2,NULL);
-    xTaskCreate(motionTask,"motionTask",configMINIMAL_STACK_SIZE,NULL,1,NULL);        //Start motionTask
-    //xTaskCreate(max30102_task,"max30102_task",1024,0,1,0);  //Start SpO2
+    //xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,3,NULL);
+    //xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,1,NULL);
+    //xTaskCreate(motionTask,"motionTask",configMINIMAL_STACK_SIZE,NULL,2,NULL);        //Start motionTask
+    xTaskCreate(max30102_task,"max30102_task",1024,0,2,0);  //Start SpO2
     
     vTaskStartScheduler();
     for(;;)

@@ -19,7 +19,7 @@
 #include <arm_math.h>
 #include<core_cm4.h>
 
-void filtre(float signal[],float32_t Coefficients[]);
+void filtre(int32_t signal[],float32_t Coefficients[]);
 
 void traitement_signal();
 

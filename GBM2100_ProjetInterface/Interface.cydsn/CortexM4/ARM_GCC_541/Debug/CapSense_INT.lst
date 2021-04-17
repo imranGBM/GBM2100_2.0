@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
   28:Generated_Source\PSoC6/CapSense_INT.c **** * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
   29:Generated_Source\PSoC6/CapSense_INT.c **** * Cypress reserves the right to make changes without further notice to the
   30:Generated_Source\PSoC6/CapSense_INT.c **** * materials described herein. Cypress does not assume any liability arising out
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 2
 
 
   31:Generated_Source\PSoC6/CapSense_INT.c **** * of the application or use of any product or circuit described herein. Cypress
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
   85:Generated_Source\PSoC6/CapSense_INT.c ****     *
   86:Generated_Source\PSoC6/CapSense_INT.c ****     * \brief
   87:Generated_Source\PSoC6/CapSense_INT.c ****     *  This is an internal ISR function for the single-sensor scanning implementation.
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 3
 
 
   88:Generated_Source\PSoC6/CapSense_INT.c ****     *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  142:Generated_Source\PSoC6/CapSense_INT.c ****                 if (CapSense_FREQ_CHANNEL_2 > CapSense_scanFreqIndex)
  143:Generated_Source\PSoC6/CapSense_INT.c ****                 {
  144:Generated_Source\PSoC6/CapSense_INT.c ****                     /* Scan the next channel */
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 4
 
 
  145:Generated_Source\PSoC6/CapSense_INT.c ****                     CapSense_SsNextFrequencyScan();
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  199:Generated_Source\PSoC6/CapSense_INT.c ****     *
  200:Generated_Source\PSoC6/CapSense_INT.c ****     *  The following tasks are performed:
  201:Generated_Source\PSoC6/CapSense_INT.c ****     *    1. Disable the CSD interrupt.
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 5
 
 
  202:Generated_Source\PSoC6/CapSense_INT.c ****     *    2. Read the Counter register and update the data structure with raw data.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  256:Generated_Source\PSoC6/CapSense_INT.c ****         CapSense_SsCSDPostScan();
  257:Generated_Source\PSoC6/CapSense_INT.c **** 
  258:Generated_Source\PSoC6/CapSense_INT.c ****         /* Disable sensor when all frequency channels are scanned */
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 6
 
 
  259:Generated_Source\PSoC6/CapSense_INT.c ****         #if (CapSense_ENABLE == CapSense_MULTI_FREQ_SCAN_EN)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  313:Generated_Source\PSoC6/CapSense_INT.c **** *    3. Connect the Vref buffer to the AMUX bus.
  314:Generated_Source\PSoC6/CapSense_INT.c **** *    4. Disable the CSD block (after the widget has been scanned).
  315:Generated_Source\PSoC6/CapSense_INT.c **** *    5. Update the Scan Counter.
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 7
 
 
  316:Generated_Source\PSoC6/CapSense_INT.c **** *    6. Reset the BUSY flag.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  370:Generated_Source\PSoC6/CapSense_INT.c ****         #if (CapSense_ENABLE == CapSense_MULTI_FREQ_SCAN_EN)
  371:Generated_Source\PSoC6/CapSense_INT.c ****             if (CapSense_FREQ_CHANNEL_2 > CapSense_scanFreqIndex)
  372:Generated_Source\PSoC6/CapSense_INT.c ****             {
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 8
 
 
  373:Generated_Source\PSoC6/CapSense_INT.c ****                  /* Scan the next channel */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  427:Generated_Source\PSoC6/CapSense_INT.c **** {
   28              		.loc 1 427 0
   29              		.cfi_startproc
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 9
 
 
   30              		@ args = 0, pretend = 0, frame = 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  443:Generated_Source\PSoC6/CapSense_INT.c ****         CapSense_curRamSnsPtr->raw[CapSense_scanFreqIndex] = CY_LO16(tmpMaxCount);
   68              		.loc 1 443 0
   69 0030 064A     		ldr	r2, .L4+12
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 10
 
 
   70 0032 1268     		ldr	r2, [r2]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  474:Generated_Source\PSoC6/CapSense_INT.c **** static void CapSense_SsCSDInitNextScan(void)
  475:Generated_Source\PSoC6/CapSense_INT.c **** {
   94              		.loc 1 475 0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 11
 
 
   95              		.cfi_startproc
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  131 0030 2978     		ldrb	r1, [r5]	@ zero_extendqisi2
  493:Generated_Source\PSoC6/CapSense_INT.c ****                                                   CapSense_dsFlash.wdgtArray[CapSense_widgetIndex].
  132              		.loc 1 493 0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 12
 
 
  133 0032 2C22     		movs	r2, #44
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  521:Generated_Source\PSoC6/CapSense_INT.c ****     {
  522:Generated_Source\PSoC6/CapSense_INT.c ****         CapSense_sensorIndex = 0u;
  159              		.loc 1 522 0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 13
 
 
  160 005c 0022     		movs	r2, #0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  192 008c 00000000 		.word	CapSense_dsFlash
  193 0090 00000000 		.word	CapSense_sensorIndex
  194 0094 00000000 		.word	CapSense_curRamSnsPtr
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 14
 
 
  195 0098 00000000 		.word	CapSense_requestScanAllWidget
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  243              		.size	CapSense_CSDPostSingleScan, .-CapSense_CSDPostSingleScan
  244              		.section	.text.CapSense_CSDPostMultiScan,"ax",%progbits
  245              		.align	2
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 15
 
 
  246              		.global	CapSense_CSDPostMultiScan
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  290 0030 10BD     		pop	{r4, pc}
  291              	.LVL23:
  292              	.L20:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 16
 
 
  293 0032 00BF     		.align	2
@@ -934,31 +934,31 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  323 000b 01       		.uleb128 0x1
  324 000c E8010000 		.4byte	.LASF285
  325 0010 0C       		.byte	0xc
- 326 0011 3B090000 		.4byte	.LASF286
- 327 0015 660F0000 		.4byte	.LASF287
+ 326 0011 AB090000 		.4byte	.LASF286
+ 327 0015 B7040000 		.4byte	.LASF287
  328 0019 00000000 		.4byte	.Ldebug_ranges0+0
  329 001d 00000000 		.4byte	0
  330 0021 00000000 		.4byte	.Ldebug_line0
  331 0025 02       		.uleb128 0x2
  332 0026 01       		.byte	0x1
  333 0027 06       		.byte	0x6
- 334 0028 3D0E0000 		.4byte	.LASF0
+ 334 0028 AD0E0000 		.4byte	.LASF0
  335 002c 03       		.uleb128 0x3
- 336 002d 6D0B0000 		.4byte	.LASF2
+ 336 002d DD0B0000 		.4byte	.LASF2
  337 0031 02       		.byte	0x2
  338 0032 1D       		.byte	0x1d
  339 0033 37000000 		.4byte	0x37
  340 0037 02       		.uleb128 0x2
  341 0038 01       		.byte	0x1
  342 0039 08       		.byte	0x8
- 343 003a 010D0000 		.4byte	.LASF1
+ 343 003a 710D0000 		.4byte	.LASF1
  344 003e 03       		.uleb128 0x3
- 345 003f 8B070000 		.4byte	.LASF3
+ 345 003f FB070000 		.4byte	.LASF3
  346 0043 02       		.byte	0x2
  347 0044 29       		.byte	0x29
  348 0045 49000000 		.4byte	0x49
  349 0049 02       		.uleb128 0x2
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 17
 
 
  350 004a 02       		.byte	0x2
@@ -972,7 +972,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  358 005b 02       		.uleb128 0x2
  359 005c 02       		.byte	0x2
  360 005d 07       		.byte	0x7
- 361 005e C3080000 		.4byte	.LASF6
+ 361 005e 33090000 		.4byte	.LASF6
  362 0062 03       		.uleb128 0x3
  363 0063 20010000 		.4byte	.LASF7
  364 0067 02       		.byte	0x2
@@ -981,20 +981,20 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  367 006d 02       		.uleb128 0x2
  368 006e 04       		.byte	0x4
  369 006f 05       		.byte	0x5
- 370 0070 7F0A0000 		.4byte	.LASF8
+ 370 0070 EF0A0000 		.4byte	.LASF8
  371 0074 03       		.uleb128 0x3
- 372 0075 0F0D0000 		.4byte	.LASF9
+ 372 0075 7F0D0000 		.4byte	.LASF9
  373 0079 02       		.byte	0x2
  374 007a 41       		.byte	0x41
  375 007b 7F000000 		.4byte	0x7f
  376 007f 02       		.uleb128 0x2
  377 0080 04       		.byte	0x4
  378 0081 07       		.byte	0x7
- 379 0082 280C0000 		.4byte	.LASF10
+ 379 0082 980C0000 		.4byte	.LASF10
  380 0086 02       		.uleb128 0x2
  381 0087 08       		.byte	0x8
  382 0088 05       		.byte	0x5
- 383 0089 16070000 		.4byte	.LASF11
+ 383 0089 86070000 		.4byte	.LASF11
  384 008d 02       		.uleb128 0x2
  385 008e 08       		.byte	0x8
  386 008f 07       		.byte	0x7
@@ -1008,7 +1008,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  394 009d 07       		.byte	0x7
  395 009e C3000000 		.4byte	.LASF13
  396 00a2 03       		.uleb128 0x3
- 397 00a3 7F060000 		.4byte	.LASF14
+ 397 00a3 EF060000 		.4byte	.LASF14
  398 00a7 03       		.byte	0x3
  399 00a8 18       		.byte	0x18
  400 00a9 2C000000 		.4byte	0x2c
@@ -1018,10 +1018,10 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  404 00b3 20       		.byte	0x20
  405 00b4 3E000000 		.4byte	0x3e
  406 00b8 03       		.uleb128 0x3
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 18
 
 
- 407 00b9 E2080000 		.4byte	.LASF16
+ 407 00b9 52090000 		.4byte	.LASF16
  408 00bd 03       		.byte	0x3
  409 00be 24       		.byte	0x24
  410 00bf 50000000 		.4byte	0x50
@@ -1038,7 +1038,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  421 00d9 02       		.uleb128 0x2
  422 00da 08       		.byte	0x8
  423 00db 04       		.byte	0x4
- 424 00dc D6080000 		.4byte	.LASF19
+ 424 00dc 46090000 		.4byte	.LASF19
  425 00e0 05       		.uleb128 0x5
  426 00e1 CE000000 		.4byte	0xce
  427 00e5 06       		.uleb128 0x6
@@ -1053,7 +1053,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  436 00fa 02       		.uleb128 0x2
  437 00fb 04       		.byte	0x4
  438 00fc 07       		.byte	0x7
- 439 00fd AB090000 		.4byte	.LASF20
+ 439 00fd 1B0A0000 		.4byte	.LASF20
  440 0101 07       		.uleb128 0x7
  441 0102 E5000000 		.4byte	0xe5
  442 0106 11010000 		.4byte	0x111
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  461 0131 07       		.uleb128 0x7
  462 0132 E5000000 		.4byte	0xe5
  463 0136 41010000 		.4byte	0x141
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 19
 
 
  464 013a 08       		.uleb128 0x8
@@ -1110,13 +1110,13 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  490 016c E0000000 		.4byte	0xe0
  491 0170 04       		.byte	0x4
  492 0171 0B       		.uleb128 0xb
- 493 0172 CF040000 		.4byte	.LASF22
+ 493 0172 27050000 		.4byte	.LASF22
  494 0176 04       		.byte	0x4
  495 0177 25       		.byte	0x25
  496 0178 E0000000 		.4byte	0xe0
  497 017c 08       		.byte	0x8
  498 017d 0B       		.uleb128 0xb
- 499 017e 5D0B0000 		.4byte	.LASF23
+ 499 017e CD0B0000 		.4byte	.LASF23
  500 0182 04       		.byte	0x4
  501 0183 26       		.byte	0x26
  502 0184 E0000000 		.4byte	0xe0
@@ -1134,16 +1134,16 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  514 019b E0000000 		.4byte	0xe0
  515 019f 14       		.byte	0x14
  516 01a0 0B       		.uleb128 0xb
- 517 01a1 D9050000 		.4byte	.LASF25
+ 517 01a1 49060000 		.4byte	.LASF25
  518 01a5 04       		.byte	0x4
  519 01a6 29       		.byte	0x29
  520 01a7 E0000000 		.4byte	0xe0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 20
 
 
  521 01ab 18       		.byte	0x18
  522 01ac 0B       		.uleb128 0xb
- 523 01ad C90B0000 		.4byte	.LASF26
+ 523 01ad 390C0000 		.4byte	.LASF26
  524 01b1 04       		.byte	0x4
  525 01b2 2A       		.byte	0x2a
  526 01b3 E5000000 		.4byte	0xe5
@@ -1155,7 +1155,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  532 01bf E0000000 		.4byte	0xe0
  533 01c3 20       		.byte	0x20
  534 01c4 0B       		.uleb128 0xb
- 535 01c5 4A0D0000 		.4byte	.LASF28
+ 535 01c5 BA0D0000 		.4byte	.LASF28
  536 01c9 04       		.byte	0x4
  537 01ca 2C       		.byte	0x2c
  538 01cb E0000000 		.4byte	0xe0
@@ -1191,14 +1191,14 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  568 0207 E5000000 		.4byte	0xe5
  569 020b 38       		.byte	0x38
  570 020c 0B       		.uleb128 0xb
- 571 020d 290B0000 		.4byte	.LASF33
+ 571 020d 990B0000 		.4byte	.LASF33
  572 0211 04       		.byte	0x4
  573 0212 32       		.byte	0x32
  574 0213 E0000000 		.4byte	0xe0
  575 0217 3C       		.byte	0x3c
  576 0218 0B       		.uleb128 0xb
- 577 0219 2B0F0000 		.4byte	.LASF34
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 21
+ 577 0219 9B0F0000 		.4byte	.LASF34
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 21
 
 
  578 021d 04       		.byte	0x4
@@ -1211,7 +1211,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  585 022a 06       		.uleb128 0x6
  586 022b 25020000 		.4byte	0x225
  587 022f 03       		.uleb128 0x3
- 588 0230 080B0000 		.4byte	.LASF35
+ 588 0230 780B0000 		.4byte	.LASF35
  589 0234 04       		.byte	0x4
  590 0235 34       		.byte	0x34
  591 0236 51010000 		.4byte	0x151
@@ -1234,7 +1234,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  608 0259 CE000000 		.4byte	0xce
  609 025d 00       		.byte	0
  610 025e 0B       		.uleb128 0xb
- 611 025f 1D060000 		.4byte	.LASF37
+ 611 025f 8D060000 		.4byte	.LASF37
  612 0263 05       		.byte	0x5
  613 0264 38       		.byte	0x38
  614 0265 CE000000 		.4byte	0xce
@@ -1252,46 +1252,46 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  626 027d CE000000 		.4byte	0xce
  627 0281 0C       		.byte	0xc
  628 0282 0B       		.uleb128 0xb
- 629 0283 EB080000 		.4byte	.LASF40
+ 629 0283 5B090000 		.4byte	.LASF40
  630 0287 05       		.byte	0x5
  631 0288 3B       		.byte	0x3b
  632 0289 CE000000 		.4byte	0xce
  633 028d 10       		.byte	0x10
  634 028e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 22
 
 
- 635 028f BE070000 		.4byte	.LASF41
+ 635 028f 2E080000 		.4byte	.LASF41
  636 0293 05       		.byte	0x5
  637 0294 3C       		.byte	0x3c
  638 0295 CE000000 		.4byte	0xce
  639 0299 14       		.byte	0x14
  640 029a 0B       		.uleb128 0xb
- 641 029b 37050000 		.4byte	.LASF42
+ 641 029b 8F050000 		.4byte	.LASF42
  642 029f 05       		.byte	0x5
  643 02a0 3D       		.byte	0x3d
  644 02a1 CE000000 		.4byte	0xce
  645 02a5 18       		.byte	0x18
  646 02a6 0B       		.uleb128 0xb
- 647 02a7 FC0E0000 		.4byte	.LASF43
+ 647 02a7 6C0F0000 		.4byte	.LASF43
  648 02ab 05       		.byte	0x5
  649 02ac 3E       		.byte	0x3e
  650 02ad CE000000 		.4byte	0xce
  651 02b1 1C       		.byte	0x1c
  652 02b2 0B       		.uleb128 0xb
- 653 02b3 24070000 		.4byte	.LASF44
+ 653 02b3 94070000 		.4byte	.LASF44
  654 02b7 05       		.byte	0x5
  655 02b8 3F       		.byte	0x3f
  656 02b9 CE000000 		.4byte	0xce
  657 02bd 20       		.byte	0x20
  658 02be 0B       		.uleb128 0xb
- 659 02bf 3B070000 		.4byte	.LASF45
+ 659 02bf AB070000 		.4byte	.LASF45
  660 02c3 05       		.byte	0x5
  661 02c4 40       		.byte	0x40
  662 02c5 CE000000 		.4byte	0xce
  663 02c9 24       		.byte	0x24
  664 02ca 0B       		.uleb128 0xb
- 665 02cb 880A0000 		.4byte	.LASF46
+ 665 02cb F80A0000 		.4byte	.LASF46
  666 02cf 05       		.byte	0x5
  667 02d0 43       		.byte	0x43
  668 02d1 A2000000 		.4byte	0xa2
@@ -1303,40 +1303,40 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  674 02dd A2000000 		.4byte	0xa2
  675 02e1 29       		.byte	0x29
  676 02e2 0B       		.uleb128 0xb
- 677 02e3 6C090000 		.4byte	.LASF48
+ 677 02e3 DC090000 		.4byte	.LASF48
  678 02e7 05       		.byte	0x5
  679 02e8 45       		.byte	0x45
  680 02e9 A2000000 		.4byte	0xa2
  681 02ed 2A       		.byte	0x2a
  682 02ee 0B       		.uleb128 0xb
- 683 02ef C90A0000 		.4byte	.LASF49
+ 683 02ef 390B0000 		.4byte	.LASF49
  684 02f3 05       		.byte	0x5
  685 02f4 46       		.byte	0x46
  686 02f5 A2000000 		.4byte	0xa2
  687 02f9 2B       		.byte	0x2b
  688 02fa 0B       		.uleb128 0xb
- 689 02fb A20A0000 		.4byte	.LASF50
+ 689 02fb 120B0000 		.4byte	.LASF50
  690 02ff 05       		.byte	0x5
  691 0300 47       		.byte	0x47
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 23
 
 
  692 0301 A2000000 		.4byte	0xa2
  693 0305 2C       		.byte	0x2c
  694 0306 0B       		.uleb128 0xb
- 695 0307 56060000 		.4byte	.LASF51
+ 695 0307 C6060000 		.4byte	.LASF51
  696 030b 05       		.byte	0x5
  697 030c 48       		.byte	0x48
  698 030d A2000000 		.4byte	0xa2
  699 0311 2D       		.byte	0x2d
  700 0312 0B       		.uleb128 0xb
- 701 0313 61090000 		.4byte	.LASF52
+ 701 0313 D1090000 		.4byte	.LASF52
  702 0317 05       		.byte	0x5
  703 0318 49       		.byte	0x49
  704 0319 A2000000 		.4byte	0xa2
  705 031d 2E       		.byte	0x2e
  706 031e 0B       		.uleb128 0xb
- 707 031f E30E0000 		.4byte	.LASF53
+ 707 031f 530F0000 		.4byte	.LASF53
  708 0323 05       		.byte	0x5
  709 0324 4A       		.byte	0x4a
  710 0325 A2000000 		.4byte	0xa2
@@ -1348,19 +1348,19 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  716 0331 A2000000 		.4byte	0xa2
  717 0335 30       		.byte	0x30
  718 0336 0B       		.uleb128 0xb
- 719 0337 35080000 		.4byte	.LASF55
+ 719 0337 A5080000 		.4byte	.LASF55
  720 033b 05       		.byte	0x5
  721 033c 4E       		.byte	0x4e
  722 033d A2000000 		.4byte	0xa2
  723 0341 31       		.byte	0x31
  724 0342 0B       		.uleb128 0xb
- 725 0343 7C0E0000 		.4byte	.LASF56
+ 725 0343 EC0E0000 		.4byte	.LASF56
  726 0347 05       		.byte	0x5
  727 0348 4F       		.byte	0x4f
  728 0349 A2000000 		.4byte	0xa2
  729 034d 32       		.byte	0x32
  730 034e 0B       		.uleb128 0xb
- 731 034f F1070000 		.4byte	.LASF57
+ 731 034f 61080000 		.4byte	.LASF57
  732 0353 05       		.byte	0x5
  733 0354 50       		.byte	0x50
  734 0355 A2000000 		.4byte	0xa2
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  746 036d AD000000 		.4byte	0xad
  747 0371 36       		.byte	0x36
  748 0372 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 24
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 24
 
 
  749 0373 61010000 		.4byte	.LASF60
@@ -1405,7 +1405,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  770 039d A2000000 		.4byte	0xa2
  771 03a1 3D       		.byte	0x3d
  772 03a2 0B       		.uleb128 0xb
- 773 03a3 2D090000 		.4byte	.LASF64
+ 773 03a3 9D090000 		.4byte	.LASF64
  774 03a7 05       		.byte	0x5
  775 03a8 57       		.byte	0x57
  776 03a9 A2000000 		.4byte	0xa2
@@ -1423,34 +1423,34 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  788 03c1 A2000000 		.4byte	0xa2
  789 03c5 40       		.byte	0x40
  790 03c6 0B       		.uleb128 0xb
- 791 03c7 65080000 		.4byte	.LASF67
+ 791 03c7 D5080000 		.4byte	.LASF67
  792 03cb 05       		.byte	0x5
  793 03cc 5A       		.byte	0x5a
  794 03cd A2000000 		.4byte	0xa2
  795 03d1 41       		.byte	0x41
  796 03d2 0B       		.uleb128 0xb
- 797 03d3 1B0E0000 		.4byte	.LASF68
+ 797 03d3 8B0E0000 		.4byte	.LASF68
  798 03d7 05       		.byte	0x5
  799 03d8 5B       		.byte	0x5b
  800 03d9 A2000000 		.4byte	0xa2
  801 03dd 42       		.byte	0x42
  802 03de 0B       		.uleb128 0xb
- 803 03df 8A050000 		.4byte	.LASF69
+ 803 03df FA050000 		.4byte	.LASF69
  804 03e3 05       		.byte	0x5
  805 03e4 5C       		.byte	0x5c
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 25
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 25
 
 
  806 03e5 A2000000 		.4byte	0xa2
  807 03e9 43       		.byte	0x43
  808 03ea 0B       		.uleb128 0xb
- 809 03eb 33060000 		.4byte	.LASF70
+ 809 03eb A3060000 		.4byte	.LASF70
  810 03ef 05       		.byte	0x5
  811 03f0 5D       		.byte	0x5d
  812 03f1 A2000000 		.4byte	0xa2
  813 03f5 44       		.byte	0x44
  814 03f6 0B       		.uleb128 0xb
- 815 03f7 D70A0000 		.4byte	.LASF71
+ 815 03f7 470B0000 		.4byte	.LASF71
  816 03fb 05       		.byte	0x5
  817 03fc 5E       		.byte	0x5e
  818 03fd CE000000 		.4byte	0xce
@@ -1462,19 +1462,19 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  824 0409 CE000000 		.4byte	0xce
  825 040d 4C       		.byte	0x4c
  826 040e 0B       		.uleb128 0xb
- 827 040f F20D0000 		.4byte	.LASF73
+ 827 040f 620E0000 		.4byte	.LASF73
  828 0413 05       		.byte	0x5
  829 0414 60       		.byte	0x60
  830 0415 A2000000 		.4byte	0xa2
  831 0419 50       		.byte	0x50
  832 041a 0B       		.uleb128 0xb
- 833 041b DD040000 		.4byte	.LASF74
+ 833 041b 35050000 		.4byte	.LASF74
  834 041f 05       		.byte	0x5
  835 0420 61       		.byte	0x61
  836 0421 A2000000 		.4byte	0xa2
  837 0425 51       		.byte	0x51
  838 0426 0B       		.uleb128 0xb
- 839 0427 66070000 		.4byte	.LASF75
+ 839 0427 D6070000 		.4byte	.LASF75
  840 042b 05       		.byte	0x5
  841 042c 62       		.byte	0x62
  842 042d A2000000 		.4byte	0xa2
@@ -1486,19 +1486,19 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  848 0439 A2000000 		.4byte	0xa2
  849 043d 53       		.byte	0x53
  850 043e 0B       		.uleb128 0xb
- 851 043f 370B0000 		.4byte	.LASF77
+ 851 043f A70B0000 		.4byte	.LASF77
  852 0443 05       		.byte	0x5
  853 0444 64       		.byte	0x64
  854 0445 A2000000 		.4byte	0xa2
  855 0449 54       		.byte	0x54
  856 044a 0B       		.uleb128 0xb
- 857 044b 17050000 		.4byte	.LASF78
+ 857 044b 6F050000 		.4byte	.LASF78
  858 044f 05       		.byte	0x5
  859 0450 65       		.byte	0x65
  860 0451 A2000000 		.4byte	0xa2
  861 0455 55       		.byte	0x55
  862 0456 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 26
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 26
 
 
  863 0457 00000000 		.4byte	.LASF79
@@ -1507,7 +1507,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  866 045d A2000000 		.4byte	0xa2
  867 0461 56       		.byte	0x56
  868 0462 0B       		.uleb128 0xb
- 869 0463 76090000 		.4byte	.LASF80
+ 869 0463 E6090000 		.4byte	.LASF80
  870 0467 05       		.byte	0x5
  871 0468 67       		.byte	0x67
  872 0469 A2000000 		.4byte	0xa2
@@ -1525,7 +1525,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  884 0481 A2000000 		.4byte	0xa2
  885 0485 59       		.byte	0x59
  886 0486 0B       		.uleb128 0xb
- 887 0487 600E0000 		.4byte	.LASF83
+ 887 0487 D00E0000 		.4byte	.LASF83
  888 048b 05       		.byte	0x5
  889 048c 6E       		.byte	0x6e
  890 048d B8000000 		.4byte	0xb8
@@ -1537,46 +1537,46 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  896 0499 B8000000 		.4byte	0xb8
  897 049d 5C       		.byte	0x5c
  898 049e 0B       		.uleb128 0xb
- 899 049f 2C070000 		.4byte	.LASF85
+ 899 049f 9C070000 		.4byte	.LASF85
  900 04a3 05       		.byte	0x5
  901 04a4 70       		.byte	0x70
  902 04a5 A2000000 		.4byte	0xa2
  903 04a9 5E       		.byte	0x5e
  904 04aa 0B       		.uleb128 0xb
- 905 04ab 8A0E0000 		.4byte	.LASF86
+ 905 04ab FA0E0000 		.4byte	.LASF86
  906 04af 05       		.byte	0x5
  907 04b0 71       		.byte	0x71
  908 04b1 A2000000 		.4byte	0xa2
  909 04b5 5F       		.byte	0x5f
  910 04b6 0B       		.uleb128 0xb
- 911 04b7 BC050000 		.4byte	.LASF87
+ 911 04b7 2C060000 		.4byte	.LASF87
  912 04bb 05       		.byte	0x5
  913 04bc 72       		.byte	0x72
  914 04bd A2000000 		.4byte	0xa2
  915 04c1 60       		.byte	0x60
  916 04c2 0B       		.uleb128 0xb
- 917 04c3 63060000 		.4byte	.LASF88
+ 917 04c3 D3060000 		.4byte	.LASF88
  918 04c7 05       		.byte	0x5
  919 04c8 73       		.byte	0x73
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 27
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 27
 
 
  920 04c9 CE000000 		.4byte	0xce
  921 04cd 64       		.byte	0x64
  922 04ce 0B       		.uleb128 0xb
- 923 04cf EF040000 		.4byte	.LASF89
+ 923 04cf 47050000 		.4byte	.LASF89
  924 04d3 05       		.byte	0x5
  925 04d4 76       		.byte	0x76
  926 04d5 B8000000 		.4byte	0xb8
  927 04d9 68       		.byte	0x68
  928 04da 0B       		.uleb128 0xb
- 929 04db 07090000 		.4byte	.LASF90
+ 929 04db 77090000 		.4byte	.LASF90
  930 04df 05       		.byte	0x5
  931 04e0 77       		.byte	0x77
  932 04e1 B8000000 		.4byte	0xb8
  933 04e5 6A       		.byte	0x6a
  934 04e6 0B       		.uleb128 0xb
- 935 04e7 C8070000 		.4byte	.LASF91
+ 935 04e7 38080000 		.4byte	.LASF91
  936 04eb 05       		.byte	0x5
  937 04ec 78       		.byte	0x78
  938 04ed B8000000 		.4byte	0xb8
@@ -1588,7 +1588,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  944 04f9 B8000000 		.4byte	0xb8
  945 04fd 6E       		.byte	0x6e
  946 04fe 0B       		.uleb128 0xb
- 947 04ff A9060000 		.4byte	.LASF93
+ 947 04ff 19070000 		.4byte	.LASF93
  948 0503 05       		.byte	0x5
  949 0504 7B       		.byte	0x7b
  950 0505 A2000000 		.4byte	0xa2
@@ -1612,40 +1612,40 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  968 0529 A2000000 		.4byte	0xa2
  969 052d 73       		.byte	0x73
  970 052e 0B       		.uleb128 0xb
- 971 052f EC090000 		.4byte	.LASF97
+ 971 052f 5C0A0000 		.4byte	.LASF97
  972 0533 05       		.byte	0x5
  973 0534 80       		.byte	0x80
  974 0535 B8000000 		.4byte	0xb8
  975 0539 74       		.byte	0x74
  976 053a 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 28
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 28
 
 
- 977 053b B0080000 		.4byte	.LASF98
+ 977 053b 20090000 		.4byte	.LASF98
  978 053f 05       		.byte	0x5
  979 0540 81       		.byte	0x81
  980 0541 B8000000 		.4byte	0xb8
  981 0545 76       		.byte	0x76
  982 0546 0B       		.uleb128 0xb
- 983 0547 D9060000 		.4byte	.LASF99
+ 983 0547 49070000 		.4byte	.LASF99
  984 054b 05       		.byte	0x5
  985 054c 82       		.byte	0x82
  986 054d B8000000 		.4byte	0xb8
  987 0551 78       		.byte	0x78
  988 0552 0B       		.uleb128 0xb
- 989 0553 51070000 		.4byte	.LASF100
+ 989 0553 C1070000 		.4byte	.LASF100
  990 0557 05       		.byte	0x5
  991 0558 83       		.byte	0x83
  992 0559 B8000000 		.4byte	0xb8
  993 055d 7A       		.byte	0x7a
  994 055e 0B       		.uleb128 0xb
- 995 055f 9D0B0000 		.4byte	.LASF101
+ 995 055f 0D0C0000 		.4byte	.LASF101
  996 0563 05       		.byte	0x5
  997 0564 86       		.byte	0x86
  998 0565 A2000000 		.4byte	0xa2
  999 0569 7C       		.byte	0x7c
  1000 056a 0B       		.uleb128 0xb
- 1001 056b 0A0E0000 		.4byte	.LASF102
+ 1001 056b 7A0E0000 		.4byte	.LASF102
  1002 056f 05       		.byte	0x5
  1003 0570 87       		.byte	0x87
  1004 0571 A2000000 		.4byte	0xa2
@@ -1675,28 +1675,28 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1028 05a1 CE000000 		.4byte	0xce
  1029 05a5 84       		.byte	0x84
  1030 05a6 0B       		.uleb128 0xb
- 1031 05a7 B20B0000 		.4byte	.LASF107
+ 1031 05a7 220C0000 		.4byte	.LASF107
  1032 05ab 05       		.byte	0x5
  1033 05ac 8E       		.byte	0x8e
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 29
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 29
 
 
  1034 05ad CE000000 		.4byte	0xce
  1035 05b1 88       		.byte	0x88
  1036 05b2 0B       		.uleb128 0xb
- 1037 05b3 50080000 		.4byte	.LASF108
+ 1037 05b3 C0080000 		.4byte	.LASF108
  1038 05b7 05       		.byte	0x5
  1039 05b8 8F       		.byte	0x8f
  1040 05b9 CE000000 		.4byte	0xce
  1041 05bd 8C       		.byte	0x8c
  1042 05be 0B       		.uleb128 0xb
- 1043 05bf D10C0000 		.4byte	.LASF109
+ 1043 05bf 410D0000 		.4byte	.LASF109
  1044 05c3 05       		.byte	0x5
  1045 05c4 90       		.byte	0x90
  1046 05c5 CE000000 		.4byte	0xce
  1047 05c9 90       		.byte	0x90
  1048 05ca 0B       		.uleb128 0xb
- 1049 05cb D7090000 		.4byte	.LASF110
+ 1049 05cb 470A0000 		.4byte	.LASF110
  1050 05cf 05       		.byte	0x5
  1051 05d0 91       		.byte	0x91
  1052 05d1 CE000000 		.4byte	0xce
@@ -1708,13 +1708,13 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1058 05dd CE000000 		.4byte	0xce
  1059 05e1 98       		.byte	0x98
  1060 05e2 0B       		.uleb128 0xb
- 1061 05e3 D50B0000 		.4byte	.LASF112
+ 1061 05e3 450C0000 		.4byte	.LASF112
  1062 05e7 05       		.byte	0x5
  1063 05e8 93       		.byte	0x93
  1064 05e9 CE000000 		.4byte	0xce
  1065 05ed 9C       		.byte	0x9c
  1066 05ee 0B       		.uleb128 0xb
- 1067 05ef 74050000 		.4byte	.LASF113
+ 1067 05ef E4050000 		.4byte	.LASF113
  1068 05f3 05       		.byte	0x5
  1069 05f4 94       		.byte	0x94
  1070 05f5 CE000000 		.4byte	0xce
@@ -1726,22 +1726,22 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1076 0601 B8000000 		.4byte	0xb8
  1077 0605 A4       		.byte	0xa4
  1078 0606 0B       		.uleb128 0xb
- 1079 0607 C2090000 		.4byte	.LASF115
+ 1079 0607 320A0000 		.4byte	.LASF115
  1080 060b 05       		.byte	0x5
  1081 060c 96       		.byte	0x96
  1082 060d B8000000 		.4byte	0xb8
  1083 0611 A6       		.byte	0xa6
  1084 0612 0B       		.uleb128 0xb
- 1085 0613 420C0000 		.4byte	.LASF116
+ 1085 0613 B20C0000 		.4byte	.LASF116
  1086 0617 05       		.byte	0x5
  1087 0618 97       		.byte	0x97
  1088 0619 B8000000 		.4byte	0xb8
  1089 061d A8       		.byte	0xa8
  1090 061e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 30
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 30
 
 
- 1091 061f FA060000 		.4byte	.LASF117
+ 1091 061f 6A070000 		.4byte	.LASF117
  1092 0623 05       		.byte	0x5
  1093 0624 98       		.byte	0x98
  1094 0625 B8000000 		.4byte	0xb8
@@ -1753,7 +1753,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1100 0631 B8000000 		.4byte	0xb8
  1101 0635 AC       		.byte	0xac
  1102 0636 0B       		.uleb128 0xb
- 1103 0637 75080000 		.4byte	.LASF119
+ 1103 0637 E5080000 		.4byte	.LASF119
  1104 063b 05       		.byte	0x5
  1105 063c 9A       		.byte	0x9a
  1106 063d B8000000 		.4byte	0xb8
@@ -1765,14 +1765,14 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1112 0649 B8000000 		.4byte	0xb8
  1113 064d B0       		.byte	0xb0
  1114 064e 0B       		.uleb128 0xb
- 1115 064f 1A0D0000 		.4byte	.LASF121
+ 1115 064f 8A0D0000 		.4byte	.LASF121
  1116 0653 05       		.byte	0x5
  1117 0654 9E       		.byte	0x9e
  1118 0655 CE000000 		.4byte	0xce
  1119 0659 B4       		.byte	0xb4
  1120 065a 00       		.byte	0
  1121 065b 03       		.uleb128 0x3
- 1122 065c BE0E0000 		.4byte	.LASF122
+ 1122 065c 2E0F0000 		.4byte	.LASF122
  1123 0660 05       		.byte	0x5
  1124 0661 9F       		.byte	0x9f
  1125 0662 4A020000 		.4byte	0x24a
@@ -1788,7 +1788,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1135 0676 E0000000 		.4byte	0xe0
  1136 067a 00       		.byte	0
  1137 067b 0B       		.uleb128 0xb
- 1138 067c 2D060000 		.4byte	.LASF124
+ 1138 067c 9D060000 		.4byte	.LASF124
  1139 0680 06       		.byte	0x6
  1140 0681 23       		.byte	0x23
  1141 0682 E0000000 		.4byte	0xe0
@@ -1798,36 +1798,36 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1145 068c 06       		.byte	0x6
  1146 068d 24       		.byte	0x24
  1147 068e 66090000 		.4byte	0x966
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 31
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 31
 
 
  1148 0692 08       		.byte	0x8
  1149 0693 0B       		.uleb128 0xb
- 1150 0694 5D0D0000 		.4byte	.LASF125
+ 1150 0694 CD0D0000 		.4byte	.LASF125
  1151 0698 06       		.byte	0x6
  1152 0699 25       		.byte	0x25
  1153 069a E5000000 		.4byte	0xe5
  1154 069e 80       		.byte	0x80
  1155 069f 0B       		.uleb128 0xb
- 1156 06a0 C70D0000 		.4byte	.LASF126
+ 1156 06a0 370E0000 		.4byte	.LASF126
  1157 06a4 06       		.byte	0x6
  1158 06a5 26       		.byte	0x26
  1159 06a6 E5000000 		.4byte	0xe5
  1160 06aa 84       		.byte	0x84
  1161 06ab 0B       		.uleb128 0xb
- 1162 06ac 95070000 		.4byte	.LASF127
+ 1162 06ac 05080000 		.4byte	.LASF127
  1163 06b0 06       		.byte	0x6
  1164 06b1 27       		.byte	0x27
  1165 06b2 E5000000 		.4byte	0xe5
  1166 06b6 88       		.byte	0x88
  1167 06b7 0B       		.uleb128 0xb
- 1168 06b8 A1090000 		.4byte	.LASF128
+ 1168 06b8 110A0000 		.4byte	.LASF128
  1169 06bc 06       		.byte	0x6
  1170 06bd 28       		.byte	0x28
  1171 06be E5000000 		.4byte	0xe5
  1172 06c2 8C       		.byte	0x8c
  1173 06c3 0B       		.uleb128 0xb
- 1174 06c4 2B0F0000 		.4byte	.LASF34
+ 1174 06c4 9B0F0000 		.4byte	.LASF34
  1175 06c8 06       		.byte	0x6
  1176 06c9 29       		.byte	0x29
  1177 06ca 70090000 		.4byte	0x970
@@ -1845,7 +1845,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1189 06e2 E5000000 		.4byte	0xe5
  1190 06e6 D4       		.byte	0xd4
  1191 06e7 0B       		.uleb128 0xb
- 1192 06e8 FE090000 		.4byte	.LASF131
+ 1192 06e8 6E0A0000 		.4byte	.LASF131
  1193 06ec 06       		.byte	0x6
  1194 06ed 2C       		.byte	0x2c
  1195 06ee 7A090000 		.4byte	0x97a
@@ -1857,8 +1857,8 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1201 06fa E5000000 		.4byte	0xe5
  1202 06fe E0       		.byte	0xe0
  1203 06ff 0B       		.uleb128 0xb
- 1204 0700 080A0000 		.4byte	.LASF133
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 32
+ 1204 0700 780A0000 		.4byte	.LASF133
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 32
 
 
  1205 0704 06       		.byte	0x6
@@ -1878,31 +1878,31 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1219 071e E0000000 		.4byte	0xe0
  1220 0722 F4       		.byte	0xf4
  1221 0723 0B       		.uleb128 0xb
- 1222 0724 D9050000 		.4byte	.LASF25
+ 1222 0724 49060000 		.4byte	.LASF25
  1223 0728 06       		.byte	0x6
  1224 0729 31       		.byte	0x31
  1225 072a E0000000 		.4byte	0xe0
  1226 072e F8       		.byte	0xf8
  1227 072f 0B       		.uleb128 0xb
- 1228 0730 C90B0000 		.4byte	.LASF26
+ 1228 0730 390C0000 		.4byte	.LASF26
  1229 0734 06       		.byte	0x6
  1230 0735 32       		.byte	0x32
  1231 0736 E5000000 		.4byte	0xe5
  1232 073a FC       		.byte	0xfc
  1233 073b 0D       		.uleb128 0xd
- 1234 073c 120A0000 		.4byte	.LASF134
+ 1234 073c 820A0000 		.4byte	.LASF134
  1235 0740 06       		.byte	0x6
  1236 0741 33       		.byte	0x33
  1237 0742 8E090000 		.4byte	0x98e
  1238 0746 0001     		.2byte	0x100
  1239 0748 0D       		.uleb128 0xd
- 1240 0749 D7040000 		.4byte	.LASF135
+ 1240 0749 2F050000 		.4byte	.LASF135
  1241 074d 06       		.byte	0x6
  1242 074e 34       		.byte	0x34
  1243 074f E0000000 		.4byte	0xe0
  1244 0753 8001     		.2byte	0x180
  1245 0755 0D       		.uleb128 0xd
- 1246 0756 EB070000 		.4byte	.LASF136
+ 1246 0756 5B080000 		.4byte	.LASF136
  1247 075a 06       		.byte	0x6
  1248 075b 35       		.byte	0x35
  1249 075c E0000000 		.4byte	0xe0
@@ -1918,42 +1918,42 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1259 0774 06       		.byte	0x6
  1260 0775 37       		.byte	0x37
  1261 0776 E0000000 		.4byte	0xe0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 33
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 33
 
 
  1262 077a 8C01     		.2byte	0x18c
  1263 077c 0D       		.uleb128 0xd
- 1264 077d 1C0A0000 		.4byte	.LASF139
+ 1264 077d 8C0A0000 		.4byte	.LASF139
  1265 0781 06       		.byte	0x6
  1266 0782 38       		.byte	0x38
  1267 0783 98090000 		.4byte	0x998
  1268 0787 9001     		.2byte	0x190
  1269 0789 0D       		.uleb128 0xd
- 1270 078a 6D050000 		.4byte	.LASF140
+ 1270 078a DD050000 		.4byte	.LASF140
  1271 078e 06       		.byte	0x6
  1272 078f 39       		.byte	0x39
  1273 0790 E0000000 		.4byte	0xe0
  1274 0794 F001     		.2byte	0x1f0
  1275 0796 0D       		.uleb128 0xd
- 1276 0797 260A0000 		.4byte	.LASF141
+ 1276 0797 960A0000 		.4byte	.LASF141
  1277 079b 06       		.byte	0x6
  1278 079c 3A       		.byte	0x3a
  1279 079d A2090000 		.4byte	0x9a2
  1280 07a1 F401     		.2byte	0x1f4
  1281 07a3 0D       		.uleb128 0xd
- 1282 07a4 720A0000 		.4byte	.LASF142
+ 1282 07a4 E20A0000 		.4byte	.LASF142
  1283 07a8 06       		.byte	0x6
  1284 07a9 3B       		.byte	0x3b
  1285 07aa E0000000 		.4byte	0xe0
  1286 07ae 0002     		.2byte	0x200
  1287 07b0 0D       		.uleb128 0xd
- 1288 07b1 8E080000 		.4byte	.LASF143
+ 1288 07b1 FE080000 		.4byte	.LASF143
  1289 07b5 06       		.byte	0x6
  1290 07b6 3C       		.byte	0x3c
  1291 07b7 E0000000 		.4byte	0xe0
  1292 07bb 0402     		.2byte	0x204
  1293 07bd 0D       		.uleb128 0xd
- 1294 07be 300A0000 		.4byte	.LASF144
+ 1294 07be A00A0000 		.4byte	.LASF144
  1295 07c2 06       		.byte	0x6
  1296 07c3 3D       		.byte	0x3d
  1297 07c4 AC090000 		.4byte	0x9ac
@@ -1965,20 +1965,20 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1303 07d1 E0000000 		.4byte	0xe0
  1304 07d5 8002     		.2byte	0x280
  1305 07d7 0D       		.uleb128 0xd
- 1306 07d8 BD060000 		.4byte	.LASF146
+ 1306 07d8 2D070000 		.4byte	.LASF146
  1307 07dc 06       		.byte	0x6
  1308 07dd 3F       		.byte	0x3f
  1309 07de E0000000 		.4byte	0xe0
  1310 07e2 8402     		.2byte	0x284
  1311 07e4 0D       		.uleb128 0xd
- 1312 07e5 08070000 		.4byte	.LASF147
+ 1312 07e5 78070000 		.4byte	.LASF147
  1313 07e9 06       		.byte	0x6
  1314 07ea 40       		.byte	0x40
  1315 07eb E0000000 		.4byte	0xe0
  1316 07ef 8802     		.2byte	0x288
  1317 07f1 0D       		.uleb128 0xd
- 1318 07f2 3A0A0000 		.4byte	.LASF148
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 34
+ 1318 07f2 AA0A0000 		.4byte	.LASF148
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 34
 
 
  1319 07f6 06       		.byte	0x6
@@ -1986,49 +1986,49 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1321 07f8 E5000000 		.4byte	0xe5
  1322 07fc 8C02     		.2byte	0x28c
  1323 07fe 0D       		.uleb128 0xd
- 1324 07ff 2E0D0000 		.4byte	.LASF149
+ 1324 07ff 9E0D0000 		.4byte	.LASF149
  1325 0803 06       		.byte	0x6
  1326 0804 42       		.byte	0x42
  1327 0805 E0000000 		.4byte	0xe0
  1328 0809 9002     		.2byte	0x290
  1329 080b 0D       		.uleb128 0xd
- 1330 080c 83080000 		.4byte	.LASF150
+ 1330 080c F3080000 		.4byte	.LASF150
  1331 0810 06       		.byte	0x6
  1332 0811 43       		.byte	0x43
  1333 0812 E0000000 		.4byte	0xe0
  1334 0816 9402     		.2byte	0x294
  1335 0818 0D       		.uleb128 0xd
- 1336 0819 E00F0000 		.4byte	.LASF151
+ 1336 0819 EB0F0000 		.4byte	.LASF151
  1337 081d 06       		.byte	0x6
  1338 081e 44       		.byte	0x44
  1339 081f B6090000 		.4byte	0x9b6
  1340 0823 9802     		.2byte	0x298
  1341 0825 0D       		.uleb128 0xd
- 1342 0826 21080000 		.4byte	.LASF152
+ 1342 0826 91080000 		.4byte	.LASF152
  1343 082a 06       		.byte	0x6
  1344 082b 45       		.byte	0x45
  1345 082c E0000000 		.4byte	0xe0
  1346 0830 A002     		.2byte	0x2a0
  1347 0832 0D       		.uleb128 0xd
- 1348 0833 470B0000 		.4byte	.LASF153
+ 1348 0833 B70B0000 		.4byte	.LASF153
  1349 0837 06       		.byte	0x6
  1350 0838 46       		.byte	0x46
  1351 0839 E0000000 		.4byte	0xe0
  1352 083d A402     		.2byte	0x2a4
  1353 083f 0D       		.uleb128 0xd
- 1354 0840 B4090000 		.4byte	.LASF154
+ 1354 0840 240A0000 		.4byte	.LASF154
  1355 0844 06       		.byte	0x6
  1356 0845 47       		.byte	0x47
  1357 0846 E0000000 		.4byte	0xe0
  1358 084a A802     		.2byte	0x2a8
  1359 084c 0D       		.uleb128 0xd
- 1360 084d 640D0000 		.4byte	.LASF155
+ 1360 084d D40D0000 		.4byte	.LASF155
  1361 0851 06       		.byte	0x6
  1362 0852 48       		.byte	0x48
  1363 0853 E5000000 		.4byte	0xe5
  1364 0857 AC02     		.2byte	0x2ac
  1365 0859 0D       		.uleb128 0xd
- 1366 085a 43100000 		.4byte	.LASF156
+ 1366 085a 4E100000 		.4byte	.LASF156
  1367 085e 06       		.byte	0x6
  1368 085f 49       		.byte	0x49
  1369 0860 E0000000 		.4byte	0xe0
@@ -2038,67 +2038,67 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1373 086b 06       		.byte	0x6
  1374 086c 4A       		.byte	0x4a
  1375 086d E0000000 		.4byte	0xe0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 35
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 35
 
 
  1376 0871 B402     		.2byte	0x2b4
  1377 0873 0D       		.uleb128 0xd
- 1378 0874 6F0D0000 		.4byte	.LASF158
+ 1378 0874 DF0D0000 		.4byte	.LASF158
  1379 0878 06       		.byte	0x6
  1380 0879 4B       		.byte	0x4b
  1381 087a C0090000 		.4byte	0x9c0
  1382 087e B802     		.2byte	0x2b8
  1383 0880 0D       		.uleb128 0xd
- 1384 0881 44060000 		.4byte	.LASF159
+ 1384 0881 B4060000 		.4byte	.LASF159
  1385 0885 06       		.byte	0x6
  1386 0886 4C       		.byte	0x4c
  1387 0887 E0000000 		.4byte	0xe0
  1388 088b C002     		.2byte	0x2c0
  1389 088d 0D       		.uleb128 0xd
- 1390 088e 7A0D0000 		.4byte	.LASF160
+ 1390 088e EA0D0000 		.4byte	.LASF160
  1391 0892 06       		.byte	0x6
  1392 0893 4D       		.byte	0x4d
  1393 0894 CA090000 		.4byte	0x9ca
  1394 0898 C402     		.2byte	0x2c4
  1395 089a 0D       		.uleb128 0xd
- 1396 089b D2060000 		.4byte	.LASF161
+ 1396 089b 42070000 		.4byte	.LASF161
  1397 089f 06       		.byte	0x6
  1398 08a0 4E       		.byte	0x4e
  1399 08a1 E0000000 		.4byte	0xe0
  1400 08a5 D002     		.2byte	0x2d0
  1401 08a7 0D       		.uleb128 0xd
- 1402 08a8 850D0000 		.4byte	.LASF162
+ 1402 08a8 F50D0000 		.4byte	.LASF162
  1403 08ac 06       		.byte	0x6
  1404 08ad 4F       		.byte	0x4f
  1405 08ae E4090000 		.4byte	0x9e4
  1406 08b2 D402     		.2byte	0x2d4
  1407 08b4 0D       		.uleb128 0xd
- 1408 08b5 64050000 		.4byte	.LASF163
+ 1408 08b5 D4050000 		.4byte	.LASF163
  1409 08b9 06       		.byte	0x6
  1410 08ba 50       		.byte	0x50
  1411 08bb E0000000 		.4byte	0xe0
  1412 08bf 0003     		.2byte	0x300
  1413 08c1 0D       		.uleb128 0xd
- 1414 08c2 900D0000 		.4byte	.LASF164
+ 1414 08c2 000E0000 		.4byte	.LASF164
  1415 08c6 06       		.byte	0x6
  1416 08c7 51       		.byte	0x51
  1417 08c8 EE090000 		.4byte	0x9ee
  1418 08cc 0403     		.2byte	0x304
  1419 08ce 0D       		.uleb128 0xd
- 1420 08cf 08060000 		.4byte	.LASF165
+ 1420 08cf 78060000 		.4byte	.LASF165
  1421 08d3 06       		.byte	0x6
  1422 08d4 52       		.byte	0x52
  1423 08d5 E0000000 		.4byte	0xe0
  1424 08d9 1003     		.2byte	0x310
  1425 08db 0D       		.uleb128 0xd
- 1426 08dc A3080000 		.4byte	.LASF166
+ 1426 08dc 13090000 		.4byte	.LASF166
  1427 08e0 06       		.byte	0x6
  1428 08e1 53       		.byte	0x53
  1429 08e2 E0000000 		.4byte	0xe0
  1430 08e6 1403     		.2byte	0x314
  1431 08e8 0D       		.uleb128 0xd
- 1432 08e9 9B0D0000 		.4byte	.LASF167
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 36
+ 1432 08e9 0B0E0000 		.4byte	.LASF167
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 36
 
 
  1433 08ed 06       		.byte	0x6
@@ -2106,13 +2106,13 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1435 08ef F8090000 		.4byte	0x9f8
  1436 08f3 1803     		.2byte	0x318
  1437 08f5 0D       		.uleb128 0xd
- 1438 08f6 19080000 		.4byte	.LASF168
+ 1438 08f6 89080000 		.4byte	.LASF168
  1439 08fa 06       		.byte	0x6
  1440 08fb 55       		.byte	0x55
  1441 08fc E0000000 		.4byte	0xe0
  1442 0900 2003     		.2byte	0x320
  1443 0902 0D       		.uleb128 0xd
- 1444 0903 A60D0000 		.4byte	.LASF169
+ 1444 0903 160E0000 		.4byte	.LASF169
  1445 0907 06       		.byte	0x6
  1446 0908 56       		.byte	0x56
  1447 0909 020A0000 		.4byte	0xa02
@@ -2124,25 +2124,25 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1453 0916 E0000000 		.4byte	0xe0
  1454 091a 4003     		.2byte	0x340
  1455 091c 0D       		.uleb128 0xd
- 1456 091d B10D0000 		.4byte	.LASF171
+ 1456 091d 210E0000 		.4byte	.LASF171
  1457 0921 06       		.byte	0x6
  1458 0922 58       		.byte	0x58
  1459 0923 1C0A0000 		.4byte	0xa1c
  1460 0927 4403     		.2byte	0x344
  1461 0929 0D       		.uleb128 0xd
- 1462 092a 1A100000 		.4byte	.LASF172
+ 1462 092a 25100000 		.4byte	.LASF172
  1463 092e 06       		.byte	0x6
  1464 092f 59       		.byte	0x59
  1465 0930 E0000000 		.4byte	0xe0
  1466 0934 0004     		.2byte	0x400
  1467 0936 0D       		.uleb128 0xd
- 1468 0937 BC0D0000 		.4byte	.LASF173
+ 1468 0937 2C0E0000 		.4byte	.LASF173
  1469 093b 06       		.byte	0x6
  1470 093c 5A       		.byte	0x5a
  1471 093d 260A0000 		.4byte	0xa26
  1472 0941 0404     		.2byte	0x404
  1473 0943 0D       		.uleb128 0xd
- 1474 0944 20100000 		.4byte	.LASF174
+ 1474 0944 2B100000 		.4byte	.LASF174
  1475 0948 06       		.byte	0x6
  1476 0949 5B       		.byte	0x5b
  1477 094a E0000000 		.4byte	0xe0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1487 0961 05       		.uleb128 0x5
  1488 0962 51090000 		.4byte	0x951
  1489 0966 06       		.uleb128 0x6
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 37
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 37
 
 
  1490 0967 61090000 		.4byte	0x961
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1544 09ee 06       		.uleb128 0x6
  1545 09ef E9090000 		.4byte	0x9e9
  1546 09f3 05       		.uleb128 0x5
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 38
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 38
 
 
  1547 09f4 41010000 		.4byte	0x141
@@ -2244,12 +2244,12 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1567 0a26 06       		.uleb128 0x6
  1568 0a27 210A0000 		.4byte	0xa21
  1569 0a2b 03       		.uleb128 0x3
- 1570 0a2c 2B050000 		.4byte	.LASF175
+ 1570 0a2c 83050000 		.4byte	.LASF175
  1571 0a30 06       		.byte	0x6
  1572 0a31 5C       		.byte	0x5c
  1573 0a32 66060000 		.4byte	0x666
  1574 0a36 0E       		.uleb128 0xe
- 1575 0a37 95050000 		.4byte	.LASF176
+ 1575 0a37 05060000 		.4byte	.LASF176
  1576 0a3b 07       		.byte	0x7
  1577 0a3c 3106     		.2byte	0x631
  1578 0a3e 2F020000 		.4byte	0x22f
@@ -2261,7 +2261,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1584 0a4e 02       		.uleb128 0x2
  1585 0a4f 01       		.byte	0x1
  1586 0a50 08       		.byte	0x8
- 1587 0a51 28060000 		.4byte	.LASF178
+ 1587 0a51 98060000 		.4byte	.LASF178
  1588 0a55 02       		.uleb128 0x2
  1589 0a56 04       		.byte	0x4
  1590 0a57 04       		.byte	0x4
@@ -2269,32 +2269,32 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1592 0a5c 02       		.uleb128 0x2
  1593 0a5d 08       		.byte	0x8
  1594 0a5e 04       		.byte	0x4
- 1595 0a5f F50E0000 		.4byte	.LASF180
+ 1595 0a5f 650F0000 		.4byte	.LASF180
  1596 0a63 0E       		.uleb128 0xe
- 1597 0a64 EF0E0000 		.4byte	.LASF181
+ 1597 0a64 5F0F0000 		.4byte	.LASF181
  1598 0a68 08       		.byte	0x8
  1599 0a69 EA03     		.2byte	0x3ea
  1600 0a6b A2000000 		.4byte	0xa2
  1601 0a6f 0E       		.uleb128 0xe
- 1602 0a70 4F060000 		.4byte	.LASF182
+ 1602 0a70 BF060000 		.4byte	.LASF182
  1603 0a74 08       		.byte	0x8
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 39
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 39
 
 
  1604 0a75 EB03     		.2byte	0x3eb
  1605 0a77 B8000000 		.4byte	0xb8
  1606 0a7b 0E       		.uleb128 0xe
- 1607 0a7c 2E080000 		.4byte	.LASF183
+ 1607 0a7c 9E080000 		.4byte	.LASF183
  1608 0a80 08       		.byte	0x8
  1609 0a81 EC03     		.2byte	0x3ec
  1610 0a83 CE000000 		.4byte	0xce
  1611 0a87 03       		.uleb128 0x3
- 1612 0a88 050F0000 		.4byte	.LASF184
+ 1612 0a88 750F0000 		.4byte	.LASF184
  1613 0a8c 09       		.byte	0x9
  1614 0a8d F2       		.byte	0xf2
  1615 0a8e 6F0A0000 		.4byte	0xa6f
  1616 0a92 03       		.uleb128 0x3
- 1617 0a93 8E060000 		.4byte	.LASF185
+ 1617 0a93 FE060000 		.4byte	.LASF185
  1618 0a97 09       		.byte	0x9
  1619 0a98 F6       		.byte	0xf6
  1620 0a99 630A0000 		.4byte	0xa63
@@ -2304,53 +2304,53 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1624 0aa0 6E       		.byte	0x6e
  1625 0aa1 FA0A0000 		.4byte	0xafa
  1626 0aa5 0B       		.uleb128 0xb
- 1627 0aa6 350F0000 		.4byte	.LASF186
+ 1627 0aa6 A50F0000 		.4byte	.LASF186
  1628 0aaa 0A       		.byte	0xa
  1629 0aab 73       		.byte	0x73
  1630 0aac 6F0A0000 		.4byte	0xa6f
  1631 0ab0 00       		.byte	0
  1632 0ab1 0B       		.uleb128 0xb
- 1633 0ab2 3C0F0000 		.4byte	.LASF187
+ 1633 0ab2 AC0F0000 		.4byte	.LASF187
  1634 0ab6 0A       		.byte	0xa
  1635 0ab7 77       		.byte	0x77
  1636 0ab8 6F0A0000 		.4byte	0xa6f
  1637 0abc 02       		.byte	0x2
  1638 0abd 0B       		.uleb128 0xb
- 1639 0abe 430F0000 		.4byte	.LASF188
+ 1639 0abe B30F0000 		.4byte	.LASF188
  1640 0ac2 0A       		.byte	0xa
  1641 0ac3 7B       		.byte	0x7b
  1642 0ac4 6F0A0000 		.4byte	0xa6f
  1643 0ac8 04       		.byte	0x4
  1644 0ac9 0B       		.uleb128 0xb
- 1645 0aca 4A0F0000 		.4byte	.LASF189
+ 1645 0aca BA0F0000 		.4byte	.LASF189
  1646 0ace 0A       		.byte	0xa
  1647 0acf 7F       		.byte	0x7f
  1648 0ad0 6F0A0000 		.4byte	0xa6f
  1649 0ad4 06       		.byte	0x6
  1650 0ad5 0B       		.uleb128 0xb
- 1651 0ad6 510F0000 		.4byte	.LASF190
+ 1651 0ad6 C10F0000 		.4byte	.LASF190
  1652 0ada 0A       		.byte	0xa
  1653 0adb 83       		.byte	0x83
  1654 0adc 6F0A0000 		.4byte	0xa6f
  1655 0ae0 08       		.byte	0x8
  1656 0ae1 0B       		.uleb128 0xb
- 1657 0ae2 580F0000 		.4byte	.LASF191
+ 1657 0ae2 C80F0000 		.4byte	.LASF191
  1658 0ae6 0A       		.byte	0xa
  1659 0ae7 87       		.byte	0x87
  1660 0ae8 630A0000 		.4byte	0xa63
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 40
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 40
 
 
  1661 0aec 0A       		.byte	0xa
  1662 0aed 0B       		.uleb128 0xb
- 1663 0aee 5F0F0000 		.4byte	.LASF192
+ 1663 0aee CF0F0000 		.4byte	.LASF192
  1664 0af2 0A       		.byte	0xa
  1665 0af3 8B       		.byte	0x8b
  1666 0af4 630A0000 		.4byte	0xa63
  1667 0af8 0B       		.byte	0xb
  1668 0af9 00       		.byte	0
  1669 0afa 03       		.uleb128 0x3
- 1670 0afb E3050000 		.4byte	.LASF193
+ 1670 0afb 53060000 		.4byte	.LASF193
  1671 0aff 0A       		.byte	0xa
  1672 0b00 8C       		.byte	0x8c
  1673 0b01 9D0A0000 		.4byte	0xa9d
@@ -2360,76 +2360,76 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1677 0b08 8C       		.byte	0x8c
  1678 0b09 9E0B0000 		.4byte	0xb9e
  1679 0b0d 0B       		.uleb128 0xb
- 1680 0b0e 74060000 		.4byte	.LASF194
+ 1680 0b0e E4060000 		.4byte	.LASF194
  1681 0b12 0B       		.byte	0xb
  1682 0b13 92       		.byte	0x92
  1683 0b14 6F0A0000 		.4byte	0xa6f
  1684 0b18 00       		.byte	0
  1685 0b19 0B       		.uleb128 0xb
- 1686 0b1a 540B0000 		.4byte	.LASF195
+ 1686 0b1a C40B0000 		.4byte	.LASF195
  1687 0b1e 0B       		.byte	0xb
  1688 0b1f 97       		.byte	0x97
  1689 0b20 870A0000 		.4byte	0xa87
  1690 0b24 02       		.byte	0x2
  1691 0b25 0B       		.uleb128 0xb
- 1692 0b26 15060000 		.4byte	.LASF196
+ 1692 0b26 85060000 		.4byte	.LASF196
  1693 0b2a 0B       		.byte	0xb
  1694 0b2b 9C       		.byte	0x9c
  1695 0b2c 630A0000 		.4byte	0xa63
  1696 0b30 04       		.byte	0x4
  1697 0b31 0B       		.uleb128 0xb
- 1698 0b32 D7070000 		.4byte	.LASF197
+ 1698 0b32 47080000 		.4byte	.LASF197
  1699 0b36 0B       		.byte	0xb
  1700 0b37 A1       		.byte	0xa1
  1701 0b38 630A0000 		.4byte	0xa63
  1702 0b3c 05       		.byte	0x5
  1703 0b3d 0B       		.uleb128 0xb
- 1704 0b3e 0C050000 		.4byte	.LASF198
+ 1704 0b3e 64050000 		.4byte	.LASF198
  1705 0b42 0B       		.byte	0xb
  1706 0b43 A6       		.byte	0xa6
  1707 0b44 630A0000 		.4byte	0xa63
  1708 0b48 06       		.byte	0x6
  1709 0b49 0B       		.uleb128 0xb
- 1710 0b4a 46070000 		.4byte	.LASF199
+ 1710 0b4a B6070000 		.4byte	.LASF199
  1711 0b4e 0B       		.byte	0xb
  1712 0b4f AB       		.byte	0xab
  1713 0b50 630A0000 		.4byte	0xa63
  1714 0b54 07       		.byte	0x7
  1715 0b55 0B       		.uleb128 0xb
- 1716 0b56 59050000 		.4byte	.LASF200
+ 1716 0b56 C9050000 		.4byte	.LASF200
  1717 0b5a 0B       		.byte	0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 41
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 41
 
 
  1718 0b5b B2       		.byte	0xb2
  1719 0b5c 920A0000 		.4byte	0xa92
  1720 0b60 08       		.byte	0x8
  1721 0b61 0B       		.uleb128 0xb
- 1722 0b62 3A0C0000 		.4byte	.LASF201
+ 1722 0b62 AA0C0000 		.4byte	.LASF201
  1723 0b66 0B       		.byte	0xb
  1724 0b67 BA       		.byte	0xba
  1725 0b68 9E0B0000 		.4byte	0xb9e
  1726 0b6c 09       		.byte	0x9
  1727 0b6d 0B       		.uleb128 0xb
- 1728 0b6e 030E0000 		.4byte	.LASF202
+ 1728 0b6e 730E0000 		.4byte	.LASF202
  1729 0b72 0B       		.byte	0xb
  1730 0b73 C3       		.byte	0xc3
  1731 0b74 6F0A0000 		.4byte	0xa6f
  1732 0b78 0A       		.byte	0xa
  1733 0b79 0B       		.uleb128 0xb
- 1734 0b7a 94090000 		.4byte	.LASF203
+ 1734 0b7a 040A0000 		.4byte	.LASF203
  1735 0b7e 0B       		.byte	0xb
  1736 0b7f C8       		.byte	0xc8
  1737 0b80 630A0000 		.4byte	0xa63
  1738 0b84 0C       		.byte	0xc
  1739 0b85 0B       		.uleb128 0xb
- 1740 0b86 880B0000 		.4byte	.LASF204
+ 1740 0b86 F80B0000 		.4byte	.LASF204
  1741 0b8a 0B       		.byte	0xb
  1742 0b8b CF       		.byte	0xcf
  1743 0b8c 6F0A0000 		.4byte	0xa6f
  1744 0b90 0E       		.byte	0xe
  1745 0b91 0B       		.uleb128 0xb
- 1746 0b92 05050000 		.4byte	.LASF205
+ 1746 0b92 5D050000 		.4byte	.LASF205
  1747 0b96 0B       		.byte	0xb
  1748 0b97 D4       		.byte	0xd4
  1749 0b98 6F0A0000 		.4byte	0xa6f
@@ -2443,7 +2443,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1757 0bac 00       		.byte	0
  1758 0bad 00       		.byte	0
  1759 0bae 03       		.uleb128 0x3
- 1760 0baf FD070000 		.4byte	.LASF206
+ 1760 0baf 6D080000 		.4byte	.LASF206
  1761 0bb3 0B       		.byte	0xb
  1762 0bb4 D5       		.byte	0xd5
  1763 0bb5 050B0000 		.4byte	0xb05
@@ -2453,85 +2453,85 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1767 0bbc DA       		.byte	0xda
  1768 0bbd 650C0000 		.4byte	0xc65
  1769 0bc1 0B       		.uleb128 0xb
- 1770 0bc2 74060000 		.4byte	.LASF194
+ 1770 0bc2 E4060000 		.4byte	.LASF194
  1771 0bc6 0B       		.byte	0xb
  1772 0bc7 E0       		.byte	0xe0
  1773 0bc8 6F0A0000 		.4byte	0xa6f
  1774 0bcc 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 42
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 42
 
 
  1775 0bcd 0B       		.uleb128 0xb
- 1776 0bce 540B0000 		.4byte	.LASF195
+ 1776 0bce C40B0000 		.4byte	.LASF195
  1777 0bd2 0B       		.byte	0xb
  1778 0bd3 E5       		.byte	0xe5
  1779 0bd4 870A0000 		.4byte	0xa87
  1780 0bd8 02       		.byte	0x2
  1781 0bd9 0B       		.uleb128 0xb
- 1782 0bda 15060000 		.4byte	.LASF196
+ 1782 0bda 85060000 		.4byte	.LASF196
  1783 0bde 0B       		.byte	0xb
  1784 0bdf EA       		.byte	0xea
  1785 0be0 630A0000 		.4byte	0xa63
  1786 0be4 04       		.byte	0x4
  1787 0be5 0B       		.uleb128 0xb
- 1788 0be6 D7070000 		.4byte	.LASF197
+ 1788 0be6 47080000 		.4byte	.LASF197
  1789 0bea 0B       		.byte	0xb
  1790 0beb EF       		.byte	0xef
  1791 0bec 630A0000 		.4byte	0xa63
  1792 0bf0 05       		.byte	0x5
  1793 0bf1 0B       		.uleb128 0xb
- 1794 0bf2 0C050000 		.4byte	.LASF198
+ 1794 0bf2 64050000 		.4byte	.LASF198
  1795 0bf6 0B       		.byte	0xb
  1796 0bf7 F4       		.byte	0xf4
  1797 0bf8 630A0000 		.4byte	0xa63
  1798 0bfc 06       		.byte	0x6
  1799 0bfd 0B       		.uleb128 0xb
- 1800 0bfe 46070000 		.4byte	.LASF199
+ 1800 0bfe B6070000 		.4byte	.LASF199
  1801 0c02 0B       		.byte	0xb
  1802 0c03 F9       		.byte	0xf9
  1803 0c04 630A0000 		.4byte	0xa63
  1804 0c08 07       		.byte	0x7
  1805 0c09 0F       		.uleb128 0xf
- 1806 0c0a 59050000 		.4byte	.LASF200
+ 1806 0c0a C9050000 		.4byte	.LASF200
  1807 0c0e 0B       		.byte	0xb
  1808 0c0f 0001     		.2byte	0x100
  1809 0c11 920A0000 		.4byte	0xa92
  1810 0c15 08       		.byte	0x8
  1811 0c16 0F       		.uleb128 0xf
- 1812 0c17 3A0C0000 		.4byte	.LASF201
+ 1812 0c17 AA0C0000 		.4byte	.LASF201
  1813 0c1b 0B       		.byte	0xb
  1814 0c1c 0801     		.2byte	0x108
  1815 0c1e 9E0B0000 		.4byte	0xb9e
  1816 0c22 09       		.byte	0x9
  1817 0c23 0F       		.uleb128 0xf
- 1818 0c24 030E0000 		.4byte	.LASF202
+ 1818 0c24 730E0000 		.4byte	.LASF202
  1819 0c28 0B       		.byte	0xb
  1820 0c29 1101     		.2byte	0x111
  1821 0c2b 6F0A0000 		.4byte	0xa6f
  1822 0c2f 0A       		.byte	0xa
  1823 0c30 0F       		.uleb128 0xf
- 1824 0c31 94090000 		.4byte	.LASF203
+ 1824 0c31 040A0000 		.4byte	.LASF203
  1825 0c35 0B       		.byte	0xb
  1826 0c36 1601     		.2byte	0x116
  1827 0c38 630A0000 		.4byte	0xa63
  1828 0c3c 0C       		.byte	0xc
  1829 0c3d 0F       		.uleb128 0xf
- 1830 0c3e 880B0000 		.4byte	.LASF204
+ 1830 0c3e F80B0000 		.4byte	.LASF204
  1831 0c42 0B       		.byte	0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 43
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 43
 
 
  1832 0c43 1D01     		.2byte	0x11d
  1833 0c45 6F0A0000 		.4byte	0xa6f
  1834 0c49 0E       		.byte	0xe
  1835 0c4a 0F       		.uleb128 0xf
- 1836 0c4b 05050000 		.4byte	.LASF205
+ 1836 0c4b 5D050000 		.4byte	.LASF205
  1837 0c4f 0B       		.byte	0xb
  1838 0c50 2201     		.2byte	0x122
  1839 0c52 6F0A0000 		.4byte	0xa6f
  1840 0c56 10       		.byte	0x10
  1841 0c57 0F       		.uleb128 0xf
- 1842 0c58 11100000 		.4byte	.LASF207
+ 1842 0c58 1C100000 		.4byte	.LASF207
  1843 0c5c 0B       		.byte	0xb
  1844 0c5d 2701     		.2byte	0x127
  1845 0c5f 650C0000 		.4byte	0xc65
@@ -2545,7 +2545,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1853 0c73 00       		.byte	0
  1854 0c74 00       		.byte	0
  1855 0c75 0E       		.uleb128 0xe
- 1856 0c76 EB0B0000 		.4byte	.LASF208
+ 1856 0c76 5B0C0000 		.4byte	.LASF208
  1857 0c7a 0B       		.byte	0xb
  1858 0c7b 2801     		.2byte	0x128
  1859 0c7d B90B0000 		.4byte	0xbb9
@@ -2555,108 +2555,108 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1863 0c84 2D01     		.2byte	0x12d
  1864 0c86 270D0000 		.4byte	0xd27
  1865 0c8a 0F       		.uleb128 0xf
- 1866 0c8b 74060000 		.4byte	.LASF194
+ 1866 0c8b E4060000 		.4byte	.LASF194
  1867 0c8f 0B       		.byte	0xb
  1868 0c90 3301     		.2byte	0x133
  1869 0c92 6F0A0000 		.4byte	0xa6f
  1870 0c96 00       		.byte	0
  1871 0c97 0F       		.uleb128 0xf
- 1872 0c98 540B0000 		.4byte	.LASF195
+ 1872 0c98 C40B0000 		.4byte	.LASF195
  1873 0c9c 0B       		.byte	0xb
  1874 0c9d 3801     		.2byte	0x138
  1875 0c9f 870A0000 		.4byte	0xa87
  1876 0ca3 02       		.byte	0x2
  1877 0ca4 0F       		.uleb128 0xf
- 1878 0ca5 15060000 		.4byte	.LASF196
+ 1878 0ca5 85060000 		.4byte	.LASF196
  1879 0ca9 0B       		.byte	0xb
  1880 0caa 3D01     		.2byte	0x13d
  1881 0cac 630A0000 		.4byte	0xa63
  1882 0cb0 04       		.byte	0x4
  1883 0cb1 0F       		.uleb128 0xf
- 1884 0cb2 D7070000 		.4byte	.LASF197
+ 1884 0cb2 47080000 		.4byte	.LASF197
  1885 0cb6 0B       		.byte	0xb
  1886 0cb7 4201     		.2byte	0x142
  1887 0cb9 630A0000 		.4byte	0xa63
  1888 0cbd 05       		.byte	0x5
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 44
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 44
 
 
  1889 0cbe 0F       		.uleb128 0xf
- 1890 0cbf 0C050000 		.4byte	.LASF198
+ 1890 0cbf 64050000 		.4byte	.LASF198
  1891 0cc3 0B       		.byte	0xb
  1892 0cc4 4701     		.2byte	0x147
  1893 0cc6 630A0000 		.4byte	0xa63
  1894 0cca 06       		.byte	0x6
  1895 0ccb 0F       		.uleb128 0xf
- 1896 0ccc 46070000 		.4byte	.LASF199
+ 1896 0ccc B6070000 		.4byte	.LASF199
  1897 0cd0 0B       		.byte	0xb
  1898 0cd1 4C01     		.2byte	0x14c
  1899 0cd3 630A0000 		.4byte	0xa63
  1900 0cd7 07       		.byte	0x7
  1901 0cd8 0F       		.uleb128 0xf
- 1902 0cd9 59050000 		.4byte	.LASF200
+ 1902 0cd9 C9050000 		.4byte	.LASF200
  1903 0cdd 0B       		.byte	0xb
  1904 0cde 5301     		.2byte	0x153
  1905 0ce0 920A0000 		.4byte	0xa92
  1906 0ce4 08       		.byte	0x8
  1907 0ce5 0F       		.uleb128 0xf
- 1908 0ce6 3A0C0000 		.4byte	.LASF201
+ 1908 0ce6 AA0C0000 		.4byte	.LASF201
  1909 0cea 0B       		.byte	0xb
  1910 0ceb 5B01     		.2byte	0x15b
  1911 0ced 9E0B0000 		.4byte	0xb9e
  1912 0cf1 09       		.byte	0x9
  1913 0cf2 0F       		.uleb128 0xf
- 1914 0cf3 030E0000 		.4byte	.LASF202
+ 1914 0cf3 730E0000 		.4byte	.LASF202
  1915 0cf7 0B       		.byte	0xb
  1916 0cf8 6401     		.2byte	0x164
  1917 0cfa 6F0A0000 		.4byte	0xa6f
  1918 0cfe 0A       		.byte	0xa
  1919 0cff 0F       		.uleb128 0xf
- 1920 0d00 94090000 		.4byte	.LASF203
+ 1920 0d00 040A0000 		.4byte	.LASF203
  1921 0d04 0B       		.byte	0xb
  1922 0d05 6901     		.2byte	0x169
  1923 0d07 630A0000 		.4byte	0xa63
  1924 0d0b 0C       		.byte	0xc
  1925 0d0c 0F       		.uleb128 0xf
- 1926 0d0d 880B0000 		.4byte	.LASF204
+ 1926 0d0d F80B0000 		.4byte	.LASF204
  1927 0d11 0B       		.byte	0xb
  1928 0d12 7001     		.2byte	0x170
  1929 0d14 6F0A0000 		.4byte	0xa6f
  1930 0d18 0E       		.byte	0xe
  1931 0d19 0F       		.uleb128 0xf
- 1932 0d1a 05050000 		.4byte	.LASF205
+ 1932 0d1a 5D050000 		.4byte	.LASF205
  1933 0d1e 0B       		.byte	0xb
  1934 0d1f 7501     		.2byte	0x175
  1935 0d21 6F0A0000 		.4byte	0xa6f
  1936 0d25 10       		.byte	0x10
  1937 0d26 00       		.byte	0
  1938 0d27 0E       		.uleb128 0xe
- 1939 0d28 B30C0000 		.4byte	.LASF209
+ 1939 0d28 230D0000 		.4byte	.LASF209
  1940 0d2c 0B       		.byte	0xb
  1941 0d2d 7601     		.2byte	0x176
  1942 0d2f 810C0000 		.4byte	0xc81
  1943 0d33 10       		.uleb128 0x10
  1944 0d34 38       		.byte	0x38
  1945 0d35 0B       		.byte	0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 45
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 45
 
 
  1946 0d36 7C01     		.2byte	0x17c
  1947 0d38 640D0000 		.4byte	0xd64
  1948 0d3c 0F       		.uleb128 0xf
- 1949 0d3d D80D0000 		.4byte	.LASF210
+ 1949 0d3d 480E0000 		.4byte	.LASF210
  1950 0d41 0B       		.byte	0xb
  1951 0d42 8101     		.2byte	0x181
  1952 0d44 750C0000 		.4byte	0xc75
  1953 0d48 00       		.byte	0
  1954 0d49 0F       		.uleb128 0xf
- 1955 0d4a 190B0000 		.4byte	.LASF211
+ 1955 0d4a 890B0000 		.4byte	.LASF211
  1956 0d4e 0B       		.byte	0xb
  1957 0d4f 8601     		.2byte	0x186
  1958 0d51 270D0000 		.4byte	0xd27
  1959 0d55 14       		.byte	0x14
  1960 0d56 0F       		.uleb128 0xf
- 1961 0d57 210B0000 		.4byte	.LASF212
+ 1961 0d57 910B0000 		.4byte	.LASF212
  1962 0d5b 0B       		.byte	0xb
  1963 0d5c 8B01     		.2byte	0x18b
  1964 0d5e 270D0000 		.4byte	0xd27
@@ -2679,26 +2679,26 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  1981 0d81 650C0000 		.4byte	0xc65
  1982 0d85 00       		.byte	0
  1983 0d86 0F       		.uleb128 0xf
- 1984 0d87 6B0E0000 		.4byte	.LASF214
+ 1984 0d87 DB0E0000 		.4byte	.LASF214
  1985 0d8b 0B       		.byte	0xb
  1986 0d8c 9C01     		.2byte	0x19c
  1987 0d8e 650C0000 		.4byte	0xc65
  1988 0d92 02       		.byte	0x2
  1989 0d93 0F       		.uleb128 0xf
- 1990 0d94 AB0C0000 		.4byte	.LASF215
+ 1990 0d94 1B0D0000 		.4byte	.LASF215
  1991 0d98 0B       		.byte	0xb
  1992 0d99 A201     		.2byte	0x1a2
  1993 0d9b 9E0B0000 		.4byte	0xb9e
  1994 0d9f 04       		.byte	0x4
  1995 0da0 0F       		.uleb128 0xf
- 1996 0da1 E90A0000 		.4byte	.LASF216
+ 1996 0da1 590B0000 		.4byte	.LASF216
  1997 0da5 0B       		.byte	0xb
  1998 0da6 A701     		.2byte	0x1a7
  1999 0da8 870A0000 		.4byte	0xa87
  2000 0dac 06       		.byte	0x6
  2001 0dad 0F       		.uleb128 0xf
- 2002 0dae 1D0F0000 		.4byte	.LASF217
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 46
+ 2002 0dae 8D0F0000 		.4byte	.LASF217
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 46
 
 
  2003 0db2 0B       		.byte	0xb
@@ -2706,7 +2706,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2005 0db5 C80D0000 		.4byte	0xdc8
  2006 0db9 08       		.byte	0x8
  2007 0dba 0F       		.uleb128 0xf
- 2008 0dbb C9060000 		.4byte	.LASF218
+ 2008 0dbb 39070000 		.4byte	.LASF218
  2009 0dbf 0B       		.byte	0xb
  2010 0dc0 B201     		.2byte	0x1b2
  2011 0dc2 9E0B0000 		.4byte	0xb9e
@@ -2720,7 +2720,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2019 0dd6 00       		.byte	0
  2020 0dd7 00       		.byte	0
  2021 0dd8 0E       		.uleb128 0xe
- 2022 0dd9 B7040000 		.4byte	.LASF219
+ 2022 0dd9 B1050000 		.4byte	.LASF219
  2023 0ddd 0B       		.byte	0xb
  2024 0dde B301     		.2byte	0x1b3
  2025 0de0 700D0000 		.4byte	0xd70
@@ -2730,19 +2730,19 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2029 0de7 B901     		.2byte	0x1b9
  2030 0de9 150E0000 		.4byte	0xe15
  2031 0ded 0F       		.uleb128 0xf
- 2032 0dee D80D0000 		.4byte	.LASF210
+ 2032 0dee 480E0000 		.4byte	.LASF210
  2033 0df2 0B       		.byte	0xb
  2034 0df3 BE01     		.2byte	0x1be
  2035 0df5 150E0000 		.4byte	0xe15
  2036 0df9 00       		.byte	0
  2037 0dfa 0F       		.uleb128 0xf
- 2038 0dfb 190B0000 		.4byte	.LASF211
+ 2038 0dfb 890B0000 		.4byte	.LASF211
  2039 0dff 0B       		.byte	0xb
  2040 0e00 C301     		.2byte	0x1c3
  2041 0e02 250E0000 		.4byte	0xe25
  2042 0e06 32       		.byte	0x32
  2043 0e07 0F       		.uleb128 0xf
- 2044 0e08 210B0000 		.4byte	.LASF212
+ 2044 0e08 910B0000 		.4byte	.LASF212
  2045 0e0c 0B       		.byte	0xb
  2046 0e0d C801     		.2byte	0x1c8
  2047 0e0f 250E0000 		.4byte	0xe25
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2057 0e25 07       		.uleb128 0x7
  2058 0e26 D80D0000 		.4byte	0xdd8
  2059 0e2a 350E0000 		.4byte	0xe35
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 47
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 47
 
 
  2060 0e2e 08       		.uleb128 0x8
@@ -2766,7 +2766,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2062 0e33 00       		.byte	0
  2063 0e34 00       		.byte	0
  2064 0e35 0E       		.uleb128 0xe
- 2065 0e36 26100000 		.4byte	.LASF220
+ 2065 0e36 31100000 		.4byte	.LASF220
  2066 0e3a 0B       		.byte	0xb
  2067 0e3b C901     		.2byte	0x1c9
  2068 0e3d E40D0000 		.4byte	0xde4
@@ -2776,13 +2776,13 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2072 0e44 CF01     		.2byte	0x1cf
  2073 0e46 350F0000 		.4byte	0xf35
  2074 0e4a 0F       		.uleb128 0xf
- 2075 0e4b 19090000 		.4byte	.LASF221
+ 2075 0e4b 89090000 		.4byte	.LASF221
  2076 0e4f 0B       		.byte	0xb
  2077 0e50 D701     		.2byte	0x1d7
  2078 0e52 6F0A0000 		.4byte	0xa6f
  2079 0e56 00       		.byte	0
  2080 0e57 0F       		.uleb128 0xf
- 2081 0e58 EA0F0000 		.4byte	.LASF222
+ 2081 0e58 F50F0000 		.4byte	.LASF222
  2082 0e5c 0B       		.byte	0xb
  2083 0e5d DC01     		.2byte	0x1dc
  2084 0e5f 6F0A0000 		.4byte	0xa6f
@@ -2794,7 +2794,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2090 0e6c 6F0A0000 		.4byte	0xa6f
  2091 0e70 04       		.byte	0x4
  2092 0e71 0F       		.uleb128 0xf
- 2093 0e72 880C0000 		.4byte	.LASF224
+ 2093 0e72 F80C0000 		.4byte	.LASF224
  2094 0e76 0B       		.byte	0xb
  2095 0e77 E701     		.2byte	0x1e7
  2096 0e79 6F0A0000 		.4byte	0xa6f
@@ -2806,34 +2806,34 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2102 0e86 6F0A0000 		.4byte	0xa6f
  2103 0e8a 08       		.byte	0x8
  2104 0e8b 0F       		.uleb128 0xf
- 2105 0e8c 87060000 		.4byte	.LASF226
+ 2105 0e8c F7060000 		.4byte	.LASF226
  2106 0e90 0B       		.byte	0xb
  2107 0e91 F101     		.2byte	0x1f1
  2108 0e93 350F0000 		.4byte	0xf35
  2109 0e97 0C       		.byte	0xc
  2110 0e98 0F       		.uleb128 0xf
- 2111 0e99 BE0A0000 		.4byte	.LASF227
+ 2111 0e99 2E0B0000 		.4byte	.LASF227
  2112 0e9d 0B       		.byte	0xb
  2113 0e9e F701     		.2byte	0x1f7
  2114 0ea0 3A0F0000 		.4byte	0xf3a
  2115 0ea4 10       		.byte	0x10
  2116 0ea5 0F       		.uleb128 0xf
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 48
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 48
 
 
- 2117 0ea6 920B0000 		.4byte	.LASF228
+ 2117 0ea6 020C0000 		.4byte	.LASF228
  2118 0eaa 0B       		.byte	0xb
  2119 0eab FD01     		.2byte	0x1fd
  2120 0ead 3A0F0000 		.4byte	0xf3a
  2121 0eb1 14       		.byte	0x14
  2122 0eb2 0F       		.uleb128 0xf
- 2123 0eb3 8A090000 		.4byte	.LASF229
+ 2123 0eb3 FA090000 		.4byte	.LASF229
  2124 0eb7 0B       		.byte	0xb
  2125 0eb8 0F02     		.2byte	0x20f
  2126 0eba 4A0F0000 		.4byte	0xf4a
  2127 0ebe 18       		.byte	0x18
  2128 0ebf 0F       		.uleb128 0xf
- 2129 0ec0 E0070000 		.4byte	.LASF230
+ 2129 0ec0 50080000 		.4byte	.LASF230
  2130 0ec4 0B       		.byte	0xb
  2131 0ec5 1402     		.2byte	0x214
  2132 0ec7 6F0A0000 		.4byte	0xa6f
@@ -2845,19 +2845,19 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2138 0ed4 630A0000 		.4byte	0xa63
  2139 0ed8 1E       		.byte	0x1e
  2140 0ed9 0F       		.uleb128 0xf
- 2141 0eda 530D0000 		.4byte	.LASF232
+ 2141 0eda C30D0000 		.4byte	.LASF232
  2142 0ede 0B       		.byte	0xb
  2143 0edf 1E02     		.2byte	0x21e
  2144 0ee1 630A0000 		.4byte	0xa63
  2145 0ee5 1F       		.byte	0x1f
  2146 0ee6 0F       		.uleb128 0xf
- 2147 0ee7 76070000 		.4byte	.LASF233
+ 2147 0ee7 E6070000 		.4byte	.LASF233
  2148 0eeb 0B       		.byte	0xb
  2149 0eec 2302     		.2byte	0x223
  2150 0eee 640D0000 		.4byte	0xd64
  2151 0ef2 20       		.byte	0x20
  2152 0ef3 0F       		.uleb128 0xf
- 2153 0ef4 DB0E0000 		.4byte	.LASF234
+ 2153 0ef4 4B0F0000 		.4byte	.LASF234
  2154 0ef8 0B       		.byte	0xb
  2155 0ef9 2802     		.2byte	0x228
  2156 0efb 350E0000 		.4byte	0xe35
@@ -2869,22 +2869,22 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2162 0f08 630A0000 		.4byte	0xa63
  2163 0f0c 9E       		.byte	0x9e
  2164 0f0d 0F       		.uleb128 0xf
- 2165 0f0e AE0A0000 		.4byte	.LASF236
+ 2165 0f0e 1E0B0000 		.4byte	.LASF236
  2166 0f12 0B       		.byte	0xb
  2167 0f13 3202     		.2byte	0x232
  2168 0f15 630A0000 		.4byte	0xa63
  2169 0f19 9F       		.byte	0x9f
  2170 0f1a 0F       		.uleb128 0xf
- 2171 0f1b F4080000 		.4byte	.LASF237
+ 2171 0f1b 64090000 		.4byte	.LASF237
  2172 0f1f 0B       		.byte	0xb
  2173 0f20 3702     		.2byte	0x237
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 49
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 49
 
 
  2174 0f22 6F0A0000 		.4byte	0xa6f
  2175 0f26 A0       		.byte	0xa0
  2176 0f27 0F       		.uleb128 0xf
- 2177 0f28 AE070000 		.4byte	.LASF238
+ 2177 0f28 1E080000 		.4byte	.LASF238
  2178 0f2c 0B       		.byte	0xb
  2179 0f2d 3C02     		.2byte	0x23c
  2180 0f2f 650C0000 		.4byte	0xc65
@@ -2907,7 +2907,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2197 0f58 02       		.byte	0x2
  2198 0f59 00       		.byte	0
  2199 0f5a 0E       		.uleb128 0xe
- 2200 0f5b 440A0000 		.4byte	.LASF239
+ 2200 0f5b B40A0000 		.4byte	.LASF239
  2201 0f5f 0B       		.byte	0xb
  2202 0f60 3D02     		.2byte	0x23d
  2203 0f62 410E0000 		.4byte	0xe41
@@ -2923,7 +2923,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2213 0f77 8A0F0000 		.4byte	0xf8a
  2214 0f7b 00       		.byte	0
  2215 0f7c 0F       		.uleb128 0xf
- 2216 0f7d 99080000 		.4byte	.LASF241
+ 2216 0f7d 09090000 		.4byte	.LASF241
  2217 0f81 0B       		.byte	0xb
  2218 0f82 4D02     		.2byte	0x24d
  2219 0f84 630A0000 		.4byte	0xa63
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2228 0f96 4E02     		.2byte	0x24e
  2229 0f98 660F0000 		.4byte	0xf66
  2230 0f9c 10       		.uleb128 0x10
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 50
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 50
 
 
  2231 0f9d 2C       		.byte	0x2c
@@ -2946,7 +2946,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2233 0f9f 7B02     		.2byte	0x27b
  2234 0fa1 69100000 		.4byte	0x1069
  2235 0fa5 0F       		.uleb128 0xf
- 2236 0fa6 CE0E0000 		.4byte	.LASF243
+ 2236 0fa6 3E0F0000 		.4byte	.LASF243
  2237 0faa 0B       		.byte	0xb
  2238 0fab 8402     		.2byte	0x284
  2239 0fad 69100000 		.4byte	0x1069
@@ -2958,31 +2958,31 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2245 0fba 70100000 		.4byte	0x1070
  2246 0fbe 04       		.byte	0x4
  2247 0fbf 0F       		.uleb128 0xf
- 2248 0fc0 22090000 		.4byte	.LASF245
+ 2248 0fc0 92090000 		.4byte	.LASF245
  2249 0fc4 0B       		.byte	0xb
  2250 0fc5 9102     		.2byte	0x291
  2251 0fc7 72100000 		.4byte	0x1072
  2252 0fcb 08       		.byte	0x8
  2253 0fcc 0F       		.uleb128 0xf
- 2254 0fcd 40080000 		.4byte	.LASF246
+ 2254 0fcd B0080000 		.4byte	.LASF246
  2255 0fd1 0B       		.byte	0xb
  2256 0fd2 9602     		.2byte	0x296
  2257 0fd4 70100000 		.4byte	0x1070
  2258 0fd8 0C       		.byte	0xc
  2259 0fd9 0F       		.uleb128 0xf
- 2260 0fda 4E0C0000 		.4byte	.LASF247
+ 2260 0fda BE0C0000 		.4byte	.LASF247
  2261 0fde 0B       		.byte	0xb
  2262 0fdf 9D02     		.2byte	0x29d
  2263 0fe1 78100000 		.4byte	0x1078
  2264 0fe5 10       		.byte	0x10
  2265 0fe6 0F       		.uleb128 0xf
- 2266 0fe7 3D0D0000 		.4byte	.LASF248
+ 2266 0fe7 AD0D0000 		.4byte	.LASF248
  2267 0feb 0B       		.byte	0xb
  2268 0fec A202     		.2byte	0x2a2
  2269 0fee 7B0A0000 		.4byte	0xa7b
  2270 0ff2 14       		.byte	0x14
  2271 0ff3 0F       		.uleb128 0xf
- 2272 0ff4 CD050000 		.4byte	.LASF249
+ 2272 0ff4 3D060000 		.4byte	.LASF249
  2273 0ff8 0B       		.byte	0xb
  2274 0ff9 A902     		.2byte	0x2a9
  2275 0ffb 6F0A0000 		.4byte	0xa6f
@@ -2994,34 +2994,34 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2281 1008 630A0000 		.4byte	0xa63
  2282 100c 1A       		.byte	0x1a
  2283 100d 0F       		.uleb128 0xf
- 2284 100e EE060000 		.4byte	.LASF251
+ 2284 100e 5E070000 		.4byte	.LASF251
  2285 1012 0B       		.byte	0xb
  2286 1013 B902     		.2byte	0x2b9
  2287 1015 630A0000 		.4byte	0xa63
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 51
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 51
 
 
  2288 1019 1B       		.byte	0x1b
  2289 101a 0F       		.uleb128 0xf
- 2290 101b 650B0000 		.4byte	.LASF252
+ 2290 101b D50B0000 		.4byte	.LASF252
  2291 101f 0B       		.byte	0xb
  2292 1020 C102     		.2byte	0x2c1
  2293 1022 630A0000 		.4byte	0xa63
  2294 1026 1C       		.byte	0x1c
  2295 1027 0F       		.uleb128 0xf
- 2296 1028 D00D0000 		.4byte	.LASF253
+ 2296 1028 400E0000 		.4byte	.LASF253
  2297 102c 0B       		.byte	0xb
  2298 102d C802     		.2byte	0x2c8
  2299 102f 630A0000 		.4byte	0xa63
  2300 1033 1D       		.byte	0x1d
  2301 1034 0F       		.uleb128 0xf
- 2302 1035 7F070000 		.4byte	.LASF254
+ 2302 1035 EF070000 		.4byte	.LASF254
  2303 1039 0B       		.byte	0xb
  2304 103a CE02     		.2byte	0x2ce
  2305 103c 6F0A0000 		.4byte	0xa6f
  2306 1040 1E       		.byte	0x1e
  2307 1041 0F       		.uleb128 0xf
- 2308 1042 740C0000 		.4byte	.LASF255
+ 2308 1042 E40C0000 		.4byte	.LASF255
  2309 1046 0B       		.byte	0xb
  2310 1047 D802     		.2byte	0x2d8
  2311 1049 7B0A0000 		.4byte	0xa7b
@@ -3055,10 +3055,10 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2339 107f 04       		.byte	0x4
  2340 1080 FA0A0000 		.4byte	0xafa
  2341 1084 0E       		.uleb128 0xe
- 2342 1085 40050000 		.4byte	.LASF258
+ 2342 1085 98050000 		.4byte	.LASF258
  2343 1089 0B       		.byte	0xb
  2344 108a E602     		.2byte	0x2e6
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 52
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 52
 
 
  2345 108c 9C0F0000 		.4byte	0xf9c
@@ -3068,7 +3068,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2349 1093 EC02     		.2byte	0x2ec
  2350 1095 A7100000 		.4byte	0x10a7
  2351 1099 0F       		.uleb128 0xf
- 2352 109a 51100000 		.4byte	.LASF259
+ 2352 109a 5C100000 		.4byte	.LASF259
  2353 109e 0B       		.byte	0xb
  2354 109f F102     		.2byte	0x2f1
  2355 10a1 A7100000 		.4byte	0x10a7
@@ -3082,14 +3082,14 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2363 10b5 02       		.byte	0x2
  2364 10b6 00       		.byte	0
  2365 10b7 0E       		.uleb128 0xe
- 2366 10b8 5E0C0000 		.4byte	.LASF260
+ 2366 10b8 CE0C0000 		.4byte	.LASF260
  2367 10bc 0B       		.byte	0xb
  2368 10bd F202     		.2byte	0x2f2
  2369 10bf 90100000 		.4byte	0x1090
  2370 10c3 02       		.uleb128 0x2
  2371 10c4 01       		.byte	0x1
  2372 10c5 02       		.byte	0x2
- 2373 10c6 FF040000 		.4byte	.LASF261
+ 2373 10c6 57050000 		.4byte	.LASF261
  2374 10ca 15       		.uleb128 0x15
  2375 10cb 35030000 		.4byte	.LASF265
  2376 10cf 01       		.byte	0x1
@@ -3106,7 +3106,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2387 10e8 7B0A0000 		.4byte	0xa7b
  2388 10ec 00000000 		.4byte	.LLST0
  2389 10f0 16       		.uleb128 0x16
- 2390 10f1 700E0000 		.4byte	.LASF263
+ 2390 10f1 E00E0000 		.4byte	.LASF263
  2391 10f5 01       		.byte	0x1
  2392 10f6 AD01     		.2byte	0x1ad
  2393 10f8 7B0A0000 		.4byte	0xa7b
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2399 1108 11110000 		.4byte	0x1111
  2400 110c 5E000000 		.4byte	.LLST2
  2401 1110 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 53
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 53
 
 
  2402 1111 12       		.uleb128 0x12
@@ -3127,7 +3127,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2405 1117 06       		.uleb128 0x6
  2406 1118 AE0B0000 		.4byte	0xbae
  2407 111c 15       		.uleb128 0x15
- 2408 111d E60C0000 		.4byte	.LASF266
+ 2408 111d 560D0000 		.4byte	.LASF266
  2409 1121 01       		.byte	0x1
  2410 1122 DA01     		.2byte	0x1da
  2411 1124 00000000 		.4byte	.LFB267
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2456 118b 00       		.byte	0
  2457 118c 12       		.uleb128 0x12
  2458 118d 04       		.byte	0x4
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 54
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 54
 
 
  2459 118e AE0B0000 		.4byte	0xbae
@@ -3206,7 +3206,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2481 11c2 00       		.byte	0
  2482 11c3 00       		.byte	0
  2483 11c4 1B       		.uleb128 0x1b
- 2484 11c5 910C0000 		.4byte	.LASF268
+ 2484 11c5 010D0000 		.4byte	.LASF268
  2485 11c9 01       		.byte	0x1
  2486 11ca DF       		.byte	0xdf
  2487 11cb 00000000 		.4byte	.LFB265
@@ -3215,7 +3215,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2490 11d4 9C       		.byte	0x9c
  2491 11d5 0F120000 		.4byte	0x120f
  2492 11d9 1C       		.uleb128 0x1c
- 2493 11da E60D0000 		.4byte	.LASF269
+ 2493 11da 560E0000 		.4byte	.LASF269
  2494 11de 01       		.byte	0x1
  2495 11df E2       		.byte	0xe2
  2496 11e0 0F120000 		.4byte	0x120f
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2513 1206 30000000 		.4byte	.LVL22
  2514 120a 1C110000 		.4byte	0x111c
  2515 120e 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 55
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 55
 
 
  2516 120f 12       		.uleb128 0x12
@@ -3257,26 +3257,26 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2529 122b 06       		.uleb128 0x6
  2530 122c 5B060000 		.4byte	0x65b
  2531 1230 1E       		.uleb128 0x1e
- 2532 1231 950A0000 		.4byte	.LASF271
+ 2532 1231 050B0000 		.4byte	.LASF271
  2533 1235 0C       		.byte	0xc
  2534 1236 0108     		.2byte	0x801
  2535 1238 3C120000 		.4byte	0x123c
  2536 123c 05       		.uleb128 0x5
  2537 123d C3000000 		.4byte	0xc3
  2538 1241 1E       		.uleb128 0x1e
- 2539 1242 9F070000 		.4byte	.LASF272
+ 2539 1242 0F080000 		.4byte	.LASF272
  2540 1246 0B       		.byte	0xb
  2541 1247 7F04     		.2byte	0x47f
  2542 1249 5A0F0000 		.4byte	0xf5a
  2543 124d 1E       		.uleb128 0x1e
- 2544 124e 770B0000 		.4byte	.LASF273
+ 2544 124e E70B0000 		.4byte	.LASF273
  2545 1252 0B       		.byte	0xb
  2546 1253 8004     		.2byte	0x480
  2547 1255 59120000 		.4byte	0x1259
  2548 1259 06       		.uleb128 0x6
  2549 125a B7100000 		.4byte	0x10b7
  2550 125e 1D       		.uleb128 0x1d
- 2551 125f CB0F0000 		.4byte	.LASF274
+ 2551 125f D60F0000 		.4byte	.LASF274
  2552 1263 0D       		.byte	0xd
  2553 1264 AD       		.byte	0xad
  2554 1265 69120000 		.4byte	0x1269
@@ -3288,38 +3288,38 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2560 1274 AE       		.byte	0xae
  2561 1275 69120000 		.4byte	0x1269
  2562 1279 1D       		.uleb128 0x1d
- 2563 127a F30F0000 		.4byte	.LASF276
+ 2563 127a FE0F0000 		.4byte	.LASF276
  2564 127e 0D       		.byte	0xd
  2565 127f AF       		.byte	0xaf
  2566 1280 630A0000 		.4byte	0xa63
  2567 1284 1D       		.uleb128 0x1d
- 2568 1285 270E0000 		.4byte	.LASF277
+ 2568 1285 970E0000 		.4byte	.LASF277
  2569 1289 0D       		.byte	0xd
  2570 128a B1       		.byte	0xb1
  2571 128b 72100000 		.4byte	0x1072
  2572 128f 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 56
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 56
 
 
- 2573 1290 490E0000 		.4byte	.LASF278
+ 2573 1290 B90E0000 		.4byte	.LASF278
  2574 1294 0D       		.byte	0xd
  2575 1295 BB       		.byte	0xbb
  2576 1296 9A120000 		.4byte	0x129a
  2577 129a 06       		.uleb128 0x6
  2578 129b 630A0000 		.4byte	0xa63
  2579 129f 1F       		.uleb128 0x1f
- 2580 12a0 A3050000 		.4byte	.LASF279
- 2581 12a4 A3050000 		.4byte	.LASF279
+ 2580 12a0 13060000 		.4byte	.LASF279
+ 2581 12a4 13060000 		.4byte	.LASF279
  2582 12a8 0E       		.byte	0xe
  2583 12a9 D601     		.2byte	0x1d6
  2584 12ab 1F       		.uleb128 0x1f
- 2585 12ac 090C0000 		.4byte	.LASF280
- 2586 12b0 090C0000 		.4byte	.LASF280
+ 2585 12ac 790C0000 		.4byte	.LASF280
+ 2586 12b0 790C0000 		.4byte	.LASF280
  2587 12b4 0E       		.byte	0xe
  2588 12b5 E001     		.2byte	0x1e0
  2589 12b7 1F       		.uleb128 0x1f
- 2590 12b8 EE0A0000 		.4byte	.LASF281
- 2591 12bc EE0A0000 		.4byte	.LASF281
+ 2590 12b8 5E0B0000 		.4byte	.LASF281
+ 2591 12bc 5E0B0000 		.4byte	.LASF281
  2592 12c0 0E       		.byte	0xe
  2593 12c1 D501     		.2byte	0x1d5
  2594 12c3 20       		.uleb128 0x20
@@ -3328,13 +3328,13 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2597 12cc 0D       		.byte	0xd
  2598 12cd A5       		.byte	0xa5
  2599 12ce 20       		.uleb128 0x20
- 2600 12cf A00E0000 		.4byte	.LASF283
- 2601 12d3 A00E0000 		.4byte	.LASF283
+ 2600 12cf 100F0000 		.4byte	.LASF283
+ 2601 12d3 100F0000 		.4byte	.LASF283
  2602 12d7 0D       		.byte	0xd
  2603 12d8 78       		.byte	0x78
  2604 12d9 1F       		.uleb128 0x1f
- 2605 12da 580A0000 		.4byte	.LASF284
- 2606 12de 580A0000 		.4byte	.LASF284
+ 2605 12da C80A0000 		.4byte	.LASF284
+ 2606 12de C80A0000 		.4byte	.LASF284
  2607 12e2 0E       		.byte	0xe
  2608 12e3 C601     		.2byte	0x1c6
  2609 12e5 00       		.byte	0
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2627 000f 10       		.uleb128 0x10
  2628 0010 17       		.uleb128 0x17
  2629 0011 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 57
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 57
 
 
  2630 0012 00       		.byte	0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2684 0048 13       		.uleb128 0x13
  2685 0049 01       		.uleb128 0x1
  2686 004a 13       		.uleb128 0x13
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 58
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 58
 
 
  2687 004b 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2741 0081 0C       		.uleb128 0xc
  2742 0082 13       		.uleb128 0x13
  2743 0083 01       		.byte	0x1
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 59
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 59
 
 
  2744 0084 0B       		.uleb128 0xb
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2798 00ba 13       		.uleb128 0x13
  2799 00bb 01       		.byte	0x1
  2800 00bc 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 60
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 60
 
 
  2801 00bd 0B       		.uleb128 0xb
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2855 00f3 27       		.uleb128 0x27
  2856 00f4 19       		.uleb128 0x19
  2857 00f5 11       		.uleb128 0x11
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 61
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 61
 
 
  2858 00f6 01       		.uleb128 0x1
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2912 0134 00       		.byte	0
  2913 0135 1A       		.uleb128 0x1a
  2914 0136 898201   		.uleb128 0x4109
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 62
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 62
 
 
  2915 0139 01       		.byte	0x1
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  2969 0170 3B       		.uleb128 0x3b
  2970 0171 0B       		.uleb128 0xb
  2971 0172 49       		.uleb128 0x49
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 63
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 63
 
 
  2972 0173 13       		.uleb128 0x13
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3026 01a9 3B       		.uleb128 0x3b
  3027 01aa 0B       		.uleb128 0xb
  3028 01ab 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 64
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 64
 
 
  3029 01ac 00       		.byte	0
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3083 0075 4D000000 		.4byte	.LVL9-1
  3084 0079 0100     		.2byte	0x1
  3085 007b 50       		.byte	0x50
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 65
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 65
 
 
  3086 007c 5C000000 		.4byte	.LVL12
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3133      57733146 
  3133      72657100 
  3134              	.LASF32:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 66
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 66
 
 
  3135 0014 52455345 		.ascii	"RESERVED\000"
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3159 00b3 64774368 		.ascii	"dwChSize\000"
  3159      53697A65 
  3159      00
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 67
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 67
 
 
  3160              	.LASF138:
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3184              	.LASF17:
  3185 0159 696E7433 		.ascii	"int32_t\000"
  3185      325F7400 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 68
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 68
 
 
  3186              	.LASF60:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3208      20726576 
  3208      6973696F 
  3208      6E203233 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 69
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 69
 
 
  3208      37373135 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3230      33325F74 
  3230      00
  3231              	.LASF132:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 70
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 70
 
 
  3232 032d 4144435F 		.ascii	"ADC_RES\000"
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3256      5F435344 
  3256      506F7374 
  3256      53696E67 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 71
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 71
 
 
  3257              	.LASF240:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3280 0486 4346475F 		.ascii	"CFG_OUT\000"
  3280      4F555400 
  3281              	.LASF231:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 72
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 72
 
 
  3282 048e 6D6F6443 		.ascii	"modCsdClk\000"
@@ -4274,1019 +4274,1022 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 1
  3286 04ac 73727373 		.ascii	"srssNumPll\000"
  3286      4E756D50 
  3286      6C6C00
- 3287              	.LASF219:
- 3288 04b7 43617053 		.ascii	"CapSense_RAM_SNS_STRUCT\000"
- 3288      656E7365 
- 3288      5F52414D 
- 3288      5F534E53 
- 3288      5F535452 
- 3289              	.LASF22:
- 3290 04cf 4F55545F 		.ascii	"OUT_SET\000"
- 3290      53455400 
- 3291              	.LASF135:
- 3292 04d7 4853434D 		.ascii	"HSCMP\000"
- 3292      5000
- 3293              	.LASF74:
- 3294 04dd 666C6173 		.ascii	"flashPipeRequired\000"
- 3294      68506970 
- 3294      65526571 
- 3294      75697265 
- 3294      6400
- 3295              	.LASF89:
- 3296 04ef 70657269 		.ascii	"periTrCmdOffset\000"
- 3296      5472436D 
- 3296      644F6666 
- 3296      73657400 
- 3297              	.LASF261:
- 3298 04ff 5F426F6F 		.ascii	"_Bool\000"
- 3298      6C00
- 3299              	.LASF205:
- 3300 0505 73696750 		.ascii	"sigPFC\000"
- 3300      464300
- 3301              	.LASF198:
- 3302 050c 68797374 		.ascii	"hysteresis\000"
- 3302      65726573 
- 3302      697300
- 3303              	.LASF78:
- 3304 0517 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
- 3304      6843746C 
- 3304      4D61696E 
- 3304      57733046 
- 3304      72657100 
- 3305              	.LASF175:
- 3306 052b 4353445F 		.ascii	"CSD_V1_Type\000"
- 3306      56315F54 
- 3306      79706500 
- 3307              	.LASF42:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 73
+ 3287              	.LASF287:
+ 3288 04b7 433A5C55 		.ascii	"C:\\Users\\markm\\Desktop\\GBM2100 - Projet Instrum"
+ 3288      73657273 
+ 3288      5C6D6172 
+ 3288      6B6D5C44 
+ 3288      65736B74 
+ 3289 04e6 5C50726F 		.ascii	"\\Projet\\SourceTree_Files\\GBM2100_ProjetInterface"
+ 3289      6A65745C 
+ 3289      536F7572 
+ 3289      63655472 
+ 3289      65655F46 
+ 3290 0516 5C496E74 		.ascii	"\\Interface.cydsn\000"
+ 3290      65726661 
+ 3290      63652E63 
+ 3290      7964736E 
+ 3290      00
+ 3291              	.LASF22:
+ 3292 0527 4F55545F 		.ascii	"OUT_SET\000"
+ 3292      53455400 
+ 3293              	.LASF135:
+ 3294 052f 4853434D 		.ascii	"HSCMP\000"
+ 3294      5000
+ 3295              	.LASF74:
+ 3296 0535 666C6173 		.ascii	"flashPipeRequired\000"
+ 3296      68506970 
+ 3296      65526571 
+ 3296      75697265 
+ 3296      6400
+ 3297              	.LASF89:
+ 3298 0547 70657269 		.ascii	"periTrCmdOffset\000"
+ 3298      5472436D 
+ 3298      644F6666 
+ 3298      73657400 
+ 3299              	.LASF261:
+ 3300 0557 5F426F6F 		.ascii	"_Bool\000"
+ 3300      6C00
+ 3301              	.LASF205:
+ 3302 055d 73696750 		.ascii	"sigPFC\000"
+ 3302      464300
+ 3303              	.LASF198:
+ 3304 0564 68797374 		.ascii	"hysteresis\000"
+ 3304      65726573 
+ 3304      697300
+ 3305              	.LASF78:
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 73
 
 
- 3308 0537 6770696F 		.ascii	"gpioBase\000"
- 3308      42617365 
- 3308      00
- 3309              	.LASF258:
- 3310 0540 43617053 		.ascii	"CapSense_FLASH_WD_STRUCT\000"
- 3310      656E7365 
- 3310      5F464C41 
- 3310      53485F57 
- 3310      445F5354 
- 3311              	.LASF200:
- 3312 0559 6C6F7742 		.ascii	"lowBslnRst\000"
- 3312      736C6E52 
- 3312      737400
- 3313              	.LASF163:
- 3314 0564 5345515F 		.ascii	"SEQ_TIME\000"
- 3314      54494D45 
- 3314      00
- 3315              	.LASF140:
- 3316 056d 53575F52 		.ascii	"SW_RES\000"
- 3316      455300
- 3317              	.LASF113:
- 3318 0574 63707573 		.ascii	"cpussSysTickCtlOffset\000"
- 3318      73537973 
- 3318      5469636B 
- 3318      43746C4F 
- 3318      66667365 
- 3319              	.LASF69:
- 3320 058a 75646250 		.ascii	"udbPresent\000"
- 3320      72657365 
- 3320      6E7400
- 3321              	.LASF176:
- 3322 0595 4750494F 		.ascii	"GPIO_PRT_Type\000"
- 3322      5F505254 
- 3322      5F547970 
- 3322      6500
- 3323              	.LASF279:
- 3324 05a3 43617053 		.ascii	"CapSense_SsCSDSetUpIdacs\000"
- 3324      656E7365 
- 3324      5F537343 
- 3324      53445365 
- 3324      74557049 
- 3325              	.LASF87:
- 3326 05bc 64775374 		.ascii	"dwStatusChIdxPos\000"
- 3326      61747573 
- 3326      43684964 
- 3326      78506F73 
- 3326      00
- 3327              	.LASF249:
- 3328 05cd 746F7461 		.ascii	"totalNumSns\000"
- 3328      6C4E756D 
- 3328      536E7300 
- 3329              	.LASF25:
- 3330 05d9 494E5452 		.ascii	"INTR_MASK\000"
- 3330      5F4D4153 
- 3330      4B00
- 3331              	.LASF193:
- 3332 05e3 534D4152 		.ascii	"SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT\000"
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 74
+ 3306 056f 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 3306      6843746C 
+ 3306      4D61696E 
+ 3306      57733046 
+ 3306      72657100 
+ 3307              	.LASF175:
+ 3308 0583 4353445F 		.ascii	"CSD_V1_Type\000"
+ 3308      56315F54 
+ 3308      79706500 
+ 3309              	.LASF42:
+ 3310 058f 6770696F 		.ascii	"gpioBase\000"
+ 3310      42617365 
+ 3310      00
+ 3311              	.LASF258:
+ 3312 0598 43617053 		.ascii	"CapSense_FLASH_WD_STRUCT\000"
+ 3312      656E7365 
+ 3312      5F464C41 
+ 3312      53485F57 
+ 3312      445F5354 
+ 3313              	.LASF219:
+ 3314 05b1 43617053 		.ascii	"CapSense_RAM_SNS_STRUCT\000"
+ 3314      656E7365 
+ 3314      5F52414D 
+ 3314      5F534E53 
+ 3314      5F535452 
+ 3315              	.LASF200:
+ 3316 05c9 6C6F7742 		.ascii	"lowBslnRst\000"
+ 3316      736C6E52 
+ 3316      737400
+ 3317              	.LASF163:
+ 3318 05d4 5345515F 		.ascii	"SEQ_TIME\000"
+ 3318      54494D45 
+ 3318      00
+ 3319              	.LASF140:
+ 3320 05dd 53575F52 		.ascii	"SW_RES\000"
+ 3320      455300
+ 3321              	.LASF113:
+ 3322 05e4 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 3322      73537973 
+ 3322      5469636B 
+ 3322      43746C4F 
+ 3322      66667365 
+ 3323              	.LASF69:
+ 3324 05fa 75646250 		.ascii	"udbPresent\000"
+ 3324      72657365 
+ 3324      6E7400
+ 3325              	.LASF176:
+ 3326 0605 4750494F 		.ascii	"GPIO_PRT_Type\000"
+ 3326      5F505254 
+ 3326      5F547970 
+ 3326      6500
+ 3327              	.LASF279:
+ 3328 0613 43617053 		.ascii	"CapSense_SsCSDSetUpIdacs\000"
+ 3328      656E7365 
+ 3328      5F537343 
+ 3328      53445365 
+ 3328      74557049 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 74
 
 
- 3332      5453454E 
- 3332      53455F43 
- 3332      53445F4E 
- 3332      4F495345 
- 3333              	.LASF165:
- 3334 0608 5345515F 		.ascii	"SEQ_INIT_CNT\000"
- 3334      494E4954 
- 3334      5F434E54 
- 3334      00
- 3335              	.LASF196:
- 3336 0615 6E6F6973 		.ascii	"noiseTh\000"
- 3336      65546800 
- 3337              	.LASF37:
- 3338 061d 666C6173 		.ascii	"flashcBase\000"
- 3338      68634261 
- 3338      736500
- 3339              	.LASF178:
- 3340 0628 63686172 		.ascii	"char\000"
- 3340      00
- 3341              	.LASF124:
- 3342 062d 53504152 		.ascii	"SPARE\000"
- 3342      4500
- 3343              	.LASF70:
- 3344 0633 73797350 		.ascii	"sysPmSimoPresent\000"
- 3344      6D53696D 
- 3344      6F507265 
- 3344      73656E74 
+ 3329              	.LASF87:
+ 3330 062c 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 3330      61747573 
+ 3330      43684964 
+ 3330      78506F73 
+ 3330      00
+ 3331              	.LASF249:
+ 3332 063d 746F7461 		.ascii	"totalNumSns\000"
+ 3332      6C4E756D 
+ 3332      536E7300 
+ 3333              	.LASF25:
+ 3334 0649 494E5452 		.ascii	"INTR_MASK\000"
+ 3334      5F4D4153 
+ 3334      4B00
+ 3335              	.LASF193:
+ 3336 0653 534D4152 		.ascii	"SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT\000"
+ 3336      5453454E 
+ 3336      53455F43 
+ 3336      53445F4E 
+ 3336      4F495345 
+ 3337              	.LASF165:
+ 3338 0678 5345515F 		.ascii	"SEQ_INIT_CNT\000"
+ 3338      494E4954 
+ 3338      5F434E54 
+ 3338      00
+ 3339              	.LASF196:
+ 3340 0685 6E6F6973 		.ascii	"noiseTh\000"
+ 3340      65546800 
+ 3341              	.LASF37:
+ 3342 068d 666C6173 		.ascii	"flashcBase\000"
+ 3342      68634261 
+ 3342      736500
+ 3343              	.LASF178:
+ 3344 0698 63686172 		.ascii	"char\000"
  3344      00
- 3345              	.LASF159:
- 3346 0644 53575F44 		.ascii	"SW_DSI_SEL\000"
- 3346      53495F53 
- 3346      454C00
- 3347              	.LASF182:
- 3348 064f 75696E74 		.ascii	"uint16\000"
- 3348      313600
- 3349              	.LASF51:
- 3350 0656 6873696F 		.ascii	"hsiomVersion\000"
- 3350      6D566572 
- 3350      73696F6E 
- 3350      00
- 3351              	.LASF88:
- 3352 0663 64775374 		.ascii	"dwStatusChIdxMsk\000"
- 3352      61747573 
- 3352      43684964 
- 3352      784D736B 
- 3352      00
- 3353              	.LASF194:
- 3354 0674 7265736F 		.ascii	"resolution\000"
- 3354      6C757469 
- 3354      6F6E00
- 3355              	.LASF14:
- 3356 067f 75696E74 		.ascii	"uint8_t\000"
- 3356      385F7400 
- 3357              	.LASF226:
- 3358 0687 73746174 		.ascii	"status\000"
- 3358      757300
- 3359              	.LASF185:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 75
+ 3345              	.LASF124:
+ 3346 069d 53504152 		.ascii	"SPARE\000"
+ 3346      4500
+ 3347              	.LASF70:
+ 3348 06a3 73797350 		.ascii	"sysPmSimoPresent\000"
+ 3348      6D53696D 
+ 3348      6F507265 
+ 3348      73656E74 
+ 3348      00
+ 3349              	.LASF159:
+ 3350 06b4 53575F44 		.ascii	"SW_DSI_SEL\000"
+ 3350      53495F53 
+ 3350      454C00
+ 3351              	.LASF182:
+ 3352 06bf 75696E74 		.ascii	"uint16\000"
+ 3352      313600
+ 3353              	.LASF51:
+ 3354 06c6 6873696F 		.ascii	"hsiomVersion\000"
+ 3354      6D566572 
+ 3354      73696F6E 
+ 3354      00
+ 3355              	.LASF88:
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 75
 
 
- 3360 068e 43617053 		.ascii	"CapSense_LOW_BSLN_RST_TYPE\000"
- 3360      656E7365 
- 3360      5F4C4F57 
- 3360      5F42534C 
- 3360      4E5F5253 
- 3361              	.LASF93:
- 3362 06a9 70657269 		.ascii	"periDivCmdDivSelMsk\000"
- 3362      44697643 
- 3362      6D644469 
- 3362      7653656C 
- 3362      4D736B00 
- 3363              	.LASF146:
- 3364 06bd 53575F48 		.ascii	"SW_HS_N_SEL\000"
- 3364      535F4E5F 
- 3364      53454C00 
- 3365              	.LASF218:
- 3366 06c9 69646163 		.ascii	"idacComp\000"
- 3366      436F6D70 
- 3366      00
- 3367              	.LASF161:
- 3368 06d2 494F5F53 		.ascii	"IO_SEL\000"
- 3368      454C00
- 3369              	.LASF99:
- 3370 06d9 70657269 		.ascii	"periDiv16_5CtlOffset\000"
- 3370      44697631 
- 3370      365F3543 
- 3370      746C4F66 
- 3370      66736574 
- 3371              	.LASF251:
- 3372 06ee 73656E73 		.ascii	"senseMethod\000"
- 3372      654D6574 
- 3372      686F6400 
- 3373              	.LASF117:
- 3374 06fa 63707573 		.ascii	"cpussRam0Ctl0\000"
- 3374      7352616D 
- 3374      3043746C 
- 3374      3000
- 3375              	.LASF147:
- 3376 0708 53575F53 		.ascii	"SW_SHIELD_SEL\000"
- 3376      4849454C 
- 3376      445F5345 
- 3376      4C00
- 3377              	.LASF11:
- 3378 0716 6C6F6E67 		.ascii	"long long int\000"
- 3378      206C6F6E 
- 3378      6720696E 
- 3378      7400
- 3379              	.LASF44:
- 3380 0724 69706342 		.ascii	"ipcBase\000"
- 3380      61736500 
- 3381              	.LASF85:
- 3382 072c 64774368 		.ascii	"dwChCtlPrioPos\000"
- 3382      43746C50 
- 3382      72696F50 
- 3382      6F7300
- 3383              	.LASF45:
- 3384 073b 63727970 		.ascii	"cryptoBase\000"
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 76
+ 3356 06d3 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 3356      61747573 
+ 3356      43684964 
+ 3356      784D736B 
+ 3356      00
+ 3357              	.LASF194:
+ 3358 06e4 7265736F 		.ascii	"resolution\000"
+ 3358      6C757469 
+ 3358      6F6E00
+ 3359              	.LASF14:
+ 3360 06ef 75696E74 		.ascii	"uint8_t\000"
+ 3360      385F7400 
+ 3361              	.LASF226:
+ 3362 06f7 73746174 		.ascii	"status\000"
+ 3362      757300
+ 3363              	.LASF185:
+ 3364 06fe 43617053 		.ascii	"CapSense_LOW_BSLN_RST_TYPE\000"
+ 3364      656E7365 
+ 3364      5F4C4F57 
+ 3364      5F42534C 
+ 3364      4E5F5253 
+ 3365              	.LASF93:
+ 3366 0719 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 3366      44697643 
+ 3366      6D644469 
+ 3366      7653656C 
+ 3366      4D736B00 
+ 3367              	.LASF146:
+ 3368 072d 53575F48 		.ascii	"SW_HS_N_SEL\000"
+ 3368      535F4E5F 
+ 3368      53454C00 
+ 3369              	.LASF218:
+ 3370 0739 69646163 		.ascii	"idacComp\000"
+ 3370      436F6D70 
+ 3370      00
+ 3371              	.LASF161:
+ 3372 0742 494F5F53 		.ascii	"IO_SEL\000"
+ 3372      454C00
+ 3373              	.LASF99:
+ 3374 0749 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 3374      44697631 
+ 3374      365F3543 
+ 3374      746C4F66 
+ 3374      66736574 
+ 3375              	.LASF251:
+ 3376 075e 73656E73 		.ascii	"senseMethod\000"
+ 3376      654D6574 
+ 3376      686F6400 
+ 3377              	.LASF117:
+ 3378 076a 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 3378      7352616D 
+ 3378      3043746C 
+ 3378      3000
+ 3379              	.LASF147:
+ 3380 0778 53575F53 		.ascii	"SW_SHIELD_SEL\000"
+ 3380      4849454C 
+ 3380      445F5345 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 76
 
 
- 3384      746F4261 
- 3384      736500
- 3385              	.LASF199:
- 3386 0746 6F6E4465 		.ascii	"onDebounce\000"
- 3386      626F756E 
- 3386      636500
- 3387              	.LASF100:
- 3388 0751 70657269 		.ascii	"periDiv24_5CtlOffset\000"
- 3388      44697632 
- 3388      345F3543 
- 3388      746C4F66 
- 3388      66736574 
- 3389              	.LASF75:
- 3390 0766 666C6173 		.ascii	"flashWriteDelay\000"
- 3390      68577269 
- 3390      74654465 
- 3390      6C617900 
- 3391              	.LASF233:
- 3392 0776 77646774 		.ascii	"wdgtList\000"
- 3392      4C697374 
- 3392      00
- 3393              	.LASF254:
- 3394 077f 78526573 		.ascii	"xResolution\000"
- 3394      6F6C7574 
- 3394      696F6E00 
- 3395              	.LASF3:
- 3396 078b 5F5F696E 		.ascii	"__int16_t\000"
- 3396      7431365F 
- 3396      7400
- 3397              	.LASF127:
- 3398 0795 53544154 		.ascii	"STAT_CNTS\000"
- 3398      5F434E54 
- 3398      5300
- 3399              	.LASF272:
- 3400 079f 43617053 		.ascii	"CapSense_dsRam\000"
- 3400      656E7365 
- 3400      5F647352 
- 3400      616D00
- 3401              	.LASF238:
- 3402 07ae 736E7254 		.ascii	"snrTestRawCount\000"
- 3402      65737452 
- 3402      6177436F 
- 3402      756E7400 
- 3403              	.LASF41:
- 3404 07be 6873696F 		.ascii	"hsiomBase\000"
- 3404      6D426173 
- 3404      6500
- 3405              	.LASF91:
- 3406 07c8 70657269 		.ascii	"periTrGrOffset\000"
- 3406      54724772 
- 3406      4F666673 
- 3406      657400
- 3407              	.LASF197:
- 3408 07d7 6E4E6F69 		.ascii	"nNoiseTh\000"
- 3408      73655468 
- 3408      00
- 3409              	.LASF230:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 77
+ 3380      4C00
+ 3381              	.LASF11:
+ 3382 0786 6C6F6E67 		.ascii	"long long int\000"
+ 3382      206C6F6E 
+ 3382      6720696E 
+ 3382      7400
+ 3383              	.LASF44:
+ 3384 0794 69706342 		.ascii	"ipcBase\000"
+ 3384      61736500 
+ 3385              	.LASF85:
+ 3386 079c 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 3386      43746C50 
+ 3386      72696F50 
+ 3386      6F7300
+ 3387              	.LASF45:
+ 3388 07ab 63727970 		.ascii	"cryptoBase\000"
+ 3388      746F4261 
+ 3388      736500
+ 3389              	.LASF199:
+ 3390 07b6 6F6E4465 		.ascii	"onDebounce\000"
+ 3390      626F756E 
+ 3390      636500
+ 3391              	.LASF100:
+ 3392 07c1 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 3392      44697632 
+ 3392      345F3543 
+ 3392      746C4F66 
+ 3392      66736574 
+ 3393              	.LASF75:
+ 3394 07d6 666C6173 		.ascii	"flashWriteDelay\000"
+ 3394      68577269 
+ 3394      74654465 
+ 3394      6C617900 
+ 3395              	.LASF233:
+ 3396 07e6 77646774 		.ascii	"wdgtList\000"
+ 3396      4C697374 
+ 3396      00
+ 3397              	.LASF254:
+ 3398 07ef 78526573 		.ascii	"xResolution\000"
+ 3398      6F6C7574 
+ 3398      696F6E00 
+ 3399              	.LASF3:
+ 3400 07fb 5F5F696E 		.ascii	"__int16_t\000"
+ 3400      7431365F 
+ 3400      7400
+ 3401              	.LASF127:
+ 3402 0805 53544154 		.ascii	"STAT_CNTS\000"
+ 3402      5F434E54 
+ 3402      5300
+ 3403              	.LASF272:
+ 3404 080f 43617053 		.ascii	"CapSense_dsRam\000"
+ 3404      656E7365 
+ 3404      5F647352 
+ 3404      616D00
+ 3405              	.LASF238:
+ 3406 081e 736E7254 		.ascii	"snrTestRawCount\000"
+ 3406      65737452 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 77
 
 
- 3410 07e0 63736430 		.ascii	"csd0Config\000"
- 3410      436F6E66 
- 3410      696700
- 3411              	.LASF136:
- 3412 07eb 414D4255 		.ascii	"AMBUF\000"
- 3412      4600
- 3413              	.LASF57:
- 3414 07f1 63707573 		.ascii	"cpussDwChNr\000"
- 3414      73447743 
- 3414      684E7200 
- 3415              	.LASF206:
- 3416 07fd 43617053 		.ascii	"CapSense_RAM_WD_BASE_STRUCT\000"
- 3416      656E7365 
- 3416      5F52414D 
- 3416      5F57445F 
- 3416      42415345 
- 3417              	.LASF168:
- 3418 0819 4144435F 		.ascii	"ADC_CTL\000"
- 3418      43544C00 
- 3419              	.LASF152:
- 3420 0821 53575F43 		.ascii	"SW_CMP_P_SEL\000"
- 3420      4D505F50 
- 3420      5F53454C 
- 3420      00
- 3421              	.LASF183:
- 3422 082e 75696E74 		.ascii	"uint32\000"
- 3422      333200
- 3423              	.LASF55:
- 3424 0835 63707573 		.ascii	"cpussIpcNr\000"
- 3424      73497063 
- 3424      4E7200
- 3425              	.LASF246:
- 3426 0840 70747232 		.ascii	"ptr2FltrHistory\000"
- 3426      466C7472 
- 3426      48697374 
- 3426      6F727900 
- 3427              	.LASF108:
- 3428 0850 63707573 		.ascii	"cpussCm4StatusOffset\000"
- 3428      73436D34 
- 3428      53746174 
- 3428      75734F66 
- 3428      66736574 
- 3429              	.LASF67:
- 3430 0865 70617373 		.ascii	"passSarChannels\000"
- 3430      53617243 
- 3430      68616E6E 
- 3430      656C7300 
- 3431              	.LASF119:
- 3432 0875 63707573 		.ascii	"cpussRam2Ctl0\000"
- 3432      7352616D 
- 3432      3243746C 
- 3432      3000
- 3433              	.LASF150:
- 3434 0883 53575F42 		.ascii	"SW_BYP_SEL\000"
- 3434      59505F53 
- 3434      454C00
- 3435              	.LASF143:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 78
+ 3406      6177436F 
+ 3406      756E7400 
+ 3407              	.LASF41:
+ 3408 082e 6873696F 		.ascii	"hsiomBase\000"
+ 3408      6D426173 
+ 3408      6500
+ 3409              	.LASF91:
+ 3410 0838 70657269 		.ascii	"periTrGrOffset\000"
+ 3410      54724772 
+ 3410      4F666673 
+ 3410      657400
+ 3411              	.LASF197:
+ 3412 0847 6E4E6F69 		.ascii	"nNoiseTh\000"
+ 3412      73655468 
+ 3412      00
+ 3413              	.LASF230:
+ 3414 0850 63736430 		.ascii	"csd0Config\000"
+ 3414      436F6E66 
+ 3414      696700
+ 3415              	.LASF136:
+ 3416 085b 414D4255 		.ascii	"AMBUF\000"
+ 3416      4600
+ 3417              	.LASF57:
+ 3418 0861 63707573 		.ascii	"cpussDwChNr\000"
+ 3418      73447743 
+ 3418      684E7200 
+ 3419              	.LASF206:
+ 3420 086d 43617053 		.ascii	"CapSense_RAM_WD_BASE_STRUCT\000"
+ 3420      656E7365 
+ 3420      5F52414D 
+ 3420      5F57445F 
+ 3420      42415345 
+ 3421              	.LASF168:
+ 3422 0889 4144435F 		.ascii	"ADC_CTL\000"
+ 3422      43544C00 
+ 3423              	.LASF152:
+ 3424 0891 53575F43 		.ascii	"SW_CMP_P_SEL\000"
+ 3424      4D505F50 
+ 3424      5F53454C 
+ 3424      00
+ 3425              	.LASF183:
+ 3426 089e 75696E74 		.ascii	"uint32\000"
+ 3426      333200
+ 3427              	.LASF55:
+ 3428 08a5 63707573 		.ascii	"cpussIpcNr\000"
+ 3428      73497063 
+ 3428      4E7200
+ 3429              	.LASF246:
+ 3430 08b0 70747232 		.ascii	"ptr2FltrHistory\000"
+ 3430      466C7472 
+ 3430      48697374 
+ 3430      6F727900 
+ 3431              	.LASF108:
+ 3432 08c0 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 3432      73436D34 
+ 3432      53746174 
+ 3432      75734F66 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 78
 
 
- 3436 088e 53454E53 		.ascii	"SENSE_DUTY\000"
- 3436      455F4455 
- 3436      545900
- 3437              	.LASF241:
- 3438 0899 70696E4E 		.ascii	"pinNumber\000"
- 3438      756D6265 
- 3438      7200
- 3439              	.LASF166:
- 3440 08a3 5345515F 		.ascii	"SEQ_NORM_CNT\000"
- 3440      4E4F524D 
- 3440      5F434E54 
- 3440      00
- 3441              	.LASF98:
- 3442 08b0 70657269 		.ascii	"periDiv16CtlOffset\000"
- 3442      44697631 
- 3442      3643746C 
- 3442      4F666673 
- 3442      657400
- 3443              	.LASF6:
- 3444 08c3 73686F72 		.ascii	"short unsigned int\000"
- 3444      7420756E 
- 3444      7369676E 
- 3444      65642069 
- 3444      6E7400
- 3445              	.LASF19:
- 3446 08d6 6C6F6E67 		.ascii	"long double\000"
- 3446      20646F75 
- 3446      626C6500 
- 3447              	.LASF16:
- 3448 08e2 75696E74 		.ascii	"uint16_t\000"
- 3448      31365F74 
- 3448      00
- 3449              	.LASF40:
- 3450 08eb 70726F74 		.ascii	"protBase\000"
- 3450      42617365 
- 3450      00
- 3451              	.LASF237:
- 3452 08f4 736E7254 		.ascii	"snrTestScanCounter\000"
- 3452      65737453 
- 3452      63616E43 
- 3452      6F756E74 
- 3452      657200
- 3453              	.LASF90:
- 3454 0907 70657269 		.ascii	"periTrCmdGrSelMsk\000"
- 3454      5472436D 
- 3454      64477253 
- 3454      656C4D73 
- 3454      6B00
- 3455              	.LASF221:
- 3456 0919 636F6E66 		.ascii	"configId\000"
- 3456      69674964 
- 3456      00
- 3457              	.LASF245:
- 3458 0922 70747232 		.ascii	"ptr2SnsRam\000"
- 3458      536E7352 
- 3458      616D00
- 3459              	.LASF64:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 79
+ 3432      66736574 
+ 3433              	.LASF67:
+ 3434 08d5 70617373 		.ascii	"passSarChannels\000"
+ 3434      53617243 
+ 3434      68616E6E 
+ 3434      656C7300 
+ 3435              	.LASF119:
+ 3436 08e5 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 3436      7352616D 
+ 3436      3243746C 
+ 3436      3000
+ 3437              	.LASF150:
+ 3438 08f3 53575F42 		.ascii	"SW_BYP_SEL\000"
+ 3438      59505F53 
+ 3438      454C00
+ 3439              	.LASF143:
+ 3440 08fe 53454E53 		.ascii	"SENSE_DUTY\000"
+ 3440      455F4455 
+ 3440      545900
+ 3441              	.LASF241:
+ 3442 0909 70696E4E 		.ascii	"pinNumber\000"
+ 3442      756D6265 
+ 3442      7200
+ 3443              	.LASF166:
+ 3444 0913 5345515F 		.ascii	"SEQ_NORM_CNT\000"
+ 3444      4E4F524D 
+ 3444      5F434E54 
+ 3444      00
+ 3445              	.LASF98:
+ 3446 0920 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 3446      44697631 
+ 3446      3643746C 
+ 3446      4F666673 
+ 3446      657400
+ 3447              	.LASF6:
+ 3448 0933 73686F72 		.ascii	"short unsigned int\000"
+ 3448      7420756E 
+ 3448      7369676E 
+ 3448      65642069 
+ 3448      6E7400
+ 3449              	.LASF19:
+ 3450 0946 6C6F6E67 		.ascii	"long double\000"
+ 3450      20646F75 
+ 3450      626C6500 
+ 3451              	.LASF16:
+ 3452 0952 75696E74 		.ascii	"uint16_t\000"
+ 3452      31365F74 
+ 3452      00
+ 3453              	.LASF40:
+ 3454 095b 70726F74 		.ascii	"protBase\000"
+ 3454      42617365 
+ 3454      00
+ 3455              	.LASF237:
+ 3456 0964 736E7254 		.ascii	"snrTestScanCounter\000"
+ 3456      65737453 
+ 3456      63616E43 
+ 3456      6F756E74 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 79
 
 
- 3460 092d 73727373 		.ascii	"srssNumHfroot\000"
- 3460      4E756D48 
- 3460      66726F6F 
- 3460      7400
- 3461              	.LASF286:
- 3462 093b 47656E65 		.ascii	"Generated_Source\\PSoC6\\CapSense_INT.c\000"
- 3462      72617465 
- 3462      645F536F 
- 3462      75726365 
- 3462      5C50536F 
- 3463              	.LASF52:
- 3464 0961 69706356 		.ascii	"ipcVersion\000"
- 3464      65727369 
- 3464      6F6E00
- 3465              	.LASF48:
- 3466 096c 64775665 		.ascii	"dwVersion\000"
- 3466      7273696F 
- 3466      6E00
- 3467              	.LASF80:
- 3468 0976 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
- 3468      6843746C 
- 3468      4D61696E 
- 3468      57733246 
- 3468      72657100 
- 3469              	.LASF229:
- 3470 098a 736E7353 		.ascii	"snsStatus\000"
- 3470      74617475 
- 3470      7300
- 3471              	.LASF203:
- 3472 0994 736E7343 		.ascii	"snsClkSource\000"
- 3472      6C6B536F 
- 3472      75726365 
- 3472      00
- 3473              	.LASF128:
- 3474 09a1 53544154 		.ascii	"STAT_HCNT\000"
- 3474      5F48434E 
- 3474      5400
- 3475              	.LASF20:
- 3476 09ab 73697A65 		.ascii	"sizetype\000"
- 3476      74797065 
+ 3456      657200
+ 3457              	.LASF90:
+ 3458 0977 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 3458      5472436D 
+ 3458      64477253 
+ 3458      656C4D73 
+ 3458      6B00
+ 3459              	.LASF221:
+ 3460 0989 636F6E66 		.ascii	"configId\000"
+ 3460      69674964 
+ 3460      00
+ 3461              	.LASF245:
+ 3462 0992 70747232 		.ascii	"ptr2SnsRam\000"
+ 3462      536E7352 
+ 3462      616D00
+ 3463              	.LASF64:
+ 3464 099d 73727373 		.ascii	"srssNumHfroot\000"
+ 3464      4E756D48 
+ 3464      66726F6F 
+ 3464      7400
+ 3465              	.LASF286:
+ 3466 09ab 47656E65 		.ascii	"Generated_Source\\PSoC6\\CapSense_INT.c\000"
+ 3466      72617465 
+ 3466      645F536F 
+ 3466      75726365 
+ 3466      5C50536F 
+ 3467              	.LASF52:
+ 3468 09d1 69706356 		.ascii	"ipcVersion\000"
+ 3468      65727369 
+ 3468      6F6E00
+ 3469              	.LASF48:
+ 3470 09dc 64775665 		.ascii	"dwVersion\000"
+ 3470      7273696F 
+ 3470      6E00
+ 3471              	.LASF80:
+ 3472 09e6 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 3472      6843746C 
+ 3472      4D61696E 
+ 3472      57733246 
+ 3472      72657100 
+ 3473              	.LASF229:
+ 3474 09fa 736E7353 		.ascii	"snsStatus\000"
+ 3474      74617475 
+ 3474      7300
+ 3475              	.LASF203:
+ 3476 0a04 736E7343 		.ascii	"snsClkSource\000"
+ 3476      6C6B536F 
+ 3476      75726365 
  3476      00
- 3477              	.LASF154:
- 3478 09b4 53575F52 		.ascii	"SW_REFGEN_SEL\000"
- 3478      45464745 
- 3478      4E5F5345 
- 3478      4C00
- 3479              	.LASF115:
- 3480 09c2 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
- 3480      73436D34 
- 3480      4E6D6943 
- 3480      746C4F66 
- 3480      66736574 
- 3481              	.LASF110:
- 3482 09d7 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
- 3482      73436D34 
- 3482      50777243 
- 3482      746C4F66 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 80
+ 3477              	.LASF128:
+ 3478 0a11 53544154 		.ascii	"STAT_HCNT\000"
+ 3478      5F48434E 
+ 3478      5400
+ 3479              	.LASF20:
+ 3480 0a1b 73697A65 		.ascii	"sizetype\000"
+ 3480      74797065 
+ 3480      00
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 80
 
 
- 3482      66736574 
- 3483              	.LASF97:
- 3484 09ec 70657269 		.ascii	"periDiv8CtlOffset\000"
- 3484      44697638 
- 3484      43746C4F 
- 3484      66667365 
- 3484      7400
- 3485              	.LASF131:
- 3486 09fe 52455345 		.ascii	"RESERVED2\000"
- 3486      52564544 
- 3486      3200
- 3487              	.LASF133:
- 3488 0a08 52455345 		.ascii	"RESERVED3\000"
- 3488      52564544 
- 3488      3300
- 3489              	.LASF134:
- 3490 0a12 52455345 		.ascii	"RESERVED4\000"
+ 3481              	.LASF154:
+ 3482 0a24 53575F52 		.ascii	"SW_REFGEN_SEL\000"
+ 3482      45464745 
+ 3482      4E5F5345 
+ 3482      4C00
+ 3483              	.LASF115:
+ 3484 0a32 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 3484      73436D34 
+ 3484      4E6D6943 
+ 3484      746C4F66 
+ 3484      66736574 
+ 3485              	.LASF110:
+ 3486 0a47 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 3486      73436D34 
+ 3486      50777243 
+ 3486      746C4F66 
+ 3486      66736574 
+ 3487              	.LASF97:
+ 3488 0a5c 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 3488      44697638 
+ 3488      43746C4F 
+ 3488      66667365 
+ 3488      7400
+ 3489              	.LASF131:
+ 3490 0a6e 52455345 		.ascii	"RESERVED2\000"
  3490      52564544 
- 3490      3400
- 3491              	.LASF139:
- 3492 0a1c 52455345 		.ascii	"RESERVED5\000"
+ 3490      3200
+ 3491              	.LASF133:
+ 3492 0a78 52455345 		.ascii	"RESERVED3\000"
  3492      52564544 
- 3492      3500
- 3493              	.LASF141:
- 3494 0a26 52455345 		.ascii	"RESERVED6\000"
+ 3492      3300
+ 3493              	.LASF134:
+ 3494 0a82 52455345 		.ascii	"RESERVED4\000"
  3494      52564544 
- 3494      3600
- 3495              	.LASF144:
- 3496 0a30 52455345 		.ascii	"RESERVED7\000"
+ 3494      3400
+ 3495              	.LASF139:
+ 3496 0a8c 52455345 		.ascii	"RESERVED5\000"
  3496      52564544 
- 3496      3700
- 3497              	.LASF148:
- 3498 0a3a 52455345 		.ascii	"RESERVED8\000"
+ 3496      3500
+ 3497              	.LASF141:
+ 3498 0a96 52455345 		.ascii	"RESERVED6\000"
  3498      52564544 
- 3498      3800
- 3499              	.LASF239:
- 3500 0a44 43617053 		.ascii	"CapSense_RAM_STRUCT\000"
- 3500      656E7365 
- 3500      5F52414D 
- 3500      5F535452 
- 3500      55435400 
- 3501              	.LASF284:
- 3502 0a58 43617053 		.ascii	"CapSense_CSDDisconnectSns\000"
- 3502      656E7365 
- 3502      5F435344 
- 3502      44697363 
- 3502      6F6E6E65 
- 3503              	.LASF142:
- 3504 0a72 53454E53 		.ascii	"SENSE_PERIOD\000"
- 3504      455F5045 
- 3504      52494F44 
- 3504      00
- 3505              	.LASF8:
- 3506 0a7f 6C6F6E67 		.ascii	"long int\000"
- 3506      20696E74 
- 3506      00
- 3507              	.LASF46:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 81
+ 3498      3600
+ 3499              	.LASF144:
+ 3500 0aa0 52455345 		.ascii	"RESERVED7\000"
+ 3500      52564544 
+ 3500      3700
+ 3501              	.LASF148:
+ 3502 0aaa 52455345 		.ascii	"RESERVED8\000"
+ 3502      52564544 
+ 3502      3800
+ 3503              	.LASF239:
+ 3504 0ab4 43617053 		.ascii	"CapSense_RAM_STRUCT\000"
+ 3504      656E7365 
+ 3504      5F52414D 
+ 3504      5F535452 
+ 3504      55435400 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 81
 
 
- 3508 0a88 63707573 		.ascii	"cpussVersion\000"
- 3508      73566572 
- 3508      73696F6E 
+ 3505              	.LASF284:
+ 3506 0ac8 43617053 		.ascii	"CapSense_CSDDisconnectSns\000"
+ 3506      656E7365 
+ 3506      5F435344 
+ 3506      44697363 
+ 3506      6F6E6E65 
+ 3507              	.LASF142:
+ 3508 0ae2 53454E53 		.ascii	"SENSE_PERIOD\000"
+ 3508      455F5045 
+ 3508      52494F44 
  3508      00
- 3509              	.LASF271:
- 3510 0a95 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 3510      52784275 
- 3510      66666572 
+ 3509              	.LASF8:
+ 3510 0aef 6C6F6E67 		.ascii	"long int\000"
+ 3510      20696E74 
  3510      00
- 3511              	.LASF50:
- 3512 0aa2 6770696F 		.ascii	"gpioVersion\000"
- 3512      56657273 
- 3512      696F6E00 
- 3513              	.LASF236:
- 3514 0aae 736E7254 		.ascii	"snrTestSensorId\000"
- 3514      65737453 
- 3514      656E736F 
- 3514      72496400 
- 3515              	.LASF227:
- 3516 0abe 77646774 		.ascii	"wdgtEnable\000"
- 3516      456E6162 
- 3516      6C6500
- 3517              	.LASF49:
- 3518 0ac9 666C6173 		.ascii	"flashcVersion\000"
- 3518      68635665 
- 3518      7273696F 
- 3518      6E00
- 3519              	.LASF71:
- 3520 0ad7 70726F74 		.ascii	"protBusMasterMask\000"
- 3520      4275734D 
- 3520      61737465 
- 3520      724D6173 
- 3520      6B00
- 3521              	.LASF216:
- 3522 0ae9 64696666 		.ascii	"diff\000"
- 3522      00
- 3523              	.LASF281:
- 3524 0aee 43617053 		.ascii	"CapSense_SsCSDStartSample\000"
- 3524      656E7365 
- 3524      5F537343 
- 3524      53445374 
- 3524      61727453 
- 3525              	.LASF35:
- 3526 0b08 4750494F 		.ascii	"GPIO_PRT_V1_Type\000"
- 3526      5F505254 
- 3526      5F56315F 
- 3526      54797065 
+ 3511              	.LASF46:
+ 3512 0af8 63707573 		.ascii	"cpussVersion\000"
+ 3512      73566572 
+ 3512      73696F6E 
+ 3512      00
+ 3513              	.LASF271:
+ 3514 0b05 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 3514      52784275 
+ 3514      66666572 
+ 3514      00
+ 3515              	.LASF50:
+ 3516 0b12 6770696F 		.ascii	"gpioVersion\000"
+ 3516      56657273 
+ 3516      696F6E00 
+ 3517              	.LASF236:
+ 3518 0b1e 736E7254 		.ascii	"snrTestSensorId\000"
+ 3518      65737453 
+ 3518      656E736F 
+ 3518      72496400 
+ 3519              	.LASF227:
+ 3520 0b2e 77646774 		.ascii	"wdgtEnable\000"
+ 3520      456E6162 
+ 3520      6C6500
+ 3521              	.LASF49:
+ 3522 0b39 666C6173 		.ascii	"flashcVersion\000"
+ 3522      68635665 
+ 3522      7273696F 
+ 3522      6E00
+ 3523              	.LASF71:
+ 3524 0b47 70726F74 		.ascii	"protBusMasterMask\000"
+ 3524      4275734D 
+ 3524      61737465 
+ 3524      724D6173 
+ 3524      6B00
+ 3525              	.LASF216:
+ 3526 0b59 64696666 		.ascii	"diff\000"
  3526      00
- 3527              	.LASF211:
- 3528 0b19 62757474 		.ascii	"button0\000"
- 3528      6F6E3000 
- 3529              	.LASF212:
- 3530 0b21 62757474 		.ascii	"button1\000"
- 3530      6F6E3100 
- 3531              	.LASF33:
- 3532 0b29 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
- 3532      494E5F47 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 82
+ 3527              	.LASF281:
+ 3528 0b5e 43617053 		.ascii	"CapSense_SsCSDStartSample\000"
+ 3528      656E7365 
+ 3528      5F537343 
+ 3528      53445374 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 82
 
 
- 3532      50494F35 
- 3532      5600
- 3533              	.LASF77:
- 3534 0b37 666C6173 		.ascii	"flashEraseDelay\000"
- 3534      68457261 
- 3534      73654465 
- 3534      6C617900 
- 3535              	.LASF153:
- 3536 0b47 53575F43 		.ascii	"SW_CMP_N_SEL\000"
- 3536      4D505F4E 
- 3536      5F53454C 
- 3536      00
- 3537              	.LASF195:
- 3538 0b54 66696E67 		.ascii	"fingerTh\000"
- 3538      65725468 
- 3538      00
- 3539              	.LASF23:
- 3540 0b5d 4F55545F 		.ascii	"OUT_INV\000"
- 3540      494E5600 
- 3541              	.LASF252:
- 3542 0b65 6E756D43 		.ascii	"numCols\000"
- 3542      6F6C7300 
- 3543              	.LASF2:
- 3544 0b6d 5F5F7569 		.ascii	"__uint8_t\000"
- 3544      6E74385F 
- 3544      7400
- 3545              	.LASF273:
- 3546 0b77 43617053 		.ascii	"CapSense_dsFlash\000"
- 3546      656E7365 
- 3546      5F647346 
- 3546      6C617368 
- 3546      00
- 3547              	.LASF204:
- 3548 0b88 66696E67 		.ascii	"fingerCap\000"
- 3548      65724361 
- 3548      7000
- 3549              	.LASF228:
- 3550 0b92 77646774 		.ascii	"wdgtStatus\000"
- 3550      53746174 
- 3550      757300
- 3551              	.LASF101:
- 3552 0b9d 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
- 3552      50727449 
- 3552      6E747243 
- 3552      66674F66 
- 3552      66736574 
- 3553              	.LASF107:
- 3554 0bb2 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
- 3554      73436D34 
- 3554      436C6F63 
- 3554      6B43746C 
- 3554      4F666673 
- 3555              	.LASF26:
- 3556 0bc9 494E5452 		.ascii	"INTR_MASKED\000"
- 3556      5F4D4153 
- 3556      4B454400 
- 3557              	.LASF112:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 83
+ 3528      61727453 
+ 3529              	.LASF35:
+ 3530 0b78 4750494F 		.ascii	"GPIO_PRT_V1_Type\000"
+ 3530      5F505254 
+ 3530      5F56315F 
+ 3530      54797065 
+ 3530      00
+ 3531              	.LASF211:
+ 3532 0b89 62757474 		.ascii	"button0\000"
+ 3532      6F6E3000 
+ 3533              	.LASF212:
+ 3534 0b91 62757474 		.ascii	"button1\000"
+ 3534      6F6E3100 
+ 3535              	.LASF33:
+ 3536 0b99 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
+ 3536      494E5F47 
+ 3536      50494F35 
+ 3536      5600
+ 3537              	.LASF77:
+ 3538 0ba7 666C6173 		.ascii	"flashEraseDelay\000"
+ 3538      68457261 
+ 3538      73654465 
+ 3538      6C617900 
+ 3539              	.LASF153:
+ 3540 0bb7 53575F43 		.ascii	"SW_CMP_N_SEL\000"
+ 3540      4D505F4E 
+ 3540      5F53454C 
+ 3540      00
+ 3541              	.LASF195:
+ 3542 0bc4 66696E67 		.ascii	"fingerTh\000"
+ 3542      65725468 
+ 3542      00
+ 3543              	.LASF23:
+ 3544 0bcd 4F55545F 		.ascii	"OUT_INV\000"
+ 3544      494E5600 
+ 3545              	.LASF252:
+ 3546 0bd5 6E756D43 		.ascii	"numCols\000"
+ 3546      6F6C7300 
+ 3547              	.LASF2:
+ 3548 0bdd 5F5F7569 		.ascii	"__uint8_t\000"
+ 3548      6E74385F 
+ 3548      7400
+ 3549              	.LASF273:
+ 3550 0be7 43617053 		.ascii	"CapSense_dsFlash\000"
+ 3550      656E7365 
+ 3550      5F647346 
+ 3550      6C617368 
+ 3550      00
+ 3551              	.LASF204:
+ 3552 0bf8 66696E67 		.ascii	"fingerCap\000"
+ 3552      65724361 
+ 3552      7000
+ 3553              	.LASF228:
+ 3554 0c02 77646774 		.ascii	"wdgtStatus\000"
+ 3554      53746174 
+ 3554      757300
+ 3555              	.LASF101:
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 83
 
 
- 3558 0bd5 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
- 3558      73547269 
- 3558      6D526F6D 
- 3558      43746C4F 
- 3558      66667365 
- 3559              	.LASF208:
- 3560 0beb 43617053 		.ascii	"CapSense_RAM_WD_SLIDER_STRUCT\000"
- 3560      656E7365 
- 3560      5F52414D 
- 3560      5F57445F 
- 3560      534C4944 
- 3561              	.LASF280:
- 3562 0c09 43617053 		.ascii	"CapSense_SsCSDConnectSensorExt\000"
- 3562      656E7365 
- 3562      5F537343 
- 3562      5344436F 
- 3562      6E6E6563 
- 3563              	.LASF10:
- 3564 0c28 6C6F6E67 		.ascii	"long unsigned int\000"
- 3564      20756E73 
- 3564      69676E65 
- 3564      6420696E 
- 3564      7400
- 3565              	.LASF201:
- 3566 0c3a 69646163 		.ascii	"idacMod\000"
- 3566      4D6F6400 
- 3567              	.LASF116:
- 3568 0c42 63707573 		.ascii	"cpussRomCtl\000"
- 3568      73526F6D 
- 3568      43746C00 
- 3569              	.LASF247:
- 3570 0c4e 70747232 		.ascii	"ptr2DebounceArr\000"
- 3570      4465626F 
- 3570      756E6365 
- 3570      41727200 
- 3571              	.LASF260:
- 3572 0c5e 43617053 		.ascii	"CapSense_FLASH_STRUCT\000"
- 3572      656E7365 
- 3572      5F464C41 
- 3572      53485F53 
- 3572      54525543 
- 3573              	.LASF255:
- 3574 0c74 7843656E 		.ascii	"xCentroidMultiplier\000"
- 3574      74726F69 
- 3574      644D756C 
- 3574      7469706C 
- 3574      69657200 
- 3575              	.LASF224:
- 3576 0c88 74756E65 		.ascii	"tunerCmd\000"
- 3576      72436D64 
- 3576      00
- 3577              	.LASF268:
- 3578 0c91 43617053 		.ascii	"CapSense_CSDPostMultiScan\000"
- 3578      656E7365 
- 3578      5F435344 
- 3578      506F7374 
- 3578      4D756C74 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 84
+ 3556 0c0d 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 3556      50727449 
+ 3556      6E747243 
+ 3556      66674F66 
+ 3556      66736574 
+ 3557              	.LASF107:
+ 3558 0c22 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 3558      73436D34 
+ 3558      436C6F63 
+ 3558      6B43746C 
+ 3558      4F666673 
+ 3559              	.LASF26:
+ 3560 0c39 494E5452 		.ascii	"INTR_MASKED\000"
+ 3560      5F4D4153 
+ 3560      4B454400 
+ 3561              	.LASF112:
+ 3562 0c45 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 3562      73547269 
+ 3562      6D526F6D 
+ 3562      43746C4F 
+ 3562      66667365 
+ 3563              	.LASF208:
+ 3564 0c5b 43617053 		.ascii	"CapSense_RAM_WD_SLIDER_STRUCT\000"
+ 3564      656E7365 
+ 3564      5F52414D 
+ 3564      5F57445F 
+ 3564      534C4944 
+ 3565              	.LASF280:
+ 3566 0c79 43617053 		.ascii	"CapSense_SsCSDConnectSensorExt\000"
+ 3566      656E7365 
+ 3566      5F537343 
+ 3566      5344436F 
+ 3566      6E6E6563 
+ 3567              	.LASF10:
+ 3568 0c98 6C6F6E67 		.ascii	"long unsigned int\000"
+ 3568      20756E73 
+ 3568      69676E65 
+ 3568      6420696E 
+ 3568      7400
+ 3569              	.LASF201:
+ 3570 0caa 69646163 		.ascii	"idacMod\000"
+ 3570      4D6F6400 
+ 3571              	.LASF116:
+ 3572 0cb2 63707573 		.ascii	"cpussRomCtl\000"
+ 3572      73526F6D 
+ 3572      43746C00 
+ 3573              	.LASF247:
+ 3574 0cbe 70747232 		.ascii	"ptr2DebounceArr\000"
+ 3574      4465626F 
+ 3574      756E6365 
+ 3574      41727200 
+ 3575              	.LASF260:
+ 3576 0cce 43617053 		.ascii	"CapSense_FLASH_STRUCT\000"
+ 3576      656E7365 
+ 3576      5F464C41 
+ 3576      53485F53 
+ 3576      54525543 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 84
 
 
- 3579              	.LASF215:
- 3580 0cab 62736C6E 		.ascii	"bslnExt\000"
- 3580      45787400 
- 3581              	.LASF209:
- 3582 0cb3 43617053 		.ascii	"CapSense_RAM_WD_BUTTON_STRUCT\000"
+ 3577              	.LASF255:
+ 3578 0ce4 7843656E 		.ascii	"xCentroidMultiplier\000"
+ 3578      74726F69 
+ 3578      644D756C 
+ 3578      7469706C 
+ 3578      69657200 
+ 3579              	.LASF224:
+ 3580 0cf8 74756E65 		.ascii	"tunerCmd\000"
+ 3580      72436D64 
+ 3580      00
+ 3581              	.LASF268:
+ 3582 0d01 43617053 		.ascii	"CapSense_CSDPostMultiScan\000"
  3582      656E7365 
- 3582      5F52414D 
- 3582      5F57445F 
- 3582      42555454 
- 3583              	.LASF109:
- 3584 0cd1 63707573 		.ascii	"cpussCm0StatusOffset\000"
- 3584      73436D30 
- 3584      53746174 
- 3584      75734F66 
- 3584      66736574 
- 3585              	.LASF266:
- 3586 0ce6 43617053 		.ascii	"CapSense_SsCSDInitNextScan\000"
+ 3582      5F435344 
+ 3582      506F7374 
+ 3582      4D756C74 
+ 3583              	.LASF215:
+ 3584 0d1b 62736C6E 		.ascii	"bslnExt\000"
+ 3584      45787400 
+ 3585              	.LASF209:
+ 3586 0d23 43617053 		.ascii	"CapSense_RAM_WD_BUTTON_STRUCT\000"
  3586      656E7365 
- 3586      5F537343 
- 3586      5344496E 
- 3586      69744E65 
- 3587              	.LASF1:
- 3588 0d01 756E7369 		.ascii	"unsigned char\000"
- 3588      676E6564 
- 3588      20636861 
- 3588      7200
- 3589              	.LASF9:
- 3590 0d0f 5F5F7569 		.ascii	"__uint32_t\000"
- 3590      6E743332 
- 3590      5F7400
- 3591              	.LASF121:
- 3592 0d1a 6970634C 		.ascii	"ipcLockStatusOffset\000"
- 3592      6F636B53 
- 3592      74617475 
- 3592      734F6666 
- 3592      73657400 
- 3593              	.LASF149:
- 3594 0d2e 53575F41 		.ascii	"SW_AMUXBUF_SEL\000"
- 3594      4D555842 
- 3594      55465F53 
- 3594      454C00
- 3595              	.LASF248:
- 3596 0d3d 73746174 		.ascii	"staticConfig\000"
- 3596      6963436F 
- 3596      6E666967 
- 3596      00
- 3597              	.LASF28:
- 3598 0d4a 494E5452 		.ascii	"INTR_CFG\000"
- 3598      5F434647 
- 3598      00
- 3599              	.LASF232:
- 3600 0d53 6D6F6443 		.ascii	"modCsxClk\000"
- 3600      7378436C 
- 3600      6B00
- 3601              	.LASF125:
- 3602 0d5d 53544154 		.ascii	"STATUS\000"
- 3602      555300
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 85
+ 3586      5F52414D 
+ 3586      5F57445F 
+ 3586      42555454 
+ 3587              	.LASF109:
+ 3588 0d41 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 3588      73436D30 
+ 3588      53746174 
+ 3588      75734F66 
+ 3588      66736574 
+ 3589              	.LASF266:
+ 3590 0d56 43617053 		.ascii	"CapSense_SsCSDInitNextScan\000"
+ 3590      656E7365 
+ 3590      5F537343 
+ 3590      5344496E 
+ 3590      69744E65 
+ 3591              	.LASF1:
+ 3592 0d71 756E7369 		.ascii	"unsigned char\000"
+ 3592      676E6564 
+ 3592      20636861 
+ 3592      7200
+ 3593              	.LASF9:
+ 3594 0d7f 5F5F7569 		.ascii	"__uint32_t\000"
+ 3594      6E743332 
+ 3594      5F7400
+ 3595              	.LASF121:
+ 3596 0d8a 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 3596      6F636B53 
+ 3596      74617475 
+ 3596      734F6666 
+ 3596      73657400 
+ 3597              	.LASF149:
+ 3598 0d9e 53575F41 		.ascii	"SW_AMUXBUF_SEL\000"
+ 3598      4D555842 
+ 3598      55465F53 
+ 3598      454C00
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 85
 
 
- 3603              	.LASF155:
- 3604 0d64 52455345 		.ascii	"RESERVED10\000"
- 3604      52564544 
- 3604      313000
- 3605              	.LASF158:
- 3606 0d6f 52455345 		.ascii	"RESERVED11\000"
- 3606      52564544 
- 3606      313100
- 3607              	.LASF160:
- 3608 0d7a 52455345 		.ascii	"RESERVED12\000"
+ 3599              	.LASF248:
+ 3600 0dad 73746174 		.ascii	"staticConfig\000"
+ 3600      6963436F 
+ 3600      6E666967 
+ 3600      00
+ 3601              	.LASF28:
+ 3602 0dba 494E5452 		.ascii	"INTR_CFG\000"
+ 3602      5F434647 
+ 3602      00
+ 3603              	.LASF232:
+ 3604 0dc3 6D6F6443 		.ascii	"modCsxClk\000"
+ 3604      7378436C 
+ 3604      6B00
+ 3605              	.LASF125:
+ 3606 0dcd 53544154 		.ascii	"STATUS\000"
+ 3606      555300
+ 3607              	.LASF155:
+ 3608 0dd4 52455345 		.ascii	"RESERVED10\000"
  3608      52564544 
- 3608      313200
- 3609              	.LASF162:
- 3610 0d85 52455345 		.ascii	"RESERVED13\000"
+ 3608      313000
+ 3609              	.LASF158:
+ 3610 0ddf 52455345 		.ascii	"RESERVED11\000"
  3610      52564544 
- 3610      313300
- 3611              	.LASF164:
- 3612 0d90 52455345 		.ascii	"RESERVED14\000"
+ 3610      313100
+ 3611              	.LASF160:
+ 3612 0dea 52455345 		.ascii	"RESERVED12\000"
  3612      52564544 
- 3612      313400
- 3613              	.LASF167:
- 3614 0d9b 52455345 		.ascii	"RESERVED15\000"
+ 3612      313200
+ 3613              	.LASF162:
+ 3614 0df5 52455345 		.ascii	"RESERVED13\000"
  3614      52564544 
- 3614      313500
- 3615              	.LASF169:
- 3616 0da6 52455345 		.ascii	"RESERVED16\000"
+ 3614      313300
+ 3615              	.LASF164:
+ 3616 0e00 52455345 		.ascii	"RESERVED14\000"
  3616      52564544 
- 3616      313600
- 3617              	.LASF171:
- 3618 0db1 52455345 		.ascii	"RESERVED17\000"
+ 3616      313400
+ 3617              	.LASF167:
+ 3618 0e0b 52455345 		.ascii	"RESERVED15\000"
  3618      52564544 
- 3618      313700
- 3619              	.LASF173:
- 3620 0dbc 52455345 		.ascii	"RESERVED18\000"
+ 3618      313500
+ 3619              	.LASF169:
+ 3620 0e16 52455345 		.ascii	"RESERVED16\000"
  3620      52564544 
- 3620      313800
- 3621              	.LASF126:
- 3622 0dc7 53544154 		.ascii	"STAT_SEQ\000"
- 3622      5F534551 
- 3622      00
- 3623              	.LASF253:
- 3624 0dd0 6E756D52 		.ascii	"numRows\000"
- 3624      6F777300 
- 3625              	.LASF210:
- 3626 0dd8 6C696E65 		.ascii	"linearslider0\000"
- 3626      6172736C 
- 3626      69646572 
- 3626      3000
- 3627              	.LASF269:
- 3628 0de6 63757253 		.ascii	"curSnsIOPtr\000"
- 3628      6E73494F 
- 3628      50747200 
- 3629              	.LASF73:
- 3630 0df2 666C6173 		.ascii	"flashRwwRequired\000"
- 3630      68527777 
- 3630      52657175 
- 3630      69726564 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 86
+ 3620      313600
+ 3621              	.LASF171:
+ 3622 0e21 52455345 		.ascii	"RESERVED17\000"
+ 3622      52564544 
+ 3622      313700
+ 3623              	.LASF173:
+ 3624 0e2c 52455345 		.ascii	"RESERVED18\000"
+ 3624      52564544 
+ 3624      313800
+ 3625              	.LASF126:
+ 3626 0e37 53544154 		.ascii	"STAT_SEQ\000"
+ 3626      5F534551 
+ 3626      00
+ 3627              	.LASF253:
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 86
 
 
- 3630      00
- 3631              	.LASF202:
- 3632 0e03 736E7343 		.ascii	"snsClk\000"
- 3632      6C6B00
- 3633              	.LASF102:
- 3634 0e0a 6770696F 		.ascii	"gpioPrtCfgOffset\000"
- 3634      50727443 
- 3634      66674F66 
- 3634      66736574 
+ 3628 0e40 6E756D52 		.ascii	"numRows\000"
+ 3628      6F777300 
+ 3629              	.LASF210:
+ 3630 0e48 6C696E65 		.ascii	"linearslider0\000"
+ 3630      6172736C 
+ 3630      69646572 
+ 3630      3000
+ 3631              	.LASF269:
+ 3632 0e56 63757253 		.ascii	"curSnsIOPtr\000"
+ 3632      6E73494F 
+ 3632      50747200 
+ 3633              	.LASF73:
+ 3634 0e62 666C6173 		.ascii	"flashRwwRequired\000"
+ 3634      68527777 
+ 3634      52657175 
+ 3634      69726564 
  3634      00
- 3635              	.LASF68:
- 3636 0e1b 65704D6F 		.ascii	"epMonitorNr\000"
- 3636      6E69746F 
- 3636      724E7200 
- 3637              	.LASF277:
- 3638 0e27 43617053 		.ascii	"CapSense_curRamSnsPtr\000"
- 3638      656E7365 
- 3638      5F637572 
- 3638      52616D53 
- 3638      6E735074 
- 3639              	.LASF0:
- 3640 0e3d 7369676E 		.ascii	"signed char\000"
- 3640      65642063 
- 3640      68617200 
- 3641              	.LASF278:
- 3642 0e49 43617053 		.ascii	"CapSense_scanFreqIndex\000"
+ 3635              	.LASF202:
+ 3636 0e73 736E7343 		.ascii	"snsClk\000"
+ 3636      6C6B00
+ 3637              	.LASF102:
+ 3638 0e7a 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 3638      50727443 
+ 3638      66674F66 
+ 3638      66736574 
+ 3638      00
+ 3639              	.LASF68:
+ 3640 0e8b 65704D6F 		.ascii	"epMonitorNr\000"
+ 3640      6E69746F 
+ 3640      724E7200 
+ 3641              	.LASF277:
+ 3642 0e97 43617053 		.ascii	"CapSense_curRamSnsPtr\000"
  3642      656E7365 
- 3642      5F736361 
- 3642      6E467265 
- 3642      71496E64 
- 3643              	.LASF83:
- 3644 0e60 64774368 		.ascii	"dwChOffset\000"
- 3644      4F666673 
- 3644      657400
- 3645              	.LASF214:
- 3646 0e6b 62736C6E 		.ascii	"bsln\000"
- 3646      00
- 3647              	.LASF263:
- 3648 0e70 746D704D 		.ascii	"tmpMaxCount\000"
- 3648      6178436F 
- 3648      756E7400 
- 3649              	.LASF56:
- 3650 0e7c 63707573 		.ascii	"cpussIpcIrqNr\000"
- 3650      73497063 
- 3650      4972714E 
- 3650      7200
- 3651              	.LASF86:
- 3652 0e8a 64774368 		.ascii	"dwChCtlPreemptablePos\000"
- 3652      43746C50 
- 3652      7265656D 
- 3652      70746162 
- 3652      6C65506F 
- 3653              	.LASF283:
- 3654 0ea0 43617053 		.ascii	"CapSense_SsPostAllWidgetsScan\000"
- 3654      656E7365 
- 3654      5F537350 
- 3654      6F737441 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 87
+ 3642      5F637572 
+ 3642      52616D53 
+ 3642      6E735074 
+ 3643              	.LASF0:
+ 3644 0ead 7369676E 		.ascii	"signed char\000"
+ 3644      65642063 
+ 3644      68617200 
+ 3645              	.LASF278:
+ 3646 0eb9 43617053 		.ascii	"CapSense_scanFreqIndex\000"
+ 3646      656E7365 
+ 3646      5F736361 
+ 3646      6E467265 
+ 3646      71496E64 
+ 3647              	.LASF83:
+ 3648 0ed0 64774368 		.ascii	"dwChOffset\000"
+ 3648      4F666673 
+ 3648      657400
+ 3649              	.LASF214:
+ 3650 0edb 62736C6E 		.ascii	"bsln\000"
+ 3650      00
+ 3651              	.LASF263:
+ 3652 0ee0 746D704D 		.ascii	"tmpMaxCount\000"
+ 3652      6178436F 
+ 3652      756E7400 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 87
 
 
- 3654      6C6C5769 
- 3655              	.LASF122:
- 3656 0ebe 63795F73 		.ascii	"cy_stc_device_t\000"
- 3656      74635F64 
- 3656      65766963 
- 3656      655F7400 
- 3657              	.LASF243:
- 3658 0ece 70747232 		.ascii	"ptr2SnsFlash\000"
- 3658      536E7346 
- 3658      6C617368 
- 3658      00
- 3659              	.LASF234:
- 3660 0edb 736E734C 		.ascii	"snsList\000"
- 3660      69737400 
- 3661              	.LASF53:
- 3662 0ee3 70657269 		.ascii	"periVersion\000"
- 3662      56657273 
- 3662      696F6E00 
- 3663              	.LASF181:
- 3664 0eef 75696E74 		.ascii	"uint8\000"
- 3664      3800
- 3665              	.LASF180:
- 3666 0ef5 646F7562 		.ascii	"double\000"
- 3666      6C6500
- 3667              	.LASF43:
- 3668 0efc 70617373 		.ascii	"passBase\000"
- 3668      42617365 
- 3668      00
- 3669              	.LASF184:
- 3670 0f05 43617053 		.ascii	"CapSense_THRESHOLD_TYPE\000"
- 3670      656E7365 
- 3670      5F544852 
- 3670      4553484F 
- 3670      4C445F54 
- 3671              	.LASF217:
- 3672 0f1d 6E656742 		.ascii	"negBslnRstCnt\000"
- 3672      736C6E52 
- 3672      7374436E 
- 3672      7400
- 3673              	.LASF34:
- 3674 0f2b 52455345 		.ascii	"RESERVED1\000"
- 3674      52564544 
- 3674      3100
- 3675              	.LASF186:
- 3676 0f35 70617261 		.ascii	"param0\000"
- 3676      6D3000
- 3677              	.LASF187:
- 3678 0f3c 70617261 		.ascii	"param1\000"
- 3678      6D3100
- 3679              	.LASF188:
- 3680 0f43 70617261 		.ascii	"param2\000"
- 3680      6D3200
- 3681              	.LASF189:
- 3682 0f4a 70617261 		.ascii	"param3\000"
- 3682      6D3300
- 3683              	.LASF190:
- 3684 0f51 70617261 		.ascii	"param4\000"
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 88
+ 3653              	.LASF56:
+ 3654 0eec 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 3654      73497063 
+ 3654      4972714E 
+ 3654      7200
+ 3655              	.LASF86:
+ 3656 0efa 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 3656      43746C50 
+ 3656      7265656D 
+ 3656      70746162 
+ 3656      6C65506F 
+ 3657              	.LASF283:
+ 3658 0f10 43617053 		.ascii	"CapSense_SsPostAllWidgetsScan\000"
+ 3658      656E7365 
+ 3658      5F537350 
+ 3658      6F737441 
+ 3658      6C6C5769 
+ 3659              	.LASF122:
+ 3660 0f2e 63795F73 		.ascii	"cy_stc_device_t\000"
+ 3660      74635F64 
+ 3660      65766963 
+ 3660      655F7400 
+ 3661              	.LASF243:
+ 3662 0f3e 70747232 		.ascii	"ptr2SnsFlash\000"
+ 3662      536E7346 
+ 3662      6C617368 
+ 3662      00
+ 3663              	.LASF234:
+ 3664 0f4b 736E734C 		.ascii	"snsList\000"
+ 3664      69737400 
+ 3665              	.LASF53:
+ 3666 0f53 70657269 		.ascii	"periVersion\000"
+ 3666      56657273 
+ 3666      696F6E00 
+ 3667              	.LASF181:
+ 3668 0f5f 75696E74 		.ascii	"uint8\000"
+ 3668      3800
+ 3669              	.LASF180:
+ 3670 0f65 646F7562 		.ascii	"double\000"
+ 3670      6C6500
+ 3671              	.LASF43:
+ 3672 0f6c 70617373 		.ascii	"passBase\000"
+ 3672      42617365 
+ 3672      00
+ 3673              	.LASF184:
+ 3674 0f75 43617053 		.ascii	"CapSense_THRESHOLD_TYPE\000"
+ 3674      656E7365 
+ 3674      5F544852 
+ 3674      4553484F 
+ 3674      4C445F54 
+ 3675              	.LASF217:
+ 3676 0f8d 6E656742 		.ascii	"negBslnRstCnt\000"
+ 3676      736C6E52 
+ 3676      7374436E 
+ 3676      7400
+ 3677              	.LASF34:
+ 3678 0f9b 52455345 		.ascii	"RESERVED1\000"
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 88
 
 
- 3684      6D3400
- 3685              	.LASF191:
- 3686 0f58 70617261 		.ascii	"param5\000"
- 3686      6D3500
- 3687              	.LASF192:
- 3688 0f5f 70617261 		.ascii	"param6\000"
- 3688      6D3600
- 3689              	.LASF287:
- 3690 0f66 433A5C55 		.ascii	"C:\\Users\\felha\\OneDrive\\Documents\\PolyMTL\\Sou"
- 3690      73657273 
- 3690      5C66656C 
- 3690      68615C4F 
- 3690      6E654472 
- 3691 0f93 72636554 		.ascii	"rceTree_GBM2100\\GBM2100_ProjetInterface\\Interface"
- 3691      7265655F 
- 3691      47424D32 
- 3691      3130305C 
- 3691      47424D32 
- 3692 0fc4 2E637964 		.ascii	".cydsn\000"
- 3692      736E00
+ 3678      52564544 
+ 3678      3100
+ 3679              	.LASF186:
+ 3680 0fa5 70617261 		.ascii	"param0\000"
+ 3680      6D3000
+ 3681              	.LASF187:
+ 3682 0fac 70617261 		.ascii	"param1\000"
+ 3682      6D3100
+ 3683              	.LASF188:
+ 3684 0fb3 70617261 		.ascii	"param2\000"
+ 3684      6D3200
+ 3685              	.LASF189:
+ 3686 0fba 70617261 		.ascii	"param3\000"
+ 3686      6D3300
+ 3687              	.LASF190:
+ 3688 0fc1 70617261 		.ascii	"param4\000"
+ 3688      6D3400
+ 3689              	.LASF191:
+ 3690 0fc8 70617261 		.ascii	"param5\000"
+ 3690      6D3500
+ 3691              	.LASF192:
+ 3692 0fcf 70617261 		.ascii	"param6\000"
+ 3692      6D3600
  3693              	.LASF274:
- 3694 0fcb 43617053 		.ascii	"CapSense_widgetIndex\000"
+ 3694 0fd6 43617053 		.ascii	"CapSense_widgetIndex\000"
  3694      656E7365 
  3694      5F776964 
  3694      67657449 
  3694      6E646578 
  3695              	.LASF151:
- 3696 0fe0 52455345 		.ascii	"RESERVED9\000"
+ 3696 0feb 52455345 		.ascii	"RESERVED9\000"
  3696      52564544 
  3696      3900
  3697              	.LASF222:
- 3698 0fea 64657669 		.ascii	"deviceId\000"
+ 3698 0ff5 64657669 		.ascii	"deviceId\000"
  3698      63654964 
  3698      00
  3699              	.LASF276:
- 3700 0ff3 43617053 		.ascii	"CapSense_requestScanAllWidget\000"
+ 3700 0ffe 43617053 		.ascii	"CapSense_requestScanAllWidget\000"
  3700      656E7365 
  3700      5F726571 
  3700      75657374 
  3700      5363616E 
  3701              	.LASF207:
- 3702 1011 706F7369 		.ascii	"position\000"
+ 3702 101c 706F7369 		.ascii	"position\000"
  3702      74696F6E 
  3702      00
  3703              	.LASF172:
- 3704 101a 49444143 		.ascii	"IDACA\000"
+ 3704 1025 49444143 		.ascii	"IDACA\000"
  3704      4100
  3705              	.LASF174:
- 3706 1020 49444143 		.ascii	"IDACB\000"
+ 3706 102b 49444143 		.ascii	"IDACB\000"
  3706      4200
  3707              	.LASF220:
- 3708 1026 43617053 		.ascii	"CapSense_RAM_SNS_LIST_STRUCT\000"
+ 3708 1031 43617053 		.ascii	"CapSense_RAM_SNS_LIST_STRUCT\000"
  3708      656E7365 
  3708      5F52414D 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccUKwdIe.s 			page 89
+
+
  3708      5F534E53 
  3708      5F4C4953 
  3709              	.LASF156:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccM6VIrM.s 			page 89
-
-
- 3710 1043 53575F46 		.ascii	"SW_FW_MOD_SEL\000"
+ 3710 104e 53575F46 		.ascii	"SW_FW_MOD_SEL\000"
  3710      575F4D4F 
  3710      445F5345 
  3710      4C00
  3711              	.LASF259:
- 3712 1051 77646774 		.ascii	"wdgtArray\000"
+ 3712 105c 77646774 		.ascii	"wdgtArray\000"
  3712      41727261 
  3712      7900
  3713              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

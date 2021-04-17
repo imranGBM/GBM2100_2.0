@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "math.h"
+#include "TasksInterface.h"
+#include "traitementSignal.h"
 
 //Slave address
 #define I2C_ADDRESS 0X57        

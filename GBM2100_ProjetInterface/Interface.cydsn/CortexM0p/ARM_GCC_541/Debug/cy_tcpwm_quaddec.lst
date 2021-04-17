@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
   28:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** *
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** * Initializes the counter in the TCPWM block for the QuadDec operation.
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** *
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 2
 
 
   31:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** * \param base
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
   56:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c **** 
   57:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****         if (CY_TCPWM_INPUT_CREATOR != config->phiAInput)
   57              		.loc 1 57 0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 3
 
 
   58 0020 9369     		ldr	r3, [r2, #24]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
   97 005a 3025     		movs	r5, #48
   98 005c 1D40     		ands	r5, r3
   69:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL1_STOP_EDGE, config->stopInputM
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 4
 
 
   99              		.loc 1 69 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  142              	.L6:
  143 008c 0F030000 		.word	783
  144 0090 0100B600 		.word	11927553
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 5
 
 
  145              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  173 000a 8B01     		lsls	r3, r1, #6
  174 000c C318     		adds	r3, r0, r3
  175 000e 1D00     		movs	r5, r3
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 6
 
 
  176 0010 0935     		adds	r5, r5, #9
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  219 0052 05D0     		beq	.L8
  115:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****     {        
  116:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_quaddec.c ****         TCPWM_CNT_TR_CTRL0(base, cntNum) = CY_TCPWM_CNT_TR_CTRL0_DEFAULT;
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 7
 
 
  220              		.loc 1 116 0
@@ -397,53 +397,53 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  251 0006 00000000 		.4byte	.Ldebug_abbrev0
  252 000a 04       		.byte	0x4
  253 000b 01       		.uleb128 0x1
- 254 000c FD020000 		.4byte	.LASF56
+ 254 000c 08030000 		.4byte	.LASF56
  255 0010 0C       		.byte	0xc
  256 0011 1E000000 		.4byte	.LASF57
- 257 0015 5C010000 		.4byte	.LASF58
+ 257 0015 6F000000 		.4byte	.LASF58
  258 0019 00000000 		.4byte	.Ldebug_ranges0+0
  259 001d 00000000 		.4byte	0
  260 0021 00000000 		.4byte	.Ldebug_line0
  261 0025 02       		.uleb128 0x2
  262 0026 01       		.byte	0x1
  263 0027 06       		.byte	0x6
- 264 0028 1C020000 		.4byte	.LASF0
+ 264 0028 27020000 		.4byte	.LASF0
  265 002c 02       		.uleb128 0x2
  266 002d 01       		.byte	0x1
  267 002e 08       		.byte	0x8
- 268 002f FE010000 		.4byte	.LASF1
+ 268 002f 09020000 		.4byte	.LASF1
  269 0033 02       		.uleb128 0x2
  270 0034 02       		.byte	0x2
  271 0035 05       		.byte	0x5
  272 0036 65000000 		.4byte	.LASF2
  273 003a 02       		.uleb128 0x2
  274 003b 02       		.byte	0x2
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 8
 
 
  275 003c 07       		.byte	0x7
- 276 003d 7D020000 		.4byte	.LASF3
+ 276 003d 88020000 		.4byte	.LASF3
  277 0041 02       		.uleb128 0x2
  278 0042 04       		.byte	0x4
  279 0043 05       		.byte	0x5
- 280 0044 53010000 		.4byte	.LASF4
+ 280 0044 C3010000 		.4byte	.LASF4
  281 0048 03       		.uleb128 0x3
- 282 0049 D4000000 		.4byte	.LASF9
+ 282 0049 44010000 		.4byte	.LASF9
  283 004d 02       		.byte	0x2
  284 004e 41       		.byte	0x41
  285 004f 53000000 		.4byte	0x53
  286 0053 02       		.uleb128 0x2
  287 0054 04       		.byte	0x4
  288 0055 07       		.byte	0x7
- 289 0056 E4020000 		.4byte	.LASF5
+ 289 0056 EF020000 		.4byte	.LASF5
  290 005a 02       		.uleb128 0x2
  291 005b 08       		.byte	0x8
  292 005c 05       		.byte	0x5
- 293 005d 3E010000 		.4byte	.LASF6
+ 293 005d AE010000 		.4byte	.LASF6
  294 0061 02       		.uleb128 0x2
  295 0062 08       		.byte	0x8
  296 0063 07       		.byte	0x7
- 297 0064 31020000 		.4byte	.LASF7
+ 297 0064 3C020000 		.4byte	.LASF7
  298 0068 04       		.uleb128 0x4
  299 0069 04       		.byte	0x4
  300 006a 05       		.byte	0x5
@@ -451,16 +451,16 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  302 006f 02       		.uleb128 0x2
  303 0070 04       		.byte	0x4
  304 0071 07       		.byte	0x7
- 305 0072 5C020000 		.4byte	.LASF8
+ 305 0072 67020000 		.4byte	.LASF8
  306 0076 03       		.uleb128 0x3
- 307 0077 48020000 		.4byte	.LASF10
+ 307 0077 53020000 		.4byte	.LASF10
  308 007b 03       		.byte	0x3
  309 007c 30       		.byte	0x30
  310 007d 48000000 		.4byte	0x48
  311 0081 02       		.uleb128 0x2
  312 0082 08       		.byte	0x8
  313 0083 04       		.byte	0x4
- 314 0084 DC010000 		.4byte	.LASF11
+ 314 0084 E7010000 		.4byte	.LASF11
  315 0088 05       		.uleb128 0x5
  316 0089 76000000 		.4byte	0x76
  317 008d 06       		.uleb128 0x6
@@ -468,7 +468,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  319 0092 02       		.uleb128 0x2
  320 0093 04       		.byte	0x4
  321 0094 07       		.byte	0x7
- 322 0095 6F000000 		.4byte	.LASF12
+ 322 0095 DF000000 		.4byte	.LASF12
  323 0099 07       		.uleb128 0x7
  324 009a 8D000000 		.4byte	0x8d
  325 009e A9000000 		.4byte	0xa9
@@ -478,26 +478,26 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  329 00a8 00       		.byte	0
  330 00a9 09       		.uleb128 0x9
  331 00aa 40       		.byte	0x40
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 9
 
 
  332 00ab 04       		.byte	0x4
  333 00ac 22       		.byte	0x22
  334 00ad 71010000 		.4byte	0x171
  335 00b1 0A       		.uleb128 0xa
- 336 00b2 0C020000 		.4byte	.LASF13
+ 336 00b2 17020000 		.4byte	.LASF13
  337 00b6 04       		.byte	0x4
  338 00b7 23       		.byte	0x23
  339 00b8 88000000 		.4byte	0x88
  340 00bc 00       		.byte	0
  341 00bd 0A       		.uleb128 0xa
- 342 00be 4C010000 		.4byte	.LASF14
+ 342 00be BC010000 		.4byte	.LASF14
  343 00c2 04       		.byte	0x4
  344 00c3 24       		.byte	0x24
  345 00c4 8D000000 		.4byte	0x8d
  346 00c8 04       		.byte	0x4
  347 00c9 0A       		.uleb128 0xa
- 348 00ca CD030000 		.4byte	.LASF15
+ 348 00ca D8030000 		.4byte	.LASF15
  349 00ce 04       		.byte	0x4
  350 00cf 25       		.byte	0x25
  351 00d0 88000000 		.4byte	0x88
@@ -509,83 +509,83 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  357 00db 88000000 		.4byte	0x88
  358 00df 0C       		.byte	0xc
  359 00e0 0A       		.uleb128 0xa
- 360 00e1 D4010000 		.4byte	.LASF16
+ 360 00e1 DF010000 		.4byte	.LASF16
  361 00e5 04       		.byte	0x4
  362 00e6 27       		.byte	0x27
  363 00e7 88000000 		.4byte	0x88
  364 00eb 10       		.byte	0x10
  365 00ec 0A       		.uleb128 0xa
- 366 00ed 9F000000 		.4byte	.LASF17
+ 366 00ed 0F010000 		.4byte	.LASF17
  367 00f1 04       		.byte	0x4
  368 00f2 28       		.byte	0x28
  369 00f3 88000000 		.4byte	0x88
  370 00f7 14       		.byte	0x14
  371 00f8 0A       		.uleb128 0xa
- 372 00f9 78000000 		.4byte	.LASF18
+ 372 00f9 E8000000 		.4byte	.LASF18
  373 00fd 04       		.byte	0x4
  374 00fe 29       		.byte	0x29
  375 00ff 88000000 		.4byte	0x88
  376 0103 18       		.byte	0x18
  377 0104 0A       		.uleb128 0xa
- 378 0105 D5030000 		.4byte	.LASF19
+ 378 0105 E0030000 		.4byte	.LASF19
  379 0109 04       		.byte	0x4
  380 010a 2A       		.byte	0x2a
  381 010b 8D000000 		.4byte	0x8d
  382 010f 1C       		.byte	0x1c
  383 0110 0A       		.uleb128 0xa
- 384 0111 E9000000 		.4byte	.LASF20
+ 384 0111 59010000 		.4byte	.LASF20
  385 0115 04       		.byte	0x4
  386 0116 2B       		.byte	0x2b
  387 0117 88000000 		.4byte	0x88
  388 011b 20       		.byte	0x20
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 10
 
 
  389 011c 0A       		.uleb128 0xa
- 390 011d B1000000 		.4byte	.LASF21
+ 390 011d 21010000 		.4byte	.LASF21
  391 0121 04       		.byte	0x4
  392 0122 2C       		.byte	0x2c
  393 0123 88000000 		.4byte	0x88
  394 0127 24       		.byte	0x24
  395 0128 0A       		.uleb128 0xa
- 396 0129 BA000000 		.4byte	.LASF22
+ 396 0129 2A010000 		.4byte	.LASF22
  397 012d 04       		.byte	0x4
  398 012e 2D       		.byte	0x2d
  399 012f 88000000 		.4byte	0x88
  400 0133 28       		.byte	0x28
  401 0134 0A       		.uleb128 0xa
- 402 0135 D0020000 		.4byte	.LASF23
+ 402 0135 DB020000 		.4byte	.LASF23
  403 0139 04       		.byte	0x4
  404 013a 2E       		.byte	0x2e
  405 013b 8D000000 		.4byte	0x8d
  406 013f 2C       		.byte	0x2c
  407 0140 0A       		.uleb128 0xa
- 408 0141 CB020000 		.4byte	.LASF24
+ 408 0141 D6020000 		.4byte	.LASF24
  409 0145 04       		.byte	0x4
  410 0146 2F       		.byte	0x2f
  411 0147 88000000 		.4byte	0x88
  412 014b 30       		.byte	0x30
  413 014c 0A       		.uleb128 0xa
- 414 014d 28020000 		.4byte	.LASF25
+ 414 014d 33020000 		.4byte	.LASF25
  415 0151 04       		.byte	0x4
  416 0152 30       		.byte	0x30
  417 0153 88000000 		.4byte	0x88
  418 0157 34       		.byte	0x34
  419 0158 0A       		.uleb128 0xa
- 420 0159 F3030000 		.4byte	.LASF26
+ 420 0159 FE030000 		.4byte	.LASF26
  421 015d 04       		.byte	0x4
  422 015e 31       		.byte	0x31
  423 015f 88000000 		.4byte	0x88
  424 0163 38       		.byte	0x38
  425 0164 0A       		.uleb128 0xa
- 426 0165 C8010000 		.4byte	.LASF27
+ 426 0165 D3010000 		.4byte	.LASF27
  427 0169 04       		.byte	0x4
  428 016a 32       		.byte	0x32
  429 016b 8D000000 		.4byte	0x8d
  430 016f 3C       		.byte	0x3c
  431 0170 00       		.byte	0
  432 0171 03       		.uleb128 0x3
- 433 0172 84000000 		.4byte	.LASF28
+ 433 0172 F4000000 		.4byte	.LASF28
  434 0176 04       		.byte	0x4
  435 0177 33       		.byte	0x33
  436 0178 A9000000 		.4byte	0xa9
@@ -595,58 +595,58 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  440 0180 38       		.byte	0x38
  441 0181 FF010000 		.4byte	0x1ff
  442 0185 0A       		.uleb128 0xa
- 443 0186 0C020000 		.4byte	.LASF13
+ 443 0186 17020000 		.4byte	.LASF13
  444 018a 04       		.byte	0x4
  445 018b 39       		.byte	0x39
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 11
 
 
  446 018c 88000000 		.4byte	0x88
  447 0190 00       		.byte	0
  448 0191 0A       		.uleb128 0xa
- 449 0192 C4030000 		.4byte	.LASF29
+ 449 0192 CF030000 		.4byte	.LASF29
  450 0196 04       		.byte	0x4
  451 0197 3A       		.byte	0x3a
  452 0198 88000000 		.4byte	0x88
  453 019c 04       		.byte	0x4
  454 019d 0A       		.uleb128 0xa
- 455 019e 96000000 		.4byte	.LASF30
+ 455 019e 06010000 		.4byte	.LASF30
  456 01a2 04       		.byte	0x4
  457 01a3 3B       		.byte	0x3b
  458 01a4 88000000 		.4byte	0x88
  459 01a8 08       		.byte	0x8
  460 01a9 0A       		.uleb128 0xa
- 461 01aa 11010000 		.4byte	.LASF31
+ 461 01aa 81010000 		.4byte	.LASF31
  462 01ae 04       		.byte	0x4
  463 01af 3C       		.byte	0x3c
  464 01b0 88000000 		.4byte	0x88
  465 01b4 0C       		.byte	0xc
  466 01b5 0A       		.uleb128 0xa
- 467 01b6 A6000000 		.4byte	.LASF32
+ 467 01b6 16010000 		.4byte	.LASF32
  468 01ba 04       		.byte	0x4
  469 01bb 3D       		.byte	0x3d
  470 01bc 88000000 		.4byte	0x88
  471 01c0 10       		.byte	0x10
  472 01c1 0A       		.uleb128 0xa
- 473 01c2 74020000 		.4byte	.LASF33
+ 473 01c2 7F020000 		.4byte	.LASF33
  474 01c6 04       		.byte	0x4
  475 01c7 3E       		.byte	0x3e
  476 01c8 88000000 		.4byte	0x88
  477 01cc 14       		.byte	0x14
  478 01cd 0A       		.uleb128 0xa
- 479 01ce 2E010000 		.4byte	.LASF34
+ 479 01ce 9E010000 		.4byte	.LASF34
  480 01d2 04       		.byte	0x4
  481 01d3 3F       		.byte	0x3f
  482 01d4 88000000 		.4byte	0x88
  483 01d8 18       		.byte	0x18
  484 01d9 0A       		.uleb128 0xa
- 485 01da 11020000 		.4byte	.LASF35
+ 485 01da 1C020000 		.4byte	.LASF35
  486 01de 04       		.byte	0x4
  487 01df 40       		.byte	0x40
  488 01e0 8D000000 		.4byte	0x8d
  489 01e4 1C       		.byte	0x1c
  490 01e5 0A       		.uleb128 0xa
- 491 01e6 D5030000 		.4byte	.LASF19
+ 491 01e6 E0030000 		.4byte	.LASF19
  492 01ea 04       		.byte	0x4
  493 01eb 41       		.byte	0x41
  494 01ec 04020000 		.4byte	0x204
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  500 01f8 09020000 		.4byte	0x209
  501 01fc 0001     		.2byte	0x100
  502 01fe 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 12
 
 
  503 01ff 05       		.uleb128 0x5
@@ -673,27 +673,27 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  512 0217 1F       		.byte	0x1f
  513 0218 00       		.byte	0
  514 0219 03       		.uleb128 0x3
- 515 021a F9000000 		.4byte	.LASF36
+ 515 021a 69010000 		.4byte	.LASF36
  516 021e 04       		.byte	0x4
  517 021f 43       		.byte	0x43
  518 0220 7C010000 		.4byte	0x17c
  519 0224 0E       		.uleb128 0xe
- 520 0225 FD030000 		.4byte	.LASF37
+ 520 0225 08040000 		.4byte	.LASF37
  521 0229 05       		.byte	0x5
  522 022a 4206     		.2byte	0x642
  523 022c 19020000 		.4byte	0x219
  524 0230 02       		.uleb128 0x2
  525 0231 01       		.byte	0x1
  526 0232 08       		.byte	0x8
- 527 0233 97020000 		.4byte	.LASF38
+ 527 0233 A2020000 		.4byte	.LASF38
  528 0237 02       		.uleb128 0x2
  529 0238 04       		.byte	0x4
  530 0239 04       		.byte	0x4
- 531 023a 38010000 		.4byte	.LASF39
+ 531 023a A8010000 		.4byte	.LASF39
  532 023e 02       		.uleb128 0x2
  533 023f 08       		.byte	0x8
  534 0240 04       		.byte	0x4
- 535 0241 F6020000 		.4byte	.LASF40
+ 535 0241 01030000 		.4byte	.LASF40
  536 0245 0F       		.uleb128 0xf
  537 0246 04       		.byte	0x4
  538 0247 6F000000 		.4byte	0x6f
@@ -701,70 +701,70 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  540 024c 7301     		.2byte	0x173
  541 024e 62020000 		.4byte	0x262
  542 0252 10       		.uleb128 0x10
- 543 0253 C3000000 		.4byte	.LASF41
+ 543 0253 33010000 		.4byte	.LASF41
  544 0257 00       		.byte	0
  545 0258 11       		.uleb128 0x11
- 546 0259 9C020000 		.4byte	.LASF42
+ 546 0259 A7020000 		.4byte	.LASF42
  547 025d 0100B600 		.4byte	0xb60001
  548 0261 00       		.byte	0
  549 0262 0E       		.uleb128 0xe
- 550 0263 DE030000 		.4byte	.LASF43
+ 550 0263 E9030000 		.4byte	.LASF43
  551 0267 06       		.byte	0x6
  552 0268 7601     		.2byte	0x176
  553 026a 45020000 		.4byte	0x245
  554 026e 12       		.uleb128 0x12
- 555 026f AF020000 		.4byte	.LASF59
+ 555 026f BA020000 		.4byte	.LASF59
  556 0273 20       		.byte	0x20
  557 0274 07       		.byte	0x7
  558 0275 2E       		.byte	0x2e
  559 0276 DB020000 		.4byte	0x2db
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 13
 
 
  560 027a 0A       		.uleb128 0xa
- 561 027b 69020000 		.4byte	.LASF44
+ 561 027b 74020000 		.4byte	.LASF44
  562 027f 07       		.byte	0x7
  563 0280 31       		.byte	0x31
  564 0281 76000000 		.4byte	0x76
  565 0285 00       		.byte	0
  566 0286 0A       		.uleb128 0xa
- 567 0287 1D010000 		.4byte	.LASF45
+ 567 0287 8D010000 		.4byte	.LASF45
  568 028b 07       		.byte	0x7
  569 028c 33       		.byte	0x33
  570 028d 76000000 		.4byte	0x76
  571 0291 04       		.byte	0x4
  572 0292 0A       		.uleb128 0xa
- 573 0293 A7030000 		.4byte	.LASF46
+ 573 0293 B2030000 		.4byte	.LASF46
  574 0297 07       		.byte	0x7
  575 0298 35       		.byte	0x35
  576 0299 76000000 		.4byte	0x76
  577 029d 08       		.byte	0x8
  578 029e 0A       		.uleb128 0xa
- 579 029f 51020000 		.4byte	.LASF47
+ 579 029f 5C020000 		.4byte	.LASF47
  580 02a3 07       		.byte	0x7
  581 02a4 37       		.byte	0x37
  582 02a5 76000000 		.4byte	0x76
  583 02a9 0C       		.byte	0xc
  584 02aa 0A       		.uleb128 0xa
- 585 02ab B6030000 		.4byte	.LASF48
+ 585 02ab C1030000 		.4byte	.LASF48
  586 02af 07       		.byte	0x7
  587 02b0 39       		.byte	0x39
  588 02b1 76000000 		.4byte	0x76
  589 02b5 10       		.byte	0x10
  590 02b6 0A       		.uleb128 0xa
- 591 02b7 DF000000 		.4byte	.LASF49
+ 591 02b7 4F010000 		.4byte	.LASF49
  592 02bb 07       		.byte	0x7
  593 02bc 3B       		.byte	0x3b
  594 02bd 76000000 		.4byte	0x76
  595 02c1 14       		.byte	0x14
  596 02c2 0A       		.uleb128 0xa
- 597 02c3 DA020000 		.4byte	.LASF50
+ 597 02c3 E5020000 		.4byte	.LASF50
  598 02c7 07       		.byte	0x7
  599 02c8 3D       		.byte	0x3d
  600 02c9 76000000 		.4byte	0x76
  601 02cd 18       		.byte	0x18
  602 02ce 0A       		.uleb128 0xa
- 603 02cf 07010000 		.4byte	.LASF51
+ 603 02cf 77010000 		.4byte	.LASF51
  604 02d3 07       		.byte	0x7
  605 02d4 3F       		.byte	0x3f
  606 02d5 76000000 		.4byte	0x76
@@ -776,9 +776,9 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  612 02e1 41       		.byte	0x41
  613 02e2 6E020000 		.4byte	0x26e
  614 02e6 13       		.uleb128 0x13
- 615 02e7 E8010000 		.4byte	.LASF60
+ 615 02e7 F3010000 		.4byte	.LASF60
  616 02eb 01       		.byte	0x1
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 14
 
 
  617 02ec 2F       		.byte	0x2f
@@ -789,26 +789,26 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  622 02fa 9C       		.byte	0x9c
  623 02fb 3A030000 		.4byte	0x33a
  624 02ff 14       		.uleb128 0x14
- 625 0300 08040000 		.4byte	.LASF53
+ 625 0300 13040000 		.4byte	.LASF53
  626 0304 01       		.byte	0x1
  627 0305 2F       		.byte	0x2f
  628 0306 3A030000 		.4byte	0x33a
  629 030a 00000000 		.4byte	.LLST0
  630 030e 14       		.uleb128 0x14
- 631 030f C1010000 		.4byte	.LASF54
+ 631 030f CC010000 		.4byte	.LASF54
  632 0313 01       		.byte	0x1
  633 0314 2F       		.byte	0x2f
  634 0315 76000000 		.4byte	0x76
  635 0319 53000000 		.4byte	.LLST1
  636 031d 15       		.uleb128 0x15
- 637 031e F2000000 		.4byte	.LASF55
+ 637 031e 62010000 		.4byte	.LASF55
  638 0322 01       		.byte	0x1
  639 0323 30       		.byte	0x30
  640 0324 40030000 		.4byte	0x340
  641 0328 01       		.uleb128 0x1
  642 0329 52       		.byte	0x52
  643 032a 16       		.uleb128 0x16
- 644 032b 90020000 		.4byte	.LASF61
+ 644 032b 9B020000 		.4byte	.LASF61
  645 032f 01       		.byte	0x1
  646 0330 32       		.byte	0x32
  647 0331 62020000 		.4byte	0x262
@@ -823,7 +823,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  656 0346 06       		.uleb128 0x6
  657 0347 DB020000 		.4byte	0x2db
  658 034b 18       		.uleb128 0x18
- 659 034c 8F030000 		.4byte	.LASF62
+ 659 034c 9A030000 		.4byte	.LASF62
  660 0350 01       		.byte	0x1
  661 0351 64       		.byte	0x64
  662 0352 00000000 		.4byte	.LFB65
@@ -831,23 +831,23 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  664 035a 01       		.uleb128 0x1
  665 035b 9C       		.byte	0x9c
  666 035c 15       		.uleb128 0x15
- 667 035d 08040000 		.4byte	.LASF53
+ 667 035d 13040000 		.4byte	.LASF53
  668 0361 01       		.byte	0x1
  669 0362 64       		.byte	0x64
  670 0363 3A030000 		.4byte	0x33a
  671 0367 01       		.uleb128 0x1
  672 0368 50       		.byte	0x50
  673 0369 14       		.uleb128 0x14
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 15
 
 
- 674 036a C1010000 		.4byte	.LASF54
+ 674 036a CC010000 		.4byte	.LASF54
  675 036e 01       		.byte	0x1
  676 036f 64       		.byte	0x64
  677 0370 76000000 		.4byte	0x76
  678 0374 CC000000 		.4byte	.LLST3
  679 0378 15       		.uleb128 0x15
- 680 0379 F2000000 		.4byte	.LASF55
+ 680 0379 62010000 		.4byte	.LASF55
  681 037d 01       		.byte	0x1
  682 037e 64       		.byte	0x64
  683 037f 40030000 		.4byte	0x340
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  728 0026 0B       		.uleb128 0xb
  729 0027 49       		.uleb128 0x49
  730 0028 13       		.uleb128 0x13
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 16
 
 
  731 0029 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  785 005f 01       		.uleb128 0x1
  786 0060 13       		.uleb128 0x13
  787 0061 00       		.byte	0
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 17
 
 
  788 0062 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  842 0098 13       		.uleb128 0x13
  843 0099 38       		.uleb128 0x38
  844 009a 05       		.uleb128 0x5
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 18
 
 
  845 009b 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  899 00d1 0B       		.uleb128 0xb
  900 00d2 3A       		.uleb128 0x3a
  901 00d3 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 19
 
 
  902 00d4 3B       		.uleb128 0x3b
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  956 010b 0B       		.uleb128 0xb
  957 010c 3B       		.uleb128 0x3b
  958 010d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 20
 
 
  959 010e 49       		.uleb128 0x49
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  1013              		.section	.debug_loc,"",%progbits
  1014              	.Ldebug_loc0:
  1015              	.LLST0:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 21
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 21
 
 
  1016 0000 00000000 		.4byte	.LVL0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  1070 0081 F3       		.byte	0xf3
  1071 0082 01       		.uleb128 0x1
  1072 0083 51       		.byte	0x51
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 22
 
 
  1073 0084 9F       		.byte	0x9f
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  1127 0024 00000000 		.4byte	0
  1128              		.section	.debug_ranges,"",%progbits
  1129              	.Ldebug_ranges0:
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 23
 
 
  1130 0000 00000000 		.4byte	.LFB64
@@ -1355,295 +1355,298 @@ ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 1
  1145 0065 73686F72 		.ascii	"short int\000"
  1145      7420696E 
  1145      7400
- 1146              	.LASF12:
- 1147 006f 73697A65 		.ascii	"sizetype\000"
- 1147      74797065 
- 1147      00
- 1148              	.LASF18:
- 1149 0078 50455249 		.ascii	"PERIOD_BUFF\000"
- 1149      4F445F42 
- 1149      55464600 
- 1150              	.LASF28:
- 1151 0084 54435057 		.ascii	"TCPWM_CNT_V1_Type\000"
- 1151      4D5F434E 
- 1151      545F5631 
- 1151      5F547970 
- 1151      6500
- 1152              	.LASF30:
- 1153 0096 4354524C 		.ascii	"CTRL_SET\000"
- 1153      5F534554 
- 1153      00
- 1154              	.LASF17:
- 1155 009f 50455249 		.ascii	"PERIOD\000"
- 1155      4F4400
- 1156              	.LASF32:
- 1157 00a6 434D445F 		.ascii	"CMD_RELOAD\000"
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 24
+ 1146              	.LASF58:
+ 1147 006f 433A5C55 		.ascii	"C:\\Users\\markm\\Desktop\\GBM2100 - Projet Instrum"
+ 1147      73657273 
+ 1147      5C6D6172 
+ 1147      6B6D5C44 
+ 1147      65736B74 
+ 1148 009e 5C50726F 		.ascii	"\\Projet\\SourceTree_Files\\GBM2100_ProjetInterface"
+ 1148      6A65745C 
+ 1148      536F7572 
+ 1148      63655472 
+ 1148      65655F46 
+ 1149 00ce 5C496E74 		.ascii	"\\Interface.cydsn\000"
+ 1149      65726661 
+ 1149      63652E63 
+ 1149      7964736E 
+ 1149      00
+ 1150              	.LASF12:
+ 1151 00df 73697A65 		.ascii	"sizetype\000"
+ 1151      74797065 
+ 1151      00
+ 1152              	.LASF18:
+ 1153 00e8 50455249 		.ascii	"PERIOD_BUFF\000"
+ 1153      4F445F42 
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 24
 
 
- 1157      52454C4F 
- 1157      414400
- 1158              	.LASF21:
- 1159 00b1 54525F43 		.ascii	"TR_CTRL1\000"
- 1159      54524C31 
- 1159      00
- 1160              	.LASF22:
- 1161 00ba 54525F43 		.ascii	"TR_CTRL2\000"
- 1161      54524C32 
- 1161      00
- 1162              	.LASF41:
- 1163 00c3 43595F54 		.ascii	"CY_TCPWM_SUCCESS\000"
- 1163      4350574D 
- 1163      5F535543 
- 1163      43455353 
+ 1153      55464600 
+ 1154              	.LASF28:
+ 1155 00f4 54435057 		.ascii	"TCPWM_CNT_V1_Type\000"
+ 1155      4D5F434E 
+ 1155      545F5631 
+ 1155      5F547970 
+ 1155      6500
+ 1156              	.LASF30:
+ 1157 0106 4354524C 		.ascii	"CTRL_SET\000"
+ 1157      5F534554 
+ 1157      00
+ 1158              	.LASF17:
+ 1159 010f 50455249 		.ascii	"PERIOD\000"
+ 1159      4F4400
+ 1160              	.LASF32:
+ 1161 0116 434D445F 		.ascii	"CMD_RELOAD\000"
+ 1161      52454C4F 
+ 1161      414400
+ 1162              	.LASF21:
+ 1163 0121 54525F43 		.ascii	"TR_CTRL1\000"
+ 1163      54524C31 
  1163      00
- 1164              	.LASF9:
- 1165 00d4 5F5F7569 		.ascii	"__uint32_t\000"
- 1165      6E743332 
- 1165      5F7400
- 1166              	.LASF49:
- 1167 00df 73746F70 		.ascii	"stopInput\000"
- 1167      496E7075 
- 1167      7400
- 1168              	.LASF20:
- 1169 00e9 54525F43 		.ascii	"TR_CTRL0\000"
- 1169      54524C30 
- 1169      00
- 1170              	.LASF55:
- 1171 00f2 636F6E66 		.ascii	"config\000"
- 1171      696700
- 1172              	.LASF36:
- 1173 00f9 54435057 		.ascii	"TCPWM_V1_Type\000"
- 1173      4D5F5631 
- 1173      5F547970 
- 1173      6500
- 1174              	.LASF51:
- 1175 0107 70686942 		.ascii	"phiBInput\000"
- 1175      496E7075 
- 1175      7400
- 1176              	.LASF31:
- 1177 0111 434D445F 		.ascii	"CMD_CAPTURE\000"
- 1177      43415054 
- 1177      55524500 
- 1178              	.LASF45:
- 1179 011d 696E7465 		.ascii	"interruptSources\000"
- 1179      72727570 
- 1179      74536F75 
- 1179      72636573 
- 1179      00
- 1180              	.LASF34:
- 1181 012e 434D445F 		.ascii	"CMD_START\000"
- 1181      53544152 
- 1181      5400
- 1182              	.LASF39:
- 1183 0138 666C6F61 		.ascii	"float\000"
- 1183      7400
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 25
+ 1164              	.LASF22:
+ 1165 012a 54525F43 		.ascii	"TR_CTRL2\000"
+ 1165      54524C32 
+ 1165      00
+ 1166              	.LASF41:
+ 1167 0133 43595F54 		.ascii	"CY_TCPWM_SUCCESS\000"
+ 1167      4350574D 
+ 1167      5F535543 
+ 1167      43455353 
+ 1167      00
+ 1168              	.LASF9:
+ 1169 0144 5F5F7569 		.ascii	"__uint32_t\000"
+ 1169      6E743332 
+ 1169      5F7400
+ 1170              	.LASF49:
+ 1171 014f 73746F70 		.ascii	"stopInput\000"
+ 1171      496E7075 
+ 1171      7400
+ 1172              	.LASF20:
+ 1173 0159 54525F43 		.ascii	"TR_CTRL0\000"
+ 1173      54524C30 
+ 1173      00
+ 1174              	.LASF55:
+ 1175 0162 636F6E66 		.ascii	"config\000"
+ 1175      696700
+ 1176              	.LASF36:
+ 1177 0169 54435057 		.ascii	"TCPWM_V1_Type\000"
+ 1177      4D5F5631 
+ 1177      5F547970 
+ 1177      6500
+ 1178              	.LASF51:
+ 1179 0177 70686942 		.ascii	"phiBInput\000"
+ 1179      496E7075 
+ 1179      7400
+ 1180              	.LASF31:
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 25
 
 
- 1184              	.LASF6:
- 1185 013e 6C6F6E67 		.ascii	"long long int\000"
- 1185      206C6F6E 
- 1185      6720696E 
- 1185      7400
- 1186              	.LASF14:
- 1187 014c 53544154 		.ascii	"STATUS\000"
- 1187      555300
- 1188              	.LASF4:
- 1189 0153 6C6F6E67 		.ascii	"long int\000"
- 1189      20696E74 
- 1189      00
- 1190              	.LASF58:
- 1191 015c 433A5C55 		.ascii	"C:\\Users\\felha\\OneDrive\\Documents\\PolyMTL\\Sou"
- 1191      73657273 
- 1191      5C66656C 
- 1191      68615C4F 
- 1191      6E654472 
- 1192 0189 72636554 		.ascii	"rceTree_GBM2100\\GBM2100_ProjetInterface\\Interface"
- 1192      7265655F 
- 1192      47424D32 
- 1192      3130305C 
- 1192      47424D32 
- 1193 01ba 2E637964 		.ascii	".cydsn\000"
- 1193      736E00
+ 1181 0181 434D445F 		.ascii	"CMD_CAPTURE\000"
+ 1181      43415054 
+ 1181      55524500 
+ 1182              	.LASF45:
+ 1183 018d 696E7465 		.ascii	"interruptSources\000"
+ 1183      72727570 
+ 1183      74536F75 
+ 1183      72636573 
+ 1183      00
+ 1184              	.LASF34:
+ 1185 019e 434D445F 		.ascii	"CMD_START\000"
+ 1185      53544152 
+ 1185      5400
+ 1186              	.LASF39:
+ 1187 01a8 666C6F61 		.ascii	"float\000"
+ 1187      7400
+ 1188              	.LASF6:
+ 1189 01ae 6C6F6E67 		.ascii	"long long int\000"
+ 1189      206C6F6E 
+ 1189      6720696E 
+ 1189      7400
+ 1190              	.LASF14:
+ 1191 01bc 53544154 		.ascii	"STATUS\000"
+ 1191      555300
+ 1192              	.LASF4:
+ 1193 01c3 6C6F6E67 		.ascii	"long int\000"
+ 1193      20696E74 
+ 1193      00
  1194              	.LASF54:
- 1195 01c1 636E744E 		.ascii	"cntNum\000"
+ 1195 01cc 636E744E 		.ascii	"cntNum\000"
  1195      756D00
  1196              	.LASF27:
- 1197 01c8 494E5452 		.ascii	"INTR_MASKED\000"
+ 1197 01d3 494E5452 		.ascii	"INTR_MASKED\000"
  1197      5F4D4153 
  1197      4B454400 
  1198              	.LASF16:
- 1199 01d4 43435F42 		.ascii	"CC_BUFF\000"
+ 1199 01df 43435F42 		.ascii	"CC_BUFF\000"
  1199      55464600 
  1200              	.LASF11:
- 1201 01dc 6C6F6E67 		.ascii	"long double\000"
+ 1201 01e7 6C6F6E67 		.ascii	"long double\000"
  1201      20646F75 
  1201      626C6500 
  1202              	.LASF60:
- 1203 01e8 43795F54 		.ascii	"Cy_TCPWM_QuadDec_Init\000"
+ 1203 01f3 43795F54 		.ascii	"Cy_TCPWM_QuadDec_Init\000"
  1203      4350574D 
  1203      5F517561 
  1203      64446563 
  1203      5F496E69 
  1204              	.LASF1:
- 1205 01fe 756E7369 		.ascii	"unsigned char\000"
+ 1205 0209 756E7369 		.ascii	"unsigned char\000"
  1205      676E6564 
  1205      20636861 
  1205      7200
  1206              	.LASF13:
- 1207 020c 4354524C 		.ascii	"CTRL\000"
+ 1207 0217 4354524C 		.ascii	"CTRL\000"
  1207      00
  1208              	.LASF35:
- 1209 0211 494E5452 		.ascii	"INTR_CAUSE\000"
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 26
+
+
+ 1209 021c 494E5452 		.ascii	"INTR_CAUSE\000"
  1209      5F434155 
  1209      534500
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 26
-
-
  1210              	.LASF0:
- 1211 021c 7369676E 		.ascii	"signed char\000"
+ 1211 0227 7369676E 		.ascii	"signed char\000"
  1211      65642063 
  1211      68617200 
  1212              	.LASF25:
- 1213 0228 494E5452 		.ascii	"INTR_SET\000"
+ 1213 0233 494E5452 		.ascii	"INTR_SET\000"
  1213      5F534554 
  1213      00
  1214              	.LASF7:
- 1215 0231 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1215 023c 6C6F6E67 		.ascii	"long long unsigned int\000"
  1215      206C6F6E 
  1215      6720756E 
  1215      7369676E 
  1215      65642069 
  1216              	.LASF10:
- 1217 0248 75696E74 		.ascii	"uint32_t\000"
+ 1217 0253 75696E74 		.ascii	"uint32_t\000"
  1217      33325F74 
  1217      00
  1218              	.LASF47:
- 1219 0251 696E6465 		.ascii	"indexInput\000"
+ 1219 025c 696E6465 		.ascii	"indexInput\000"
  1219      78496E70 
  1219      757400
  1220              	.LASF8:
- 1221 025c 756E7369 		.ascii	"unsigned int\000"
+ 1221 0267 756E7369 		.ascii	"unsigned int\000"
  1221      676E6564 
  1221      20696E74 
  1221      00
  1222              	.LASF44:
- 1223 0269 7265736F 		.ascii	"resolution\000"
+ 1223 0274 7265736F 		.ascii	"resolution\000"
  1223      6C757469 
  1223      6F6E00
  1224              	.LASF33:
- 1225 0274 434D445F 		.ascii	"CMD_STOP\000"
+ 1225 027f 434D445F 		.ascii	"CMD_STOP\000"
  1225      53544F50 
  1225      00
  1226              	.LASF3:
- 1227 027d 73686F72 		.ascii	"short unsigned int\000"
+ 1227 0288 73686F72 		.ascii	"short unsigned int\000"
  1227      7420756E 
  1227      7369676E 
  1227      65642069 
  1227      6E7400
  1228              	.LASF61:
- 1229 0290 73746174 		.ascii	"status\000"
+ 1229 029b 73746174 		.ascii	"status\000"
  1229      757300
  1230              	.LASF38:
- 1231 0297 63686172 		.ascii	"char\000"
+ 1231 02a2 63686172 		.ascii	"char\000"
  1231      00
  1232              	.LASF42:
- 1233 029c 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
+ 1233 02a7 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
  1233      4350574D 
  1233      5F424144 
  1233      5F504152 
  1233      414D00
  1234              	.LASF59:
- 1235 02af 63795F73 		.ascii	"cy_stc_tcpwm_quaddec_config\000"
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 27
+
+
+ 1235 02ba 63795F73 		.ascii	"cy_stc_tcpwm_quaddec_config\000"
  1235      74635F74 
  1235      6370776D 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 27
-
-
  1235      5F717561 
  1235      64646563 
  1236              	.LASF24:
- 1237 02cb 494E5452 		.ascii	"INTR\000"
+ 1237 02d6 494E5452 		.ascii	"INTR\000"
  1237      00
  1238              	.LASF23:
- 1239 02d0 52455345 		.ascii	"RESERVED1\000"
+ 1239 02db 52455345 		.ascii	"RESERVED1\000"
  1239      52564544 
  1239      3100
  1240              	.LASF50:
- 1241 02da 70686941 		.ascii	"phiAInput\000"
+ 1241 02e5 70686941 		.ascii	"phiAInput\000"
  1241      496E7075 
  1241      7400
  1242              	.LASF5:
- 1243 02e4 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1243 02ef 6C6F6E67 		.ascii	"long unsigned int\000"
  1243      20756E73 
  1243      69676E65 
  1243      6420696E 
  1243      7400
  1244              	.LASF40:
- 1245 02f6 646F7562 		.ascii	"double\000"
+ 1245 0301 646F7562 		.ascii	"double\000"
  1245      6C6500
  1246              	.LASF56:
- 1247 02fd 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1247 0308 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  1247      43313120 
  1247      352E342E 
  1247      31203230 
  1247      31363036 
- 1248 0330 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 1248 033b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
  1248      20726576 
  1248      6973696F 
  1248      6E203233 
  1248      37373135 
- 1249 0363 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 1249 036e 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
  1249      67202D66 
  1249      66756E63 
  1249      74696F6E 
  1249      2D736563 
  1250              	.LASF62:
- 1251 038f 43795F54 		.ascii	"Cy_TCPWM_QuadDec_DeInit\000"
+ 1251 039a 43795F54 		.ascii	"Cy_TCPWM_QuadDec_DeInit\000"
  1251      4350574D 
  1251      5F517561 
  1251      64446563 
  1251      5F446549 
  1252              	.LASF46:
- 1253 03a7 696E6465 		.ascii	"indexInputMode\000"
+ 1253 03b2 696E6465 		.ascii	"indexInputMode\000"
  1253      78496E70 
  1253      75744D6F 
  1253      646500
  1254              	.LASF48:
- 1255 03b6 73746F70 		.ascii	"stopInputMode\000"
+ 1255 03c1 73746F70 		.ascii	"stopInputMode\000"
  1255      496E7075 
  1255      744D6F64 
  1255      6500
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccpeb9Wl.s 			page 28
+
+
  1256              	.LASF29:
- 1257 03c4 4354524C 		.ascii	"CTRL_CLR\000"
+ 1257 03cf 4354524C 		.ascii	"CTRL_CLR\000"
  1257      5F434C52 
-ARM GAS  C:\Users\felha\AppData\Local\Temp\ccXOeBQ2.s 			page 28
-
-
  1257      00
  1258              	.LASF15:
- 1259 03cd 434F554E 		.ascii	"COUNTER\000"
+ 1259 03d8 434F554E 		.ascii	"COUNTER\000"
  1259      54455200 
  1260              	.LASF19:
- 1261 03d5 52455345 		.ascii	"RESERVED\000"
+ 1261 03e0 52455345 		.ascii	"RESERVED\000"
  1261      52564544 
  1261      00
  1262              	.LASF43:
- 1263 03de 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
+ 1263 03e9 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
  1263      6E5F7463 
  1263      70776D5F 
  1263      73746174 
  1263      75735F74 
  1264              	.LASF26:
- 1265 03f3 494E5452 		.ascii	"INTR_MASK\000"
+ 1265 03fe 494E5452 		.ascii	"INTR_MASK\000"
  1265      5F4D4153 
  1265      4B00
  1266              	.LASF37:
- 1267 03fd 54435057 		.ascii	"TCPWM_Type\000"
+ 1267 0408 54435057 		.ascii	"TCPWM_Type\000"
  1267      4D5F5479 
  1267      706500
  1268              	.LASF53:
- 1269 0408 62617365 		.ascii	"base\000"
+ 1269 0413 62617365 		.ascii	"base\000"
  1269      00
  1270              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

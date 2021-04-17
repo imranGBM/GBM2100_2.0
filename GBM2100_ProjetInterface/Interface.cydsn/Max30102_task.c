@@ -9,6 +9,8 @@
     uint16_t idxB = 0;
     bool flag = false;
     static int size_traitement = 750;
+    volatile int32_t vectorRED[750];
+    volatile int32_t vectorINFRA[750];
 
 // uint8_t car sa return 1 byte de data
 uint8_t read_Register(uint8_t address)      //address du register qui va read
@@ -120,15 +122,22 @@ void max30102_task(void *arg)
     max30102_init();
     
     for(;;){
-//        if(flag==true)
-//        {
-//            for (uint32_t i = idxB-size_traitement; i < idxB; i++){
-//        vectorRED[i]=bufferRED[i];
-//        vectorINFRA[i]=bufferIR[i];
-//        }
-//            traitement_signal();
-//            flag = false;
-//        }
+        if(flag==true)
+        {
+            for (uint32_t i = idxB-size_traitement; i < idxB; i++){
+                vectorRED[i]=bufferRED[i];
+                vectorINFRA[i]=bufferIR[i];
+            }
+            //traitement_signal();
+            
+            for (uint32_t i = 0; i < 750; i++){
+                 vectorRED[i] = i;
+            }
+            
+            drawGraph(&vectorRED);
+            flag = false;
+            vTaskDelay(100);
+        }
         
     }
 }

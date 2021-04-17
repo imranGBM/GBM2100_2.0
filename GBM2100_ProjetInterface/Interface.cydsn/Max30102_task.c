@@ -1,4 +1,5 @@
 #include "Max30102_task.h"
+#include "traitementSignal.h"
 
 //buffer circulaire variable init pour le ISR function
     //int size_traitement = 300; //for later
@@ -119,16 +120,16 @@ void max30102_task(void *arg)
     max30102_init();
     
     for(;;){
-        /*if(flag==true)
-        {
-            for (uint32_t i = idxB-size_traitement; i < idxB; i++){
-        vectorRED[i]=bufferRED[i];
-        vectorINFRA[i]=bufferIR[i];
-        }
-            traitementSignal();
-            flag = false;
-        }
-        */
+//        if(flag==true)
+//        {
+//            for (uint32_t i = idxB-size_traitement; i < idxB; i++){
+//        vectorRED[i]=bufferRED[i];
+//        vectorINFRA[i]=bufferIR[i];
+//        }
+//            traitement_signal();
+//            flag = false;
+//        }
+        
     }
 }
 

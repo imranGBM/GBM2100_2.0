@@ -12,7 +12,7 @@
 
 void UpdateDisplay(cy_eink_update_t updateMethod, bool powerCycle);
 void ClearScreen();
-void drawGraph(float*vector150elements);
+void drawGraph(volatile int32_t*vector750elements);
 void updateParameters(int param1, int param2); 
 void updateLowHeartRateLimit(int HeartRate); 
 void updateHighHeartRateLimit(int HeartRate);

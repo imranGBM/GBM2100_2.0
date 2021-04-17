@@ -16,12 +16,12 @@
 #include "cy_eink_library.h"
 #include "LCDConf.h"
 #include <stdlib.h>
-//#include <arm_math.h>
-//#include<core_cm4.h>
-//
-//void filtre(float signal[],float32_t Coefficients[]);
-//
-//void traitement_signal();
+#include <arm_math.h>
+#include<core_cm4.h>
+
+void filtre(float signal[],float32_t Coefficients[]);
+
+void traitement_signal();
 
 
 

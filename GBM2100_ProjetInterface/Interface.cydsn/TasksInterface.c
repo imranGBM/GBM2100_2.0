@@ -11,6 +11,7 @@
 #include "math.h"
 #include "TasksInterface.h"
 #include "Max30102_task.h"
+#include "traitementSignal.h"
 
 //---------------------------------------------------- Fonctions d'affichage / Fonctions appelées dans les tâches ------------------------------------------------------
 
@@ -34,10 +35,10 @@ void ClearScreen(void)
 }
 
 // 3)Fonction pour tracer le graphe d'un vecteur de 750 éléments
-void drawGraph(float *vector750elements) 
+void drawGraph(volatile int32_t *vector750elements) 
 {
-    int x=0; uint32_t max=0;
-    float vector250elements[250];
+    int x=0; int32_t max=0;
+    int32_t vector250elements[250];
     for (int i=0; i < 250; i++)
     {
         vector250elements[i]=vector750elements[3*i];
@@ -46,12 +47,16 @@ void drawGraph(float *vector750elements)
         }
     }
     for (int i=0; i < 250; i++)
+    {  
+        vector250elements[i]=150*(vector250elements[i]+max)/(2*max);
+    }
+    for (int i=0; i < 250; i++)
     {
-        int y0=round((vector250elements[i])/max); 
+        int y0=round((vector250elements[i])); 
         GUI_DrawPoint(x,y0); 
         if (i<249)
         {
-            int y1=round((vector250elements[i+1])/max);
+            int y1=round((vector250elements[i+1]));
             GUI_DrawLine(x,y0,(x+1),y1); 
         }
         x++;   
@@ -273,30 +278,35 @@ void CapSense_EnableDisableMotionAlarm()
 //------------------------------------------------------------------- Tâches ----------------------------------------------------------------
 
 // 1)Tâche pour afficher les graphiques ainsi que pour changer la courbe affichée 
-volatile int CompteurSW2; volatile bool AffichageGraph; float bufferInfrarouge[750]; float bufferRouge[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
+volatile int CompteurSW2; volatile bool AffichageGraph; volatile int32_t vectorRed[750]; volatile int32_t vectorInfra[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
+
 void ChangeGraph()
 {
     for (;;)
     {
         //Remplissage des buffers des courbes rouge et infrarouge et des paramètres
         
+        //traitement_signal();
         
+
         if (AffichageGraph==true){
             ClearScreen();
             if (CompteurSW2%2==0)
             {
-                drawGraph(bufferInfrarouge);
+                //drawGraph(vectorRed);
                 updateParameters(Saturation, RythmeCardiaque);
-                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1); GUI_DispStringAt("Red curve:",80,0);
+                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1);// GUI_DispStringAt("Red curve:",80,0);
             }
             else
             {
-                drawGraph(bufferRouge);
+                //drawGraph(vectorInfra);
                 updateParameters(Saturation, RythmeCardiaque);
-                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1); GUI_DispStringAt("Infrared curve:",60,0);
+                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1); //GUI_DispStringAt("Infrared curve:",60,0);
             }
+            AffichageGraph=false;
         }
         vTaskDelay(pdMS_TO_TICKS(200));
+       
     }
 }
 
@@ -333,7 +343,6 @@ void CapSense_ChangeMenu()
         CapSense_ProcessAllWidgets();
         if(CapSense_IsWidgetActive(CapSense_BUTTON0_WDGT_ID))
         {
-            AffichageGraph=false;
             if (Page1Params==0&&Page2Params==0){
                 ScreenNumber--;
                 if (ScreenNumber<0)
@@ -345,7 +354,6 @@ void CapSense_ChangeMenu()
         }
         if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
         {
-            AffichageGraph=false;
             if (Page1Params==0&&Page2Params==0){
                 ScreenNumber++;
                 if (ScreenNumber>2)

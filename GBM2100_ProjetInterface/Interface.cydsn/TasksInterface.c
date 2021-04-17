@@ -35,8 +35,11 @@ void ClearScreen(void)
 }
 
 // 3)Fonction pour tracer le graphe d'un vecteur de 750 éléments
+volatile bool DrawRedGraph=false;
+volatile bool DrawInfraredGraph=false;
 void drawGraph(volatile int32_t *vector750elements) 
 {
+    GUI_Clear();
     int x=0; int32_t max=0;
     int32_t vector250elements[250];
     for (int i=0; i < 250; i++)
@@ -63,23 +66,40 @@ void drawGraph(volatile int32_t *vector750elements)
     }
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
-
+void DrawBool(int Page1Param) 
+{
+    GUI_Clear();
+    GUI_SetPenSize(6); GUI_SetFont(GUI_FONT_10_1); 
+    if (Page1Param==3){
+        GUI_DispStringAt("Red graph can be drawn",75,80);
+    }
+    if (Page1Param==4){
+        GUI_DispStringAt("Infrared graph can be drawn:",75,80);
+    }
+    UpdateDisplay(CY_EINK_FULL_4STAGE, true); 
+}
 // 4)Fonction pour afficher des données à jour (param1 et param2) sur l'écran
-void updateParameters(int param1, int param2) 
+void updateParameters(int param1, int param2, int CurveParam) 
 {
     char Parametre1[6]; char Parametre2[6];
     sprintf(Parametre1,"%d",param1); sprintf(Parametre2,"%d",param2); 
     GUI_SetPenSize(8); GUI_DrawRect(10,155,255,175); 
     GUI_SetPenSize(6); GUI_SetFont(GUI_FONT_10_1); 
-    GUI_DispStringAt("Oxygen saturation:",20,160); GUI_DispStringAt(Parametre1,90,160); GUI_DispStringAt("%",100,160); 
+    GUI_DispStringAt("Oxygen saturation:",20,160); GUI_DispStringAt(Parametre1,115,160); GUI_DispStringAt("%",130,160); 
     GUI_DispStringAt("Heart rate:",150,160); GUI_DispStringAt(Parametre2,210,160); GUI_DispStringAt("bpm",230,160); 
+    if (CurveParam==3){
+        GUI_DispStringAt("Red curve:",110,0);
+    }
+    if (CurveParam==4){
+        GUI_DispStringAt("Infrared curve:",105,0);
+    }
     UpdateDisplay(CY_EINK_FULL_4STAGE, true); 
 }
 
 // 5)Fonction pour afficher la valeur inférieure du rythme cardiaque définie par l'utilisateur
 void updateLowHeartRateLimit(int HeartRate)
 {
-    ClearScreen();
+    GUI_Clear();
     char HeartRateLow[6];
     sprintf(HeartRateLow,"%d",HeartRate);
     GUI_SetPenSize(18); GUI_SetFont(GUI_FONT_24_1); 
@@ -92,7 +112,7 @@ void updateLowHeartRateLimit(int HeartRate)
 // 6)Fonction pour afficher la valeur supérieure du rythme cardiaque définie par l'utilisatuer
 void updateHighHeartRateLimit(int HeartRate)
 {
-    ClearScreen();
+    GUI_Clear();
     char HeartRateHigh[6];
     sprintf(HeartRateHigh,"%d",HeartRate);
     GUI_SetPenSize(18); GUI_SetFont(GUI_FONT_24_1); 
@@ -104,18 +124,21 @@ void updateHighHeartRateLimit(int HeartRate)
 
 // 7)Fonction pour afficher la page actuelle et le curseur définissant le paramètre à modifier dans la page
 void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
-    ClearScreen();
+    GUI_Clear();
     GUI_SetPenSize(7); GUI_SetFont(GUI_FONT_13_1);
     if (PageNumber==0)
     {
-        GUI_DispStringAt("Press SW2 to show graphs",20,20);
-        GUI_DispStringAt("Use the CapSense buttons to modify parameters",20,50);
+        GUI_DispStringAt("Use the CapSense buttons to change pages",20,20);
+        GUI_DispStringAt("Use the CapSense slider to change parameters",20,50);
+        GUI_DispStringAt("Use the CapSense buttons to select a parameter",20,80);
     }
     if (PageNumber==1)
     {
         GUI_DispStringAt("Parameters page 1",80,0);
         GUI_DispStringAt("1)Change LED intensity",30,50);
         GUI_DispStringAt("2)Enable/Disable motion sensor alarm",30,80);
+        GUI_DispStringAt("3)Draw red curve",30,110);
+        GUI_DispStringAt("4)Draw infrared curve",30,140);
         if (ParamP1==1)
         {
             GUI_DrawCircle(15,55,5);
@@ -123,6 +146,14 @@ void DisplayPage(int PageNumber, int ParamP1, int ParamP2){
         if (ParamP1==2)
         {
             GUI_DrawCircle(15,85,5);
+        }
+        if (ParamP1==3)
+        {
+            GUI_DrawCircle(15,115,5);
+        }
+        if (ParamP1==4)
+        {
+            GUI_DrawCircle(15,145,5);
         }
     }
     if (PageNumber==2)
@@ -238,7 +269,7 @@ void CapSense_ChangeHighHeartRateLimit()
 // 11)Fonction pour afficher l'état de l'alarme (enabled/disabled) issue de l'accéléromètre
 volatile bool MotionAlarmEnable=true;
 void updateMotionAlarm(){
-    ClearScreen();GUI_SetPenSize(7); GUI_SetFont(GUI_FONT_13_1);
+    GUI_Clear();GUI_SetPenSize(7); GUI_SetFont(GUI_FONT_13_1);
     if (MotionAlarmEnable==true)
     {
         GUI_DispStringAt("Alarm enabled",80,80);
@@ -278,7 +309,8 @@ void CapSense_EnableDisableMotionAlarm()
 //------------------------------------------------------------------- Tâches ----------------------------------------------------------------
 
 // 1)Tâche pour afficher les graphiques ainsi que pour changer la courbe affichée 
-volatile int CompteurSW2; volatile bool AffichageGraph; volatile int32_t vectorRed[750]; volatile int32_t vectorInfra[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
+volatile int CompteurSW2; volatile bool AffichageGraph; 
+volatile int32_t vectorRed[750]; volatile int32_t vectorInfra[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
 
 void ChangeGraph()
 {
@@ -294,13 +326,13 @@ void ChangeGraph()
             if (CompteurSW2%2==0)
             {
                 //drawGraph(vectorRed);
-                updateParameters(Saturation, RythmeCardiaque);
+                updateParameters(Saturation, RythmeCardiaque,3);
                 GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1);// GUI_DispStringAt("Red curve:",80,0);
             }
             else
             {
                 //drawGraph(vectorInfra);
-                updateParameters(Saturation, RythmeCardiaque);
+                updateParameters(Saturation, RythmeCardiaque,4);
                 GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1); //GUI_DispStringAt("Infrared curve:",60,0);
             }
             AffichageGraph=false;
@@ -329,7 +361,7 @@ void HeartRateAlarm()
 
 // 3)Tâche pour naviguer entre les pages et les paramètres en fonction des boutons appuyés par l'utilisateur
 /*
-Page1: 2 paramètres; 1)ChangeLedIntensity 2)Enable/Disable BLed 
+Page1: 4 paramètres; 1)ChangeLedIntensity 2)Enable/Disable RLed 3)DrawGraph Red 4) DrawGraphInfra
 Page2: 2 paramètres; 1)Borne inférieure bpm 2)Borne supérieure bpm 
 */
 volatile int Page1Params=0;
@@ -370,7 +402,7 @@ void CapSense_ChangeMenu()
             if (SliderPosII>50 && SliderPosII<65535)
             {
                 Page1Params++;
-                if (Page1Params>2)
+                if (Page1Params>4)
                 {
                     Page1Params=0;
                 }
@@ -381,7 +413,7 @@ void CapSense_ChangeMenu()
                 Page1Params--;
                 if (Page1Params<0)
                 {
-                    Page1Params=2;
+                    Page1Params=4;
                 }  
                 DisplayPage(ScreenNumber,Page1Params,Page2Params);
             }
@@ -396,7 +428,7 @@ void CapSense_ChangeMenu()
                         vTaskDelay(pdMS_TO_TICKS(10));
                     }
                     StopChangeLedIntensity=false;
-                    //DisplayPage(ScreenNumber,Page1Params,Page2Params);
+                    DisplayPage(ScreenNumber,Page1Params,Page2Params);
                 }
             }
             if (Page1Params==2)
@@ -411,6 +443,28 @@ void CapSense_ChangeMenu()
                         vTaskDelay(pdMS_TO_TICKS(200));
                     }
                     StopDisableAlarm=false;
+                    DisplayPage(ScreenNumber,Page1Params,Page2Params);
+                }
+            }
+            if (Page1Params==3)
+            {
+                CapSense_ProcessAllWidgets();
+                if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
+                {
+                    DrawRedGraph=true;
+                    DrawBool(3);
+                    vTaskDelay(pdMS_TO_TICKS(500));
+                    DisplayPage(ScreenNumber,Page1Params,Page2Params);
+                }
+            }
+            if (Page1Params==4)
+            {
+                CapSense_ProcessAllWidgets();
+                if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
+                {
+                    DrawRedGraph=true;
+                    DrawBool(4);
+                    vTaskDelay(pdMS_TO_TICKS(500));
                     DisplayPage(ScreenNumber,Page1Params,Page2Params);
                 }
             }

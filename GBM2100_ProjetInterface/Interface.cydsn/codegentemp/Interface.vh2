@@ -2,7 +2,7 @@
 --	Conversion of Interface.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sat Apr 17 09:39:42 2021
+--	Sat Apr 17 11:55:30 2021
 --
 
 USE cypress.cypress.all;

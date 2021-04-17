@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
   29:Generated_Source\PSoC6/CapSense_Structure.c **** * Cypress reserves the right to make changes without further notice to the
   30:Generated_Source\PSoC6/CapSense_Structure.c **** * materials described herein. Cypress does not assume any liability arising out
   31:Generated_Source\PSoC6/CapSense_Structure.c **** * of the application or use of any product or circuit described herein. Cypress
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 2
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 2
 
 
   32:Generated_Source\PSoC6/CapSense_Structure.c **** * does not authorize its products for use as critical components in life-support
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
   86:Generated_Source\PSoC6/CapSense_Structure.c **** static uint8 CapSense_debounceButton1[CapSense_BUTTON1_NUM_SENSORS];
   87:Generated_Source\PSoC6/CapSense_Structure.c **** 
   88:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 3
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 3
 
 
   89:Generated_Source\PSoC6/CapSense_Structure.c **** /***************************************************************************//**
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  143:Generated_Source\PSoC6/CapSense_Structure.c ****             (SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT *)0u,
  144:Generated_Source\PSoC6/CapSense_Structure.c ****             0u,
  145:Generated_Source\PSoC6/CapSense_Structure.c ****         },
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 4
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 4
 
 
  146:Generated_Source\PSoC6/CapSense_Structure.c ****         { /* Button1 */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  200:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_Rx_1_PORT,
  201:Generated_Source\PSoC6/CapSense_Structure.c ****         (uint8)CapSense_Rx_1_NUM,
  202:Generated_Source\PSoC6/CapSense_Structure.c ****     },
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 5
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 5
 
 
  203:Generated_Source\PSoC6/CapSense_Structure.c ****     { /* 8: Button0_Tx ganged to Button1_Tx */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  257:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_HYSTERESIS,
  258:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_ON_DEBOUNCE,
  259:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_LOW_BSLN_RST,
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 6
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 6
 
 
  260:Generated_Source\PSoC6/CapSense_Structure.c ****         {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  314:Generated_Source\PSoC6/CapSense_Structure.c **** 
  315:Generated_Source\PSoC6/CapSense_Structure.c **** 
  316:Generated_Source\PSoC6/CapSense_Structure.c **** /* Defines PARAM_ID structure */
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 7
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 7
 
 
  317:Generated_Source\PSoC6/CapSense_Structure.c **** typedef struct
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  371:Generated_Source\PSoC6/CapSense_Structure.c ****          (CapSense_ENABLE == CapSense_CSX_SKIP_OVSMPL_SPECIFIC_NODES))
  372:Generated_Source\PSoC6/CapSense_Structure.c ****         uint16 subConvNumber;
  373:Generated_Source\PSoC6/CapSense_Structure.c ****     #endif
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 8
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 8
 
 
  374:Generated_Source\PSoC6/CapSense_Structure.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  428:Generated_Source\PSoC6/CapSense_Structure.c ****         ptrFlashWdgt = CapSense_dsFlash.wdgtArray;
  429:Generated_Source\PSoC6/CapSense_Structure.c **** 
  430:Generated_Source\PSoC6/CapSense_Structure.c ****         for (wdgtId = CapSense_TOTAL_WIDGETS; wdgtId-- > 0u; )
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 9
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 9
 
 
  431:Generated_Source\PSoC6/CapSense_Structure.c ****         {
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  485:Generated_Source\PSoC6/CapSense_Structure.c ****     /*******************************************************************************
  486:Generated_Source\PSoC6/CapSense_Structure.c ****     * Function Name: CapSense_AdcDsInitialize
  487:Generated_Source\PSoC6/CapSense_Structure.c ****     ****************************************************************************//**
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 10
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 10
 
 
  488:Generated_Source\PSoC6/CapSense_Structure.c ****     *
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  530:Generated_Source\PSoC6/CapSense_Structure.c **** 
  531:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 i;
  532:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 actualCrc = 0u;
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 11
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 11
 
 
  533:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 crcIndex;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  557:Generated_Source\PSoC6/CapSense_Structure.c **** 
  558:Generated_Source\PSoC6/CapSense_Structure.c ****         /* Add bits 28..32 */
  559:Generated_Source\PSoC6/CapSense_Structure.c ****         crcIndex = actualCrc ^ ((paramId >> 4u) & 0x0Fu);
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 12
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 12
 
 
  560:Generated_Source\PSoC6/CapSense_Structure.c ****         actualCrc = crcTable[crcIndex];
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
   72              		.loc 1 610 0
   73 0032 A32D     		cmp	r5, #163
   74 0034 09D8     		bhi	.L9
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 13
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 13
 
 
  522:Generated_Source\PSoC6/CapSense_Structure.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  105              		.loc 1 631 0
  106 0050 0028     		cmp	r0, #0
  107 0052 11D1     		bne	.L5
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 14
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 14
 
 
  632:Generated_Source\PSoC6/CapSense_Structure.c ****     {
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  138              	.L14:
  646:Generated_Source\PSoC6/CapSense_Structure.c ****             }
  139              		.loc 1 646 0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 15
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 15
 
 
  140 0076 0120     		movs	r0, #1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  183 0018 134B     		ldr	r3, .L21+8
  184 001a A380     		strh	r3, [r4, #4]
  388:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 16
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 16
 
 
  185              		.loc 1 388 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  228              	.LVL20:
  434:Generated_Source\PSoC6/CapSense_Structure.c ****             {
  229              		.loc 1 434 0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 17
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 17
 
 
  230 004c 0300     		movs	r3, r0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  666:Generated_Source\PSoC6/CapSense_Structure.c **** * \brief
  667:Generated_Source\PSoC6/CapSense_Structure.c **** *  Gets the specified parameter value from the \ref group_structures.
  668:Generated_Source\PSoC6/CapSense_Structure.c **** *
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 18
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 18
 
 
  669:Generated_Source\PSoC6/CapSense_Structure.c **** * \details
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  285              		.cfi_def_cfa_offset 24
  286 0004 0D00     		movs	r5, r1
  712:Generated_Source\PSoC6/CapSense_Structure.c ****     PARAM_ID_STRUCT pData;
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 19
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 19
 
 
  713:Generated_Source\PSoC6/CapSense_Structure.c ****     cy_status result;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  314              	.LVL33:
  315 0026 D318     		adds	r3, r2, r3
  740:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 20
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 20
 
 
  741:Generated_Source\PSoC6/CapSense_Structure.c ****         /* Read data */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  761:Generated_Source\PSoC6/CapSense_Structure.c ****     return result;
  762:Generated_Source\PSoC6/CapSense_Structure.c **** }
  350              		.loc 1 762 0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 21
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 21
 
 
  351 0052 2000     		movs	r0, r4
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  793:Generated_Source\PSoC6/CapSense_Structure.c **** *      - Flash Data Structure if W bit is 0.
  794:Generated_Source\PSoC6/CapSense_Structure.c **** *      - RAM Data Structure if W bit is 1.
  795:Generated_Source\PSoC6/CapSense_Structure.c **** *
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 22
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 22
 
 
  796:Generated_Source\PSoC6/CapSense_Structure.c **** *  Refer to the \ref group_structures section for details of the data structure
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  393 000c 041E     		subs	r4, r0, #0
  394              	.LVL42:
  832:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 23
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 23
 
 
  833:Generated_Source\PSoC6/CapSense_Structure.c ****     /* verify if parameter is writable */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  856:Generated_Source\PSoC6/CapSense_Structure.c ****         else if (DS_PARAM_TYPE_UINT16 == pData.type)
  426              		.loc 1 856 0
  427 0034 022A     		cmp	r2, #2
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 24
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 24
 
 
  428 0036 02D1     		bne	.L36
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  890:Generated_Source\PSoC6/CapSense_Structure.c ****         #endif /* (CapSense_ENABLE == (CapSense_TST_WDGT_CRC_EN || CapSense_TST_GLOBAL_CRC_EN)) */
  891:Generated_Source\PSoC6/CapSense_Structure.c ****     }
  892:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 25
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 25
 
 
  893:Generated_Source\PSoC6/CapSense_Structure.c ****     return result;
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  918:Generated_Source\PSoC6/CapSense_Structure.c ****     uint32 wdWord;
  919:Generated_Source\PSoC6/CapSense_Structure.c **** 
  920:Generated_Source\PSoC6/CapSense_Structure.c ****     for (wdWord = CapSense_WDGT_STATUS_WORDS; wdWord-- > 0u;)
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 26
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 26
 
 
  478              		.loc 1 920 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  929:Generated_Source\PSoC6/CapSense_Structure.c **** /*******************************************************************************
  930:Generated_Source\PSoC6/CapSense_Structure.c **** * Function Name: CapSense_IsWidgetActive
  931:Generated_Source\PSoC6/CapSense_Structure.c **** ****************************************************************************//**
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 27
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 27
 
 
  932:Generated_Source\PSoC6/CapSense_Structure.c **** *
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  545              	.LVL58:
  546              	.L48:
  957:Generated_Source\PSoC6/CapSense_Structure.c ****     uint32 result = 0Lu;
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 28
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 28
 
 
  547              		.loc 1 957 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  994:Generated_Source\PSoC6/CapSense_Structure.c **** *  CapSense_<WidgetName>_SNS<SensorNumber>_ID.
  995:Generated_Source\PSoC6/CapSense_Structure.c **** *
  996:Generated_Source\PSoC6/CapSense_Structure.c **** * \return
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 29
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 29
 
 
  997:Generated_Source\PSoC6/CapSense_Structure.c **** *  Returns the touch detection status of the specified sensor / widget:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
 1007:Generated_Source\PSoC6/CapSense_Structure.c **** 
  599              		.loc 1 1007 0
  600 0020 0020     		movs	r0, #0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 30
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 30
 
 
  601              	.LVL64:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
 1048:Generated_Source\PSoC6/CapSense_Structure.c **** *
 1049:Generated_Source\PSoC6/CapSense_Structure.c **** * \return
 1050:Generated_Source\PSoC6/CapSense_Structure.c **** *  Returns the touch detection status of the sensors in the specified matrix
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 31
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 31
 
 
 1051:Generated_Source\PSoC6/CapSense_Structure.c **** *  buttons widget. Zero indicates that no touch is detected in the specified
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
 1105:Generated_Source\PSoC6/CapSense_Structure.c ****                 wdCsdMatrix = ptrFlashWdgt->ptr2WdgtRam;
 1106:Generated_Source\PSoC6/CapSense_Structure.c **** 
 1107:Generated_Source\PSoC6/CapSense_Structure.c ****                 result = CapSense_MATRIX_BUTTONS_TOUCHED |
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 32
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 32
 
 
 1108:Generated_Source\PSoC6/CapSense_Structure.c ****                          ((uint32)wdCsdMatrix->posSnsId << 16u)  |
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
 1162:Generated_Source\PSoC6/CapSense_Structure.c **** *    - Bit [1] indicates that a touch is detected.
 1163:Generated_Source\PSoC6/CapSense_Structure.c **** *    - Bit [0] indicates that a proximity is detected.
 1164:Generated_Source\PSoC6/CapSense_Structure.c **** *
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 33
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 33
 
 
 1165:Generated_Source\PSoC6/CapSense_Structure.c **** *******************************************************************************/
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  631              		@ link register save eliminated.
  632              	.LVL67:
 1215:Generated_Source\PSoC6/CapSense_Structure.c ****     uint32 result = CapSense_SLIDER_NO_TOUCH;
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 34
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 34
 
 
 1216:Generated_Source\PSoC6/CapSense_Structure.c ****     CapSense_RAM_WD_SLIDER_STRUCT *wdSlider;
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  671              		@ sp needed
  672 002a 7047     		bx	lr
  673              	.L62:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 35
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 35
 
 
  674              		.align	2
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  728 004f 02       		.byte	2
  729 0050 01       		.byte	1
  730 0051 01       		.byte	1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 36
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 36
 
 
  731 0052 0000     		.short	0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  785 00b7 28       		.byte	40
  786 00b8 0A       		.byte	10
  787 00b9 03       		.byte	3
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 37
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 37
 
 
  788 00ba 1E       		.byte	30
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  834      00000000 
  835              		.type	CapSense_debounceButton1, %object
  836              		.size	CapSense_debounceButton1, 1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 38
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 38
 
 
  837              	CapSense_debounceButton1:
@@ -2250,10 +2250,10 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  863 0006 00000000 		.4byte	.Ldebug_abbrev0
  864 000a 04       		.byte	0x4
  865 000b 01       		.uleb128 0x1
- 866 000c 72070000 		.4byte	.LASF178
+ 866 000c 2F070000 		.4byte	.LASF178
  867 0010 0C       		.byte	0xc
  868 0011 CC010000 		.4byte	.LASF179
- 869 0015 94020000 		.4byte	.LASF180
+ 869 0015 D3080000 		.4byte	.LASF180
  870 0019 00000000 		.4byte	.Ldebug_ranges0+0
  871 001d 00000000 		.4byte	0
  872 0021 00000000 		.4byte	.Ldebug_line0
@@ -2269,16 +2269,16 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  882 0037 02       		.uleb128 0x2
  883 0038 01       		.byte	0x1
  884 0039 08       		.byte	0x8
- 885 003a FA080000 		.4byte	.LASF1
+ 885 003a B7080000 		.4byte	.LASF1
  886 003e 02       		.uleb128 0x2
  887 003f 02       		.byte	0x2
  888 0040 05       		.byte	0x5
- 889 0041 B4040000 		.4byte	.LASF2
+ 889 0041 71040000 		.4byte	.LASF2
  890 0045 03       		.uleb128 0x3
- 891 0046 6B080000 		.4byte	.LASF4
+ 891 0046 28080000 		.4byte	.LASF4
  892 004a 02       		.byte	0x2
  893 004b 2B       		.byte	0x2b
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 39
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 39
 
 
  894 004c 50000000 		.4byte	0x50
@@ -2291,14 +2291,14 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  901 0059 05       		.byte	0x5
  902 005a C3010000 		.4byte	.LASF6
  903 005e 03       		.uleb128 0x3
- 904 005f D7020000 		.4byte	.LASF7
+ 904 005f 9F020000 		.4byte	.LASF7
  905 0063 02       		.byte	0x2
  906 0064 41       		.byte	0x41
  907 0065 69000000 		.4byte	0x69
  908 0069 02       		.uleb128 0x2
  909 006a 04       		.byte	0x4
  910 006b 07       		.byte	0x7
- 911 006c AA030000 		.4byte	.LASF8
+ 911 006c 72030000 		.4byte	.LASF8
  912 0070 02       		.uleb128 0x2
  913 0071 08       		.byte	0x8
  914 0072 05       		.byte	0x5
@@ -2314,9 +2314,9 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  924 0085 02       		.uleb128 0x2
  925 0086 04       		.byte	0x4
  926 0087 07       		.byte	0x7
- 927 0088 51030000 		.4byte	.LASF11
+ 927 0088 19030000 		.4byte	.LASF11
  928 008c 03       		.uleb128 0x3
- 929 008d 90080000 		.4byte	.LASF12
+ 929 008d 4D080000 		.4byte	.LASF12
  930 0091 03       		.byte	0x3
  931 0092 18       		.byte	0x18
  932 0093 2C000000 		.4byte	0x2c
@@ -2326,25 +2326,25 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  936 009d 24       		.byte	0x24
  937 009e 45000000 		.4byte	0x45
  938 00a2 03       		.uleb128 0x3
- 939 00a3 60070000 		.4byte	.LASF14
+ 939 00a3 1D070000 		.4byte	.LASF14
  940 00a7 03       		.byte	0x3
  941 00a8 30       		.byte	0x30
  942 00a9 5E000000 		.4byte	0x5e
  943 00ad 02       		.uleb128 0x2
  944 00ae 08       		.byte	0x8
  945 00af 04       		.byte	0x4
- 946 00b0 09080000 		.4byte	.LASF15
+ 946 00b0 C6070000 		.4byte	.LASF15
  947 00b4 05       		.uleb128 0x5
  948 00b5 A2000000 		.4byte	0xa2
  949 00b9 06       		.uleb128 0x6
  950 00ba B4000000 		.4byte	0xb4
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 40
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 40
 
 
  951 00be 02       		.uleb128 0x2
  952 00bf 04       		.byte	0x4
  953 00c0 07       		.byte	0x7
- 954 00c1 79050000 		.4byte	.LASF16
+ 954 00c1 36050000 		.4byte	.LASF16
  955 00c5 07       		.uleb128 0x7
  956 00c6 B9000000 		.4byte	0xb9
  957 00ca D5000000 		.4byte	0xd5
@@ -2364,19 +2364,19 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  971 00e4 B4000000 		.4byte	0xb4
  972 00e8 00       		.byte	0
  973 00e9 0B       		.uleb128 0xb
- 974 00ea F1050000 		.4byte	.LASF17
+ 974 00ea AE050000 		.4byte	.LASF17
  975 00ee 04       		.byte	0x4
  976 00ef 24       		.byte	0x24
  977 00f0 B4000000 		.4byte	0xb4
  978 00f4 04       		.byte	0x4
  979 00f5 0B       		.uleb128 0xb
- 980 00f6 76080000 		.4byte	.LASF18
+ 980 00f6 33080000 		.4byte	.LASF18
  981 00fa 04       		.byte	0x4
  982 00fb 25       		.byte	0x25
  983 00fc B4000000 		.4byte	0xb4
  984 0100 08       		.byte	0x8
  985 0101 0B       		.uleb128 0xb
- 986 0102 7A030000 		.4byte	.LASF19
+ 986 0102 42030000 		.4byte	.LASF19
  987 0106 04       		.byte	0x4
  988 0107 26       		.byte	0x26
  989 0108 B4000000 		.4byte	0xb4
@@ -2388,28 +2388,28 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  995 0113 B9000000 		.4byte	0xb9
  996 0117 10       		.byte	0x10
  997 0118 0B       		.uleb128 0xb
- 998 0119 D1050000 		.4byte	.LASF20
+ 998 0119 8E050000 		.4byte	.LASF20
  999 011d 04       		.byte	0x4
  1000 011e 28       		.byte	0x28
  1001 011f B4000000 		.4byte	0xb4
  1002 0123 14       		.byte	0x14
  1003 0124 0B       		.uleb128 0xb
- 1004 0125 D1090000 		.4byte	.LASF21
+ 1004 0125 F3090000 		.4byte	.LASF21
  1005 0129 04       		.byte	0x4
  1006 012a 29       		.byte	0x29
  1007 012b B4000000 		.4byte	0xb4
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 41
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 41
 
 
  1008 012f 18       		.byte	0x18
  1009 0130 0B       		.uleb128 0xb
- 1010 0131 1D040000 		.4byte	.LASF22
+ 1010 0131 DA030000 		.4byte	.LASF22
  1011 0135 04       		.byte	0x4
  1012 0136 2A       		.byte	0x2a
  1013 0137 B9000000 		.4byte	0xb9
  1014 013b 1C       		.byte	0x1c
  1015 013c 0B       		.uleb128 0xb
- 1016 013d 2E050000 		.4byte	.LASF23
+ 1016 013d EB040000 		.4byte	.LASF23
  1017 0141 04       		.byte	0x4
  1018 0142 2B       		.byte	0x2b
  1019 0143 B4000000 		.4byte	0xb4
@@ -2427,38 +2427,38 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1031 015b B4000000 		.4byte	0xb4
  1032 015f 28       		.byte	0x28
  1033 0160 0B       		.uleb128 0xb
- 1034 0161 C7030000 		.4byte	.LASF25
+ 1034 0161 8F030000 		.4byte	.LASF25
  1035 0165 04       		.byte	0x4
  1036 0166 2E       		.byte	0x2e
  1037 0167 B4000000 		.4byte	0xb4
  1038 016b 2C       		.byte	0x2c
  1039 016c 0B       		.uleb128 0xb
- 1040 016d C9090000 		.4byte	.LASF26
+ 1040 016d EB090000 		.4byte	.LASF26
  1041 0171 04       		.byte	0x4
  1042 0172 2F       		.byte	0x2f
  1043 0173 B4000000 		.4byte	0xb4
  1044 0177 30       		.byte	0x30
  1045 0178 0B       		.uleb128 0xb
- 1046 0179 60060000 		.4byte	.LASF27
+ 1046 0179 1D060000 		.4byte	.LASF27
  1047 017d 04       		.byte	0x4
  1048 017e 30       		.byte	0x30
  1049 017f B4000000 		.4byte	0xb4
  1050 0183 34       		.byte	0x34
  1051 0184 0B       		.uleb128 0xb
- 1052 0185 13070000 		.4byte	.LASF28
+ 1052 0185 D0060000 		.4byte	.LASF28
  1053 0189 04       		.byte	0x4
  1054 018a 31       		.byte	0x31
  1055 018b B9000000 		.4byte	0xb9
  1056 018f 38       		.byte	0x38
  1057 0190 0B       		.uleb128 0xb
- 1058 0191 61090000 		.4byte	.LASF29
+ 1058 0191 83090000 		.4byte	.LASF29
  1059 0195 04       		.byte	0x4
  1060 0196 32       		.byte	0x32
  1061 0197 B4000000 		.4byte	0xb4
  1062 019b 3C       		.byte	0x3c
  1063 019c 0B       		.uleb128 0xb
- 1064 019d 68060000 		.4byte	.LASF30
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 42
+ 1064 019d 25060000 		.4byte	.LASF30
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 42
 
 
  1065 01a1 04       		.byte	0x4
@@ -2487,38 +2487,38 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1088 01ce 49020000 		.4byte	0x249
  1089 01d2 00       		.byte	0
  1090 01d3 0D       		.uleb128 0xd
- 1091 01d4 2D080000 		.4byte	.LASF32
+ 1091 01d4 EA070000 		.4byte	.LASF32
  1092 01d8 04       		.byte	0x4
  1093 01d9 3B       		.byte	0x3b
  1094 01da B9000000 		.4byte	0xb9
  1095 01de 0040     		.2byte	0x4000
  1096 01e0 0D       		.uleb128 0xd
- 1097 01e1 39080000 		.4byte	.LASF33
+ 1097 01e1 F6070000 		.4byte	.LASF33
  1098 01e5 04       		.byte	0x4
  1099 01e6 3C       		.byte	0x3c
  1100 01e7 B9000000 		.4byte	0xb9
  1101 01eb 0440     		.2byte	0x4004
  1102 01ed 0D       		.uleb128 0xd
- 1103 01ee 45080000 		.4byte	.LASF34
+ 1103 01ee 02080000 		.4byte	.LASF34
  1104 01f2 04       		.byte	0x4
  1105 01f3 3D       		.byte	0x3d
  1106 01f4 B9000000 		.4byte	0xb9
  1107 01f8 0840     		.2byte	0x4008
  1108 01fa 0D       		.uleb128 0xd
- 1109 01fb 51080000 		.4byte	.LASF35
+ 1109 01fb 0E080000 		.4byte	.LASF35
  1110 01ff 04       		.byte	0x4
  1111 0200 3E       		.byte	0x3e
  1112 0201 B9000000 		.4byte	0xb9
  1113 0205 0C40     		.2byte	0x400c
  1114 0207 0D       		.uleb128 0xd
- 1115 0208 48050000 		.4byte	.LASF36
+ 1115 0208 05050000 		.4byte	.LASF36
  1116 020c 04       		.byte	0x4
  1117 020d 3F       		.byte	0x3f
  1118 020e B9000000 		.4byte	0xb9
  1119 0212 1040     		.2byte	0x4010
  1120 0214 0D       		.uleb128 0xd
- 1121 0215 57070000 		.4byte	.LASF37
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 43
+ 1121 0215 14070000 		.4byte	.LASF37
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 43
 
 
  1122 0219 04       		.byte	0x4
@@ -2532,13 +2532,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1130 0228 B4000000 		.4byte	0xb4
  1131 022c 1840     		.2byte	0x4018
  1132 022e 0D       		.uleb128 0xd
- 1133 022f AD080000 		.4byte	.LASF39
+ 1133 022f 6A080000 		.4byte	.LASF39
  1134 0233 04       		.byte	0x4
  1135 0234 42       		.byte	0x42
  1136 0235 B9000000 		.4byte	0xb9
  1137 0239 1C40     		.2byte	0x401c
  1138 023b 0D       		.uleb128 0xd
- 1139 023c E5030000 		.4byte	.LASF40
+ 1139 023c AD030000 		.4byte	.LASF40
  1140 0240 04       		.byte	0x4
  1141 0241 43       		.byte	0x43
  1142 0242 B4000000 		.4byte	0xb4
@@ -2552,36 +2552,36 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1150 0257 7F       		.byte	0x7f
  1151 0258 00       		.byte	0
  1152 0259 03       		.uleb128 0x3
- 1153 025a 9F050000 		.4byte	.LASF41
+ 1153 025a 5C050000 		.4byte	.LASF41
  1154 025e 04       		.byte	0x4
  1155 025f 44       		.byte	0x44
  1156 0260 BE010000 		.4byte	0x1be
  1157 0264 0E       		.uleb128 0xe
- 1158 0265 5D080000 		.4byte	.LASF42
+ 1158 0265 1A080000 		.4byte	.LASF42
  1159 0269 05       		.byte	0x5
  1160 026a 3106     		.2byte	0x631
  1161 026c B3010000 		.4byte	0x1b3
  1162 0270 0E       		.uleb128 0xe
- 1163 0271 DB090000 		.4byte	.LASF43
+ 1163 0271 FD090000 		.4byte	.LASF43
  1164 0275 05       		.byte	0x5
  1165 0276 3206     		.2byte	0x632
  1166 0278 59020000 		.4byte	0x259
  1167 027c 0E       		.uleb128 0xe
- 1168 027d 96040000 		.4byte	.LASF44
+ 1168 027d 53040000 		.4byte	.LASF44
  1169 0281 06       		.byte	0x6
  1170 0282 F601     		.2byte	0x1f6
  1171 0284 88020000 		.4byte	0x288
  1172 0288 02       		.uleb128 0x2
  1173 0289 01       		.byte	0x1
  1174 028a 08       		.byte	0x8
- 1175 028b 04080000 		.4byte	.LASF45
+ 1175 028b C1070000 		.4byte	.LASF45
  1176 028f 02       		.uleb128 0x2
  1177 0290 04       		.byte	0x4
  1178 0291 04       		.byte	0x4
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 44
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 44
 
 
- 1179 0292 02060000 		.4byte	.LASF46
+ 1179 0292 BF050000 		.4byte	.LASF46
  1180 0296 02       		.uleb128 0x2
  1181 0297 08       		.byte	0x8
  1182 0298 04       		.byte	0x4
@@ -2624,53 +2624,53 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1219 02e8 6E       		.byte	0x6e
  1220 02e9 42030000 		.4byte	0x342
  1221 02ed 0B       		.uleb128 0xb
- 1222 02ee B9060000 		.4byte	.LASF54
+ 1222 02ee 76060000 		.4byte	.LASF54
  1223 02f2 08       		.byte	0x8
  1224 02f3 73       		.byte	0x73
  1225 02f4 B5020000 		.4byte	0x2b5
  1226 02f8 00       		.byte	0
  1227 02f9 0B       		.uleb128 0xb
- 1228 02fa C0060000 		.4byte	.LASF55
+ 1228 02fa 7D060000 		.4byte	.LASF55
  1229 02fe 08       		.byte	0x8
  1230 02ff 77       		.byte	0x77
  1231 0300 B5020000 		.4byte	0x2b5
  1232 0304 02       		.byte	0x2
  1233 0305 0B       		.uleb128 0xb
- 1234 0306 C7060000 		.4byte	.LASF56
+ 1234 0306 84060000 		.4byte	.LASF56
  1235 030a 08       		.byte	0x8
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 45
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 45
 
 
  1236 030b 7B       		.byte	0x7b
  1237 030c B5020000 		.4byte	0x2b5
  1238 0310 04       		.byte	0x4
  1239 0311 0B       		.uleb128 0xb
- 1240 0312 CE060000 		.4byte	.LASF57
+ 1240 0312 8B060000 		.4byte	.LASF57
  1241 0316 08       		.byte	0x8
  1242 0317 7F       		.byte	0x7f
  1243 0318 B5020000 		.4byte	0x2b5
  1244 031c 06       		.byte	0x6
  1245 031d 0B       		.uleb128 0xb
- 1246 031e D5060000 		.4byte	.LASF58
+ 1246 031e 92060000 		.4byte	.LASF58
  1247 0322 08       		.byte	0x8
  1248 0323 83       		.byte	0x83
  1249 0324 B5020000 		.4byte	0x2b5
  1250 0328 08       		.byte	0x8
  1251 0329 0B       		.uleb128 0xb
- 1252 032a DC060000 		.4byte	.LASF59
+ 1252 032a 99060000 		.4byte	.LASF59
  1253 032e 08       		.byte	0x8
  1254 032f 87       		.byte	0x87
  1255 0330 A9020000 		.4byte	0x2a9
  1256 0334 0A       		.byte	0xa
  1257 0335 0B       		.uleb128 0xb
- 1258 0336 E3060000 		.4byte	.LASF60
+ 1258 0336 A0060000 		.4byte	.LASF60
  1259 033a 08       		.byte	0x8
  1260 033b 8B       		.byte	0x8b
  1261 033c A9020000 		.4byte	0x2a9
  1262 0340 0B       		.byte	0xb
  1263 0341 00       		.byte	0
  1264 0342 03       		.uleb128 0x3
- 1265 0343 3B060000 		.4byte	.LASF61
+ 1265 0343 F8050000 		.4byte	.LASF61
  1266 0347 08       		.byte	0x8
  1267 0348 8C       		.byte	0x8c
  1268 0349 E5020000 		.4byte	0x2e5
@@ -2681,29 +2681,29 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1273 0354 61       		.byte	0x61
  1274 0355 7E030000 		.4byte	0x37e
  1275 0359 11       		.uleb128 0x11
- 1276 035a 5E0A0000 		.4byte	.LASF62
+ 1276 035a 800A0000 		.4byte	.LASF62
  1277 035e 01       		.byte	0x1
  1278 035f 11       		.uleb128 0x11
  1279 0360 5D010000 		.4byte	.LASF63
  1280 0364 02       		.byte	0x2
  1281 0365 11       		.uleb128 0x11
- 1282 0366 1F060000 		.4byte	.LASF64
+ 1282 0366 DC050000 		.4byte	.LASF64
  1283 036a 03       		.byte	0x3
  1284 036b 11       		.uleb128 0x11
- 1285 036c 1A030000 		.4byte	.LASF65
+ 1285 036c E2020000 		.4byte	.LASF65
  1286 0370 04       		.byte	0x4
  1287 0371 11       		.uleb128 0x11
- 1288 0372 40070000 		.4byte	.LASF66
+ 1288 0372 FD060000 		.4byte	.LASF66
  1289 0376 05       		.byte	0x5
  1290 0377 11       		.uleb128 0x11
- 1291 0378 0D0A0000 		.4byte	.LASF67
+ 1291 0378 2F0A0000 		.4byte	.LASF67
  1292 037c 06       		.byte	0x6
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 46
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 46
 
 
  1293 037d 00       		.byte	0
  1294 037e 03       		.uleb128 0x3
- 1295 037f C4080000 		.4byte	.LASF68
+ 1295 037f 81080000 		.4byte	.LASF68
  1296 0383 09       		.byte	0x9
  1297 0384 68       		.byte	0x68
  1298 0385 4D030000 		.4byte	0x34d
@@ -2714,16 +2714,16 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1303 0390 6F       		.byte	0x6f
  1304 0391 AE030000 		.4byte	0x3ae
  1305 0395 11       		.uleb128 0x11
- 1306 0396 5B040000 		.4byte	.LASF69
+ 1306 0396 18040000 		.4byte	.LASF69
  1307 039a 00       		.byte	0
  1308 039b 11       		.uleb128 0x11
- 1309 039c 1C070000 		.4byte	.LASF70
+ 1309 039c D9060000 		.4byte	.LASF70
  1310 03a0 01       		.byte	0x1
  1311 03a1 11       		.uleb128 0x11
  1312 03a2 7E000000 		.4byte	.LASF71
  1313 03a6 02       		.byte	0x2
  1314 03a7 11       		.uleb128 0x11
- 1315 03a8 EA020000 		.4byte	.LASF72
+ 1315 03a8 B2020000 		.4byte	.LASF72
  1316 03ac 03       		.byte	0x3
  1317 03ad 00       		.byte	0
  1318 03ae 07       		.uleb128 0x7
@@ -2739,26 +2739,26 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1328 03c1 DA       		.byte	0xda
  1329 03c2 6A040000 		.4byte	0x46a
  1330 03c6 0B       		.uleb128 0xb
- 1331 03c7 85080000 		.4byte	.LASF73
+ 1331 03c7 42080000 		.4byte	.LASF73
  1332 03cb 09       		.byte	0x9
  1333 03cc E0       		.byte	0xe0
  1334 03cd B5020000 		.4byte	0x2b5
  1335 03d1 00       		.byte	0
  1336 03d2 0B       		.uleb128 0xb
- 1337 03d3 FE090000 		.4byte	.LASF74
+ 1337 03d3 200A0000 		.4byte	.LASF74
  1338 03d7 09       		.byte	0x9
  1339 03d8 E5       		.byte	0xe5
  1340 03d9 CF020000 		.4byte	0x2cf
  1341 03dd 02       		.byte	0x2
  1342 03de 0B       		.uleb128 0xb
- 1343 03df 730A0000 		.4byte	.LASF75
+ 1343 03df 950A0000 		.4byte	.LASF75
  1344 03e3 09       		.byte	0x9
  1345 03e4 EA       		.byte	0xea
  1346 03e5 A9020000 		.4byte	0x2a9
  1347 03e9 04       		.byte	0x4
  1348 03ea 0B       		.uleb128 0xb
- 1349 03eb 8F050000 		.4byte	.LASF76
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 47
+ 1349 03eb 4C050000 		.4byte	.LASF76
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 47
 
 
  1350 03ef 09       		.byte	0x9
@@ -2766,31 +2766,31 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1352 03f1 A9020000 		.4byte	0x2a9
  1353 03f5 05       		.byte	0x5
  1354 03f6 0B       		.uleb128 0xb
- 1355 03f7 F2030000 		.4byte	.LASF77
+ 1355 03f7 94020000 		.4byte	.LASF77
  1356 03fb 09       		.byte	0x9
  1357 03fc F4       		.byte	0xf4
  1358 03fd A9020000 		.4byte	0x2a9
  1359 0401 06       		.byte	0x6
  1360 0402 0B       		.uleb128 0xb
- 1361 0403 A2080000 		.4byte	.LASF78
+ 1361 0403 5F080000 		.4byte	.LASF78
  1362 0407 09       		.byte	0x9
  1363 0408 F9       		.byte	0xf9
  1364 0409 A9020000 		.4byte	0x2a9
  1365 040d 07       		.byte	0x7
  1366 040e 12       		.uleb128 0x12
- 1367 040f DA030000 		.4byte	.LASF79
+ 1367 040f A2030000 		.4byte	.LASF79
  1368 0413 09       		.byte	0x9
  1369 0414 0001     		.2byte	0x100
  1370 0416 DA020000 		.4byte	0x2da
  1371 041a 08       		.byte	0x8
  1372 041b 12       		.uleb128 0x12
- 1373 041c 40050000 		.4byte	.LASF80
+ 1373 041c FD040000 		.4byte	.LASF80
  1374 0420 09       		.byte	0x9
  1375 0421 0801     		.2byte	0x108
  1376 0423 AE030000 		.4byte	0x3ae
  1377 0427 09       		.byte	0x9
  1378 0428 12       		.uleb128 0x12
- 1379 0429 7E080000 		.4byte	.LASF81
+ 1379 0429 3B080000 		.4byte	.LASF81
  1380 042d 09       		.byte	0x9
  1381 042e 1101     		.2byte	0x111
  1382 0430 B5020000 		.4byte	0x2b5
@@ -2808,17 +2808,17 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1394 044a B5020000 		.4byte	0x2b5
  1395 044e 0E       		.byte	0xe
  1396 044f 12       		.uleb128 0x12
- 1397 0450 98050000 		.4byte	.LASF84
+ 1397 0450 55050000 		.4byte	.LASF84
  1398 0454 09       		.byte	0x9
  1399 0455 2201     		.2byte	0x122
  1400 0457 B5020000 		.4byte	0x2b5
  1401 045b 10       		.byte	0x10
  1402 045c 12       		.uleb128 0x12
- 1403 045d 82030000 		.4byte	.LASF85
+ 1403 045d 4A030000 		.4byte	.LASF85
  1404 0461 09       		.byte	0x9
  1405 0462 2701     		.2byte	0x127
  1406 0464 6A040000 		.4byte	0x46a
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 48
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 48
 
 
  1407 0468 12       		.byte	0x12
@@ -2831,7 +2831,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1414 0478 00       		.byte	0
  1415 0479 00       		.byte	0
  1416 047a 0E       		.uleb128 0xe
- 1417 047b 53050000 		.4byte	.LASF86
+ 1417 047b 10050000 		.4byte	.LASF86
  1418 047f 09       		.byte	0x9
  1419 0480 2801     		.2byte	0x128
  1420 0482 BE030000 		.4byte	0x3be
@@ -2841,44 +2841,44 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1424 0489 2D01     		.2byte	0x12d
  1425 048b 2C050000 		.4byte	0x52c
  1426 048f 12       		.uleb128 0x12
- 1427 0490 85080000 		.4byte	.LASF73
+ 1427 0490 42080000 		.4byte	.LASF73
  1428 0494 09       		.byte	0x9
  1429 0495 3301     		.2byte	0x133
  1430 0497 B5020000 		.4byte	0x2b5
  1431 049b 00       		.byte	0
  1432 049c 12       		.uleb128 0x12
- 1433 049d FE090000 		.4byte	.LASF74
+ 1433 049d 200A0000 		.4byte	.LASF74
  1434 04a1 09       		.byte	0x9
  1435 04a2 3801     		.2byte	0x138
  1436 04a4 CF020000 		.4byte	0x2cf
  1437 04a8 02       		.byte	0x2
  1438 04a9 12       		.uleb128 0x12
- 1439 04aa 730A0000 		.4byte	.LASF75
+ 1439 04aa 950A0000 		.4byte	.LASF75
  1440 04ae 09       		.byte	0x9
  1441 04af 3D01     		.2byte	0x13d
  1442 04b1 A9020000 		.4byte	0x2a9
  1443 04b5 04       		.byte	0x4
  1444 04b6 12       		.uleb128 0x12
- 1445 04b7 8F050000 		.4byte	.LASF76
+ 1445 04b7 4C050000 		.4byte	.LASF76
  1446 04bb 09       		.byte	0x9
  1447 04bc 4201     		.2byte	0x142
  1448 04be A9020000 		.4byte	0x2a9
  1449 04c2 05       		.byte	0x5
  1450 04c3 12       		.uleb128 0x12
- 1451 04c4 F2030000 		.4byte	.LASF77
+ 1451 04c4 94020000 		.4byte	.LASF77
  1452 04c8 09       		.byte	0x9
  1453 04c9 4701     		.2byte	0x147
  1454 04cb A9020000 		.4byte	0x2a9
  1455 04cf 06       		.byte	0x6
  1456 04d0 12       		.uleb128 0x12
- 1457 04d1 A2080000 		.4byte	.LASF78
+ 1457 04d1 5F080000 		.4byte	.LASF78
  1458 04d5 09       		.byte	0x9
  1459 04d6 4C01     		.2byte	0x14c
  1460 04d8 A9020000 		.4byte	0x2a9
  1461 04dc 07       		.byte	0x7
  1462 04dd 12       		.uleb128 0x12
- 1463 04de DA030000 		.4byte	.LASF79
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 49
+ 1463 04de A2030000 		.4byte	.LASF79
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 49
 
 
  1464 04e2 09       		.byte	0x9
@@ -2886,13 +2886,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1466 04e5 DA020000 		.4byte	0x2da
  1467 04e9 08       		.byte	0x8
  1468 04ea 12       		.uleb128 0x12
- 1469 04eb 40050000 		.4byte	.LASF80
+ 1469 04eb FD040000 		.4byte	.LASF80
  1470 04ef 09       		.byte	0x9
  1471 04f0 5B01     		.2byte	0x15b
  1472 04f2 AE030000 		.4byte	0x3ae
  1473 04f6 09       		.byte	0x9
  1474 04f7 12       		.uleb128 0x12
- 1475 04f8 7E080000 		.4byte	.LASF81
+ 1475 04f8 3B080000 		.4byte	.LASF81
  1476 04fc 09       		.byte	0x9
  1477 04fd 6401     		.2byte	0x164
  1478 04ff B5020000 		.4byte	0x2b5
@@ -2910,14 +2910,14 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1490 0519 B5020000 		.4byte	0x2b5
  1491 051d 0E       		.byte	0xe
  1492 051e 12       		.uleb128 0x12
- 1493 051f 98050000 		.4byte	.LASF84
+ 1493 051f 55050000 		.4byte	.LASF84
  1494 0523 09       		.byte	0x9
  1495 0524 7501     		.2byte	0x175
  1496 0526 B5020000 		.4byte	0x2b5
  1497 052a 10       		.byte	0x10
  1498 052b 00       		.byte	0
  1499 052c 0E       		.uleb128 0xe
- 1500 052d E2040000 		.4byte	.LASF87
+ 1500 052d 9F040000 		.4byte	.LASF87
  1501 0531 09       		.byte	0x9
  1502 0532 7601     		.2byte	0x176
  1503 0534 86040000 		.4byte	0x486
@@ -2927,7 +2927,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1507 053b 7C01     		.2byte	0x17c
  1508 053d 69050000 		.4byte	0x569
  1509 0541 12       		.uleb128 0x12
- 1510 0542 F0090000 		.4byte	.LASF88
+ 1510 0542 120A0000 		.4byte	.LASF88
  1511 0546 09       		.byte	0x9
  1512 0547 8101     		.2byte	0x181
  1513 0549 7A040000 		.4byte	0x47a
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1518 0554 8601     		.2byte	0x186
  1519 0556 2C050000 		.4byte	0x52c
  1520 055a 14       		.byte	0x14
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 50
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 50
 
 
  1521 055b 12       		.uleb128 0x12
@@ -2949,7 +2949,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1526 0567 26       		.byte	0x26
  1527 0568 00       		.byte	0
  1528 0569 0E       		.uleb128 0xe
- 1529 056a 5E030000 		.4byte	.LASF91
+ 1529 056a 26030000 		.4byte	.LASF91
  1530 056e 09       		.byte	0x9
  1531 056f 8C01     		.2byte	0x18c
  1532 0571 38050000 		.4byte	0x538
@@ -2965,13 +2965,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1542 0586 6A040000 		.4byte	0x46a
  1543 058a 00       		.byte	0
  1544 058b 12       		.uleb128 0x12
- 1545 058c EB090000 		.4byte	.LASF92
+ 1545 058c 0D0A0000 		.4byte	.LASF92
  1546 0590 09       		.byte	0x9
  1547 0591 9C01     		.2byte	0x19c
  1548 0593 6A040000 		.4byte	0x46a
  1549 0597 02       		.byte	0x2
  1550 0598 12       		.uleb128 0x12
- 1551 0599 E2020000 		.4byte	.LASF93
+ 1551 0599 AA020000 		.4byte	.LASF93
  1552 059d 09       		.byte	0x9
  1553 059e A201     		.2byte	0x1a2
  1554 05a0 AE030000 		.4byte	0x3ae
@@ -2983,13 +2983,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1560 05ad CF020000 		.4byte	0x2cf
  1561 05b1 06       		.byte	0x6
  1562 05b2 12       		.uleb128 0x12
- 1563 05b3 08090000 		.4byte	.LASF95
+ 1563 05b3 C5080000 		.4byte	.LASF95
  1564 05b7 09       		.byte	0x9
  1565 05b8 AC01     		.2byte	0x1ac
  1566 05ba CD050000 		.4byte	0x5cd
  1567 05be 08       		.byte	0x8
  1568 05bf 12       		.uleb128 0x12
- 1569 05c0 DA080000 		.4byte	.LASF96
+ 1569 05c0 97080000 		.4byte	.LASF96
  1570 05c4 09       		.byte	0x9
  1571 05c5 B201     		.2byte	0x1b2
  1572 05c7 AE030000 		.4byte	0x3ae
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1575 05cd 07       		.uleb128 0x7
  1576 05ce DA020000 		.4byte	0x2da
  1577 05d2 DD050000 		.4byte	0x5dd
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 51
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 51
 
 
  1578 05d6 08       		.uleb128 0x8
@@ -3016,7 +3016,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1590 05ec B901     		.2byte	0x1b9
  1591 05ee 1A060000 		.4byte	0x61a
  1592 05f2 12       		.uleb128 0x12
- 1593 05f3 F0090000 		.4byte	.LASF88
+ 1593 05f3 120A0000 		.4byte	.LASF88
  1594 05f7 09       		.byte	0x9
  1595 05f8 BE01     		.2byte	0x1be
  1596 05fa 1A060000 		.4byte	0x61a
@@ -3049,7 +3049,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1623 0638 00       		.byte	0
  1624 0639 00       		.byte	0
  1625 063a 0E       		.uleb128 0xe
- 1626 063b 72060000 		.4byte	.LASF98
+ 1626 063b 2F060000 		.4byte	.LASF98
  1627 063f 09       		.byte	0x9
  1628 0640 C901     		.2byte	0x1c9
  1629 0642 E9050000 		.4byte	0x5e9
@@ -3058,53 +3058,53 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1632 0648 09       		.byte	0x9
  1633 0649 CF01     		.2byte	0x1cf
  1634 064b 3A070000 		.4byte	0x73a
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 52
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 52
 
 
  1635 064f 12       		.uleb128 0x12
- 1636 0650 75040000 		.4byte	.LASF99
+ 1636 0650 32040000 		.4byte	.LASF99
  1637 0654 09       		.byte	0x9
  1638 0655 D701     		.2byte	0x1d7
  1639 0657 B5020000 		.4byte	0x2b5
  1640 065b 00       		.byte	0
  1641 065c 12       		.uleb128 0x12
- 1642 065d D9040000 		.4byte	.LASF100
+ 1642 065d 96040000 		.4byte	.LASF100
  1643 0661 09       		.byte	0x9
  1644 0662 DC01     		.2byte	0x1dc
  1645 0664 B5020000 		.4byte	0x2b5
  1646 0668 02       		.byte	0x2
  1647 0669 12       		.uleb128 0x12
- 1648 066a AC050000 		.4byte	.LASF101
+ 1648 066a 69050000 		.4byte	.LASF101
  1649 066e 09       		.byte	0x9
  1650 066f E101     		.2byte	0x1e1
  1651 0671 B5020000 		.4byte	0x2b5
  1652 0675 04       		.byte	0x4
  1653 0676 12       		.uleb128 0x12
- 1654 0677 F9050000 		.4byte	.LASF102
+ 1654 0677 B6050000 		.4byte	.LASF102
  1655 067b 09       		.byte	0x9
  1656 067c E701     		.2byte	0x1e7
  1657 067e B5020000 		.4byte	0x2b5
  1658 0682 06       		.byte	0x6
  1659 0683 12       		.uleb128 0x12
- 1660 0684 D6050000 		.4byte	.LASF103
+ 1660 0684 93050000 		.4byte	.LASF103
  1661 0688 09       		.byte	0x9
  1662 0689 EC01     		.2byte	0x1ec
  1663 068b B5020000 		.4byte	0x2b5
  1664 068f 08       		.byte	0x8
  1665 0690 12       		.uleb128 0x12
- 1666 0691 76090000 		.4byte	.LASF104
+ 1666 0691 98090000 		.4byte	.LASF104
  1667 0695 09       		.byte	0x9
  1668 0696 F101     		.2byte	0x1f1
  1669 0698 3A070000 		.4byte	0x73a
  1670 069c 0C       		.byte	0xc
  1671 069d 12       		.uleb128 0x12
- 1672 069e BC030000 		.4byte	.LASF105
+ 1672 069e 84030000 		.4byte	.LASF105
  1673 06a2 09       		.byte	0x9
  1674 06a3 F701     		.2byte	0x1f7
  1675 06a5 3F070000 		.4byte	0x73f
  1676 06a9 10       		.byte	0x10
  1677 06aa 12       		.uleb128 0x12
- 1678 06ab 0F030000 		.4byte	.LASF106
+ 1678 06ab D7020000 		.4byte	.LASF106
  1679 06af 09       		.byte	0x9
  1680 06b0 FD01     		.2byte	0x1fd
  1681 06b2 3F070000 		.4byte	0x73f
@@ -3116,9 +3116,9 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1687 06bf 4F070000 		.4byte	0x74f
  1688 06c3 18       		.byte	0x18
  1689 06c4 12       		.uleb128 0x12
- 1690 06c5 9D040000 		.4byte	.LASF108
+ 1690 06c5 5A040000 		.4byte	.LASF108
  1691 06c9 09       		.byte	0x9
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 53
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 53
 
 
  1692 06ca 1402     		.2byte	0x214
@@ -3137,19 +3137,19 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1705 06e6 A9020000 		.4byte	0x2a9
  1706 06ea 1F       		.byte	0x1f
  1707 06eb 12       		.uleb128 0x12
- 1708 06ec 69070000 		.4byte	.LASF111
+ 1708 06ec 26070000 		.4byte	.LASF111
  1709 06f0 09       		.byte	0x9
  1710 06f1 2302     		.2byte	0x223
  1711 06f3 69050000 		.4byte	0x569
  1712 06f7 20       		.byte	0x20
  1713 06f8 12       		.uleb128 0x12
- 1714 06f9 3C030000 		.4byte	.LASF112
+ 1714 06f9 04030000 		.4byte	.LASF112
  1715 06fd 09       		.byte	0x9
  1716 06fe 2802     		.2byte	0x228
  1717 0700 3A060000 		.4byte	0x63a
  1718 0704 58       		.byte	0x58
  1719 0705 12       		.uleb128 0x12
- 1720 0706 8B030000 		.4byte	.LASF113
+ 1720 0706 53030000 		.4byte	.LASF113
  1721 070a 09       		.byte	0x9
  1722 070b 2D02     		.2byte	0x22d
  1723 070d A9020000 		.4byte	0x2a9
@@ -3161,7 +3161,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1729 071a A9020000 		.4byte	0x2a9
  1730 071e 9F       		.byte	0x9f
  1731 071f 12       		.uleb128 0x12
- 1732 0720 440A0000 		.4byte	.LASF115
+ 1732 0720 660A0000 		.4byte	.LASF115
  1733 0724 09       		.byte	0x9
  1734 0725 3702     		.2byte	0x237
  1735 0727 B5020000 		.4byte	0x2b5
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1746 073f 07       		.uleb128 0x7
  1747 0740 C1020000 		.4byte	0x2c1
  1748 0744 4F070000 		.4byte	0x74f
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 54
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 54
 
 
  1749 0748 08       		.uleb128 0x8
@@ -3193,7 +3193,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1758 075d 02       		.byte	0x2
  1759 075e 00       		.byte	0
  1760 075f 0E       		.uleb128 0xe
- 1761 0760 99060000 		.4byte	.LASF117
+ 1761 0760 56060000 		.4byte	.LASF117
  1762 0764 09       		.byte	0x9
  1763 0765 3D02     		.2byte	0x23d
  1764 0767 46060000 		.4byte	0x646
@@ -3209,7 +3209,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1774 077c 8F070000 		.4byte	0x78f
  1775 0780 00       		.byte	0
  1776 0781 12       		.uleb128 0x12
- 1777 0782 8F060000 		.4byte	.LASF119
+ 1777 0782 4C060000 		.4byte	.LASF119
  1778 0786 09       		.byte	0x9
  1779 0787 4D02     		.2byte	0x24d
  1780 0789 A9020000 		.4byte	0x2a9
@@ -3219,7 +3219,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1784 0790 04       		.byte	0x4
  1785 0791 64020000 		.4byte	0x264
  1786 0795 0E       		.uleb128 0xe
- 1787 0796 48090000 		.4byte	.LASF120
+ 1787 0796 6A090000 		.4byte	.LASF120
  1788 079a 09       		.byte	0x9
  1789 079b 4E02     		.2byte	0x24e
  1790 079d 6B070000 		.4byte	0x76b
@@ -3235,10 +3235,10 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1800 07b2 6E080000 		.4byte	0x86e
  1801 07b6 00       		.byte	0
  1802 07b7 12       		.uleb128 0x12
- 1803 07b8 A8040000 		.4byte	.LASF122
+ 1803 07b8 65040000 		.4byte	.LASF122
  1804 07bc 09       		.byte	0x9
  1805 07bd 8B02     		.2byte	0x28b
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 55
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 55
 
 
  1806 07bf CD020000 		.4byte	0x2cd
@@ -3250,55 +3250,55 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1812 07cc 75080000 		.4byte	0x875
  1813 07d0 08       		.byte	0x8
  1814 07d1 12       		.uleb128 0x12
- 1815 07d2 03070000 		.4byte	.LASF124
+ 1815 07d2 C0060000 		.4byte	.LASF124
  1816 07d6 09       		.byte	0x9
  1817 07d7 9602     		.2byte	0x296
  1818 07d9 CD020000 		.4byte	0x2cd
  1819 07dd 0C       		.byte	0xc
  1820 07de 12       		.uleb128 0x12
- 1821 07df 22090000 		.4byte	.LASF125
+ 1821 07df 44090000 		.4byte	.LASF125
  1822 07e3 09       		.byte	0x9
  1823 07e4 9D02     		.2byte	0x29d
  1824 07e6 7B080000 		.4byte	0x87b
  1825 07ea 10       		.byte	0x10
  1826 07eb 12       		.uleb128 0x12
- 1827 07ec 82050000 		.4byte	.LASF126
+ 1827 07ec 3F050000 		.4byte	.LASF126
  1828 07f0 09       		.byte	0x9
  1829 07f1 A202     		.2byte	0x2a2
  1830 07f3 C1020000 		.4byte	0x2c1
  1831 07f7 14       		.byte	0x14
  1832 07f8 12       		.uleb128 0x12
- 1833 07f9 16090000 		.4byte	.LASF127
+ 1833 07f9 38090000 		.4byte	.LASF127
  1834 07fd 09       		.byte	0x9
  1835 07fe A902     		.2byte	0x2a9
  1836 0800 B5020000 		.4byte	0x2b5
  1837 0804 18       		.byte	0x18
  1838 0805 12       		.uleb128 0x12
- 1839 0806 B4050000 		.4byte	.LASF128
+ 1839 0806 71050000 		.4byte	.LASF128
  1840 080a 09       		.byte	0x9
  1841 080b B402     		.2byte	0x2b4
  1842 080d A9020000 		.4byte	0x2a9
  1843 0811 1A       		.byte	0x1a
  1844 0812 12       		.uleb128 0x12
- 1845 0813 CE030000 		.4byte	.LASF129
+ 1845 0813 96030000 		.4byte	.LASF129
  1846 0817 09       		.byte	0x9
  1847 0818 B902     		.2byte	0x2b9
  1848 081a A9020000 		.4byte	0x2a9
  1849 081e 1B       		.byte	0x1b
  1850 081f 12       		.uleb128 0x12
- 1851 0820 71050000 		.4byte	.LASF130
+ 1851 0820 2E050000 		.4byte	.LASF130
  1852 0824 09       		.byte	0x9
  1853 0825 C102     		.2byte	0x2c1
  1854 0827 A9020000 		.4byte	0x2a9
  1855 082b 1C       		.byte	0x1c
  1856 082c 12       		.uleb128 0x12
- 1857 082d 07030000 		.4byte	.LASF131
+ 1857 082d CF020000 		.4byte	.LASF131
  1858 0831 09       		.byte	0x9
  1859 0832 C802     		.2byte	0x2c8
  1860 0834 A9020000 		.4byte	0x2a9
  1861 0838 1D       		.byte	0x1d
  1862 0839 12       		.uleb128 0x12
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 56
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 56
 
 
  1863 083a 17020000 		.4byte	.LASF132
@@ -3307,13 +3307,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1866 0841 B5020000 		.4byte	0x2b5
  1867 0845 1E       		.byte	0x1e
  1868 0846 12       		.uleb128 0x12
- 1869 0847 BD050000 		.4byte	.LASF133
+ 1869 0847 7A050000 		.4byte	.LASF133
  1870 084b 09       		.byte	0x9
  1871 084c D802     		.2byte	0x2d8
  1872 084e C1020000 		.4byte	0x2c1
  1873 0852 20       		.byte	0x20
  1874 0853 12       		.uleb128 0x12
- 1875 0854 9B030000 		.4byte	.LASF134
+ 1875 0854 63030000 		.4byte	.LASF134
  1876 0858 09       		.byte	0x9
  1877 0859 E002     		.2byte	0x2e0
  1878 085b 81080000 		.4byte	0x881
@@ -3339,7 +3339,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1898 0882 04       		.byte	0x4
  1899 0883 42030000 		.4byte	0x342
  1900 0887 0E       		.uleb128 0xe
- 1901 0888 EA060000 		.4byte	.LASF136
+ 1901 0888 A7060000 		.4byte	.LASF136
  1902 088c 09       		.byte	0x9
  1903 088d E602     		.2byte	0x2e6
  1904 088f A1070000 		.4byte	0x7a1
@@ -3349,7 +3349,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1908 0896 EC02     		.2byte	0x2ec
  1909 0898 AA080000 		.4byte	0x8aa
  1910 089c 12       		.uleb128 0x12
- 1911 089d 7D090000 		.4byte	.LASF137
+ 1911 089d 9F090000 		.4byte	.LASF137
  1912 08a1 09       		.byte	0x9
  1913 08a2 F102     		.2byte	0x2f1
  1914 08a4 AA080000 		.4byte	0x8aa
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1917 08aa 07       		.uleb128 0x7
  1918 08ab 87080000 		.4byte	0x887
  1919 08af BA080000 		.4byte	0x8ba
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 57
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 57
 
 
  1920 08b3 08       		.uleb128 0x8
@@ -3366,7 +3366,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1922 08b8 02       		.byte	0x2
  1923 08b9 00       		.byte	0
  1924 08ba 0E       		.uleb128 0xe
- 1925 08bb 32090000 		.4byte	.LASF138
+ 1925 08bb 54090000 		.4byte	.LASF138
  1926 08bf 09       		.byte	0x9
  1927 08c0 F202     		.2byte	0x2f2
  1928 08c2 93080000 		.4byte	0x893
@@ -3376,13 +3376,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1932 08c9 3D01     		.2byte	0x13d
  1933 08cb 2A090000 		.4byte	0x92a
  1934 08cf 12       		.uleb128 0x12
- 1935 08d0 BD080000 		.4byte	.LASF139
+ 1935 08d0 7A080000 		.4byte	.LASF139
  1936 08d4 01       		.byte	0x1
  1937 08d5 3F01     		.2byte	0x13f
  1938 08d7 B5020000 		.4byte	0x2b5
  1939 08db 00       		.byte	0
  1940 08dc 12       		.uleb128 0x12
- 1941 08dd 25050000 		.4byte	.LASF140
+ 1941 08dd E2040000 		.4byte	.LASF140
  1942 08e1 01       		.byte	0x1
  1943 08e2 4001     		.2byte	0x140
  1944 08e4 A9020000 		.4byte	0x2a9
@@ -3412,13 +3412,13 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1968 0917 A9020000 		.4byte	0x2a9
  1969 091b 06       		.byte	0x6
  1970 091c 12       		.uleb128 0x12
- 1971 091d 70040000 		.4byte	.LASF143
+ 1971 091d 2D040000 		.4byte	.LASF143
  1972 0921 01       		.byte	0x1
  1973 0922 4501     		.2byte	0x145
  1974 0924 A9020000 		.4byte	0x2a9
  1975 0928 07       		.byte	0x7
  1976 0929 00       		.byte	0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 58
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 58
 
 
  1977 092a 0E       		.uleb128 0xe
@@ -3427,7 +3427,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1980 0930 4601     		.2byte	0x146
  1981 0932 C6080000 		.4byte	0x8c6
  1982 0936 17       		.uleb128 0x17
- 1983 0937 87090000 		.4byte	.LASF181
+ 1983 0937 A9090000 		.4byte	.LASF181
  1984 093b 01       		.byte	0x1
  1985 093c 0802     		.2byte	0x208
  1986 093e 9D020000 		.4byte	0x29d
@@ -3437,20 +3437,20 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  1990 094b 9C       		.byte	0x9c
  1991 094c 7F090000 		.4byte	0x97f
  1992 0950 18       		.uleb128 0x18
- 1993 0951 A9090000 		.4byte	.LASF145
+ 1993 0951 CB090000 		.4byte	.LASF145
  1994 0955 01       		.byte	0x1
  1995 0956 0802     		.2byte	0x208
  1996 0958 C1020000 		.4byte	0x2c1
  1997 095c 00000000 		.4byte	.LLST0
  1998 0960 19       		.uleb128 0x19
- 1999 0961 070A0000 		.4byte	.LASF146
+ 1999 0961 290A0000 		.4byte	.LASF146
  2000 0965 01       		.byte	0x1
  2001 0966 0802     		.2byte	0x208
  2002 0968 7F090000 		.4byte	0x97f
  2003 096c 01       		.uleb128 0x1
  2004 096d 51       		.byte	0x51
  2005 096e 1A       		.uleb128 0x1a
- 2006 096f 570A0000 		.4byte	.LASF147
+ 2006 096f 790A0000 		.4byte	.LASF147
  2007 0973 01       		.byte	0x1
  2008 0974 0A02     		.2byte	0x20a
  2009 0976 9D020000 		.4byte	0x29d
@@ -3460,7 +3460,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2013 0980 04       		.byte	0x4
  2014 0981 2A090000 		.4byte	0x92a
  2015 0985 1B       		.uleb128 0x1b
- 2016 0986 07040000 		.4byte	.LASF182
+ 2016 0986 C4030000 		.4byte	.LASF182
  2017 098a 01       		.byte	0x1
  2018 098b 6601     		.2byte	0x166
  2019 098d 00000000 		.4byte	.LFB45
@@ -3469,7 +3469,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2022 0996 9C       		.byte	0x9c
  2023 0997 2A0A0000 		.4byte	0xa2a
  2024 099b 1A       		.uleb128 0x1a
- 2025 099c E5090000 		.4byte	.LASF148
+ 2025 099c 070A0000 		.4byte	.LASF148
  2026 09a0 01       		.byte	0x1
  2027 09a1 6C01     		.2byte	0x16c
  2028 09a3 C1020000 		.4byte	0x2c1
@@ -3478,25 +3478,25 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2031 09ac 56010000 		.4byte	.LASF149
  2032 09b0 01       		.byte	0x1
  2033 09b1 6D01     		.2byte	0x16d
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 59
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 59
 
 
  2034 09b3 C1020000 		.4byte	0x2c1
  2035 09b7 A1000000 		.4byte	.LLST3
  2036 09bb 1A       		.uleb128 0x1a
- 2037 09bc FD030000 		.4byte	.LASF150
+ 2037 09bc BA030000 		.4byte	.LASF150
  2038 09c0 01       		.byte	0x1
  2039 09c1 6E01     		.2byte	0x16e
  2040 09c3 75080000 		.4byte	0x875
  2041 09c7 E3000000 		.4byte	.LLST4
  2042 09cb 1A       		.uleb128 0x1a
- 2043 09cc 44030000 		.4byte	.LASF151
+ 2043 09cc 0C030000 		.4byte	.LASF151
  2044 09d0 01       		.byte	0x1
  2045 09d1 6F01     		.2byte	0x16f
  2046 09d3 2A0A0000 		.4byte	0xa2a
  2047 09d7 F6000000 		.4byte	.LLST5
  2048 09db 1A       		.uleb128 0x1a
- 2049 09dc AD060000 		.4byte	.LASF152
+ 2049 09dc 6A060000 		.4byte	.LASF152
  2050 09e0 01       		.byte	0x1
  2051 09e1 7801     		.2byte	0x178
  2052 09e3 350A0000 		.4byte	0xa35
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2088 0a1c 05       		.uleb128 0x5
  2089 0a1d 03       		.byte	0x3
  2090 0a1e 8C000000 		.4byte	.LANCHOR1+12
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 60
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 60
 
 
  2091 0a22 1D       		.uleb128 0x1d
@@ -3570,19 +3570,19 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2117 0a55 9C       		.byte	0x9c
  2118 0a56 190B0000 		.4byte	0xb19
  2119 0a5a 18       		.uleb128 0x18
- 2120 0a5b A9090000 		.4byte	.LASF145
+ 2120 0a5b CB090000 		.4byte	.LASF145
  2121 0a5f 01       		.byte	0x1
  2122 0a60 C602     		.2byte	0x2c6
  2123 0a62 C1020000 		.4byte	0x2c1
  2124 0a66 3C010000 		.4byte	.LLST7
  2125 0a6a 18       		.uleb128 0x18
- 2126 0a6b 36030000 		.4byte	.LASF153
+ 2126 0a6b FE020000 		.4byte	.LASF153
  2127 0a6f 01       		.byte	0x1
  2128 0a70 C602     		.2byte	0x2c6
  2129 0a72 190B0000 		.4byte	0xb19
  2130 0a76 5D010000 		.4byte	.LLST8
  2131 0a7a 20       		.uleb128 0x20
- 2132 0a7b 070A0000 		.4byte	.LASF146
+ 2132 0a7b 290A0000 		.4byte	.LASF146
  2133 0a7f 01       		.byte	0x1
  2134 0a80 C802     		.2byte	0x2c8
  2135 0a82 2A090000 		.4byte	0x92a
@@ -3590,7 +3590,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2137 0a87 91       		.byte	0x91
  2138 0a88 68       		.sleb128 -24
  2139 0a89 1A       		.uleb128 0x1a
- 2140 0a8a 570A0000 		.4byte	.LASF147
+ 2140 0a8a 790A0000 		.4byte	.LASF147
  2141 0a8e 01       		.byte	0x1
  2142 0a8f C902     		.2byte	0x2c9
  2143 0a91 9D020000 		.4byte	0x29d
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2145 0a99 21       		.uleb128 0x21
  2146 0a9a 04       		.byte	0x4
  2147 0a9b 01       		.byte	0x1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 61
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 61
 
 
  2148 0a9c CB02     		.2byte	0x2cb
@@ -3609,23 +3609,23 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2153 0aa8 CD02     		.2byte	0x2cd
  2154 0aaa 1F0B0000 		.4byte	0xb1f
  2155 0aae 23       		.uleb128 0x23
- 2156 0aaf 96090000 		.4byte	.LASF154
+ 2156 0aaf B8090000 		.4byte	.LASF154
  2157 0ab3 01       		.byte	0x1
  2158 0ab4 CE02     		.2byte	0x2ce
  2159 0ab6 2B0B0000 		.4byte	0xb2b
  2160 0aba 23       		.uleb128 0x23
- 2161 0abb 9F090000 		.4byte	.LASF155
+ 2161 0abb C1090000 		.4byte	.LASF155
  2162 0abf 01       		.byte	0x1
  2163 0ac0 CF02     		.2byte	0x2cf
  2164 0ac2 3B0B0000 		.4byte	0xb3b
  2165 0ac6 23       		.uleb128 0x23
- 2166 0ac7 98080000 		.4byte	.LASF156
+ 2166 0ac7 55080000 		.4byte	.LASF156
  2167 0acb 01       		.byte	0x1
  2168 0acc D002     		.2byte	0x2d0
  2169 0ace 4B0B0000 		.4byte	0xb4b
  2170 0ad2 00       		.byte	0
  2171 0ad3 1A       		.uleb128 0x1a
- 2172 0ad4 38070000 		.4byte	.LASF157
+ 2172 0ad4 F5060000 		.4byte	.LASF157
  2173 0ad8 01       		.byte	0x1
  2174 0ad9 D102     		.2byte	0x2d1
  2175 0adb 990A0000 		.4byte	0xa99
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2202 0b0b 03       		.byte	0x3
  2203 0b0c 00000000 		.4byte	.LC6
  2204 0b10 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 62
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 62
 
 
  2205 0b11 01       		.uleb128 0x1
@@ -3707,28 +3707,28 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2248 0b6b 9C       		.byte	0x9c
  2249 0b6c 2B0C0000 		.4byte	0xc2b
  2250 0b70 18       		.uleb128 0x18
- 2251 0b71 A9090000 		.4byte	.LASF145
+ 2251 0b71 CB090000 		.4byte	.LASF145
  2252 0b75 01       		.byte	0x1
  2253 0b76 3203     		.2byte	0x332
  2254 0b78 C1020000 		.4byte	0x2c1
  2255 0b7c C5010000 		.4byte	.LLST11
  2256 0b80 18       		.uleb128 0x18
- 2257 0b81 36030000 		.4byte	.LASF153
+ 2257 0b81 FE020000 		.4byte	.LASF153
  2258 0b85 01       		.byte	0x1
  2259 0b86 3203     		.2byte	0x332
  2260 0b88 C1020000 		.4byte	0x2c1
  2261 0b8c E6010000 		.4byte	.LLST12
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 63
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 63
 
 
  2262 0b90 1A       		.uleb128 0x1a
- 2263 0b91 570A0000 		.4byte	.LASF147
+ 2263 0b91 790A0000 		.4byte	.LASF147
  2264 0b95 01       		.byte	0x1
  2265 0b96 3403     		.2byte	0x334
  2266 0b98 9D020000 		.4byte	0x29d
  2267 0b9c 44020000 		.4byte	.LLST13
  2268 0ba0 20       		.uleb128 0x20
- 2269 0ba1 070A0000 		.4byte	.LASF146
+ 2269 0ba1 290A0000 		.4byte	.LASF146
  2270 0ba5 01       		.byte	0x1
  2271 0ba6 3503     		.2byte	0x335
  2272 0ba8 2A090000 		.4byte	0x92a
@@ -3746,23 +3746,23 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2284 0bbe 3903     		.2byte	0x339
  2285 0bc0 2B0C0000 		.4byte	0xc2b
  2286 0bc4 23       		.uleb128 0x23
- 2287 0bc5 96090000 		.4byte	.LASF154
+ 2287 0bc5 B8090000 		.4byte	.LASF154
  2288 0bc9 01       		.byte	0x1
  2289 0bca 3A03     		.2byte	0x33a
  2290 0bcc 310C0000 		.4byte	0xc31
  2291 0bd0 23       		.uleb128 0x23
- 2292 0bd1 9F090000 		.4byte	.LASF155
+ 2292 0bd1 C1090000 		.4byte	.LASF155
  2293 0bd5 01       		.byte	0x1
  2294 0bd6 3B03     		.2byte	0x33b
  2295 0bd8 370C0000 		.4byte	0xc37
  2296 0bdc 23       		.uleb128 0x23
- 2297 0bdd 98080000 		.4byte	.LASF156
+ 2297 0bdd 55080000 		.4byte	.LASF156
  2298 0be1 01       		.byte	0x1
  2299 0be2 3C03     		.2byte	0x33c
  2300 0be4 3D0C0000 		.4byte	0xc3d
  2301 0be8 00       		.byte	0
  2302 0be9 25       		.uleb128 0x25
- 2303 0bea 38070000 		.4byte	.LASF157
+ 2303 0bea F5060000 		.4byte	.LASF157
  2304 0bee 01       		.byte	0x1
  2305 0bef 3D03     		.2byte	0x33d
  2306 0bf1 AF0B0000 		.4byte	0xbaf
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2316 0c07 01       		.uleb128 0x1
  2317 0c08 50       		.byte	0x50
  2318 0c09 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 64
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 64
 
 
  2319 0c0a 01       		.uleb128 0x1
@@ -3817,7 +3817,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2352 0c3e 04       		.byte	0x4
  2353 0c3f 3A070000 		.4byte	0x73a
  2354 0c43 1F       		.uleb128 0x1f
- 2355 0c44 BE040000 		.4byte	.LASF160
+ 2355 0c44 7B040000 		.4byte	.LASF160
  2356 0c48 01       		.byte	0x1
  2357 0c49 9303     		.2byte	0x393
  2358 0c4b C1020000 		.4byte	0x2c1
@@ -3827,7 +3827,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2362 0c58 9C       		.byte	0x9c
  2363 0c59 7E0C0000 		.4byte	0xc7e
  2364 0c5d 1A       		.uleb128 0x1a
- 2365 0c5e 570A0000 		.4byte	.LASF147
+ 2365 0c5e 790A0000 		.4byte	.LASF147
  2366 0c62 01       		.byte	0x1
  2367 0c63 9503     		.2byte	0x395
  2368 0c65 C1020000 		.4byte	0x2c1
@@ -3838,12 +3838,12 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2373 0c73 9603     		.2byte	0x396
  2374 0c75 C1020000 		.4byte	0x2c1
  2375 0c79 8C020000 		.4byte	.LLST15
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 65
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 65
 
 
  2376 0c7d 00       		.byte	0
  2377 0c7e 1F       		.uleb128 0x1f
- 2378 0c7f B1090000 		.4byte	.LASF162
+ 2378 0c7f D3090000 		.4byte	.LASF162
  2379 0c83 01       		.byte	0x1
  2380 0c84 BB03     		.2byte	0x3bb
  2381 0c86 C1020000 		.4byte	0x2c1
@@ -3853,20 +3853,20 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2385 0c93 9C       		.byte	0x9c
  2386 0c94 B90C0000 		.4byte	0xcb9
  2387 0c98 18       		.uleb128 0x18
- 2388 0c99 25050000 		.4byte	.LASF140
+ 2388 0c99 E2040000 		.4byte	.LASF140
  2389 0c9d 01       		.byte	0x1
  2390 0c9e BB03     		.2byte	0x3bb
  2391 0ca0 C1020000 		.4byte	0x2c1
  2392 0ca4 C1020000 		.4byte	.LLST16
  2393 0ca8 1A       		.uleb128 0x1a
- 2394 0ca9 570A0000 		.4byte	.LASF147
+ 2394 0ca9 790A0000 		.4byte	.LASF147
  2395 0cad 01       		.byte	0x1
  2396 0cae BD03     		.2byte	0x3bd
  2397 0cb0 C1020000 		.4byte	0x2c1
  2398 0cb4 FB020000 		.4byte	.LLST17
  2399 0cb8 00       		.byte	0
  2400 0cb9 1F       		.uleb128 0x1f
- 2401 0cba 7E040000 		.4byte	.LASF163
+ 2401 0cba 3B040000 		.4byte	.LASF163
  2402 0cbe 01       		.byte	0x1
  2403 0cbf ED03     		.2byte	0x3ed
  2404 0cc1 C1020000 		.4byte	0x2c1
@@ -3876,7 +3876,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2408 0cce 9C       		.byte	0x9c
  2409 0ccf 020D0000 		.4byte	0xd02
  2410 0cd3 18       		.uleb128 0x18
- 2411 0cd4 25050000 		.4byte	.LASF140
+ 2411 0cd4 E2040000 		.4byte	.LASF140
  2412 0cd8 01       		.byte	0x1
  2413 0cd9 ED03     		.2byte	0x3ed
  2414 0cdb C1020000 		.4byte	0x2c1
@@ -3889,16 +3889,16 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2421 0cef 01       		.uleb128 0x1
  2422 0cf0 51       		.byte	0x51
  2423 0cf1 1A       		.uleb128 0x1a
- 2424 0cf2 570A0000 		.4byte	.LASF147
+ 2424 0cf2 790A0000 		.4byte	.LASF147
  2425 0cf6 01       		.byte	0x1
  2426 0cf7 EF03     		.2byte	0x3ef
  2427 0cf9 C1020000 		.4byte	0x2c1
  2428 0cfd 84030000 		.4byte	.LLST19
  2429 0d01 00       		.byte	0
  2430 0d02 1F       		.uleb128 0x1f
- 2431 0d03 15080000 		.4byte	.LASF165
+ 2431 0d03 D2070000 		.4byte	.LASF165
  2432 0d07 01       		.byte	0x1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 66
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 66
 
 
  2433 0d08 BD04     		.2byte	0x4bd
@@ -3909,19 +3909,19 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2438 0d17 9C       		.byte	0x9c
  2439 0d18 4D0D0000 		.4byte	0xd4d
  2440 0d1c 18       		.uleb128 0x18
- 2441 0d1d 25050000 		.4byte	.LASF140
+ 2441 0d1d E2040000 		.4byte	.LASF140
  2442 0d21 01       		.byte	0x1
  2443 0d22 BD04     		.2byte	0x4bd
  2444 0d24 C1020000 		.4byte	0x2c1
  2445 0d28 BA030000 		.4byte	.LLST20
  2446 0d2c 1A       		.uleb128 0x1a
- 2447 0d2d 570A0000 		.4byte	.LASF147
+ 2447 0d2d 790A0000 		.4byte	.LASF147
  2448 0d31 01       		.byte	0x1
  2449 0d32 BF04     		.2byte	0x4bf
  2450 0d34 C1020000 		.4byte	0x2c1
  2451 0d38 0D040000 		.4byte	.LLST21
  2452 0d3c 1A       		.uleb128 0x1a
- 2453 0d3d 37050000 		.4byte	.LASF166
+ 2453 0d3d F4040000 		.4byte	.LASF166
  2454 0d41 01       		.byte	0x1
  2455 0d42 C004     		.2byte	0x4c0
  2456 0d44 4D0D0000 		.4byte	0xd4d
@@ -3931,7 +3931,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2460 0d4e 04       		.byte	0x4
  2461 0d4f 7A040000 		.4byte	0x47a
  2462 0d53 26       		.uleb128 0x26
- 2463 0d54 250A0000 		.4byte	.LASF167
+ 2463 0d54 470A0000 		.4byte	.LASF167
  2464 0d58 01       		.byte	0x1
  2465 0d59 54       		.byte	0x54
  2466 0d5a AE030000 		.4byte	0x3ae
@@ -3939,7 +3939,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2468 0d5f 03       		.byte	0x3
  2469 0d60 44000000 		.4byte	CapSense_debounceLinearSlider0
  2470 0d64 26       		.uleb128 0x26
- 2471 0d65 29040000 		.4byte	.LASF168
+ 2471 0d65 E6030000 		.4byte	.LASF168
  2472 0d69 01       		.byte	0x1
  2473 0d6a 55       		.byte	0x55
  2474 0d6b AE030000 		.4byte	0x3ae
@@ -3947,7 +3947,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2476 0d70 03       		.byte	0x3
  2477 0d71 40000000 		.4byte	CapSense_debounceButton0
  2478 0d75 26       		.uleb128 0x26
- 2479 0d76 42040000 		.4byte	.LASF169
+ 2479 0d76 FF030000 		.4byte	.LASF169
  2480 0d7a 01       		.byte	0x1
  2481 0d7b 56       		.byte	0x56
  2482 0d7c AE030000 		.4byte	0x3ae
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2487 0d87 42030000 		.4byte	0x342
  2488 0d8b 960D0000 		.4byte	0xd96
  2489 0d8f 08       		.uleb128 0x8
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 67
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 67
 
 
  2490 0d90 BE000000 		.4byte	0xbe
@@ -3973,7 +3973,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2499 0da2 03       		.byte	0x3
  2500 0da3 00000000 		.4byte	CapSense_noiseEnvlpLinearSlider0
  2501 0da7 27       		.uleb128 0x27
- 2502 0da8 E2050000 		.4byte	.LASF171
+ 2502 0da8 9F050000 		.4byte	.LASF171
  2503 0dac 01       		.byte	0x1
  2504 0dad 4D       		.byte	0x4d
  2505 0dae 5F070000 		.4byte	0x75f
@@ -4000,7 +4000,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2526 0dde 06       		.uleb128 0x6
  2527 0ddf 95070000 		.4byte	0x795
  2528 0de3 27       		.uleb128 0x27
- 2529 0de4 00050000 		.4byte	.LASF173
+ 2529 0de4 BD040000 		.4byte	.LASF173
  2530 0de8 01       		.byte	0x1
  2531 0de9 A9       		.byte	0xa9
  2532 0dea F40D0000 		.4byte	0xdf4
@@ -4010,7 +4010,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2536 0df4 06       		.uleb128 0x6
  2537 0df5 CE0D0000 		.4byte	0xdce
  2538 0df9 27       		.uleb128 0x27
- 2539 0dfa 08060000 		.4byte	.LASF174
+ 2539 0dfa C5050000 		.4byte	.LASF174
  2540 0dfe 01       		.byte	0x1
  2541 0dff D7       		.byte	0xd7
  2542 0e00 0A0E0000 		.4byte	0xe0a
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2544 0e05 03       		.byte	0x3
  2545 0e06 00000000 		.4byte	CapSense_ramWidgetInit
  2546 0e0a 06       		.uleb128 0x6
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 68
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 68
 
 
  2547 0e0b 69050000 		.4byte	0x569
@@ -4030,7 +4030,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2553 0e1d 06       		.byte	0x6
  2554 0e1e 00       		.byte	0
  2555 0e1f 28       		.uleb128 0x28
- 2556 0e20 10050000 		.4byte	.LASF175
+ 2556 0e20 CD040000 		.4byte	.LASF175
  2557 0e24 01       		.byte	0x1
  2558 0e25 1001     		.2byte	0x110
  2559 0e27 310E0000 		.4byte	0xe31
@@ -4040,14 +4040,14 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2563 0e31 06       		.uleb128 0x6
  2564 0e32 0F0E0000 		.4byte	0xe0f
  2565 0e36 29       		.uleb128 0x29
- 2566 0e37 6F090000 		.4byte	.LASF176
- 2567 0e3b 6F090000 		.4byte	.LASF176
+ 2566 0e37 91090000 		.4byte	.LASF176
+ 2567 0e3b 91090000 		.4byte	.LASF176
  2568 0e3f 29       		.uleb128 0x29
  2569 0e40 23020000 		.4byte	.LASF177
  2570 0e44 23020000 		.4byte	.LASF177
  2571 0e48 2A       		.uleb128 0x2a
- 2572 0e49 E3080000 		.4byte	.LASF183
- 2573 0e4d E3080000 		.4byte	.LASF183
+ 2572 0e49 A0080000 		.4byte	.LASF183
+ 2573 0e4d A0080000 		.4byte	.LASF183
  2574 0e51 06       		.byte	0x6
  2575 0e52 9203     		.2byte	0x392
  2576 0e54 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2601 0016 0B       		.uleb128 0xb
  2602 0017 0B       		.uleb128 0xb
  2603 0018 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 69
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 69
 
 
  2604 0019 0B       		.uleb128 0xb
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2658 004f 00       		.byte	0
  2659 0050 49       		.uleb128 0x49
  2660 0051 13       		.uleb128 0x13
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 70
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 70
 
 
  2661 0052 2F       		.uleb128 0x2f
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2715 0088 3B       		.uleb128 0x3b
  2716 0089 0B       		.uleb128 0xb
  2717 008a 01       		.uleb128 0x1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 71
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 71
 
 
  2718 008b 13       		.uleb128 0x13
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2772 00c1 28       		.uleb128 0x28
  2773 00c2 00       		.byte	0
  2774 00c3 03       		.uleb128 0x3
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 72
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 72
 
 
  2775 00c4 0E       		.uleb128 0xe
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2829 00fa 13       		.uleb128 0x13
  2830 00fb 00       		.byte	0
  2831 00fc 00       		.byte	0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 73
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 73
 
 
  2832 00fd 16       		.uleb128 0x16
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2886 0134 49       		.uleb128 0x49
  2887 0135 13       		.uleb128 0x13
  2888 0136 02       		.uleb128 0x2
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 74
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 74
 
 
  2889 0137 18       		.uleb128 0x18
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  2943 0170 1D       		.uleb128 0x1d
  2944 0171 8A8201   		.uleb128 0x410a
  2945 0174 00       		.byte	0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 75
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 75
 
 
  2946 0175 02       		.uleb128 0x2
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3000 01af 18       		.uleb128 0x18
  3001 01b0 00       		.byte	0
  3002 01b1 00       		.byte	0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 76
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 76
 
 
  3003 01b2 21       		.uleb128 0x21
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3057 01e8 13       		.uleb128 0x13
  3058 01e9 00       		.byte	0
  3059 01ea 00       		.byte	0
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 77
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 77
 
 
  3060 01eb 26       		.uleb128 0x26
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3114 0221 3C       		.uleb128 0x3c
  3115 0222 19       		.uleb128 0x19
  3116 0223 6E       		.uleb128 0x6e
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 78
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 78
 
 
  3117 0224 0E       		.uleb128 0xe
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3171 0044 4E000000 		.4byte	.LVL5
  3172 0048 70000000 		.4byte	.LVL7
  3173 004c 0100     		.2byte	0x1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 79
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 79
 
 
  3174 004e 50       		.byte	0x50
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3228 00db 00000000 		.4byte	0
  3229 00df 00000000 		.4byte	0
  3230              	.LLST4:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 80
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 80
 
 
  3231 00e3 40000000 		.4byte	.LVL16
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3285 0172 55       		.byte	0x55
  3286 0173 56000000 		.4byte	.LVL38
  3287 0177 68000000 		.4byte	.LFE47
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 81
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 81
 
 
  3288 017b 0400     		.2byte	0x4
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3342 0204 0400     		.2byte	0x4
  3343 0206 F3       		.byte	0xf3
  3344 0207 01       		.uleb128 0x1
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 82
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 82
 
 
  3345 0208 51       		.byte	0x51
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3399 028c 00000000 		.4byte	.LVL50
  3400 0290 06000000 		.4byte	.LVL51
  3401 0294 0200     		.2byte	0x2
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 83
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 83
 
 
  3402 0296 31       		.byte	0x31
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3456 031c 30       		.byte	0x30
  3457 031d 9F       		.byte	0x9f
  3458 031e 1E000000 		.4byte	.LVL59
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 84
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 84
 
 
  3459 0322 24000000 		.4byte	.LFE50
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3513 03a5 30       		.byte	0x30
  3514 03a6 9F       		.byte	0x9f
  3515 03a7 26000000 		.4byte	.LVL66
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 85
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 85
 
 
  3516 03ab 30000000 		.4byte	.LFE51
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3570 042e 0400     		.2byte	0x4
  3571 0430 0A       		.byte	0xa
  3572 0431 FFFF     		.2byte	0xffff
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 86
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 86
 
 
  3573 0433 9F       		.byte	0x9f
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3627 0030 00000000 		.4byte	.LFB51
  3628 0034 30000000 		.4byte	.LFE51
  3629 0038 00000000 		.4byte	.LFB52
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 87
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 87
 
 
  3630 003c 34000000 		.4byte	.LFE52
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3655      54797065 
  3655      00
  3656              	.LASF71:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 88
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 88
 
 
  3657 007e 43617053 		.ascii	"CapSense_SENSE_METHOD_CSX_E\000"
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3677      6C617368 
  3677      00
  3678              	.LASF52:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 89
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 89
 
 
  3679 013e 43617053 		.ascii	"CapSense_THRESHOLD_TYPE\000"
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3705 01f8 66696E67 		.ascii	"fingerCap\000"
  3705      65724361 
  3705      7000
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 90
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 90
 
 
  3706              	.LASF109:
@@ -5390,648 +5390,650 @@ ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 1
  3728              	.LASF51:
  3729 028d 75696E74 		.ascii	"uint32\000"
  3729      333200
- 3730              	.LASF180:
- 3731 0294 433A5C32 		.ascii	"C:\\2 PROJET SESSION INSTRU\\GBM2100_ProjetInterfac"
- 3731      2050524F 
- 3731      4A455420 
- 3731      53455353 
- 3731      494F4E20 
- 3732 02c5 655C496E 		.ascii	"e\\Interface.cydsn\000"
- 3732      74657266 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 91
+ 3730              	.LASF77:
+ 3731 0294 68797374 		.ascii	"hysteresis\000"
+ 3731      65726573 
+ 3731      697300
+ 3732              	.LASF7:
+ 3733 029f 5F5F7569 		.ascii	"__uint32_t\000"
+ 3733      6E743332 
+ 3733      5F7400
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 91
 
 
- 3732      6163652E 
- 3732      63796473 
- 3732      6E00
- 3733              	.LASF7:
- 3734 02d7 5F5F7569 		.ascii	"__uint32_t\000"
- 3734      6E743332 
- 3734      5F7400
- 3735              	.LASF93:
- 3736 02e2 62736C6E 		.ascii	"bslnExt\000"
- 3736      45787400 
- 3737              	.LASF72:
- 3738 02ea 43617053 		.ascii	"CapSense_SENSE_METHOD_BIST_E\000"
- 3738      656E7365 
- 3738      5F53454E 
- 3738      53455F4D 
- 3738      4554484F 
- 3739              	.LASF131:
- 3740 0307 6E756D52 		.ascii	"numRows\000"
- 3740      6F777300 
- 3741              	.LASF106:
- 3742 030f 77646774 		.ascii	"wdgtStatus\000"
- 3742      53746174 
- 3742      757300
- 3743              	.LASF65:
- 3744 031a 43617053 		.ascii	"CapSense_WD_MATRIX_BUTTON_E\000"
- 3744      656E7365 
- 3744      5F57445F 
- 3744      4D415452 
- 3744      49585F42 
- 3745              	.LASF153:
- 3746 0336 76616C75 		.ascii	"value\000"
- 3746      6500
- 3747              	.LASF112:
- 3748 033c 736E734C 		.ascii	"snsList\000"
- 3748      69737400 
- 3749              	.LASF151:
- 3750 0344 70747246 		.ascii	"ptrFlashWdgt\000"
- 3750      6C617368 
- 3750      57646774 
- 3750      00
- 3751              	.LASF11:
- 3752 0351 756E7369 		.ascii	"unsigned int\000"
- 3752      676E6564 
- 3752      20696E74 
- 3752      00
- 3753              	.LASF91:
- 3754 035e 43617053 		.ascii	"CapSense_RAM_WD_LIST_STRUCT\000"
- 3754      656E7365 
- 3754      5F52414D 
- 3754      5F57445F 
- 3754      4C495354 
- 3755              	.LASF19:
- 3756 037a 4F55545F 		.ascii	"OUT_INV\000"
- 3756      494E5600 
- 3757              	.LASF85:
- 3758 0382 706F7369 		.ascii	"position\000"
- 3758      74696F6E 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 92
+ 3734              	.LASF93:
+ 3735 02aa 62736C6E 		.ascii	"bslnExt\000"
+ 3735      45787400 
+ 3736              	.LASF72:
+ 3737 02b2 43617053 		.ascii	"CapSense_SENSE_METHOD_BIST_E\000"
+ 3737      656E7365 
+ 3737      5F53454E 
+ 3737      53455F4D 
+ 3737      4554484F 
+ 3738              	.LASF131:
+ 3739 02cf 6E756D52 		.ascii	"numRows\000"
+ 3739      6F777300 
+ 3740              	.LASF106:
+ 3741 02d7 77646774 		.ascii	"wdgtStatus\000"
+ 3741      53746174 
+ 3741      757300
+ 3742              	.LASF65:
+ 3743 02e2 43617053 		.ascii	"CapSense_WD_MATRIX_BUTTON_E\000"
+ 3743      656E7365 
+ 3743      5F57445F 
+ 3743      4D415452 
+ 3743      49585F42 
+ 3744              	.LASF153:
+ 3745 02fe 76616C75 		.ascii	"value\000"
+ 3745      6500
+ 3746              	.LASF112:
+ 3747 0304 736E734C 		.ascii	"snsList\000"
+ 3747      69737400 
+ 3748              	.LASF151:
+ 3749 030c 70747246 		.ascii	"ptrFlashWdgt\000"
+ 3749      6C617368 
+ 3749      57646774 
+ 3749      00
+ 3750              	.LASF11:
+ 3751 0319 756E7369 		.ascii	"unsigned int\000"
+ 3751      676E6564 
+ 3751      20696E74 
+ 3751      00
+ 3752              	.LASF91:
+ 3753 0326 43617053 		.ascii	"CapSense_RAM_WD_LIST_STRUCT\000"
+ 3753      656E7365 
+ 3753      5F52414D 
+ 3753      5F57445F 
+ 3753      4C495354 
+ 3754              	.LASF19:
+ 3755 0342 4F55545F 		.ascii	"OUT_INV\000"
+ 3755      494E5600 
+ 3756              	.LASF85:
+ 3757 034a 706F7369 		.ascii	"position\000"
+ 3757      74696F6E 
+ 3757      00
+ 3758              	.LASF113:
+ 3759 0353 736E7254 		.ascii	"snrTestWidgetId\000"
+ 3759      65737457 
+ 3759      69646765 
+ 3759      74496400 
+ 3760              	.LASF134:
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 92
 
 
- 3758      00
- 3759              	.LASF113:
- 3760 038b 736E7254 		.ascii	"snrTestWidgetId\000"
- 3760      65737457 
- 3760      69646765 
- 3760      74496400 
- 3761              	.LASF134:
- 3762 039b 70747232 		.ascii	"ptr2NoiseEnvlp\000"
- 3762      4E6F6973 
- 3762      65456E76 
- 3762      6C7000
- 3763              	.LASF8:
- 3764 03aa 6C6F6E67 		.ascii	"long unsigned int\000"
- 3764      20756E73 
- 3764      69676E65 
- 3764      6420696E 
- 3764      7400
- 3765              	.LASF105:
- 3766 03bc 77646774 		.ascii	"wdgtEnable\000"
- 3766      456E6162 
- 3766      6C6500
- 3767              	.LASF25:
- 3768 03c7 4346475F 		.ascii	"CFG_IN\000"
- 3768      494E00
- 3769              	.LASF129:
- 3770 03ce 73656E73 		.ascii	"senseMethod\000"
- 3770      654D6574 
- 3770      686F6400 
- 3771              	.LASF79:
- 3772 03da 6C6F7742 		.ascii	"lowBslnRst\000"
- 3772      736C6E52 
- 3772      737400
- 3773              	.LASF40:
- 3774 03e5 5644445F 		.ascii	"VDD_INTR_SET\000"
- 3774      494E5452 
- 3774      5F534554 
- 3774      00
- 3775              	.LASF77:
- 3776 03f2 68797374 		.ascii	"hysteresis\000"
- 3776      65726573 
- 3776      697300
- 3777              	.LASF150:
- 3778 03fd 70747253 		.ascii	"ptrSnsTmp\000"
- 3778      6E73546D 
- 3778      7000
- 3779              	.LASF182:
- 3780 0407 43617053 		.ascii	"CapSense_DsInitialize\000"
- 3780      656E7365 
- 3780      5F447349 
- 3780      6E697469 
- 3780      616C697A 
- 3781              	.LASF22:
- 3782 041d 494E5452 		.ascii	"INTR_MASKED\000"
- 3782      5F4D4153 
- 3782      4B454400 
- 3783              	.LASF168:
- 3784 0429 43617053 		.ascii	"CapSense_debounceButton0\000"
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 93
+ 3761 0363 70747232 		.ascii	"ptr2NoiseEnvlp\000"
+ 3761      4E6F6973 
+ 3761      65456E76 
+ 3761      6C7000
+ 3762              	.LASF8:
+ 3763 0372 6C6F6E67 		.ascii	"long unsigned int\000"
+ 3763      20756E73 
+ 3763      69676E65 
+ 3763      6420696E 
+ 3763      7400
+ 3764              	.LASF105:
+ 3765 0384 77646774 		.ascii	"wdgtEnable\000"
+ 3765      456E6162 
+ 3765      6C6500
+ 3766              	.LASF25:
+ 3767 038f 4346475F 		.ascii	"CFG_IN\000"
+ 3767      494E00
+ 3768              	.LASF129:
+ 3769 0396 73656E73 		.ascii	"senseMethod\000"
+ 3769      654D6574 
+ 3769      686F6400 
+ 3770              	.LASF79:
+ 3771 03a2 6C6F7742 		.ascii	"lowBslnRst\000"
+ 3771      736C6E52 
+ 3771      737400
+ 3772              	.LASF40:
+ 3773 03ad 5644445F 		.ascii	"VDD_INTR_SET\000"
+ 3773      494E5452 
+ 3773      5F534554 
+ 3773      00
+ 3774              	.LASF150:
+ 3775 03ba 70747253 		.ascii	"ptrSnsTmp\000"
+ 3775      6E73546D 
+ 3775      7000
+ 3776              	.LASF182:
+ 3777 03c4 43617053 		.ascii	"CapSense_DsInitialize\000"
+ 3777      656E7365 
+ 3777      5F447349 
+ 3777      6E697469 
+ 3777      616C697A 
+ 3778              	.LASF22:
+ 3779 03da 494E5452 		.ascii	"INTR_MASKED\000"
+ 3779      5F4D4153 
+ 3779      4B454400 
+ 3780              	.LASF168:
+ 3781 03e6 43617053 		.ascii	"CapSense_debounceButton0\000"
+ 3781      656E7365 
+ 3781      5F646562 
+ 3781      6F756E63 
+ 3781      65427574 
+ 3782              	.LASF169:
+ 3783 03ff 43617053 		.ascii	"CapSense_debounceButton1\000"
+ 3783      656E7365 
+ 3783      5F646562 
+ 3783      6F756E63 
+ 3783      65427574 
+ 3784              	.LASF69:
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 93
 
 
- 3784      656E7365 
- 3784      5F646562 
- 3784      6F756E63 
- 3784      65427574 
- 3785              	.LASF169:
- 3786 0442 43617053 		.ascii	"CapSense_debounceButton1\000"
- 3786      656E7365 
- 3786      5F646562 
- 3786      6F756E63 
- 3786      65427574 
- 3787              	.LASF69:
- 3788 045b 43617053 		.ascii	"CapSense_UNDEFINED_E\000"
- 3788      656E7365 
- 3788      5F554E44 
- 3788      4546494E 
- 3788      45445F45 
- 3789              	.LASF143:
- 3790 0470 74797065 		.ascii	"type\000"
- 3790      00
- 3791              	.LASF99:
- 3792 0475 636F6E66 		.ascii	"configId\000"
- 3792      69674964 
- 3792      00
- 3793              	.LASF163:
- 3794 047e 43617053 		.ascii	"CapSense_IsSensorActive\000"
- 3794      656E7365 
- 3794      5F497353 
- 3794      656E736F 
- 3794      72416374 
- 3795              	.LASF44:
- 3796 0496 63686172 		.ascii	"char_t\000"
- 3796      5F7400
- 3797              	.LASF108:
- 3798 049d 63736430 		.ascii	"csd0Config\000"
- 3798      436F6E66 
- 3798      696700
- 3799              	.LASF122:
- 3800 04a8 70747232 		.ascii	"ptr2WdgtRam\000"
- 3800      57646774 
- 3800      52616D00 
- 3801              	.LASF2:
- 3802 04b4 73686F72 		.ascii	"short int\000"
- 3802      7420696E 
- 3802      7400
- 3803              	.LASF160:
- 3804 04be 43617053 		.ascii	"CapSense_IsAnyWidgetActive\000"
- 3804      656E7365 
- 3804      5F497341 
- 3804      6E795769 
- 3804      64676574 
- 3805              	.LASF100:
- 3806 04d9 64657669 		.ascii	"deviceId\000"
- 3806      63654964 
- 3806      00
- 3807              	.LASF87:
- 3808 04e2 43617053 		.ascii	"CapSense_RAM_WD_BUTTON_STRUCT\000"
- 3808      656E7365 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 94
+ 3785 0418 43617053 		.ascii	"CapSense_UNDEFINED_E\000"
+ 3785      656E7365 
+ 3785      5F554E44 
+ 3785      4546494E 
+ 3785      45445F45 
+ 3786              	.LASF143:
+ 3787 042d 74797065 		.ascii	"type\000"
+ 3787      00
+ 3788              	.LASF99:
+ 3789 0432 636F6E66 		.ascii	"configId\000"
+ 3789      69674964 
+ 3789      00
+ 3790              	.LASF163:
+ 3791 043b 43617053 		.ascii	"CapSense_IsSensorActive\000"
+ 3791      656E7365 
+ 3791      5F497353 
+ 3791      656E736F 
+ 3791      72416374 
+ 3792              	.LASF44:
+ 3793 0453 63686172 		.ascii	"char_t\000"
+ 3793      5F7400
+ 3794              	.LASF108:
+ 3795 045a 63736430 		.ascii	"csd0Config\000"
+ 3795      436F6E66 
+ 3795      696700
+ 3796              	.LASF122:
+ 3797 0465 70747232 		.ascii	"ptr2WdgtRam\000"
+ 3797      57646774 
+ 3797      52616D00 
+ 3798              	.LASF2:
+ 3799 0471 73686F72 		.ascii	"short int\000"
+ 3799      7420696E 
+ 3799      7400
+ 3800              	.LASF160:
+ 3801 047b 43617053 		.ascii	"CapSense_IsAnyWidgetActive\000"
+ 3801      656E7365 
+ 3801      5F497341 
+ 3801      6E795769 
+ 3801      64676574 
+ 3802              	.LASF100:
+ 3803 0496 64657669 		.ascii	"deviceId\000"
+ 3803      63654964 
+ 3803      00
+ 3804              	.LASF87:
+ 3805 049f 43617053 		.ascii	"CapSense_RAM_WD_BUTTON_STRUCT\000"
+ 3805      656E7365 
+ 3805      5F52414D 
+ 3805      5F57445F 
+ 3805      42555454 
+ 3806              	.LASF173:
+ 3807 04bd 43617053 		.ascii	"CapSense_ioList\000"
+ 3807      656E7365 
+ 3807      5F696F4C 
+ 3807      69737400 
+ 3808              	.LASF175:
+ 3809 04cd 43617053 		.ascii	"CapSense_ramIdacInit\000"
+ 3809      656E7365 
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 94
 
 
- 3808      5F52414D 
- 3808      5F57445F 
- 3808      42555454 
- 3809              	.LASF173:
- 3810 0500 43617053 		.ascii	"CapSense_ioList\000"
- 3810      656E7365 
- 3810      5F696F4C 
- 3810      69737400 
- 3811              	.LASF175:
- 3812 0510 43617053 		.ascii	"CapSense_ramIdacInit\000"
- 3812      656E7365 
- 3812      5F72616D 
- 3812      49646163 
- 3812      496E6974 
- 3813              	.LASF140:
- 3814 0525 77696467 		.ascii	"widgetId\000"
- 3814      65744964 
- 3814      00
- 3815              	.LASF23:
- 3816 052e 494E5452 		.ascii	"INTR_SET\000"
- 3816      5F534554 
- 3816      00
- 3817              	.LASF166:
- 3818 0537 7764536C 		.ascii	"wdSlider\000"
- 3818      69646572 
- 3818      00
- 3819              	.LASF80:
- 3820 0540 69646163 		.ascii	"idacMod\000"
- 3820      4D6F6400 
- 3821              	.LASF36:
- 3822 0548 5644445F 		.ascii	"VDD_ACTIVE\000"
- 3822      41435449 
- 3822      564500
- 3823              	.LASF86:
- 3824 0553 43617053 		.ascii	"CapSense_RAM_WD_SLIDER_STRUCT\000"
- 3824      656E7365 
- 3824      5F52414D 
- 3824      5F57445F 
- 3824      534C4944 
- 3825              	.LASF130:
- 3826 0571 6E756D43 		.ascii	"numCols\000"
- 3826      6F6C7300 
- 3827              	.LASF16:
- 3828 0579 73697A65 		.ascii	"sizetype\000"
- 3828      74797065 
- 3828      00
- 3829              	.LASF126:
- 3830 0582 73746174 		.ascii	"staticConfig\000"
- 3830      6963436F 
- 3830      6E666967 
- 3830      00
- 3831              	.LASF76:
- 3832 058f 6E4E6F69 		.ascii	"nNoiseTh\000"
- 3832      73655468 
- 3832      00
- 3833              	.LASF84:
- 3834 0598 73696750 		.ascii	"sigPFC\000"
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 95
+ 3809      5F72616D 
+ 3809      49646163 
+ 3809      496E6974 
+ 3810              	.LASF140:
+ 3811 04e2 77696467 		.ascii	"widgetId\000"
+ 3811      65744964 
+ 3811      00
+ 3812              	.LASF23:
+ 3813 04eb 494E5452 		.ascii	"INTR_SET\000"
+ 3813      5F534554 
+ 3813      00
+ 3814              	.LASF166:
+ 3815 04f4 7764536C 		.ascii	"wdSlider\000"
+ 3815      69646572 
+ 3815      00
+ 3816              	.LASF80:
+ 3817 04fd 69646163 		.ascii	"idacMod\000"
+ 3817      4D6F6400 
+ 3818              	.LASF36:
+ 3819 0505 5644445F 		.ascii	"VDD_ACTIVE\000"
+ 3819      41435449 
+ 3819      564500
+ 3820              	.LASF86:
+ 3821 0510 43617053 		.ascii	"CapSense_RAM_WD_SLIDER_STRUCT\000"
+ 3821      656E7365 
+ 3821      5F52414D 
+ 3821      5F57445F 
+ 3821      534C4944 
+ 3822              	.LASF130:
+ 3823 052e 6E756D43 		.ascii	"numCols\000"
+ 3823      6F6C7300 
+ 3824              	.LASF16:
+ 3825 0536 73697A65 		.ascii	"sizetype\000"
+ 3825      74797065 
+ 3825      00
+ 3826              	.LASF126:
+ 3827 053f 73746174 		.ascii	"staticConfig\000"
+ 3827      6963436F 
+ 3827      6E666967 
+ 3827      00
+ 3828              	.LASF76:
+ 3829 054c 6E4E6F69 		.ascii	"nNoiseTh\000"
+ 3829      73655468 
+ 3829      00
+ 3830              	.LASF84:
+ 3831 0555 73696750 		.ascii	"sigPFC\000"
+ 3831      464300
+ 3832              	.LASF41:
+ 3833 055c 4750494F 		.ascii	"GPIO_V1_Type\000"
+ 3833      5F56315F 
+ 3833      54797065 
+ 3833      00
+ 3834              	.LASF101:
+ 3835 0569 6877436C 		.ascii	"hwClock\000"
+ 3835      6F636B00 
+ 3836              	.LASF128:
+ 3837 0571 77646774 		.ascii	"wdgtType\000"
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 95
 
 
- 3834      464300
- 3835              	.LASF41:
- 3836 059f 4750494F 		.ascii	"GPIO_V1_Type\000"
- 3836      5F56315F 
- 3836      54797065 
- 3836      00
- 3837              	.LASF101:
- 3838 05ac 6877436C 		.ascii	"hwClock\000"
- 3838      6F636B00 
- 3839              	.LASF128:
- 3840 05b4 77646774 		.ascii	"wdgtType\000"
- 3840      54797065 
- 3840      00
- 3841              	.LASF133:
- 3842 05bd 7843656E 		.ascii	"xCentroidMultiplier\000"
- 3842      74726F69 
- 3842      644D756C 
- 3842      7469706C 
- 3842      69657200 
- 3843              	.LASF20:
- 3844 05d1 494E5452 		.ascii	"INTR\000"
- 3844      00
- 3845              	.LASF103:
- 3846 05d6 7363616E 		.ascii	"scanCounter\000"
- 3846      436F756E 
- 3846      74657200 
- 3847              	.LASF171:
- 3848 05e2 43617053 		.ascii	"CapSense_dsRam\000"
- 3848      656E7365 
- 3848      5F647352 
- 3848      616D00
- 3849              	.LASF17:
- 3850 05f1 4F55545F 		.ascii	"OUT_CLR\000"
- 3850      434C5200 
- 3851              	.LASF102:
- 3852 05f9 74756E65 		.ascii	"tunerCmd\000"
- 3852      72436D64 
- 3852      00
- 3853              	.LASF46:
- 3854 0602 666C6F61 		.ascii	"float\000"
- 3854      7400
- 3855              	.LASF174:
- 3856 0608 43617053 		.ascii	"CapSense_ramWidgetInit\000"
- 3856      656E7365 
- 3856      5F72616D 
- 3856      57696467 
- 3856      6574496E 
- 3857              	.LASF64:
- 3858 061f 43617053 		.ascii	"CapSense_WD_RADIAL_SLIDER_E\000"
- 3858      656E7365 
- 3858      5F57445F 
- 3858      52414449 
- 3858      414C5F53 
- 3859              	.LASF61:
- 3860 063b 534D4152 		.ascii	"SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT\000"
- 3860      5453454E 
- 3860      53455F43 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 96
+ 3837      54797065 
+ 3837      00
+ 3838              	.LASF133:
+ 3839 057a 7843656E 		.ascii	"xCentroidMultiplier\000"
+ 3839      74726F69 
+ 3839      644D756C 
+ 3839      7469706C 
+ 3839      69657200 
+ 3840              	.LASF20:
+ 3841 058e 494E5452 		.ascii	"INTR\000"
+ 3841      00
+ 3842              	.LASF103:
+ 3843 0593 7363616E 		.ascii	"scanCounter\000"
+ 3843      436F756E 
+ 3843      74657200 
+ 3844              	.LASF171:
+ 3845 059f 43617053 		.ascii	"CapSense_dsRam\000"
+ 3845      656E7365 
+ 3845      5F647352 
+ 3845      616D00
+ 3846              	.LASF17:
+ 3847 05ae 4F55545F 		.ascii	"OUT_CLR\000"
+ 3847      434C5200 
+ 3848              	.LASF102:
+ 3849 05b6 74756E65 		.ascii	"tunerCmd\000"
+ 3849      72436D64 
+ 3849      00
+ 3850              	.LASF46:
+ 3851 05bf 666C6F61 		.ascii	"float\000"
+ 3851      7400
+ 3852              	.LASF174:
+ 3853 05c5 43617053 		.ascii	"CapSense_ramWidgetInit\000"
+ 3853      656E7365 
+ 3853      5F72616D 
+ 3853      57696467 
+ 3853      6574496E 
+ 3854              	.LASF64:
+ 3855 05dc 43617053 		.ascii	"CapSense_WD_RADIAL_SLIDER_E\000"
+ 3855      656E7365 
+ 3855      5F57445F 
+ 3855      52414449 
+ 3855      414C5F53 
+ 3856              	.LASF61:
+ 3857 05f8 534D4152 		.ascii	"SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT\000"
+ 3857      5453454E 
+ 3857      53455F43 
+ 3857      53445F4E 
+ 3857      4F495345 
+ 3858              	.LASF27:
+ 3859 061d 4346475F 		.ascii	"CFG_SIO\000"
+ 3859      53494F00 
+ 3860              	.LASF30:
+ 3861 0625 52455345 		.ascii	"RESERVED1\000"
+ 3861      52564544 
+ 3861      3100
+ 3862              	.LASF98:
+ 3863 062f 43617053 		.ascii	"CapSense_RAM_SNS_LIST_STRUCT\000"
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 96
 
 
- 3860      53445F4E 
- 3860      4F495345 
- 3861              	.LASF27:
- 3862 0660 4346475F 		.ascii	"CFG_SIO\000"
- 3862      53494F00 
- 3863              	.LASF30:
- 3864 0668 52455345 		.ascii	"RESERVED1\000"
- 3864      52564544 
- 3864      3100
- 3865              	.LASF98:
- 3866 0672 43617053 		.ascii	"CapSense_RAM_SNS_LIST_STRUCT\000"
- 3866      656E7365 
- 3866      5F52414D 
- 3866      5F534E53 
- 3866      5F4C4953 
- 3867              	.LASF119:
- 3868 068f 70696E4E 		.ascii	"pinNumber\000"
- 3868      756D6265 
- 3868      7200
- 3869              	.LASF117:
- 3870 0699 43617053 		.ascii	"CapSense_RAM_STRUCT\000"
- 3870      656E7365 
- 3870      5F52414D 
- 3870      5F535452 
- 3870      55435400 
- 3871              	.LASF152:
- 3872 06ad 70747249 		.ascii	"ptrIdacInit\000"
- 3872      64616349 
- 3872      6E697400 
- 3873              	.LASF54:
- 3874 06b9 70617261 		.ascii	"param0\000"
- 3874      6D3000
- 3875              	.LASF55:
- 3876 06c0 70617261 		.ascii	"param1\000"
- 3876      6D3100
- 3877              	.LASF56:
- 3878 06c7 70617261 		.ascii	"param2\000"
- 3878      6D3200
- 3879              	.LASF57:
- 3880 06ce 70617261 		.ascii	"param3\000"
- 3880      6D3300
- 3881              	.LASF58:
- 3882 06d5 70617261 		.ascii	"param4\000"
- 3882      6D3400
- 3883              	.LASF59:
- 3884 06dc 70617261 		.ascii	"param5\000"
- 3884      6D3500
- 3885              	.LASF60:
- 3886 06e3 70617261 		.ascii	"param6\000"
- 3886      6D3600
- 3887              	.LASF136:
- 3888 06ea 43617053 		.ascii	"CapSense_FLASH_WD_STRUCT\000"
- 3888      656E7365 
- 3888      5F464C41 
- 3888      53485F57 
- 3888      445F5354 
- 3889              	.LASF124:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 97
+ 3863      656E7365 
+ 3863      5F52414D 
+ 3863      5F534E53 
+ 3863      5F4C4953 
+ 3864              	.LASF119:
+ 3865 064c 70696E4E 		.ascii	"pinNumber\000"
+ 3865      756D6265 
+ 3865      7200
+ 3866              	.LASF117:
+ 3867 0656 43617053 		.ascii	"CapSense_RAM_STRUCT\000"
+ 3867      656E7365 
+ 3867      5F52414D 
+ 3867      5F535452 
+ 3867      55435400 
+ 3868              	.LASF152:
+ 3869 066a 70747249 		.ascii	"ptrIdacInit\000"
+ 3869      64616349 
+ 3869      6E697400 
+ 3870              	.LASF54:
+ 3871 0676 70617261 		.ascii	"param0\000"
+ 3871      6D3000
+ 3872              	.LASF55:
+ 3873 067d 70617261 		.ascii	"param1\000"
+ 3873      6D3100
+ 3874              	.LASF56:
+ 3875 0684 70617261 		.ascii	"param2\000"
+ 3875      6D3200
+ 3876              	.LASF57:
+ 3877 068b 70617261 		.ascii	"param3\000"
+ 3877      6D3300
+ 3878              	.LASF58:
+ 3879 0692 70617261 		.ascii	"param4\000"
+ 3879      6D3400
+ 3880              	.LASF59:
+ 3881 0699 70617261 		.ascii	"param5\000"
+ 3881      6D3500
+ 3882              	.LASF60:
+ 3883 06a0 70617261 		.ascii	"param6\000"
+ 3883      6D3600
+ 3884              	.LASF136:
+ 3885 06a7 43617053 		.ascii	"CapSense_FLASH_WD_STRUCT\000"
+ 3885      656E7365 
+ 3885      5F464C41 
+ 3885      53485F57 
+ 3885      445F5354 
+ 3886              	.LASF124:
+ 3887 06c0 70747232 		.ascii	"ptr2FltrHistory\000"
+ 3887      466C7472 
+ 3887      48697374 
+ 3887      6F727900 
+ 3888              	.LASF28:
+ 3889 06d0 52455345 		.ascii	"RESERVED\000"
+ 3889      52564544 
+ 3889      00
+ 3890              	.LASF70:
+ 3891 06d9 43617053 		.ascii	"CapSense_SENSE_METHOD_CSD_E\000"
+ 3891      656E7365 
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 97
 
 
- 3890 0703 70747232 		.ascii	"ptr2FltrHistory\000"
- 3890      466C7472 
- 3890      48697374 
- 3890      6F727900 
- 3891              	.LASF28:
- 3892 0713 52455345 		.ascii	"RESERVED\000"
- 3892      52564544 
- 3892      00
- 3893              	.LASF70:
- 3894 071c 43617053 		.ascii	"CapSense_SENSE_METHOD_CSD_E\000"
- 3894      656E7365 
- 3894      5F53454E 
- 3894      53455F4D 
- 3894      4554484F 
- 3895              	.LASF157:
- 3896 0738 70747244 		.ascii	"ptrData\000"
- 3896      61746100 
- 3897              	.LASF66:
- 3898 0740 43617053 		.ascii	"CapSense_WD_TOUCHPAD_E\000"
- 3898      656E7365 
- 3898      5F57445F 
- 3898      544F5543 
- 3898      48504144 
- 3899              	.LASF37:
- 3900 0757 5644445F 		.ascii	"VDD_INTR\000"
- 3900      494E5452 
- 3900      00
- 3901              	.LASF14:
- 3902 0760 75696E74 		.ascii	"uint32_t\000"
- 3902      33325F74 
- 3902      00
- 3903              	.LASF111:
- 3904 0769 77646774 		.ascii	"wdgtList\000"
- 3904      4C697374 
- 3904      00
- 3905              	.LASF178:
- 3906 0772 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 3906      43313120 
- 3906      352E342E 
- 3906      31203230 
- 3906      31363036 
- 3907 07a5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 3907      20726576 
- 3907      6973696F 
- 3907      6E203233 
- 3907      37373135 
- 3908 07d8 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 3908      67202D66 
- 3908      66756E63 
- 3908      74696F6E 
- 3908      2D736563 
- 3909              	.LASF45:
- 3910 0804 63686172 		.ascii	"char\000"
- 3910      00
- 3911              	.LASF15:
- 3912 0809 6C6F6E67 		.ascii	"long double\000"
- 3912      20646F75 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 98
+ 3891      5F53454E 
+ 3891      53455F4D 
+ 3891      4554484F 
+ 3892              	.LASF157:
+ 3893 06f5 70747244 		.ascii	"ptrData\000"
+ 3893      61746100 
+ 3894              	.LASF66:
+ 3895 06fd 43617053 		.ascii	"CapSense_WD_TOUCHPAD_E\000"
+ 3895      656E7365 
+ 3895      5F57445F 
+ 3895      544F5543 
+ 3895      48504144 
+ 3896              	.LASF37:
+ 3897 0714 5644445F 		.ascii	"VDD_INTR\000"
+ 3897      494E5452 
+ 3897      00
+ 3898              	.LASF14:
+ 3899 071d 75696E74 		.ascii	"uint32_t\000"
+ 3899      33325F74 
+ 3899      00
+ 3900              	.LASF111:
+ 3901 0726 77646774 		.ascii	"wdgtList\000"
+ 3901      4C697374 
+ 3901      00
+ 3902              	.LASF178:
+ 3903 072f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 3903      43313120 
+ 3903      352E342E 
+ 3903      31203230 
+ 3903      31363036 
+ 3904 0762 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 3904      20726576 
+ 3904      6973696F 
+ 3904      6E203233 
+ 3904      37373135 
+ 3905 0795 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 3905      67202D66 
+ 3905      66756E63 
+ 3905      74696F6E 
+ 3905      2D736563 
+ 3906              	.LASF45:
+ 3907 07c1 63686172 		.ascii	"char\000"
+ 3907      00
+ 3908              	.LASF15:
+ 3909 07c6 6C6F6E67 		.ascii	"long double\000"
+ 3909      20646F75 
+ 3909      626C6500 
+ 3910              	.LASF165:
+ 3911 07d2 43617053 		.ascii	"CapSense_GetCentroidPos\000"
+ 3911      656E7365 
+ 3911      5F476574 
+ 3911      43656E74 
+ 3911      726F6964 
+ 3912              	.LASF32:
+ 3913 07ea 494E5452 		.ascii	"INTR_CAUSE0\000"
+ 3913      5F434155 
+ 3913      53453000 
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 98
 
 
- 3912      626C6500 
- 3913              	.LASF165:
- 3914 0815 43617053 		.ascii	"CapSense_GetCentroidPos\000"
- 3914      656E7365 
- 3914      5F476574 
- 3914      43656E74 
- 3914      726F6964 
- 3915              	.LASF32:
- 3916 082d 494E5452 		.ascii	"INTR_CAUSE0\000"
- 3916      5F434155 
- 3916      53453000 
- 3917              	.LASF33:
- 3918 0839 494E5452 		.ascii	"INTR_CAUSE1\000"
- 3918      5F434155 
- 3918      53453100 
- 3919              	.LASF34:
- 3920 0845 494E5452 		.ascii	"INTR_CAUSE2\000"
- 3920      5F434155 
- 3920      53453200 
- 3921              	.LASF35:
- 3922 0851 494E5452 		.ascii	"INTR_CAUSE3\000"
- 3922      5F434155 
- 3922      53453300 
- 3923              	.LASF42:
- 3924 085d 4750494F 		.ascii	"GPIO_PRT_Type\000"
- 3924      5F505254 
- 3924      5F547970 
- 3924      6500
- 3925              	.LASF4:
- 3926 086b 5F5F7569 		.ascii	"__uint16_t\000"
- 3926      6E743136 
- 3926      5F7400
- 3927              	.LASF18:
- 3928 0876 4F55545F 		.ascii	"OUT_SET\000"
- 3928      53455400 
- 3929              	.LASF81:
- 3930 087e 736E7343 		.ascii	"snsClk\000"
- 3930      6C6B00
- 3931              	.LASF73:
- 3932 0885 7265736F 		.ascii	"resolution\000"
- 3932      6C757469 
- 3932      6F6E00
- 3933              	.LASF12:
- 3934 0890 75696E74 		.ascii	"uint8_t\000"
- 3934      385F7400 
- 3935              	.LASF156:
- 3936 0898 70747255 		.ascii	"ptrUint32\000"
- 3936      696E7433 
- 3936      3200
- 3937              	.LASF78:
- 3938 08a2 6F6E4465 		.ascii	"onDebounce\000"
- 3938      626F756E 
- 3938      636500
- 3939              	.LASF39:
- 3940 08ad 5644445F 		.ascii	"VDD_INTR_MASKED\000"
- 3940      494E5452 
- 3940      5F4D4153 
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 99
+ 3914              	.LASF33:
+ 3915 07f6 494E5452 		.ascii	"INTR_CAUSE1\000"
+ 3915      5F434155 
+ 3915      53453100 
+ 3916              	.LASF34:
+ 3917 0802 494E5452 		.ascii	"INTR_CAUSE2\000"
+ 3917      5F434155 
+ 3917      53453200 
+ 3918              	.LASF35:
+ 3919 080e 494E5452 		.ascii	"INTR_CAUSE3\000"
+ 3919      5F434155 
+ 3919      53453300 
+ 3920              	.LASF42:
+ 3921 081a 4750494F 		.ascii	"GPIO_PRT_Type\000"
+ 3921      5F505254 
+ 3921      5F547970 
+ 3921      6500
+ 3922              	.LASF4:
+ 3923 0828 5F5F7569 		.ascii	"__uint16_t\000"
+ 3923      6E743136 
+ 3923      5F7400
+ 3924              	.LASF18:
+ 3925 0833 4F55545F 		.ascii	"OUT_SET\000"
+ 3925      53455400 
+ 3926              	.LASF81:
+ 3927 083b 736E7343 		.ascii	"snsClk\000"
+ 3927      6C6B00
+ 3928              	.LASF73:
+ 3929 0842 7265736F 		.ascii	"resolution\000"
+ 3929      6C757469 
+ 3929      6F6E00
+ 3930              	.LASF12:
+ 3931 084d 75696E74 		.ascii	"uint8_t\000"
+ 3931      385F7400 
+ 3932              	.LASF156:
+ 3933 0855 70747255 		.ascii	"ptrUint32\000"
+ 3933      696E7433 
+ 3933      3200
+ 3934              	.LASF78:
+ 3935 085f 6F6E4465 		.ascii	"onDebounce\000"
+ 3935      626F756E 
+ 3935      636500
+ 3936              	.LASF39:
+ 3937 086a 5644445F 		.ascii	"VDD_INTR_MASKED\000"
+ 3937      494E5452 
+ 3937      5F4D4153 
+ 3937      4B454400 
+ 3938              	.LASF139:
+ 3939 087a 6F666673 		.ascii	"offset\000"
+ 3939      657400
+ 3940              	.LASF68:
+ 3941 0881 43617053 		.ascii	"CapSense_WD_TYPE_ENUM\000"
+ 3941      656E7365 
+ 3941      5F57445F 
+ 3941      54595045 
+ 3941      5F454E55 
+ 3942              	.LASF96:
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 99
 
 
- 3940      4B454400 
- 3941              	.LASF139:
- 3942 08bd 6F666673 		.ascii	"offset\000"
- 3942      657400
- 3943              	.LASF68:
- 3944 08c4 43617053 		.ascii	"CapSense_WD_TYPE_ENUM\000"
- 3944      656E7365 
- 3944      5F57445F 
- 3944      54595045 
- 3944      5F454E55 
- 3945              	.LASF96:
- 3946 08da 69646163 		.ascii	"idacComp\000"
- 3946      436F6D70 
- 3946      00
- 3947              	.LASF183:
- 3948 08e3 43795F53 		.ascii	"Cy_SysLib_AssertFailed\000"
- 3948      79734C69 
- 3948      625F4173 
- 3948      73657274 
- 3948      4661696C 
- 3949              	.LASF1:
- 3950 08fa 756E7369 		.ascii	"unsigned char\000"
- 3950      676E6564 
- 3950      20636861 
- 3950      7200
- 3951              	.LASF95:
- 3952 0908 6E656742 		.ascii	"negBslnRstCnt\000"
- 3952      736C6E52 
- 3952      7374436E 
- 3952      7400
- 3953              	.LASF127:
- 3954 0916 746F7461 		.ascii	"totalNumSns\000"
- 3954      6C4E756D 
- 3954      536E7300 
- 3955              	.LASF125:
- 3956 0922 70747232 		.ascii	"ptr2DebounceArr\000"
- 3956      4465626F 
- 3956      756E6365 
- 3956      41727200 
- 3957              	.LASF138:
- 3958 0932 43617053 		.ascii	"CapSense_FLASH_STRUCT\000"
- 3958      656E7365 
- 3958      5F464C41 
- 3958      53485F53 
- 3958      54525543 
- 3959              	.LASF120:
- 3960 0948 43617053 		.ascii	"CapSense_FLASH_IO_STRUCT\000"
- 3960      656E7365 
- 3960      5F464C41 
- 3960      53485F49 
- 3960      4F5F5354 
- 3961              	.LASF29:
- 3962 0961 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
- 3962      494E5F47 
- 3962      50494F35 
- 3962      5600
- 3963              	.LASF176:
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 100
+ 3943 0897 69646163 		.ascii	"idacComp\000"
+ 3943      436F6D70 
+ 3943      00
+ 3944              	.LASF183:
+ 3945 08a0 43795F53 		.ascii	"Cy_SysLib_AssertFailed\000"
+ 3945      79734C69 
+ 3945      625F4173 
+ 3945      73657274 
+ 3945      4661696C 
+ 3946              	.LASF1:
+ 3947 08b7 756E7369 		.ascii	"unsigned char\000"
+ 3947      676E6564 
+ 3947      20636861 
+ 3947      7200
+ 3948              	.LASF95:
+ 3949 08c5 6E656742 		.ascii	"negBslnRstCnt\000"
+ 3949      736C6E52 
+ 3949      7374436E 
+ 3949      7400
+ 3950              	.LASF180:
+ 3951 08d3 433A5C55 		.ascii	"C:\\Users\\felha\\OneDrive\\Documents\\PolyMTL\\Sou"
+ 3951      73657273 
+ 3951      5C66656C 
+ 3951      68615C4F 
+ 3951      6E654472 
+ 3952 0900 72636554 		.ascii	"rceTree_GBM2100\\GBM2100_ProjetInterface\\Interface"
+ 3952      7265655F 
+ 3952      47424D32 
+ 3952      3130305C 
+ 3952      47424D32 
+ 3953 0931 2E637964 		.ascii	".cydsn\000"
+ 3953      736E00
+ 3954              	.LASF127:
+ 3955 0938 746F7461 		.ascii	"totalNumSns\000"
+ 3955      6C4E756D 
+ 3955      536E7300 
+ 3956              	.LASF125:
+ 3957 0944 70747232 		.ascii	"ptr2DebounceArr\000"
+ 3957      4465626F 
+ 3957      756E6365 
+ 3957      41727200 
+ 3958              	.LASF138:
+ 3959 0954 43617053 		.ascii	"CapSense_FLASH_STRUCT\000"
+ 3959      656E7365 
+ 3959      5F464C41 
+ 3959      53485F53 
+ 3959      54525543 
+ 3960              	.LASF120:
+ 3961 096a 43617053 		.ascii	"CapSense_FLASH_IO_STRUCT\000"
+ 3961      656E7365 
+ 3961      5F464C41 
+ 3961      53485F49 
+ 3961      4F5F5354 
+ 3962              	.LASF29:
+ 3963 0983 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
+ 3963      494E5F47 
+ 3963      50494F35 
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 100
 
 
- 3964 096f 6D656D73 		.ascii	"memset\000"
- 3964      657400
- 3965              	.LASF104:
- 3966 0976 73746174 		.ascii	"status\000"
- 3966      757300
- 3967              	.LASF137:
- 3968 097d 77646774 		.ascii	"wdgtArray\000"
- 3968      41727261 
- 3968      7900
- 3969              	.LASF181:
- 3970 0987 44735061 		.ascii	"DsParseParamId\000"
- 3970      72736550 
- 3970      6172616D 
- 3970      496400
- 3971              	.LASF154:
- 3972 0996 70747255 		.ascii	"ptrUint8\000"
- 3972      696E7438 
- 3972      00
- 3973              	.LASF155:
- 3974 099f 70747255 		.ascii	"ptrUint16\000"
- 3974      696E7431 
- 3974      3600
- 3975              	.LASF145:
- 3976 09a9 70617261 		.ascii	"paramId\000"
- 3976      6D496400 
- 3977              	.LASF162:
- 3978 09b1 43617053 		.ascii	"CapSense_IsWidgetActive\000"
- 3978      656E7365 
- 3978      5F497357 
- 3978      69646765 
- 3978      74416374 
- 3979              	.LASF26:
- 3980 09c9 4346475F 		.ascii	"CFG_OUT\000"
- 3980      4F555400 
- 3981              	.LASF21:
- 3982 09d1 494E5452 		.ascii	"INTR_MASK\000"
- 3982      5F4D4153 
- 3982      4B00
- 3983              	.LASF43:
- 3984 09db 4750494F 		.ascii	"GPIO_Type\000"
- 3984      5F547970 
- 3984      6500
- 3985              	.LASF148:
- 3986 09e5 736E7349 		.ascii	"snsId\000"
- 3986      6400
- 3987              	.LASF92:
- 3988 09eb 62736C6E 		.ascii	"bsln\000"
- 3988      00
- 3989              	.LASF88:
- 3990 09f0 6C696E65 		.ascii	"linearslider0\000"
- 3990      6172736C 
- 3990      69646572 
- 3990      3000
- 3991              	.LASF74:
- 3992 09fe 66696E67 		.ascii	"fingerTh\000"
- 3992      65725468 
- 3992      00
-ARM GAS  C:\Users\vicpa\AppData\Local\Temp\ccq8v5dy.s 			page 101
+ 3963      5600
+ 3964              	.LASF176:
+ 3965 0991 6D656D73 		.ascii	"memset\000"
+ 3965      657400
+ 3966              	.LASF104:
+ 3967 0998 73746174 		.ascii	"status\000"
+ 3967      757300
+ 3968              	.LASF137:
+ 3969 099f 77646774 		.ascii	"wdgtArray\000"
+ 3969      41727261 
+ 3969      7900
+ 3970              	.LASF181:
+ 3971 09a9 44735061 		.ascii	"DsParseParamId\000"
+ 3971      72736550 
+ 3971      6172616D 
+ 3971      496400
+ 3972              	.LASF154:
+ 3973 09b8 70747255 		.ascii	"ptrUint8\000"
+ 3973      696E7438 
+ 3973      00
+ 3974              	.LASF155:
+ 3975 09c1 70747255 		.ascii	"ptrUint16\000"
+ 3975      696E7431 
+ 3975      3600
+ 3976              	.LASF145:
+ 3977 09cb 70617261 		.ascii	"paramId\000"
+ 3977      6D496400 
+ 3978              	.LASF162:
+ 3979 09d3 43617053 		.ascii	"CapSense_IsWidgetActive\000"
+ 3979      656E7365 
+ 3979      5F497357 
+ 3979      69646765 
+ 3979      74416374 
+ 3980              	.LASF26:
+ 3981 09eb 4346475F 		.ascii	"CFG_OUT\000"
+ 3981      4F555400 
+ 3982              	.LASF21:
+ 3983 09f3 494E5452 		.ascii	"INTR_MASK\000"
+ 3983      5F4D4153 
+ 3983      4B00
+ 3984              	.LASF43:
+ 3985 09fd 4750494F 		.ascii	"GPIO_Type\000"
+ 3985      5F547970 
+ 3985      6500
+ 3986              	.LASF148:
+ 3987 0a07 736E7349 		.ascii	"snsId\000"
+ 3987      6400
+ 3988              	.LASF92:
+ 3989 0a0d 62736C6E 		.ascii	"bsln\000"
+ 3989      00
+ 3990              	.LASF88:
+ 3991 0a12 6C696E65 		.ascii	"linearslider0\000"
+ 3991      6172736C 
+ 3991      69646572 
+ 3991      3000
+ 3992              	.LASF74:
+ 3993 0a20 66696E67 		.ascii	"fingerTh\000"
+ARM GAS  C:\Users\felha\AppData\Local\Temp\cc2vfgUj.s 			page 101
 
 
- 3993              	.LASF146:
- 3994 0a07 70446174 		.ascii	"pData\000"
- 3994      6100
- 3995              	.LASF67:
- 3996 0a0d 43617053 		.ascii	"CapSense_WD_PROXIMITY_E\000"
- 3996      656E7365 
- 3996      5F57445F 
- 3996      50524F58 
- 3996      494D4954 
- 3997              	.LASF167:
- 3998 0a25 43617053 		.ascii	"CapSense_debounceLinearSlider0\000"
- 3998      656E7365 
- 3998      5F646562 
- 3998      6F756E63 
- 3998      654C696E 
- 3999              	.LASF115:
- 4000 0a44 736E7254 		.ascii	"snrTestScanCounter\000"
- 4000      65737453 
- 4000      63616E43 
- 4000      6F756E74 
- 4000      657200
- 4001              	.LASF147:
- 4002 0a57 72657375 		.ascii	"result\000"
- 4002      6C7400
- 4003              	.LASF62:
- 4004 0a5e 43617053 		.ascii	"CapSense_WD_BUTTON_E\000"
- 4004      656E7365 
- 4004      5F57445F 
- 4004      42555454 
- 4004      4F4E5F45 
- 4005              	.LASF75:
- 4006 0a73 6E6F6973 		.ascii	"noiseTh\000"
- 4006      65546800 
- 4007              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 3993      65725468 
+ 3993      00
+ 3994              	.LASF146:
+ 3995 0a29 70446174 		.ascii	"pData\000"
+ 3995      6100
+ 3996              	.LASF67:
+ 3997 0a2f 43617053 		.ascii	"CapSense_WD_PROXIMITY_E\000"
+ 3997      656E7365 
+ 3997      5F57445F 
+ 3997      50524F58 
+ 3997      494D4954 
+ 3998              	.LASF167:
+ 3999 0a47 43617053 		.ascii	"CapSense_debounceLinearSlider0\000"
+ 3999      656E7365 
+ 3999      5F646562 
+ 3999      6F756E63 
+ 3999      654C696E 
+ 4000              	.LASF115:
+ 4001 0a66 736E7254 		.ascii	"snrTestScanCounter\000"
+ 4001      65737453 
+ 4001      63616E43 
+ 4001      6F756E74 
+ 4001      657200
+ 4002              	.LASF147:
+ 4003 0a79 72657375 		.ascii	"result\000"
+ 4003      6C7400
+ 4004              	.LASF62:
+ 4005 0a80 43617053 		.ascii	"CapSense_WD_BUTTON_E\000"
+ 4005      656E7365 
+ 4005      5F57445F 
+ 4005      42555454 
+ 4005      4F4E5F45 
+ 4006              	.LASF75:
+ 4007 0a95 6E6F6973 		.ascii	"noiseTh\000"
+ 4007      65546800 
+ 4008              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

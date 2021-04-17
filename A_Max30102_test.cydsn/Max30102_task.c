@@ -1,10 +1,83 @@
 #include "Max30102_task.h"
 
 //buffer circulaire variable init pour le ISR function
-    //int size_traitement = 300; //for later
-    uint32_t bufferRED[100];
-    uint32_t bufferIR[100];
-    uint8_t indexWrite = 0;
+    int size_traitement = 750; // Donc le traitement sera de 2,5s à chaque fois, ce qui signifie 250 points car fs=100 Hz
+    uint32_t bufferRED[1500]; // Les buffers circulaires sont 2 fois la taille du vecteur en cours de traitement, ainsi l'autre moitié du buffer peut être en acquisition en même temps sans qu'il y ait de données perdues
+    uint32_t bufferIR[1500];
+//    uint8_t indexWrite = 0;
+    
+// Déclarations de variables globales
+int16_t indexB=0;
+int16_t idxB=0;   // indice qui sert à enregistrer la valeur de l'index B quand on ramène ce dernier à 0
+bool flag;
+int16_t ADC_GetResult16();//Retourne le résultat de la conversion en fonction du cannal.
+
+/* Image buffer cache */
+uint8 imageBufferCache[CY_EINK_FRAME_SIZE] = {0};
+
+
+
+
+void flag_buffer () // Fonction qui prend les résultats de la conversion du signal du PWM et les met dans le bufffer, puis vérifie si le traitement peut débuter
+{
+   
+   int16_t result=ADC_GetResult16(0); // Attribution de la valeur du résultat à la variable resultat
+   
+   bufferRED[indexB]=result;
+   indexB++;
+   if(indexB%size_traitement==0)
+              {
+                flag=true;
+                idxB=indexB;
+              }
+   if (indexB==1500)
+{
+     indexB=0;
+}
+  
+}
+    
+        // Main :
+
+        for(;;)
+    {
+        
+        flag_buffer();
+        if( flag == true)  // Si le flag est true, on peut débuter le traitement de signal. Le flag devient true dans la fonction adc_handler quand une moitié du buffer circulaire vient d'être remplie
+        {
+        
+        for (uint32_t i = idxb-size_traitement; i < idxB; i++){
+        vectorRED[i]=bufferRED[i];
+        vectorINFRA[i]=bufferIR[i];
+        }
+        traitementSignal();
+        
+        }
+        flag=false;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 // uint8_t car sa return 1 byte de data
 uint8_t read_Register(uint8_t address)      //address du register qui va read

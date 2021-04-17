@@ -20,12 +20,6 @@
 /* ARM CM4 */
 #if (((__CORTEX_M == 4) && (CY_CORE_ID == 0)))
 
-    /* SW2 */
-    const cy_stc_sysint_t SW2_cfg = {
-        .intrSrc = (IRQn_Type)SW2__INTC_NUMBER,
-        .intrPriority = SW2__INTC_CORTEXM4_PRIORITY
-    };
-
     /* Max_int */
     const cy_stc_sysint_t Max_int_cfg = {
         .intrSrc = (IRQn_Type)Max_int__INTC_NUMBER,

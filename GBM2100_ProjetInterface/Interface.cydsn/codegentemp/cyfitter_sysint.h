@@ -18,14 +18,6 @@
 #define INCLUDED_CYFITTER_SYSINT_H
 #include "cy_device_headers.h"
 
-/* SW2 */
-#define SW2__INTC_CORTEXM4_ASSIGNED 1
-#define SW2__INTC_CORTEXM4_PRIORITY 7u
-#define SW2__INTC_NUMBER 0u
-#define SW2_INTC_CORTEXM4_ASSIGNED 1
-#define SW2_INTC_CORTEXM4_PRIORITY 7u
-#define SW2_INTC_NUMBER 0u
-
 /* Max_int */
 #define Max_int__INTC_CORTEXM4_ASSIGNED 1
 #define Max_int__INTC_CORTEXM4_PRIORITY 7u

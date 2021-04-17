@@ -74,7 +74,7 @@ void DrawBool(int Page1Param)
         GUI_DispStringAt("Red graph can be drawn",75,80);
     }
     if (Page1Param==4){
-        GUI_DispStringAt("Infrared graph can be drawn:",75,80);
+        GUI_DispStringAt("Infrared graph can be drawn",75,80);
     }
     UpdateDisplay(CY_EINK_FULL_4STAGE, true); 
 }
@@ -308,41 +308,9 @@ void CapSense_EnableDisableMotionAlarm()
 
 //------------------------------------------------------------------- Tâches ----------------------------------------------------------------
 
-// 1)Tâche pour afficher les graphiques ainsi que pour changer la courbe affichée 
-volatile int CompteurSW2; volatile bool AffichageGraph; 
 volatile int32_t vectorRed[750]; volatile int32_t vectorInfra[750]; volatile int Saturation=0; volatile int RythmeCardiaque=65;
 
-void ChangeGraph()
-{
-    for (;;)
-    {
-        //Remplissage des buffers des courbes rouge et infrarouge et des paramètres
-        
-        //traitement_signal();
-        
-
-        if (AffichageGraph==true){
-            ClearScreen();
-            if (CompteurSW2%2==0)
-            {
-                //drawGraph(vectorRed);
-                updateParameters(Saturation, RythmeCardiaque,3);
-                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1);// GUI_DispStringAt("Red curve:",80,0);
-            }
-            else
-            {
-                //drawGraph(vectorInfra);
-                updateParameters(Saturation, RythmeCardiaque,4);
-                GUI_SetPenSize(10); GUI_SetFont(GUI_FONT_16_1); //GUI_DispStringAt("Infrared curve:",60,0);
-            }
-            AffichageGraph=false;
-        }
-        vTaskDelay(pdMS_TO_TICKS(200));
-       
-    }
-}
-
-// 2)Tâche pour allumer ou éteindre une alarme lorsque le rythme cardiaque est à l'extérieur des bornes définies par l'usager 
+// 1)Tâche pour allumer ou éteindre une alarme lorsque le rythme cardiaque est à l'extérieur des bornes définies par l'usager 
 void HeartRateAlarm()
 {
     for(;;)
@@ -359,7 +327,7 @@ void HeartRateAlarm()
     }
 }
 
-// 3)Tâche pour naviguer entre les pages et les paramètres en fonction des boutons appuyés par l'utilisateur
+// 2)Tâche pour naviguer entre les pages et les paramètres en fonction des boutons appuyés par l'utilisateur
 /*
 Page1: 4 paramètres; 1)ChangeLedIntensity 2)Enable/Disable RLed 3)DrawGraph Red 4) DrawGraphInfra
 Page2: 2 paramètres; 1)Borne inférieure bpm 2)Borne supérieure bpm 
@@ -451,7 +419,7 @@ void CapSense_ChangeMenu()
                 CapSense_ProcessAllWidgets();
                 if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
                 {
-                    DrawRedGraph=true;
+                    DrawRedGraph=true; DrawInfraredGraph=false;
                     DrawBool(3);
                     vTaskDelay(pdMS_TO_TICKS(500));
                     DisplayPage(ScreenNumber,Page1Params,Page2Params);
@@ -462,7 +430,7 @@ void CapSense_ChangeMenu()
                 CapSense_ProcessAllWidgets();
                 if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
                 {
-                    DrawRedGraph=true;
+                    DrawInfraredGraph=true; DrawRedGraph=false;
                     DrawBool(4);
                     vTaskDelay(pdMS_TO_TICKS(500));
                     DisplayPage(ScreenNumber,Page1Params,Page2Params);

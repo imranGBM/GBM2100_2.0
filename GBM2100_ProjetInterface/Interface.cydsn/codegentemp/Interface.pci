@@ -1,5 +1,5 @@
 # Interface
-# 2021-04-17 15:55:43Z
+# 2021-04-17 20:29:21Z
 
 dont_use_location p4usbcell -1 -1 0
 dont_use_location USB -1 -1 0
@@ -28,7 +28,6 @@ set_io "\CapSense:Sns(2)\" iocell 8 5
 set_io "\CapSense:Sns(3)\" iocell 8 6
 set_io "\CapSense:Sns(4)\" iocell 8 7
 set_io "\CapSense:Tx(0)\" iocell 1 0
-set_io "PinSW2(0)" iocell 0 4
 set_io "Blue(0)" iocell 11 1
 set_io "Pin_INT(0)" iocell 9 5
 set_io "\I2C_MAX:scl(0)\" iocell 9 0

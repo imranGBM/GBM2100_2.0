@@ -1,6 +1,6 @@
 // ======================================================================
 // Interface.v generated from TopDesign.cysch
-// 04/17/2021 at 11:55
+// 04/17/2021 at 16:29
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1236,7 +1236,6 @@ module top ;
           wire  Net_733;
           wire  Net_732;
           wire  Net_731;
-          wire  Net_705;
           wire  Net_24;
           wire  Net_17;
           wire  Net_19;
@@ -1559,57 +1558,6 @@ module top ;
         .undrflw(Net_24));
 
     CapSense_v3_0_2 CapSense ();
-
-
-	cy_gsref_v1_0
-		#(.guid("8C3B410E-0600-5ECF-95DD-0AF91BF8D8A7"))
-		GlobalSignal
-		 (.sig_out(Net_705));
-
-
-
-	cy_mxs40_isr_v1_0
-		#(.deepsleep_required(0),
-		  .int_type(2'b10))
-		SW2
-		 (.int_signal(Net_705));
-
-
-	wire [0:0] tmpFB_0__PinSW2_net;
-	wire [0:0] tmpIO_0__PinSW2_net;
-	electrical [0:0] tmpSIOVREF__PinSW2_net;
-
-	cy_mxs40_gpio_v1_0
-		#(.id("87da4b8e-cb75-49b6-9d5b-638082c46d6d"),
-		  .width(1),
-		  .sio_grp_cnt(0),
-		  .drive_mode("3"),
-		  .ibuf_enabled("1"),
-		  .init_dr_st("1"),
-		  .input_sync("0"),
-		  .intr_mode("2"),
-		  .io_voltage(""),
-		  .output_conn("0"),
-		  .oe_conn("0"),
-		  .output_sync("0"),
-		  .oe_sync("0"),
-		  .drive_strength("0"),
-		  .max_frequency("100"),
-		  .i2c_mode("0"),
-		  .output_current_cap("8"),
-		  .pin_aliases(""),
-		  .pin_mode("I"),
-		  .slew_rate("0"),
-		  .vtrip("0"),
-		  .use_annotation("0"),
-		  .hotswap_needed("0"))
-		PinSW2
-		 (.oe({1'b1}),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__PinSW2_net[0:0]}),
-		  .io({tmpIO_0__PinSW2_net[0:0]}),
-		  .siovref(tmpSIOVREF__PinSW2_net));
-
 
 	wire [0:0] tmpFB_0__Blue_net;
 	wire [0:0] tmpIO_0__Blue_net;

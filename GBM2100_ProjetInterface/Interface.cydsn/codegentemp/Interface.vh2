@@ -2,7 +2,7 @@
 --	Conversion of Interface.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sat Apr 17 11:55:30 2021
+--	Sat Apr 17 16:29:10 2021
 --
 
 USE cypress.cypress.all;
@@ -178,10 +178,6 @@ TERMINAL \CapSense:tmpSIOVREF__Sns_net_0\ : bit;
 SIGNAL \CapSense:tmpFB_0__Tx_net_0\ : bit;
 SIGNAL \CapSense:tmpIO_0__Tx_net_0\ : bit;
 TERMINAL \CapSense:tmpSIOVREF__Tx_net_0\ : bit;
-SIGNAL Net_705 : bit;
-SIGNAL tmpFB_0__PinSW2_net_0 : bit;
-SIGNAL tmpIO_0__PinSW2_net_0 : bit;
-TERMINAL tmpSIOVREF__PinSW2_net_0 : bit;
 SIGNAL tmpFB_0__Blue_net_0 : bit;
 SIGNAL tmpIO_0__Blue_net_0 : bit;
 TERMINAL tmpSIOVREF__Blue_net_0 : bit;
@@ -936,46 +932,6 @@ EINK_Clock:cy_clock_v1_0
 		is_net_join=>'0')
 	PORT MAP(signal1=>\CapSense:Net_866\,
 		signal2=>\CapSense:Net_606\);
-GlobalSignal:cy_gsref_v1_0
-	GENERIC MAP(guid=>"8C3B410E-0600-5ECF-95DD-0AF91BF8D8A7")
-	PORT MAP(sig_out=>Net_705);
-SW2:cy_mxs40_isr_v1_0
-	GENERIC MAP(cy_registers=>"",
-		deepsleep_required=>'0',
-		int_type=>"10")
-	PORT MAP(int_signal=>Net_705);
-PinSW2:cy_mxs40_gpio_v1_0
-	GENERIC MAP(cy_registers=>"",
-		width=>1,
-		sio_grp_cnt=>0,
-		id=>"87da4b8e-cb75-49b6-9d5b-638082c46d6d",
-		drive_mode=>"3",
-		ibuf_enabled=>"1",
-		init_dr_st=>"1",
-		input_sync=>"0",
-		intr_mode=>"2",
-		io_voltage=>"",
-		output_conn=>"0",
-		oe_conn=>"0",
-		output_sync=>"0",
-		oe_sync=>"0",
-		drive_strength=>"0",
-		max_frequency=>"100",
-		output_current_cap=>"8",
-		i2c_mode=>"0",
-		pin_aliases=>"",
-		pin_mode=>"I",
-		slew_rate=>"0",
-		vtrip=>"0",
-		use_annotation=>"0",
-		hotswap_needed=>"0")
-	PORT MAP(oe=>(one),
-		y=>(zero),
-		fb=>(tmpFB_0__PinSW2_net_0),
-		analog=>(open),
-		io=>(tmpIO_0__PinSW2_net_0),
-		annotation=>(open),
-		siovref=>(tmpSIOVREF__PinSW2_net_0));
 Blue:cy_mxs40_gpio_v1_0
 	GENERIC MAP(cy_registers=>"",
 		width=>1,

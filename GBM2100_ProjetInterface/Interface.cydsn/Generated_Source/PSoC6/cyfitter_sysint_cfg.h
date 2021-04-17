@@ -21,9 +21,6 @@
 
 /* ARM CM4 */
 #if (((__CORTEX_M == 4) && (CY_CORE_ID == 0)))
-    #define SW2__INTC_ASSIGNED 1u
-    extern const cy_stc_sysint_t SW2_cfg;
-
     #define Max_int__INTC_ASSIGNED 1u
     extern const cy_stc_sysint_t Max_int_cfg;
 

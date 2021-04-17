@@ -22,6 +22,5 @@ void CapSense_ChangeLowHeartRateLimit();
 void CapSense_ChangeHighHeartRateLimit();
 void updateMotionAlarm();
 void CapSense_EnableDisableMotionAlarm();
-void ChangeGraph();
 void HeartRateAlarm();
 void CapSense_ChangeMenu();

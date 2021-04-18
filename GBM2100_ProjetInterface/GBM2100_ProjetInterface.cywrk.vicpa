@@ -355,16 +355,14 @@
 <v>GBM2100_ProjetInterface\Interface\Peripheral Driver Library</v>
 <v>GBM2100_ProjetInterface\Interface\System Reference Guides</v>
 <v>GBM2100_ProjetInterface\Interface\CapSense_v3_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10</v>
-<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10\cy_gsref_v2_10.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0</v>
 <v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0</v>
-<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0\SysInt_PDL_v1_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -375,16 +373,14 @@
 <v>GBM2100_ProjetInterface\Interface\Peripheral Driver Library</v>
 <v>GBM2100_ProjetInterface\Interface\System Reference Guides</v>
 <v>GBM2100_ProjetInterface\Interface\CapSense_v3_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10</v>
-<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10\cy_gsref_v2_10.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\cy_gsref_v2_10.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0</v>
 <v>GBM2100_ProjetInterface\Interface\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
-<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0</v>
-<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0\SysInt_PDL_v1_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -409,7 +405,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1133, 617" SelectedTabbedMdiWindow="92f900cc-9f31-48bf-97c1-214576390850"><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="92f900cc-9f31-48bf-97c1-214576390850" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\system_psoc6_cm4.c" Guid="e59e01c1-c260-42b2-8ddc-524a4f51eef4" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.c" Guid="9affc9a7-39a2-41be-94dc-6812494408a6" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.h" Guid="d217cb8e-0e3a-441d-af8c-c35c58311141" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.c" Guid="489c78b7-eb9c-4252-b3ed-9a7e11d98462" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.h" Guid="8bff5d59-ba08-48dc-a615-3e0389b7e93f" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.c" Guid="246928c2-41b4-4c0e-9c37-64ac22b40dbe" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8e66d1a9-29f0-43d1-a297-83fe88996d04" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1133, 617" SelectedTabbedMdiWindow="489c78b7-eb9c-4252-b3ed-9a7e11d98462"><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="92f900cc-9f31-48bf-97c1-214576390850" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\system_psoc6_cm4.c" Guid="e59e01c1-c260-42b2-8ddc-524a4f51eef4" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.c" Guid="9affc9a7-39a2-41be-94dc-6812494408a6" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.h" Guid="d217cb8e-0e3a-441d-af8c-c35c58311141" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.c" Guid="489c78b7-eb9c-4252-b3ed-9a7e11d98462" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.h" Guid="8bff5d59-ba08-48dc-a615-3e0389b7e93f" /><DocumentWindow Key="C:\2 PROJET SESSION INSTRU\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.c" Guid="246928c2-41b4-4c0e-9c37-64ac22b40dbe" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8e66d1a9-29f0-43d1-a297-83fe88996d04" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

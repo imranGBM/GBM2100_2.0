@@ -170,20 +170,27 @@ void traitement_signal()
             }
         }        
    }
-    int nbBattements=j; // Nombre de maximums (battements détectés) dans le signal filtré
+    
+    int nbBattements = j; // Nombre de maximums (battements détectés) dans le signal filtré
 
     // On utilisera ensuite les indices des maximums relatifs pour calculer la période de chaque battement, il faut établir une correspondance entre leur indice et l'instant (en secondes depuis le début du traitement) où ces maximums sont atteints    
         
     float rythmeCard[nbBattements-1]; // Vecteur contenant les l'inverse intervalles de temps entre chaque maximum consécutif (Fréquence cardiaque), multipliés par 60 secondes (rythme cardiaque). Sa taille est le nombre de battements -1, car il y a toujours n-1 intervalles entre n points       
     float instantMaxRel[nbBattements]; // Vecteur qui contiendra les instants (en secondes) où les maximums sont atteints
+    
+    
 
     for (uint32_t i = 0; i < nbBattements ; i++){ 
         instantMaxRel[i]=redPositionMaxRel[i]/fs; // Transformation des valeurs de position (indices) des maximums en valeur de temps, c-a-d les instants où il y a des maximums (en secondes)
     }
+    
+  
 
     for (uint32_t i = 0; i < nbBattements-1; i++){
        rythmeCard[i]=60/(instantMaxRel[i+1]-instantMaxRel[i]); //Caclul du rythme cardiaque (60* la fréquence des battements, donc 60 *(inverse de la période)
     }
+    
+  
 
     float ACr[nbBattements-1]; // Vecteurs contenant les valeurs des composantes AC et DC pour le rouge à chaque battement
    // float DCr[nbBattements-1];

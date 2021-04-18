@@ -1,5 +1,4 @@
 #include "Max30102_task.h"
-#include "traitementSignal.h"
 
 //buffer circulaire variable init pour le ISR function
     //int size_traitement = 300; //for later
@@ -9,8 +8,8 @@
     uint16_t idxB = 0;
     bool flag = false;
     static int size_traitement = 750;
-    volatile int32_t vectorRED[750];
-    volatile int32_t vectorINFRA[750];
+    volatile int32_t vectorRed[750];
+    volatile int32_t vectorInfra[750];
 
 // uint8_t car sa return 1 byte de data
 uint8_t read_Register(uint8_t address)      //address du register qui va read
@@ -125,16 +124,16 @@ void max30102_task(void *arg)
         if(flag==true)
         {
             for (uint32_t i = idxB-size_traitement; i < idxB; i++){
-                vectorRED[i]=bufferRED[i];
-                vectorINFRA[i]=bufferIR[i];
+                vectorRed[i]=bufferRED[i];
+                vectorInfra[i]=bufferIR[i];
             }
-            //traitement_signal();
+            traitement_signal();
             
-            for (uint32_t i = 0; i < 750; i++){
-                 vectorRED[i] = i;
-            }
-            
-            drawGraph(&vectorRED);
+//            for (uint32_t i = 0; i < 750; i++){
+//                 vectorRed[i] = i;
+//            }
+//            
+            drawGraph(&vectorRed);
             flag = false;
             vTaskDelay(100);
         }

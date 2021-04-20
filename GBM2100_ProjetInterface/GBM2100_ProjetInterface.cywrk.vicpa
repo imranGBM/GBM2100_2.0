@@ -211,6 +211,7 @@
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.elf</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.hex</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.map</v>
@@ -288,6 +289,7 @@
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\TasksInterface.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\traitementSignal.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.elf</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.hex</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.map</v>
@@ -361,6 +363,7 @@
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
@@ -379,6 +382,7 @@
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>

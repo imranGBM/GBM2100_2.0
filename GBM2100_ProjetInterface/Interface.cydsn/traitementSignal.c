@@ -57,15 +57,20 @@ float DCI;
 volatile int Saturation; 
 volatile int RythmeCardiaque;
 
-arm_fir_instance_f32* S;
-arm_fir_instance_f32* SIR;
-    
+arm_fir_instance_f32 S;
+arm_fir_instance_f32 SIR;
+float32_t* ptrRed;
+float32_t* ptrInfra;
+float32_t* ptrRedClean;
+float32_t* ptrInfraClean;
+int16_t numTaps=50;
+
 float32_t* vecteurBrut;
 float32_t* vecteurClean; 
 
 
 
-int16_t numTaps=50;
+
 
 
 //
@@ -116,9 +121,9 @@ void traitement_signal()
     
      // Filtres passe-haut et calcul de la composante DC en trouvant la moyenne du signal
     
-    arm_mean_f32(&vectorRed,blockSize,&mean); // Fonction qui ressort dans la variable "mean" la valeur moyenne du vecteur vectorBattementRed, ce qui donne la composante DCr pour le battement actuel
+    arm_mean_f32((float32_t*)&vectorRed,blockSize,&mean); // Fonction qui ressort dans la variable "mean" la valeur moyenne du vecteur vectorBattementRed, ce qui donne la composante DCr pour le battement actuel
     DCr=mean;
-    arm_mean_f32(&vectorInfra,blockSize,&mean); // Fonction qui ressort dans la variable "mean" la valeur moyenne du vecteur vectorBattementInfra, ce qui donne la composante DCI pour le battement actuel
+    arm_mean_f32((float32_t*)vectorInfra,blockSize,&mean); // Fonction qui ressort dans la variable "mean" la valeur moyenne du vecteur vectorBattementInfra, ce qui donne la composante DCI pour le battement actuel
     DCI=mean;
     
     for (uint32_t i = 0; i < blockSize; i++){
@@ -134,58 +139,53 @@ void traitement_signal()
     //////////filtre(vectorInfra,CoeffPB); // Passe-bas
    // filtre(vectorInfra,CoeffPH); // Passe-haut 
     
-    float32_t* stateBuffer[numTaps+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
-    float32_t* stateBufferIR[numTaps+blockSize-1];
-    
-    float32_t* vectorRedFloat[blockSize];
-    float32_t* vectorInfraFloat[blockSize];
-    float32_t* vectorRedClean[blockSize];
-    float32_t* vectorInfraClean[blockSize];
+    float32_t stateBuffer[numTaps+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
+    float32_t stateBufferIR[numTaps+blockSize-1];
     
     
+    ptrRed=&vectorRed[0];
+    ptrInfra=&vectorInfra[0];
+       
+    arm_fir_init_f32(&S,numTaps,(float32_t*)&CoeffPB[0],&stateBuffer[0],blockSize);
+    arm_fir_f32(&S,ptrRed,ptrRedClean,blockSize);
+    arm_fir_f32(&S,ptrInfra,ptrInfraClean,blockSize);
+    
+//    
 //    for (uint32_t i = 0; i < blockSize; i++){
-//        vectorRedFloat[i]=(float32_t*)&vectorRed[i]; 
-//        vectorInfraFloat[i]=(float32_t*)&vectorInfra[i]; 
+//        vectorRed[i]=ptrRedClean[i]; 
+//        vectorInfra[i]=ptrInfraClean[i];
 //    }
     
     
-    arm_fir_init_f32(&S,numTaps,&CoeffPB[0],&stateBuffer[0],blockSize);
-    arm_fir_f32(&S,vectorRedFloat,vectorRedClean,blockSize);
     
-    //arm_fir_init_f32(&S,numTaps,&CoeffPB[0],&stateBufferIR[0],blockSize);
-    arm_fir_f32(&S,vectorInfraFloat,vectorInfraClean,blockSize);
-    
-    for (uint32_t i = 0; i < blockSize; i++){
-        vectorRed[i]=(int32_t)(vectorRedClean[i]); 
-        vectorInfra[i]=(int32_t)(vectorInfraClean[i]);
-    }
-  
- 
     // On peut maintenant analyser ces signaux. 
-    // Faisons-le en premier avec le rouge, en calculant les extremums absolus
     
-    float maxTraitementRed=0; // Maximum absolu dans le vecteur que l'on est en train de traiter
+    float32_t maxTraitementRed=0; // Maximum absolu dans le vecteur que l'on est en train de traiter
     uint32_t positionMaxRed=0;
-    arm_max_f32(&vectorRed[0],nombreSamples,&maxTraitementRed,&positionMaxRed); //après cette ligne, la valeur de maxx sera la valeur du max du vecteur, et la valeur de position sera l'indice du max
-    float minTraitementRed=0;
+    arm_max_f32(ptrRedClean,blockSize,&maxTraitementRed,&positionMaxRed); //après cette ligne, la valeur de maxx sera la valeur du max du vecteur, et la valeur de position sera l'indice du max
+    float32_t minTraitementRed=0;
     uint32_t positionMinRed=0;
-    arm_min_f32(&vectorRed[0],nombreSamples,&minTraitementRed,&positionMinRed);
+    arm_min_f32(ptrRedClean,blockSize,&minTraitementRed,&positionMinRed);
     
-    
+    float32_t maxTraitementInfra=0; // Maximum absolu dans le vecteur que l'on est en train de traiter
+    uint32_t positionMaxInfra=0;
+    arm_max_f32(ptrInfraClean,blockSize,&maxTraitementInfra,&positionMaxInfra); //après cette ligne, la valeur de maxx sera la valeur du max du vecteur, et la valeur de position sera l'indice du max
+    float32_t minTraitementInfra=0;
+    uint32_t positionMinInfra=0;
+    arm_min_f32(ptrInfraClean,blockSize,&minTraitementInfra,&positionMinInfra);
     
     // On cherche ensuite les valeurs et positions des extremums relatifs
     
-    float coeffSensibilite=1; // coefficient qui détermine à quel point une valeur doit être proche du maximum ou du minimum absolu pour être considérée comme un max ou min relatif. Ce coefficient multiplie la moitié de l'amplitude divisée par 2, et compare cette valeur à la valeur testée pour voir si cette dernière peut être considérée max ou min relatif
-    
-    float amplitudeMaxRed=maxTraitementRed-minTraitementRed; // Borne supérieure sur l'amplitude crête-à-crête du signal pour le rouge
-   // float amplitudeMaxInfra=maxTraitementInfra-minTraitementInfra; // Borne supérieure sur l'amplitude crête-à-crête du signal pour l'infrarouge
+    float32_t coeffSensibilite=1; // coefficient qui détermine à quel point une valeur doit être proche du maximum ou du minimum absolu pour être considérée comme un max ou min relatif. Ce coefficient multiplie la moitié de l'amplitude divisée par 2, et compare cette valeur à la valeur testée pour voir si cette dernière peut être considérée max ou min relatif
+    float32_t amplitudeMaxRed=maxTraitementRed-minTraitementRed; // Borne supérieure sur l'amplitude crête-à-crête du signal pour le rouge
+    float32_t amplitudeMaxInfra=maxTraitementInfra-minTraitementInfra; // Borne supérieure sur l'amplitude crête-à-crête du signal pour l'infrarouge
   
-    float seuilRed=maxTraitementRed-(amplitudeMaxRed/2)*coeffSensibilite; // Seuil au-dessus ou en-dessous duquel il faut qu'une valeur se trouve pour être considérée comme un maximum ou minimum relatif. Avec le coefficient de sensibilité qui vaut 1, le seuil se trouve environ à la valeur moyenne si l'on considère le signal comme une fonction sinusoïdale
-   // float seuilInfra=maxTraitementInfra-(amplitudeMaxInfra/2)*coeffSensibilite;
+    float32_t seuilRed=maxTraitementRed-(amplitudeMaxRed/2)*coeffSensibilite; // Seuil au-dessus ou en-dessous duquel il faut qu'une valeur se trouve pour être considérée comme un maximum ou minimum relatif. Avec le coefficient de sensibilité qui vaut 1, le seuil se trouve environ à la valeur moyenne si l'on considère le signal comme une fonction sinusoïdale
+    float32_t seuilInfra=maxTraitementInfra-(amplitudeMaxInfra/2)*coeffSensibilite;
     
+    uint32_t borneNombreBattements=ceil(fcpb*dureeTraitement); // Ce nombre représente la limite théorique de battements qu'il pourrait y avoir dans la partie en cours de traitement. fcpb est la fréquence la plus haute que l'on pourrait retrouver dans le signal
+    uint32_t j=0; // Compteur du nombre de battements
     
-    int borneNombreBattements=fcpb*dureeTraitement; // Ce nombre représente la limite théorique de battements qu'il pourrait y avoir dans la partie en cours de traitement. fcpb est la fréquence la plus haute que l'on pourrait retrouver dans le signal
-   
     int redPositionMaxRel[borneNombreBattements]; // Vecteur qui contiendra les indices des points où il y a des maximum relatifs dans le vecteur en traitement (pour le rouge).
     float redMaxRel[borneNombreBattements]; // Valeur de des maximums relatifs pour le rouge
     int redPositionMinRel[borneNombreBattements]; // Vecteur qui contiendra les indices des points où il y a des minimums relatifs dans le vecteur en traitement (pour le rouge).
@@ -195,24 +195,33 @@ void traitement_signal()
     float infraMaxRel[borneNombreBattements]; // Valeur de des maximums relatifs pour l'infrarouge
     int infraPositionMinRel[borneNombreBattements]; // Vecteur qui contiendra les indices des points où il y a des minimums relatifs dans le vecteur en traitement (pour l'infrarouge).
     float infraMinRel[borneNombreBattements]; // Valeur de des minimums relatifs pour l'infrarouge
-   
-    
-    uint32_t j=0; // Compteur du nombre de battements
     
     for (uint32_t i = 1; i < nombreSamples-1; i++){
         if (vectorRed[i]>vectorRed[i-1] && vectorRed[i]>vectorRed[i+1]){
             if (vectorRed[i]>seuilRed){
-                redPositionMaxRel[j]=i; // ou 1 pt?
+                redPositionMaxRel[j]=i;
                 redMaxRel[j]=vectorRed[i];
                 j++;
             }
         }
         else if (vectorRed[i]<vectorRed[i-1] && vectorRed[i]<vectorRed[i+1]){
             if (vectorRed[i]<seuilRed){
-                redPositionMinRel[j]=i; // ou 1 pt?
+                redPositionMinRel[j]=i;
                 redMinRel[j]=vectorRed[i];
             }
-        }        
+        } 
+        if (vectorInfra[i]>vectorInfra[i-1] && vectorInfra[i]>vectorInfra[i+1]){
+            if (vectorInfra[i]>seuilInfra){
+                infraPositionMaxRel[j]=i;
+                infraMaxRel[j]=vectorInfra[i];
+            }
+        }
+        else if (vectorInfra[i]<vectorInfra[i-1] && vectorInfra[i]<vectorInfra[i+1]){
+            if (vectorInfra[i]<seuilInfra){
+                infraPositionMinRel[j]=i;
+                infraMinRel[j]=vectorInfra[i];
+            }
+        }   
    }
     
     char result[16];                               
@@ -222,38 +231,33 @@ void traitement_signal()
                     
 //////////////    Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);            //Turn off LED on startup
     
-    int nbBattements = j; // Nombre de maximums (battements détectés) dans le signal filtré
+    uint32_t nbBattements = j; // Nombre de maximums (battements détectés) dans le signal filtré
 
     // On utilisera ensuite les indices des maximums relatifs pour calculer la période de chaque battement, il faut établir une correspondance entre leur indice et l'instant (en secondes depuis le début du traitement) où ces maximums sont atteints    
         
-    float rythmeCard[nbBattements-1]; // Vecteur contenant les l'inverse intervalles de temps entre chaque maximum consécutif (Fréquence cardiaque), multipliés par 60 secondes (rythme cardiaque). Sa taille est le nombre de battements -1, car il y a toujours n-1 intervalles entre n points       
-    float instantMaxRel[nbBattements]; // Vecteur qui contiendra les instants (en secondes) où les maximums sont atteints
-    
-    
+    float32_t rythmeCard[nbBattements-1]; // Vecteur contenant les l'inverse intervalles de temps entre chaque maximum consécutif (Fréquence cardiaque), multipliés par 60 secondes (rythme cardiaque). Sa taille est le nombre de battements -1, car il y a toujours n-1 intervalles entre n points       
+    float32_t instantMaxRel[nbBattements]; // Vecteur qui contiendra les instants (en secondes) où les maximums sont atteints
 
     for (uint32_t i = 0; i < nbBattements ; i++){ 
         instantMaxRel[i]=redPositionMaxRel[i]/fs; // Transformation des valeurs de position (indices) des maximums en valeur de temps, c-a-d les instants où il y a des maximums (en secondes)
     }
-    
-  
 
     for (uint32_t i = 0; i < nbBattements-1; i++){
        rythmeCard[i]=60/(instantMaxRel[i+1]-instantMaxRel[i]); //Caclul du rythme cardiaque (60* la fréquence des battements, donc 60 *(inverse de la période)
     }
     
-    for(int i=0; i<nbBattements;i++)
+    for(uint32_t i=0; i < nbBattements; i++)
     {
           char result2[16];                               
                     sprintf(result2,"%5.10f \n\r", rythmeCard[i]);                 // conversion du resultat entier en chaine de caracteres
                     UART_1_PutString(result2);
                     UART_1_PutString("\r\n");
     }
-  
-  
+ 
 
-    float ACr[nbBattements-1]; // Vecteurs contenant les valeurs des composantes AC et DC pour le rouge à chaque battement
+    float32_t ACr[nbBattements-1]; // Vecteurs contenant les valeurs des composantes AC et DC pour le rouge à chaque battement
    // float DCr[nbBattements-1];
-    float ACI[nbBattements-1]; // Vecteurs contenant les valeurs des composantes AC et DC pour l'infrarouge à chaque battement
+    float32_t ACI[nbBattements-1]; // Vecteurs contenant les valeurs des composantes AC et DC pour l'infrarouge à chaque battement
    // float DCI[nbBattements-1];
 
     
@@ -282,22 +286,22 @@ void traitement_signal()
 //       compteurIndice=compteurIndice + battementLength; // On ajoute la longueur du battement actuel à la valeur du compteurIndice, ainsi on pourra débuter la prochaine itération de la boucle for avec un compteurIndice qui indique bel et bien l'indice de départ du prochain battement
 //   
     }
-
-    
     
     // Calcul de SPO2
     float32 R[nbBattements-1];
+    float32_t ratioOxygen[nbBattements-1];
     float32 SPO2[nbBattements-1]; 
 
-    for (uint32_t i = 0; i < nbBattements; i++){
+    for (uint32_t i = 0; i < nbBattements-1; i++){
     R[i]=(DCr/ACr[i])/(DCI/ACI[i]);
-    SPO2[i]=aCoeff*(R[i])+bCoeff*R[i]+cCoeff;
+    ratioOxygen[i]=aCoeff*(R[i])+bCoeff*R[i]+cCoeff;
+    SPO2[i]=1/((1/ratioOxygen[i])+1); // Permet d'obtenir le pourcentage de saturation en oxygène de l'hémoglobine, pour chaque battement
     }
         
     // Rendus ici, les vecteurs contenant le signal filtré et traité pour l'infrarouge et le rouge sont
 
-    arm_mean_f32(&rythmeCard,nbBattements-1,&meanRythm); // permet d'obtenir, dans la variable meanRythm, la moyenne du rythme cardiaque sur la période analysée
-    arm_mean_f32(&SPO2,nbBattements-1,&meanSPO2);    // Permet d'obtenir, dans la variable meanSPO2, la moyenne de la saturation en oxygène sur la période analysée
+    arm_mean_f32(&rythmeCard[0],nbBattements-1,&meanRythm); // permet d'obtenir, dans la variable meanRythm, la moyenne du rythme cardiaque sur la période analysée
+    arm_mean_f32(&SPO2[0],nbBattements-1,&meanSPO2);    // Permet d'obtenir, dans la variable meanSPO2, la moyenne de la saturation en oxygène sur la période analysée
     Saturation=round(meanSPO2);
     RythmeCardiaque=round(meanRythm);
     

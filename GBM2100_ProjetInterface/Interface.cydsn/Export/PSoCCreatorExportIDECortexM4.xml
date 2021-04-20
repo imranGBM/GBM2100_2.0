@@ -53,6 +53,7 @@
           <File BuildType="BUILD" Toolchain="">traitementSignal.c</File>
           <File BuildType="BUILD" Toolchain="">motionTask.c</File>
           <File BuildType="BUILD" Toolchain="">Max30102_task.c</File>
+          <File BuildType="BUILD" Toolchain="">Old Version Traitement.c</File>
           <File BuildType="BUILD" Toolchain="">..\cy_eink_fonts.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">cy8c6xx7_cm4_dual.ld</File>
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">cy8c6xx7_cm4_dual.icf</File>

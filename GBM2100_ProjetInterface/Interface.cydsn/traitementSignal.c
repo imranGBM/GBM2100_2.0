@@ -45,7 +45,7 @@ float32_t dureeTraitement=7.5; // Durée, en secondes, entre les affichages (don
 
 uint32_t nombreSamples=sizeof(vectorRed)/sizeof(vectorRed[0]); // Correspond au nombre de composantes des vecteurs contenant le signal
 uint32_t sampleSize=32; // Les vecteurs traités sont tous constitués d'échantillons qui sont des float 32 bits
-uint32_t blockSize=750; // Déterminer quelle valeur ça doit prendre, je comprends pas exactement ca représente quoi, mais j'ai mis 1 car de la manière que j'ai fait la fonction filtre, on filtre 1 block de 1 sample à chaque itération de la petite boucle à la fin de la fonction
+uint32_t blockSize=BLOCK_SIZE; // Déterminer quelle valeur ça doit prendre, je comprends pas exactement ca représente quoi, mais j'ai mis 1 car de la manière que j'ai fait la fonction filtre, on filtre 1 block de 1 sample à chaque itération de la petite boucle à la fin de la fonction
 uint32_t num_taps=1;
 
 float32_t meanRythm;
@@ -58,15 +58,15 @@ volatile int Saturation;
 volatile int RythmeCardiaque;
 
 arm_fir_instance_f32 S;
-arm_fir_instance_f32 SIR;
-float32_t* ptrRed;
-float32_t* ptrInfra;
-float32_t* ptrRedClean;
-float32_t* ptrInfraClean;
+//arm_fir_instance_f32 SIR;
+//float32_t* ptrRed;
+//float32_t* ptrInfra;
+//float32_t* ptrRedClean;
+//float32_t* ptrInfraClean;
 int16_t numTaps=50;
 
-float32_t* vecteurBrut;
-float32_t* vecteurClean; 
+//float32_t* vecteurBrut;
+//float32_t* vecteurClean; 
 
 
 
@@ -142,13 +142,49 @@ void traitement_signal()
     float32_t stateBuffer[numTaps+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
     float32_t stateBufferIR[numTaps+blockSize-1];
     
+    //////////////////////////////////////////////////////////////////
+//    float32_t* ptrRed[blockSize];         //WORKS
+//    float32_t* ptrInfra[blockSize];
+//    float32_t* ptrRedClean[blockSize];
+//    float32_t* ptrInfraClean[blockSize];
     
-    ptrRed=&vectorRed[0];
-    ptrInfra=&vectorInfra[0];
+    float32_t* ptrRedClean;            //     TEST
+    float32_t* ptrInfraClean;
+//    
+//    
+//     for (uint32_t i = 0; i < blockSize; i++){                //WORKS
+//        ptrRed[i]=&vectorRed[i]; 
+//        ptrInfra[i]=&vectorInfra[i]; 
+//    }
+//    
+//    ptrRed=&vectorRed[0];
+//    ptrInfra=&vectorInfra[0];
+    
+    float32_t vector_Red_Clean[blockSize];          //TEST
+    float32_t vector_IR_Clean[blockSize];
+//    
+    ptrRedClean=&vector_Red_Clean[0];
+    ptrInfraClean=&vector_IR_Clean[0];
        
-    arm_fir_init_f32(&S,numTaps,(float32_t*)&CoeffPB[0],&stateBuffer[0],blockSize);
-    arm_fir_f32(&S,ptrRed,ptrRedClean,blockSize);
-    arm_fir_f32(&S,ptrInfra,ptrInfraClean,blockSize);
+//    arm_fir_init_f32(&S,numTaps,(float32_t*)&CoeffPB[0],&stateBuffer[0],blockSize);       SHIT
+    arm_fir_init_f32(&S,numTaps,&CoeffPB[0],&stateBuffer[0],blockSize);
+    arm_fir_f32(&S,&vectorRed[0],ptrRedClean,blockSize);
+    arm_fir_f32(&S,&vectorInfra[0],ptrInfraClean,blockSize);
+    
+//    float32_t vector_Red_Clean[blockSize];          //TEST
+//    float32_t vector_IR_Clean[blockSize];
+//    
+//    for (uint32_t i = 0; i < blockSize; i++){                //WORKS
+//        vector_Red_Clean[i]=*(ptrRedClean[i]); 
+//        vector_IR_Clean[i]=*(ptrInfraClean[i]); 
+//    }
+////    
+    
+     
+//    arm_fir_f32(&S,ptrInfra[0],ptrInfraClean,blockSize);          WORKS
+//    arm_fir_f32(&S,&vectorRed[0],ptrRedClean,blockSize);          SHIT
+//    arm_fir_f32(&S,&vectorInfra[0],ptrInfraClean,blockSize);      SHIT
+        
     
 //    
 //    for (uint32_t i = 0; i < blockSize; i++){

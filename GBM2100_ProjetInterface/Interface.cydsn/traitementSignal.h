@@ -19,8 +19,10 @@
 #include <arm_math.h>
 #include<core_cm4.h>
 
+#define BLOCK_SIZE 750
 
-void filtre(int32_t signal[],float32_t Coefficients[]);
+
+//void filtre(int32_t signal[],float32_t Coefficients[]);
 
 void traitement_signal();
 

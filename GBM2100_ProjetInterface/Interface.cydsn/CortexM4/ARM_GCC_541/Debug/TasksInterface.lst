@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
   34 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
   35              		.cfi_def_cfa_offset 24
   36              		.cfi_offset 3, -24
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 2
 
 
   37              		.cfi_offset 4, -20
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
   82              		.cfi_startproc
   83              		@ args = 0, pretend = 0, frame = 0
   84              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 3
 
 
   85 0000 08B5     		push	{r3, lr}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  128              		.cfi_offset 6, -8
  129              		.cfi_offset 14, -4
  130 0002 ADF57A7D 		sub	sp, sp, #1000
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 4
 
 
  131              		.cfi_def_cfa_offset 1016
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
   51:TasksInterface.c ****     }
   52:TasksInterface.c ****     for (int i=0; i < 250; i++)
   53:TasksInterface.c ****     {  
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 5
 
 
   54:TasksInterface.c ****         vector250elements[i]=150*(vector250elements[i]+max)/(2*max);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
   62:TasksInterface.c ****             int y1=round((vector250elements[i+1]));
  217              		.loc 1 62 0
  218 006e 631C     		adds	r3, r4, #1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 6
 
 
  219 0070 5DF82300 		ldr	r0, [sp, r3, lsl #2]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  265              		.thumb_func
  266              		.type	DrawBool, %function
  267              	DrawBool:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 7
 
 
  268              	.LFB696:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  311 0032 0846     		mov	r0, r1
  312 0034 FFF7FEFF 		bl	UpdateDisplay
  313              	.LVL41:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 8
 
 
  314 0038 10BD     		pop	{r4, pc}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  362              	.LVL48:
   86:TasksInterface.c ****     GUI_SetPenSize(8); GUI_DrawRect(10,155,255,175); 
  363              		.loc 1 86 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 9
 
 
  364 001e 0820     		movs	r0, #8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  414 007a 04D1     		bne	.L25
   91:TasksInterface.c ****         GUI_DispStringAt("Red curve:",110,0);
  415              		.loc 1 91 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 10
 
 
  416 007c 0022     		movs	r2, #0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  464              	.LFB698:
   98:TasksInterface.c **** 
   99:TasksInterface.c **** // 5)Fonction pour afficher la valeur inférieure du rythme cardiaque définie par l'utilisateur
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 11
 
 
  100:TasksInterface.c **** void updateLowHeartRateLimit(int HeartRate)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  510 003c FFF7FEFF 		bl	GUI_DispStringAt
  511              	.LVL71:
  109:TasksInterface.c ****     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 12
 
 
  512              		.loc 1 109 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  558 000c 0F49     		ldr	r1, .L36
  559 000e 6846     		mov	r0, sp
  560 0010 FFF7FEFF 		bl	sprintf
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 13
 
 
  561              	.LVL76:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  609              		.section	.text.DisplayPage,"ax",%progbits
  610              		.align	2
  611              		.global	DisplayPage
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 14
 
 
  612              		.thumb
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  656 002e 5022     		movs	r2, #80
  657 0030 1421     		movs	r1, #20
  658 0032 3248     		ldr	r0, .L47+12
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 15
 
 
  659 0034 FFF7FEFF 		bl	GUI_DispStringAt
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  702 0078 FFF7FEFF 		bl	GUI_DrawCircle
  703              	.LVL97:
  704              	.L41:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 16
 
 
  145:TasksInterface.c ****         }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  741 00ae 1948     		ldr	r0, .L47+36
  742 00b0 FFF7FEFF 		bl	GUI_DispStringAt
  743              	.LVL101:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 17
 
 
  163:TasksInterface.c ****         GUI_DispStringAt("1)Set low heart rate limit",30,50);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  786 00f0 00000000 		.word	GUI_Font13_1
  787 00f4 AC000000 		.word	.LC11
  788 00f8 D8000000 		.word	.LC12
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 18
 
 
  789 00fc 08010000 		.word	.LC13
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  832              		.loc 1 185 0
  833 001e 0F4B     		ldr	r3, .L53
  834 0020 D3F8B845 		ldr	r4, [r3, #1464]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 19
 
 
  835 0024 6400     		lsls	r4, r4, #1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  881              		.thumb
  882              		.thumb_func
  883              		.type	CapSense_ChangeLowHeartRateLimit, %function
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 20
 
 
  884              	CapSense_ChangeLowHeartRateLimit:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  924              		.loc 1 207 0 is_stmt 0 discriminator 1
  925 0032 1C4B     		ldr	r3, .L63
  926 0034 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 21
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 21
 
 
  927 0036 322B     		cmp	r3, #50
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  968              	.LVL118:
  221:TasksInterface.c ****     CapSense_ScanAllWidgets();
  969              		.loc 1 221 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 22
 
 
  970 0074 FFF7FEFF 		bl	CapSense_ScanAllWidgets
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  230:TasksInterface.c ****     }
  231:TasksInterface.c **** }
  232:TasksInterface.c **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 23
 
 
  233:TasksInterface.c **** // 10)Fonction pour changer la valeur supérieure du rythme cardiaque définie par l'utilisateur
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  244:TasksInterface.c ****     {
  245:TasksInterface.c ****         HighHeartRateI++;
  1059              		.loc 1 245 0 is_stmt 1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 24
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 24
 
 
  1060 003a 1A4A     		ldr	r2, .L73
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  258:TasksInterface.c ****     if (HighHeartRateI != HighHeartRateF)
  1102              		.loc 1 258 0
  1103 0078 2269     		ldr	r2, [r4, #16]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 25
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 25
 
 
  1104 007a 6369     		ldr	r3, [r4, #20]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  271:TasksInterface.c **** void updateMotionAlarm(){
  1146              		.loc 1 271 0
  1147              		.cfi_startproc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 26
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 26
 
 
  1148              		@ args = 0, pretend = 0, frame = 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1192 0042 08BD     		pop	{r3, pc}
  1193              	.L80:
  1194              		.align	2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 27
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 27
 
 
  1195              	.L79:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1238              		.loc 1 292 0 is_stmt 1
  1239 0022 0122     		movs	r2, #1
  1240 0024 0F4B     		ldr	r3, .L86
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 28
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 28
 
 
  1241 0026 1A76     		strb	r2, [r3, #24]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1282 0060 08BD     		pop	{r3, pc}
  1283              	.L87:
  1284 0062 00BF     		.align	2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 29
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 29
 
 
  1285              	.L86:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
    1:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************************************************//**
    2:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \file cy_gpio.h
    3:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \version 1.20
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 30
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 30
 
 
    4:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
   58:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *    the CPU port registers and selected peripheral. Enabling the input 
   59:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *    buffer provides possibility to read the pin state via the CPU.
   60:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *    If pin is connected to an analog signal, the input buffer should be 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 31
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 31
 
 
   61:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *    disabled to avoid crowbar currents. For more information refer to device 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  115:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   <tr>
  116:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>Added the functions for configuring the AMux bus splitter switch cells:
  117:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     - \ref Cy_GPIO_SetAmuxSplit
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 32
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 32
 
 
  118:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     - \ref Cy_GPIO_GetAmuxSplit
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  172:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  173:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \addtogroup group_gpio_macros
  174:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 33
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 33
 
 
  175:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  229:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************
  230:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *       Configuration Structures
  231:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** ***************************************/
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 34
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 34
 
 
  232:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  286:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_CFG_DM_MASK                    (0x0FUL)   /**< Single pin mask for drive mode in CF
  287:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_CFG_IN_VTRIP_SEL_MASK          (0x01UL)   /**< Single pin mask for VTRIP selection 
  288:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_CFG_OUT_SLOW_MASK              (0x01UL)   /**< Single pin mask for slew rate in CFG
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 35
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 35
 
 
  289:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_CFG_OUT_DRIVE_SEL_MASK         (0x03UL)   /**< Single pin mask for drive strength i
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  343:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_VALUE_VALID(outVal)         (1UL >= (outVal))
  344:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_DM_VALID(driveMode)         (0U == ((driveMode) & (uint32_t)~CY_GPIO_CFG_DM_MASK
  345:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 36
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 36
 
 
  346:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_HSIOM_VALID(hsiom)          (0U == ((hsiom) & (uint32_t)~CY_GPIO_HSIOM_MASK))
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  400:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
  401:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  402:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 37
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 37
 
 
  403:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_driveModes Pin drive mode
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  457:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_DISABLE                   (0x00UL) /**< Disable the pin interrupt generation *
  458:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_RISING                    (0x01UL) /**< Rising-Edge interrupt */
  459:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_FALLING                   (0x02UL) /**< Falling-Edge interrupt */
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 38
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 38
 
 
  460:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_BOTH                      (0x03UL) /**< Both-Edge interrupt */
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  514:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VOH_2_78                        (0x06UL) /**< Voh = 2.78 x Reference */
  515:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VOH_4_16                        (0x07UL) /**< Voh = 4.16 x Reference */
  516:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 39
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 39
 
 
  517:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  571:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
  572:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
  573:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 40
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 40
 
 
  574:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetVregEn(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  628:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \param pinNum
  629:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Position of the pin bit-field within the port register
  630:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 41
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 41
 
 
  631:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \param value
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  685:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  686:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *******************************************************************************/
  687:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE en_hsiom_sel_t Cy_GPIO_GetHSIOM(GPIO_PRT_Type* base, uint32_t pinNum)
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 42
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 42
 
 
  688:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** {
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  742:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****         portBase = (GPIO_PRT_Type *)(CY_GPIO_BASE);
  743:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     }
  744:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 43
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 43
 
 
  745:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     return (portBase);
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  799:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Logic level to drive out on the pin
  800:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  801:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \funcusage
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 44
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 44
 
 
  802:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \snippet gpio/gpio_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_GPIO_Write
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1355 0030 80053240 		.word	1077020032
  1356              		.cfi_endproc
  1357              	.LFE706:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 45
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 45
 
 
  1358              		.size	HeartRateAlarm, .-HeartRateAlarm
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1393 001a D3B9     		cbnz	r3, .L97
  1394              		.loc 1 346 0 is_stmt 0 discriminator 1
  1395 001c C44B     		ldr	r3, .L125
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 46
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 46
 
 
  1396 001e D3F8C435 		ldr	r3, [r3, #1476]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  359:TasksInterface.c ****                 if (ScreenNumber>2)
  1438              		.loc 1 359 0
  1439 0076 D3F8C835 		ldr	r3, [r3, #1480]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 47
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 47
 
 
  1440 007a 022B     		cmp	r3, #2
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1481 00c8 C3F8C025 		str	r2, [r3, #1472]
  373:TasksInterface.c ****                 if (Page1Params>4)
  1482              		.loc 1 373 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 48
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 48
 
 
  1483 00cc D3F8C035 		ldr	r3, [r3, #1472]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1524              	.L104:
  387:TasksInterface.c ****             }
  388:TasksInterface.c ****             if (Page1Params==1)
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 49
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 49
 
 
  1525              		.loc 1 388 0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1564              		.loc 1 402 0
  1565 0168 714B     		ldr	r3, .L125
  1566 016a D3F8C035 		ldr	r3, [r3, #1472]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 50
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 50
 
 
  1567 016e 022B     		cmp	r3, #2
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  416:TasksInterface.c ****             }
  417:TasksInterface.c ****             if (Page1Params==3)
  1607              		.loc 1 417 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 51
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 51
 
 
  1608 01b2 5F4B     		ldr	r3, .L125
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  431:TasksInterface.c ****                 if(CapSense_IsWidgetActive(CapSense_BUTTON1_WDGT_ID))
  1649              		.loc 1 431 0
  1650 0202 0220     		movs	r0, #2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 52
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 52
 
 
  1651 0204 FFF7FEFF 		bl	CapSense_IsWidgetActive
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1692              		.loc 1 444 0 is_stmt 0 discriminator 1
  1693 0254 019A     		ldr	r2, [sp, #4]
  1694 0256 4FF6FE73 		movw	r3, #65534
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 53
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 53
 
 
  1695 025a 9A42     		cmp	r2, r3
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1734 02a8 214B     		ldr	r3, .L125
  1735 02aa C3F8C425 		str	r2, [r3, #1476]
  1736              	.L117:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 54
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 54
 
 
  460:TasksInterface.c ****                 }
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1777 02f0 13F0FF0F 		tst	r3, #255
  1778 02f4 F4D0     		beq	.L120
  473:TasksInterface.c ****                     }
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 55
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 55
 
 
  474:TasksInterface.c ****                     StopChangeLowHeartRate=false;
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1819              		.loc 1 487 0
  1820 033c C820     		movs	r0, #200
  1821 033e FFF7FEFF 		bl	vTaskDelay
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 56
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 56
 
 
  1822              	.LVL192:
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1864              		.global	Saturation
  1865              		.comm	vectorInfra,3000,4
  1866              		.comm	vectorRed,3000,4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 57
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 57
 
 
  1867              		.global	StopDisableAlarm
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1921              	RythmeCardiaque:
  1922 0020 41000000 		.word	65
  1923              		.section	.rodata.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 58
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 58
 
 
  1924              		.align	2
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1952      61746520 
  1952      6C696D69 
  1953 00aa 0000     		.space	2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 59
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 59
 
 
  1954              	.LC11:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  1976      63757276 
  1977 01b6 0000     		.space	2
  1978              	.LC19:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 60
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 60
 
 
  1979 01b8 50617261 		.ascii	"Parameters page 2\000"
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2011              		.type	StopChangeHighHeartRate, %object
  2012              		.size	StopChangeHighHeartRate, 1
  2013              	StopChangeHighHeartRate:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 61
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 61
 
 
  2014 16b6 00       		.space	1
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2068              		.file 25 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4
  2069              		.file 26 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4
  2070              		.file 27 "Max30102_task.h"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 62
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 62
 
 
  2071              		.file 28 "Generated_Source\\PSoC6/CapSense_Control.h"
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2125 0069 6D000000 		.4byte	0x6d
  2126 006d 02       		.uleb128 0x2
  2127 006e 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 63
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 63
 
 
  2128 006f 05       		.byte	0x5
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2182 00db 07       		.byte	0x7
  2183 00dc 340F0000 		.4byte	.LASF19
  2184 00e0 05       		.uleb128 0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 64
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 64
 
 
  2185 00e1 CE000000 		.4byte	0xce
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2239 014f 29       		.byte	0x29
  2240 0150 E0000000 		.4byte	0xe0
  2241 0154 18       		.byte	0x18
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 65
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 65
 
 
  2242 0155 0B       		.uleb128 0xb
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2296 01c1 0B       		.uleb128 0xb
  2297 01c2 24060000 		.4byte	.LASF33
  2298 01c6 05       		.byte	0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 66
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 66
 
 
  2299 01c7 33       		.byte	0x33
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2353 0239 0D       		.uleb128 0xd
  2354 023a BE080000 		.4byte	.LASF40
  2355 023e 05       		.byte	0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 67
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 67
 
 
  2356 023f 40       		.byte	0x40
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2410 02b1 6D020000 		.4byte	.LASF48
  2411 02b5 07       		.byte	0x7
  2412 02b6 37       		.byte	0x37
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 68
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 68
 
 
  2413 02b7 CE000000 		.4byte	0xce
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2467 0323 CE000000 		.4byte	0xce
  2468 0327 24       		.byte	0x24
  2469 0328 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 69
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 69
 
 
  2470 0329 D50F0000 		.4byte	.LASF58
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2524 0395 3B0D0000 		.4byte	.LASF67
  2525 0399 07       		.byte	0x7
  2526 039a 4E       		.byte	0x4e
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 70
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 70
 
 
  2527 039b A2000000 		.4byte	0xa2
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2581 0407 A2000000 		.4byte	0xa2
  2582 040b 3E       		.byte	0x3e
  2583 040c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 71
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 71
 
 
  2584 040d C9000000 		.4byte	.LASF77
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2638 0479 41120000 		.4byte	.LASF86
  2639 047d 07       		.byte	0x7
  2640 047e 61       		.byte	0x61
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 72
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 72
 
 
  2641 047f A2000000 		.4byte	0xa2
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2695 04eb B8000000 		.4byte	0xb8
  2696 04ef 5A       		.byte	0x5a
  2697 04f0 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 73
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 73
 
 
  2698 04f1 7A010000 		.4byte	.LASF96
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2752 055d DC0A0000 		.4byte	.LASF105
  2753 0561 07       		.byte	0x7
  2754 0562 7B       		.byte	0x7b
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 74
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 74
 
 
  2755 0563 A2000000 		.4byte	0xa2
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2809 05cf A2000000 		.4byte	0xa2
  2810 05d3 7D       		.byte	0x7d
  2811 05d4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 75
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 75
 
 
  2812 05d5 42060000 		.4byte	.LASF115
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2866 0641 AF110000 		.4byte	.LASF124
  2867 0645 07       		.byte	0x7
  2868 0646 93       		.byte	0x93
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 76
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 76
 
 
  2869 0647 CE000000 		.4byte	0xce
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2923 06b3 CE000000 		.4byte	0xce
  2924 06b7 B4       		.byte	0xb4
  2925 06b8 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 77
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 77
 
 
  2926 06b9 03       		.uleb128 0x3
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  2980 0726 3902     		.2byte	0x239
  2981 0728 2C070000 		.4byte	0x72c
  2982 072c 12       		.uleb128 0x12
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 78
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 78
 
 
  2983 072d 04       		.byte	0x4
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3037 07a5 CC02     		.2byte	0x2cc
  3038 07a7 F3060000 		.4byte	0x6f3
  3039 07ab 0C       		.byte	0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 79
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 79
 
 
  3040 07ac 17       		.uleb128 0x17
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3094 0821 17       		.uleb128 0x17
  3095 0822 2B050000 		.4byte	.LASF160
  3096 0826 09       		.byte	0x9
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 80
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 80
 
 
  3097 0827 D902     		.2byte	0x2d9
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3151 089c 2C070000 		.4byte	0x72c
  3152 08a0 16       		.uleb128 0x16
  3153 08a1 B7120000 		.4byte	.LASF170
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 81
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 81
 
 
  3154 08a5 24       		.byte	0x24
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3208 091a 0A       		.byte	0xa
  3209 091b 8802     		.2byte	0x288
  3210 091d CE000000 		.4byte	0xce
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 82
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 82
 
 
  3211 0921 20       		.byte	0x20
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3265 0996 17       		.uleb128 0x17
  3266 0997 61070000 		.4byte	.LASF172
  3267 099b 0B       		.byte	0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 83
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 83
 
 
  3268 099c 8002     		.2byte	0x280
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3322 0a11 0C       		.byte	0xc
  3323 0a12 2F       		.byte	0x2f
  3324 0a13 FC0A0000 		.4byte	0xafc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 84
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 84
 
 
  3325 0a17 0B       		.uleb128 0xb
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3379 0a83 0B       		.uleb128 0xb
  3380 0a84 37070000 		.4byte	.LASF200
  3381 0a88 0C       		.byte	0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 85
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 85
 
 
  3382 0a89 3D       		.byte	0x3d
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3436 0af5 4B       		.byte	0x4b
  3437 0af6 CE000000 		.4byte	0xce
  3438 0afa 48       		.byte	0x48
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 86
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 86
 
 
  3439 0afb 00       		.byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3493 0b62 BB       		.byte	0xbb
  3494 0b63 8C0B0000 		.4byte	0xb8c
  3495 0b67 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 87
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 87
 
 
  3496 0b68 A7090000 		.4byte	.LASF213
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3550 0bd4 C5       		.byte	0xc5
  3551 0bd5 2A0B0000 		.4byte	0xb2a
  3552 0bd9 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 88
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 88
 
 
  3553 0bda 00       		.byte	0
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3607 0c43 A7050000 		.4byte	.LASF226
  3608 0c47 0C       		.byte	0xc
  3609 0c48 0E       		.byte	0xe
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 89
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 89
 
 
  3610 0c49 D1       		.byte	0xd1
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3664 0cb8 0B       		.uleb128 0xb
  3665 0cb9 D10C0000 		.4byte	.LASF228
  3666 0cbd 0E       		.byte	0xe
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 90
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 90
 
 
  3667 0cbe DA       		.byte	0xda
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3721 0d2a 0B       		.uleb128 0xb
  3722 0d2b A7090000 		.4byte	.LASF213
  3723 0d2f 0E       		.byte	0xe
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 91
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 91
 
 
  3724 0d30 E3       		.byte	0xe3
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3778 0d9c 02       		.byte	0x2
  3779 0d9d 0B       		.uleb128 0xb
  3780 0d9e 180F0000 		.4byte	.LASF237
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 92
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 92
 
 
  3781 0da2 0E       		.byte	0xe
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3835 0e18 1801     		.2byte	0x118
  3836 0e1a 3A0E0000 		.4byte	0xe3a
  3837 0e1e 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 93
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 93
 
 
  3838 0e1f 17       		.uleb128 0x17
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3892 0e93 3D100000 		.4byte	0x103d
  3893 0e97 08       		.byte	0x8
  3894 0e98 17       		.uleb128 0x17
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 94
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 94
 
 
  3895 0e99 B3080000 		.4byte	.LASF251
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  3949 0f0c 180F0000 		.4byte	.LASF237
  3950 0f10 0E       		.byte	0xe
  3951 0f11 C301     		.2byte	0x1c3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 95
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 95
 
 
  3952 0f13 3E000000 		.4byte	0x3e
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4006 0f8c B60D0000 		.4byte	0xdb6
  4007 0f90 0E       		.uleb128 0xe
  4008 0f91 71140000 		.4byte	.LASF260
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 96
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 96
 
 
  4009 0f95 0E       		.byte	0xe
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4063 1011 04       		.byte	0x4
  4064 1012 16100000 		.4byte	0x1016
  4065 1016 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 97
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 97
 
 
  4066 1017 720D0000 		.4byte	0xd72
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4120 1089 590B0000 		.4byte	.LASF270
  4121 108d 02       		.byte	0x2
  4122 108e 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 98
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 98
 
 
  4123 108f 03       		.uleb128 0x3
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4177 110e 24       		.uleb128 0x24
  4178 110f 0A000000 		.4byte	.LVL1
  4179 1113 36220000 		.4byte	0x2236
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 99
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 99
 
 
  4180 1117 25       		.uleb128 0x25
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4234 115d 65100000 		.4byte	0x1065
  4235 1161 21       		.uleb128 0x21
  4236 1162 D4140000 		.4byte	.LASF278
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 100
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 100
 
 
  4237 1166 01       		.byte	0x1
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4291 11cf EE120000 		.4byte	0x12ee
  4292 11d3 22       		.uleb128 0x22
  4293 11d4 16130000 		.4byte	.LASF280
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 101
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 101
 
 
  4294 11d8 01       		.byte	0x1
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4348 1255 01       		.uleb128 0x1
  4349 1256 54       		.byte	0x54
  4350 1257 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 102
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 102
 
 
  4351 1258 50000000 		.4byte	.LBB10
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4405 12c5 75       		.byte	0x75
  4406 12c6 00       		.sleb128 0
  4407 12c7 26       		.uleb128 0x26
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 103
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 103
 
 
  4408 12c8 01       		.uleb128 0x1
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4462 132e 08000000 		.4byte	.LVL36
  4463 1332 6D220000 		.4byte	0x226d
  4464 1336 25       		.uleb128 0x25
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 104
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 104
 
 
  4465 1337 0E000000 		.4byte	.LVL37
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4519 1394 02       		.uleb128 0x2
  4520 1395 08       		.byte	0x8
  4521 1396 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 105
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 105
 
 
  4522 1397 00       		.byte	0
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4576 1403 54       		.byte	0x54
  4577 1404 C4150000 		.4byte	0x15c4
  4578 1408 02       		.uleb128 0x2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 106
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 106
 
 
  4579 1409 91       		.byte	0x91
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4633 145a 01       		.uleb128 0x1
  4634 145b 50       		.byte	0x50
  4635 145c 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 107
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 107
 
 
  4636 145d 38       		.byte	0x38
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4690 14b7 01       		.uleb128 0x1
  4691 14b8 51       		.byte	0x51
  4692 14b9 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 108
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 108
 
 
  4693 14ba 44       		.byte	0x44
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4747 1505 25       		.uleb128 0x25
  4748 1506 64000000 		.4byte	.LVL56
  4749 150a B5220000 		.4byte	0x22b5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 109
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 109
 
 
  4750 150e 28150000 		.4byte	0x1528
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4804 155f 01       		.uleb128 0x1
  4805 1560 51       		.byte	0x51
  4806 1561 02       		.uleb128 0x2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 110
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 110
 
 
  4807 1562 08       		.byte	0x8
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4861 15b0 9C000000 		.4byte	.LVL61
  4862 15b4 CC100000 		.4byte	0x10cc
  4863 15b8 26       		.uleb128 0x26
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 111
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 111
 
 
  4864 15b9 01       		.uleb128 0x1
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4918 1622 26       		.uleb128 0x26
  4919 1623 01       		.uleb128 0x1
  4920 1624 51       		.byte	0x51
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 112
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 112
 
 
  4921 1625 05       		.uleb128 0x5
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  4975 167f 37       		.byte	0x37
  4976 1680 00       		.byte	0
  4977 1681 24       		.uleb128 0x24
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 113
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 113
 
 
  4978 1682 36000000 		.4byte	.LVL70
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5032 16e5 2A       		.uleb128 0x2a
  5033 16e6 9E120000 		.4byte	.LASF295
  5034 16ea 01       		.byte	0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 114
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 114
 
 
  5035 16eb 74       		.byte	0x74
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5089 174e 26       		.uleb128 0x26
  5090 174f 01       		.uleb128 0x1
  5091 1750 51       		.byte	0x51
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 115
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 115
 
 
  5092 1751 02       		.uleb128 0x2
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5146 17a8 01       		.uleb128 0x1
  5147 17a9 51       		.byte	0x51
  5148 17aa 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 116
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 116
 
 
  5149 17ab 31       		.byte	0x31
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5203 1826 03       		.byte	0x3
  5204 1827 AC000000 		.4byte	.LC11
  5205 182b 26       		.uleb128 0x26
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 117
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 117
 
 
  5206 182c 01       		.uleb128 0x1
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5260 187a 25       		.uleb128 0x25
  5261 187b 46000000 		.4byte	.LVL92
  5262 187f B5220000 		.4byte	0x22b5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 118
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 118
 
 
  5263 1883 9C180000 		.4byte	0x189c
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5317 18d7 01       		.uleb128 0x1
  5318 18d8 4E       		.byte	0x4e
  5319 18d9 26       		.uleb128 0x26
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 119
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 119
 
 
  5320 18da 01       		.uleb128 0x1
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5374 1931 26       		.uleb128 0x26
  5375 1932 01       		.uleb128 0x1
  5376 1933 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 120
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 120
 
 
  5377 1934 01       		.uleb128 0x1
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5431 197c 35       		.byte	0x35
  5432 197d 00       		.byte	0
  5433 197e 25       		.uleb128 0x25
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 121
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 121
 
 
  5434 197f A6000000 		.4byte	.LVL100
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5488 19d6 51       		.byte	0x51
  5489 19d7 01       		.uleb128 0x1
  5490 19d8 4E       		.byte	0x4e
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 122
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 122
 
 
  5491 19d9 26       		.uleb128 0x26
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5545 1a2d 26       		.uleb128 0x26
  5546 1a2e 01       		.uleb128 0x1
  5547 1a2f 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 123
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 123
 
 
  5548 1a30 01       		.uleb128 0x1
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5602 1a93 50       		.byte	0x50
  5603 1a94 01       		.uleb128 0x1
  5604 1a95 3C       		.byte	0x3c
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 124
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 124
 
 
  5605 1a96 26       		.uleb128 0x26
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5659 1af6 01       		.byte	0x1
  5660 1af7 C7       		.byte	0xc7
  5661 1af8 00000000 		.4byte	.LFB702
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 125
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 125
 
 
  5662 1afc AC000000 		.4byte	.LFE702-.LFB702
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5716 1b7d 871B0000 		.4byte	0x1b87
  5717 1b81 26       		.uleb128 0x26
  5718 1b82 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 126
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 126
 
 
  5719 1b83 50       		.byte	0x50
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5773 1bff 191C0000 		.4byte	0x1c19
  5774 1c03 26       		.uleb128 0x26
  5775 1c04 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 127
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 127
 
 
  5776 1c05 50       		.byte	0x50
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5830 1c50 00       		.byte	0
  5831 1c51 30       		.uleb128 0x30
  5832 1c52 4B0A0000 		.4byte	.LASF305
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 128
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 128
 
 
  5833 1c56 01       		.byte	0x1
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5887 1cd6 32       		.uleb128 0x32
  5888 1cd7 9A100000 		.4byte	0x109a
  5889 1cdb 16000000 		.4byte	.LBB13
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 129
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 129
 
 
  5890 1cdf 08000000 		.4byte	.LBE13-.LBB13
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  5944 1d66 34       		.uleb128 0x34
  5945 1d67 A10C0000 		.4byte	.LASF308
  5946 1d6b 01       		.byte	0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 130
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 130
 
 
  5947 1d6c 5601     		.2byte	0x156
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6001 1de5 30010000 		.4byte	.LVL157
  6002 1de9 EF220000 		.4byte	0x22ef
  6003 1ded 25       		.uleb128 0x25
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 131
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 131
 
 
  6004 1dee 36010000 		.4byte	.LVL158
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6058 1e66 00       		.byte	0
  6059 1e67 24       		.uleb128 0x24
  6060 1e68 B2010000 		.4byte	.LVL167
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 132
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 132
 
 
  6061 1e6c AE170000 		.4byte	0x17ae
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6115 1ee2 EC1E0000 		.4byte	0x1eec
  6116 1ee6 26       		.uleb128 0x26
  6117 1ee7 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 133
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 133
 
 
  6118 1ee8 50       		.byte	0x50
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6172 1f5e E4020000 		.4byte	.LVL185
  6173 1f62 F11A0000 		.4byte	0x1af1
  6174 1f66 25       		.uleb128 0x25
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 134
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 134
 
 
  6175 1f67 EA020000 		.4byte	.LVL186
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6229 1fe5 28230000 		.4byte	0x2328
  6230 1fe9 26       		.uleb128 0x26
  6231 1fea 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 135
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 135
 
 
  6232 1feb 50       		.byte	0x50
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6286 205b 0208     		.2byte	0x802
  6287 205d 850F0000 		.4byte	0xf85
  6288 2061 35       		.uleb128 0x35
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 136
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 136
 
 
  6289 2062 B5050000 		.4byte	.LASF317
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6343 20da 03       		.byte	0x3
  6344 20db 00000000 		.4byte	StopChangeLedIntensity
  6345 20df 38       		.uleb128 0x38
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 137
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 137
 
 
  6346 20e0 BA0B0000 		.4byte	.LASF324
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6400 2152 00000000 		.4byte	SliderPosIV
  6401 2156 38       		.uleb128 0x38
  6402 2157 83070000 		.4byte	.LASF331
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 138
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 138
 
 
  6403 215b 01       		.byte	0x1
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6457 21d3 00000000 		.4byte	vectorInfra
  6458 21d7 05       		.uleb128 0x5
  6459 21d8 9D210000 		.4byte	0x219d
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 139
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 139
 
 
  6460 21dc 39       		.uleb128 0x39
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6514 2256 DF0E0000 		.4byte	.LASF344
  6515 225a DF0E0000 		.4byte	.LASF344
  6516 225e 17       		.byte	0x17
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 140
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 140
 
 
  6517 225f C101     		.2byte	0x1c1
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6571 22e1 17       		.byte	0x17
  6572 22e2 0002     		.2byte	0x200
  6573 22e4 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 141
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 141
 
 
  6574 22e5 1B080000 		.4byte	.LASF356
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6628 0011 00       		.byte	0
  6629 0012 00       		.byte	0
  6630 0013 02       		.uleb128 0x2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 142
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 142
 
 
  6631 0014 24       		.uleb128 0x24
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6685 004a 13       		.uleb128 0x13
  6686 004b 00       		.byte	0
  6687 004c 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 143
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 143
 
 
  6688 004d 08       		.uleb128 0x8
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6742 0083 01       		.byte	0x1
  6743 0084 0B       		.uleb128 0xb
  6744 0085 05       		.uleb128 0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 144
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 144
 
 
  6745 0086 3A       		.uleb128 0x3a
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6799 00bc 01       		.uleb128 0x1
  6800 00bd 13       		.uleb128 0x13
  6801 00be 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 145
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 145
 
 
  6802 00bf 00       		.byte	0
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6856 00f5 0B       		.uleb128 0xb
  6857 00f6 3B       		.uleb128 0x3b
  6858 00f7 05       		.uleb128 0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 146
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 146
 
 
  6859 00f8 01       		.uleb128 0x1
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6913 012e 00       		.byte	0
  6914 012f 03       		.uleb128 0x3
  6915 0130 08       		.uleb128 0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 147
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 147
 
 
  6916 0131 3A       		.uleb128 0x3a
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  6970 0167 03       		.uleb128 0x3
  6971 0168 0E       		.uleb128 0xe
  6972 0169 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 148
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 148
 
 
  6973 016a 0B       		.uleb128 0xb
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7027 01a1 3A       		.uleb128 0x3a
  7028 01a2 0B       		.uleb128 0xb
  7029 01a3 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 149
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 149
 
 
  7030 01a4 0B       		.uleb128 0xb
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7084 01e3 11       		.uleb128 0x11
  7085 01e4 01       		.uleb128 0x1
  7086 01e5 31       		.uleb128 0x31
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 150
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 150
 
 
  7087 01e6 13       		.uleb128 0x13
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7141 021d 02       		.uleb128 0x2
  7142 021e 18       		.uleb128 0x18
  7143 021f 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 151
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 151
 
 
  7144 0220 00       		.byte	0
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7198 0256 3B       		.uleb128 0x3b
  7199 0257 0B       		.uleb128 0xb
  7200 0258 11       		.uleb128 0x11
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 152
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 152
 
 
  7201 0259 01       		.uleb128 0x1
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7255 0293 19       		.uleb128 0x19
  7256 0294 01       		.uleb128 0x1
  7257 0295 13       		.uleb128 0x13
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 153
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 153
 
 
  7258 0296 00       		.byte	0
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7312 02cc 3F       		.uleb128 0x3f
  7313 02cd 19       		.uleb128 0x19
  7314 02ce 3C       		.uleb128 0x3c
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 154
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 154
 
 
  7315 02cf 19       		.uleb128 0x19
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7369 0305 05       		.uleb128 0x5
  7370 0306 49       		.uleb128 0x49
  7371 0307 13       		.uleb128 0x13
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 155
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 155
 
 
  7372 0308 3F       		.uleb128 0x3f
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7426              		.section	.debug_loc,"",%progbits
  7427              	.Ldebug_loc0:
  7428              	.LLST0:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 156
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 156
 
 
  7429 0000 00000000 		.4byte	.LVL0
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7483 008b F3       		.byte	0xf3
  7484 008c 01       		.uleb128 0x1
  7485 008d 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 157
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 157
 
 
  7486 008e 9F       		.byte	0x9f
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7540 011c 50       		.byte	0x50
  7541 011d 66000000 		.4byte	.LVL25
  7542 0121 69000000 		.4byte	.LVL26-1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 158
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 158
 
 
  7543 0125 0100     		.2byte	0x1
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7597 01ad 00000000 		.4byte	0
  7598              	.LLST12:
  7599 01b1 00000000 		.4byte	.LVL43
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 159
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 159
 
 
  7600 01b5 0E000000 		.4byte	.LVL45
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7654 0239 09000000 		.4byte	.LVL75-1
  7655 023d 0100     		.2byte	0x1
  7656 023f 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 160
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 160
 
 
  7657 0240 09000000 		.4byte	.LVL75-1
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7711 02c4 0B000000 		.4byte	.LVL86-1
  7712 02c8 EE000000 		.4byte	.LVL107
  7713 02cc 0100     		.2byte	0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 161
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 161
 
 
  7714 02ce 56       		.byte	0x56
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7768 0356 0C       		.byte	0xc
  7769 0357 80053240 		.4byte	0x40320580
  7770 035b 9F       		.byte	0x9f
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 162
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 162
 
 
  7771 035c 00000000 		.4byte	0
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7825 0028 00000000 		.4byte	.LFB695
  7826 002c A2000000 		.4byte	.LFE695
  7827 0030 00000000 		.4byte	.LFB696
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 163
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 163
 
 
  7828 0034 48000000 		.4byte	.LFE696
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7866              	.LASF168:
  7867 0041 63795F63 		.ascii	"cy_cb_scb_spi_handle_events_t\000"
  7867      625F7363 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 164
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 164
 
 
  7867      625F7370 
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7889      5F636F6E 
  7889      74657874 
  7890              	.LASF306:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 165
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 165
 
 
  7891 00f7 48656172 		.ascii	"HeartRateAlarm\000"
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7913      65537461 
  7913      74757300 
  7914              	.LASF319:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 166
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 166
 
 
  7915 019c 696D6167 		.ascii	"imageBufferCache\000"
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7937      757400
  7938              	.LASF7:
  7939 0249 5F5F696E 		.ascii	"__int32_t\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 167
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 167
 
 
  7939      7433325F 
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7962              	.LASF143:
  7963 02f4 63795F65 		.ascii	"cy_en_scb_i2c_command_t\000"
  7963      6E5F7363 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 168
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 168
 
 
  7963      625F6932 
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  7985      625F6932 
  7985      635F6861 
  7985      6E646C65 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 169
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 169
 
 
  7986              	.LASF196:
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8006 04c4 70657269 		.ascii	"periDivCmdTypeSelPos\000"
  8006      44697643 
  8006      6D645479 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 170
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 170
 
 
  8006      70655365 
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8028      53686F77 
  8028      4672616D 
  8028      6500
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 171
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 171
 
 
  8029              	.LASF355:
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8052      6172745F 
  8052      636F6E74 
  8053              	.LASF20:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 172
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 172
 
 
  8054 061c 4F55545F 		.ascii	"OUT_CLR\000"
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8076      494E464F 
  8076      5F455854 
  8076      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 173
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 173
 
 
  8077              	.LASF281:
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8101              	.LASF172:
  8102 0761 72784275 		.ascii	"rxBuf\000"
  8102      6600
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 174
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 174
 
 
  8103              	.LASF56:
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8124 0849 536C6964 		.ascii	"SliderPosIII\000"
  8124      6572506F 
  8124      73494949 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 175
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 175
 
 
  8124      00
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8150 08df 75706461 		.ascii	"updateLowHeartRateLimit\000"
  8150      74654C6F 
  8150      77486561 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 176
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 176
 
 
  8150      72745261 
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8172      65724E75 
  8172      6D427974 
  8172      657300
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 177
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 177
 
 
  8173              	.LASF70:
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8194      657200
  8195              	.LASF247:
  8196 0a30 4755495F 		.ascii	"GUI_FONT\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 178
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 178
 
 
  8196      464F4E54 
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8219              	.LASF105:
  8220 0adc 70657269 		.ascii	"periDivCmdDivSelMsk\000"
  8220      44697643 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 179
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 179
 
 
  8220      6D644469 
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8242 0b93 70664765 		.ascii	"pfGetFontInfo\000"
  8242      74466F6E 
  8242      74496E66 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 180
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 180
 
 
  8242      6F00
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8264      7400
  8265              	.LASF301:
  8266 0c4e 43617053 		.ascii	"CapSense_ChangeLedIntensity\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 181
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 181
 
 
  8266      656E7365 
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8290      6164496E 
  8290      7075744D 
  8290      6F646500 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 182
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 182
 
 
  8291              	.LASF330:
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8316 0d9a 63707573 		.ascii	"cpussRam2Ctl0\000"
  8316      7352616D 
  8316      3243746C 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 183
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 183
 
 
  8316      3000
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8338      6E7300
  8339              	.LASF298:
  8340 0e46 50617261 		.ascii	"ParamP1\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 184
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 184
 
 
  8340      6D503100 
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8365              	.LASF344:
  8366 0edf 4755495F 		.ascii	"GUI_SetColor\000"
  8366      53657443 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 185
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 185
 
 
  8366      6F6C6F72 
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8387              	.LASF0:
  8388 0f99 73686F72 		.ascii	"short int\000"
  8388      7420696E 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 186
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 186
 
 
  8388      7400
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8412 102f 4C617374 		.ascii	"LastChar\000"
  8412      43686172 
  8412      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 187
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 187
 
 
  8413              	.LASF359:
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8434      5472616E 
  8434      736D6974 
  8434      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 188
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 188
 
 
  8435              	.LASF313:
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8458      5F476574 
  8458      4C696E65 
  8458      4C656E00 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 189
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 189
 
 
  8459              	.LASF124:
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8482      75697265 
  8482      6400
  8483              	.LASF2:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 190
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 190
 
 
  8484 1253 756E7369 		.ascii	"unsigned char\000"
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8506      57733046 
  8506      72657100 
  8507              	.LASF148:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 191
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 191
 
 
  8508 12fe 73746174 		.ascii	"state\000"
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8532      4F666673 
  8532      657400
  8533              	.LASF68:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 192
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 192
 
 
  8534 139b 63707573 		.ascii	"cpussIpcIrqNr\000"
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8558      466F6E74 
  8558      32345F31 
  8558      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 193
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 193
 
 
  8559              	.LASF139:
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 1
  8584      6572506F 
  8584      734900
  8585              	.LASF64:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\cc0pMrIj.s 			page 194
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccG9eV1c.s 			page 194
 
 
  8586 14eb 69706356 		.ascii	"ipcVersion\000"

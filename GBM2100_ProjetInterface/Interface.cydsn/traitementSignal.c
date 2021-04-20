@@ -56,42 +56,47 @@ float DCI;
 volatile int Saturation; 
 volatile int RythmeCardiaque;
 
-arm_fir_instance_f32* structureFiltre;
+arm_fir_instance_f32* S;
+arm_fir_instance_f32* SIR;
     
 float32_t* vecteurBrut;
 float32_t* vecteurClean; 
 
 
 
- //fonction filtre. Le type de filtre est déterminé par le vecteur de coefficient utilisé lors de l'appel de la fonction.
-void filtre(int32_t signal[],float32_t Coefficients[]){
-    
-    //float signalClean[nombreSamples];     TRASH
-    //vecteurClean=&signalClean[0];         TRASH
-    
-    //uint16_t nombreCoefficients=sizeof(Coefficients)/sizeof(Coefficients[0]);
-    uint16_t nombreCoefficients = 50;
-    
-//    float32_t vecteurSignal[750];
-//    for (uint32_t i=0; i<blockSize; i++){
-//        vecteurSignal[i] = (float32_t)signal[i];
+int16_t numTaps=50;
+
+
+//
+// //fonction filtre. Le type de filtre est déterminé par le vecteur de coefficient utilisé lors de l'appel de la fonction.
+//void filtre(int32_t signal[],float32_t Coefficients[]){
+//    
+//    //float signalClean[nombreSamples];     TRASH
+//    //vecteurClean=&signalClean[0];         TRASH
+//    
+//    //uint16_t nombreCoefficients=sizeof(Coefficients)/sizeof(Coefficients[0]);
+//    uint16_t nombreCoefficients = 50;
+//    
+////    float32_t vecteurSignal[750];
+////    for (uint32_t i=0; i<blockSize; i++){
+////        vecteurSignal[i] = (float32_t)signal[i];
+////    }
+////    vecteurBrut=&vecteurSignal[0];
+//    
+//    vecteurBrut=&signal[0];
+//    
+//    float32_t* stateBuffer[nombreCoefficients+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
+//   
+//    // Fonction d'initialisation du filtre
+//    arm_fir_init_f32(&structureFiltre,nombreCoefficients,&Coefficients[0],&stateBuffer[0],blockSize);
+//    
+//    // Fonction de processing du filtre  
+//    arm_fir_f32(&structureFiltre,vecteurBrut,vecteurClean,blockSize); // voir si on doit mettre les [0] ou pas, dans le code exemple en ligne ils en mettent pas ici
+//   
+//    for (uint32_t i = 0; i < blockSize; i++){ // peut-être qu'on pourrait enlever cette boucle et ressortir signal[] dans arm_fir_f32
+//        signal[i]=vecteurClean[i];
 //    }
-//    vecteurBrut=&vecteurSignal[0];
-    
-    vecteurBrut=&signal[0];
-    
-    float32_t* stateBuffer[nombreCoefficients+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
-   
-    // Fonction d'initialisation du filtre
-    arm_fir_init_f32(&structureFiltre,nombreCoefficients,&Coefficients[0],&stateBuffer[0],blockSize);
-    
-    // Fonction de processing du filtre  
-    arm_fir_f32(&structureFiltre,vecteurBrut,vecteurClean,blockSize); // voir si on doit mettre les [0] ou pas, dans le code exemple en ligne ils en mettent pas ici
-   
-    for (uint32_t i = 0; i < blockSize; i++){ // peut-être qu'on pourrait enlever cette boucle et ressortir signal[] dans arm_fir_f32
-        signal[i]=vecteurClean[i];
-    }
-}
+//}
 
 
 void traitement_signal()
@@ -122,13 +127,37 @@ void traitement_signal()
 
     // On filtre le signal associé à la longueur d'onde rouge avec un filtre passe-bas
     // filtre(vectorRed,CoeffPH); //Passe-bas
-    filtre(vectorRed,CoeffPB); //Passe-haut
+    //////////filtre(vectorRed,CoeffPB); //Passe-haut
     
-    // On répète pour l'infrarouge avec un filtre passe-bas
-    filtre(vectorInfra,CoeffPB); // Passe-bas
+      // On répète pour l'infrarouge avec un filtre passe-bas
+    //////////filtre(vectorInfra,CoeffPB); // Passe-bas
    // filtre(vectorInfra,CoeffPH); // Passe-haut 
     
+    float32_t* stateBuffer[numTaps+blockSize-1]; // taille telle que spécifiée dans la page internet de la librairie CMSIS DSP
+    float32_t* stateBufferIR[numTaps+blockSize-1];
     
+    float32_t* vectorRedFloat[blockSize];
+    float32_t* vectorInfraFloat[blockSize];
+    float32_t* vectorRedClean[blockSize];
+    float32_t* vectorInfraClean[blockSize];
+    
+    
+    for (uint32_t i = 0; i < blockSize; i++){
+        vectorRedFloat[i]=(float32_t*)&vectorRed[i]; 
+        vectorInfraFloat[i]=(float32_t*)&vectorInfra[i]; 
+    }
+    
+    arm_fir_init_f32(&S,numTaps,&CoeffPB[0],&stateBuffer[0],blockSize);
+    arm_fir_f32(&S,vectorRedFloat,vectorRedClean,blockSize);
+    
+    arm_fir_init_f32(&SIR,numTaps,&CoeffPB[0],&stateBufferIR[0],blockSize);
+    arm_fir_f32(&SIR,vectorInfraFloat,vectorInfraClean,blockSize);
+    
+    for (uint32_t i = 0; i < blockSize; i++){
+        vectorRed[i]=(int32_t)(vectorRedClean[i]); 
+        vectorInfra[i]=(int32_t)(vectorInfraClean[i]);
+    }
+  
  
     // On peut maintenant analyser ces signaux. 
     // Faisons-le en premier avec le rouge, en calculant les extremums absolus

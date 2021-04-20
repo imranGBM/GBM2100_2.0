@@ -66,16 +66,10 @@ static void bmi160Init(void)
     /* Select the power mode of Gyroscope sensor */
     bmi160Dev.gyro_cfg.power = BMI160_GYRO_NORMAL_MODE;
     
-    bmi160Dev.accel_cfg.odr = BMI160_ACCEL_ODR_1600HZ;
+    bmi160Dev.accel_cfg.odr = BMI160_ACCEL_ODR_1600HZ;              //SHOULD REDUCE BECAUSE USELESS
     bmi160Dev.accel_cfg.range = BMI160_ACCEL_RANGE_2G;
     bmi160Dev.accel_cfg.bw = BMI160_ACCEL_BW_OSR4_AVG1;
     bmi160Dev.accel_cfg.power = BMI160_ACCEL_NORMAL_MODE;
-    
-    //ANY-MOTION CONFIG
-    //write_Register_motion(BMI160_INT_MOTION_0_ADDR, 0b00000001);       //1+1 consecutive slope points
-    //write_Register_motion(BMI160_INT_MOTION_1_ADDR, 0b00001111);       //5% change
-    //write_Register_motion(BMI160_INT_MOTION_3_ADDR, 0b00000010);       // 1 selectes significant (anymotion) interrupt function
-    //END
     
     /* Set the sensor configuration */
     bmi160_set_sens_conf(&bmi160Dev);               // save configuration en-haut
@@ -84,7 +78,7 @@ static void bmi160Init(void)
 }
 
 //32768 = 2g
-#define MAXACCEL (32768/2)      // 16 bits en int (+ et -), donc de -2^15 à (2^15)-1. On divise par 2 pr les valeurs acquisitionné de -2^14 à (2^14)-1
+#define MAXACCEL (32768)      // 16 bits en int (+ et -), donc de -2^15 à (2^15)-1. On divise par 2 pr les valeurs acquisitionné de -2^14 à (2^14)-1
 
 void motionTask(void *arg)
 {
@@ -92,82 +86,58 @@ void motionTask(void *arg)
     I2C_1_Start();
     bmi160Init();
     struct bmi160_sensor_data acc;
-    
-    //Part 2 
+   
     TickType_t lastMovement = 0;
-    //End
     
-    //Part 1 Old Code
-    /*float gx,gy,gz;
+    bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);
     
-    while(1)                //infinite loop
-    {
-        bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);
-        
-        gx = (float)acc.x/MAXACCEL;
-        gy = (float)acc.y/MAXACCEL;
-        gz = (float)acc.z/MAXACCEL;
-        
-        printf("x=%1.2f y=%1.2f z=%1.2f\r\n", gx,gy,gz);
-        
-        vTaskDelay(200);
-    }
-    */
+    double gx[2],gy[2],gz[2];
+    double m1[2],m2[2],m3[2];
+    gx[0]= (double)acc.x/MAXACCEL;
+    gy[0] = (double)acc.y/MAXACCEL;
+    gz[0] = (double)acc.z/MAXACCEL;
+    m1[0] = acos(gx[0])*360/(2*M_PI*1.8);
+    m2[0] = acos(gy[0])*360/(2*M_PI*1.8);
+    m3[0] = acos(gz[0])*360/(2*M_PI*1.8);
     
-    //Part 2: normalement faudrait delete le while en haut, mais jveux keep display
-    double gx,gy;
-    float gz;
-    double m1,m2;
     
     while(1)
     {
+        vTaskDelay(pdMS_TO_TICKS(100));
+        
         bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);          //c sa qui fait le reading du struct bmi160Dev
         
-        //Convert counts to G
-        gx = (double)acc.x/MAXACCEL;
-        gy = (double)acc.y/MAXACCEL;
-        gz = (float)acc.z/MAXACCEL;
-        
-        //Cap the readings at 1.0g
-        if(gx>1.0) gx=1.0;
-        if(gx<-1.0) gx=-1.0;
-        if(gy>1.0) gy=1.0;
-        if(gy<-1.0) gy=-1.0;
-        
-        if(gz>1.0) gz=1.0;
-        if(gz<-1.0) gz=-1.0;
+        //Convert counts to 2G
+        gx[1] = (double)acc.x/MAXACCEL;
+        gy[1] = (double)acc.y/MAXACCEL;
+        gz[1] = (double)acc.z/MAXACCEL;
         
         //Calculate a number between 0 and 100 based on the angle
-        m1 = acos(gx)*360/(2*M_PI*1.8);
-        m2 = acos(gy)*360/(2*M_PI*1.8);
+        m1[1] = acos(gx[1])*360/(2*M_PI*1.8);
+        m2[1] = acos(gy[1])*360/(2*M_PI*1.8);
         
         //If the board moves more than X% take the time that it happened
-        if (fabs(m1-50.0)>10.0 || fabs(m2-50.0)>10.0){
+        if (fabs(m1[0]-m1[1])>2.5 || fabs(m2[0]-m2[1])>2.5 || fabs(m3[0]-m3[1])>2.5){
             lastMovement = xTaskGetTickCount();}
         
-        //If it has been more than a second since last movement then turn off alarm (LED and MODE_MOTION)
-        if ( (xTaskGetTickCount() - lastMovement) > 1000)
+        m1[0] = m1[1];
+        m2[0] = m2[1];
+        m3[0] = m3[1];
+        
+        
+        //If it has been more than a 0.5sec since last movement then turn off alarm
+        if ( (xTaskGetTickCount() - lastMovement) > 500)
         {
-            xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);          //Mode qui signal que ya pas de mouvement
-            xEventGroupClearBits(systemInputMode,MODE_MOTION);          //Mode qui signal que ya du mouvement
-            Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);                        //ici ya pas eu de mouvement depuis 1000ms, donc turn off alarm (LED)
+            Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);                        //turn off alarm (LED)
         }
         else
         {
-            xEventGroupClearBits(systemInputMode,MODE_CAPSENSE);
-            xEventGroupSetBits(systemInputMode,MODE_MOTION);
             if (MotionAlarmEnable == true){
-            Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);}                        //ici ya pas eu de mouvement depuis 1000ms, donc turn off alarm (LED)
-        }
-        
-        if(xEventGroupGetBits(systemInputMode) == MODE_MOTION)
-        {            
-            vTaskDelay(200);
+            Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);}                       ////turn on alarm (LED) with toggle
         }
         
     }
 }
 
-//MotionAlarmEnable
 
 /* [] END OF FILE */

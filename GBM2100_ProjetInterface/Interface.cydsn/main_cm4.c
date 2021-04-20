@@ -15,9 +15,9 @@
 #include "Max30102_task.h"
 #include "motionTask.h"
 #include "bmi160.h"
-//weird shit
-#include "event_groups.h"
-EventGroupHandle_t systemInputMode;     //make a variable for the event group called systemInputMode.
+//weird shit (TO DELETE)
+//#include "event_groups.h"
+//EventGroupHandle_t systemInputMode;     //make a variable for the event group called systemInputMode.
 //End
 
 
@@ -28,9 +28,9 @@ int main(void)
     CapSense_ScanAllWidgets();
     GUI_Init(); Cy_EINK_Start(20); Cy_EINK_Power(1); GUI_SetColor(GUI_BLACK); GUI_SetBkColor(GUI_WHITE); GUI_Clear(); 
     //weird shit communication
-    systemInputMode = xEventGroupCreate();          //initialize event group
+//    systemInputMode = xEventGroupCreate();          //TO DELETE
     Cy_GPIO_Write(LED8_PORT,LED8_NUM,1);            //Turn off LED on startup
-    xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //set the current mode to CapSense
+//    xEventGroupSetBits(systemInputMode,MODE_CAPSENSE);      //TO DELETE
     //end
     //xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,3,NULL);
     //xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,1,NULL);

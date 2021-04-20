@@ -52,8 +52,6 @@ void max30102_init()
     write_Register(REG_INTR_ENABLE_1, 0b01000000);  //reset le config au default
     CyDelay(1000);
     
-    //Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);    //turns on red LED pr voir si code run jusqu'ici 
-    
     //Config init
     write_Register(REG_INTR_ENABLE_1, 0b11000000);
     write_Register(REG_INTR_ENABLE_2, 0b00000000);
@@ -66,17 +64,6 @@ void max30102_init()
     write_Register(REG_SPO2_CONFIG, 0b00100111); //ADC range = 4096nA (01), sample rate = 100Hz(001), LED PulseWidth = 411us (11), car 18bit ADC resolution
     write_Register(REG_LED1_PA, 0b00100100);  //8bits varie de 0 à 255, 0=0ma et 255=51ma
     write_Register(REG_LED2_PA, 0b00100100);  //donc ici on a 7.2mA (54 en binaire)
-    //write_Register(REG_PILOT_PA, 0x7f);     //
-    //autre registers que je use pas
-    /*write_Register(REG_MULTI_LED_CTRL1, 0xc0);
-    write_Register(REG_MULTI_LED_CTRL2, 0xc0);
-    write_Register(REG_TEMP_INTR, 0xc0);
-    write_Register(REG_TEMP_FRAC, 0xc0);
-    write_Register(REG_TEMP_CONFIG, 0xc0);
-    write_Register(REG_PROX_INT_THRESH, 0xc0);
-    write_Register(REG_REV_ID, 0xc0);
-    write_Register(REG_PART_ID, 0xc0);
-    */
 
     read_Register(0x00);       //lecture d'initialisation pour enlever le interrupt
     

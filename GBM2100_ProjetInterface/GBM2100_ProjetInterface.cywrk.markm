@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\motionTask.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Header Files\Max30102_task.h">
 <ExpandedNodeIds>
 <v>GBM2100_ProjetInterface</v>
 <v>GBM2100_ProjetInterface\Interface</v>
@@ -96,15 +96,6 @@
 <v>GBM2100_ProjetInterface\CE223727_EmWin_EInk_Display.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>GBM2100_ProjetInterface</v>
-<v>GBM2100_ProjetInterface\Interface</v>
-<v>GBM2100_ProjetInterface\Interface\TopDesign</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr\Pins</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr\Analog</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr\DMA</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr\Clocks</v>
-<v>GBM2100_ProjetInterface\Interface\Interface.cydwr\Interrupts</v>
 <v>GBM2100_ProjetInterface\Interface\Interface.cydwr\System</v>
 <v>GBM2100_ProjetInterface\Interface\Interface.cydwr\Directives</v>
 <v>GBM2100_ProjetInterface\Interface\CM0p (Core 0)</v>
@@ -144,6 +135,15 @@
 <v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
 <v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
 <v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\Max30102_task.c</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\motionTask.c</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\TasksInterface.c</v>
+<v>GBM2100_ProjetInterface\Interface\CM4 (Core 1)\Source Files\traitementSignal.c</v>
+<v>GBM2100_ProjetInterface\Interface\Shared Files</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -221,6 +221,7 @@
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.elf</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.hex</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM0p\ARM_GCC_541\Debug\Interface.map</v>
@@ -298,6 +299,7 @@
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\TasksInterface.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\traitementSignal.lst</v>
+<v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.elf</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.hex</v>
 <v>GBM2100_ProjetInterface\Interface\CortexM4\ARM_GCC_541\Debug\Interface.map</v>
@@ -376,6 +378,7 @@
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
@@ -394,6 +397,7 @@
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_I2C_PDL_v2_0\SCB_I2C_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SCB_SPI_PDL_v2_0.pdf</v>
+<v>GBM2100_ProjetInterface\Interface\SCB_UART_PDL_v2_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysClk_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\SysInt_PDL_v1_0.pdf</v>
 <v>GBM2100_ProjetInterface\Interface\TCPWM_Counter_PDL_v1_0.pdf</v>
@@ -423,7 +427,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1395, 712" SelectedTabbedMdiWindow="291a01dd-2a42-43d7-8485-c4f7a138a95d"><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="a2822046-4db8-4fc6-bf96-a3d777cf9ef2" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TopDesign\TopDesign.cysch" Guid="dc4c8067-0260-450f-adb0-3dc4e0dff888" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Interface.cydwr" Guid="52862255-411a-4119-9cb3-8582fad6a843" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.h" Guid="b391c8d4-4759-4f61-8b98-2b7cb0598791" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\motionTask.c" Guid="291a01dd-2a42-43d7-8485-c4f7a138a95d" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.h" Guid="73ca41bd-155e-40f5-8931-a28cb896dce4" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.c" Guid="f8d67700-d345-4d1d-9fce-43d2e891d32d" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.c" Guid="b83e730a-4903-44b9-b9f4-14d99f16c968" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.c" Guid="a285a8d9-824a-4def-9038-de19c9d0d914" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\motionTask.h" Guid="0d757314-73c3-495f-91bd-b171f68167c6" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8b1a8f02-12d6-426f-a4f5-bc522e9360d6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1395, 712" SelectedTabbedMdiWindow="a285a8d9-824a-4def-9038-de19c9d0d914"><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\main_cm4.c" Guid="a2822046-4db8-4fc6-bf96-a3d777cf9ef2" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TopDesign\TopDesign.cysch" Guid="dc4c8067-0260-450f-adb0-3dc4e0dff888" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Interface.cydwr" Guid="52862255-411a-4119-9cb3-8582fad6a843" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.h" Guid="b391c8d4-4759-4f61-8b98-2b7cb0598791" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\motionTask.c" Guid="291a01dd-2a42-43d7-8485-c4f7a138a95d" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.h" Guid="73ca41bd-155e-40f5-8931-a28cb896dce4" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\TasksInterface.c" Guid="f8d67700-d345-4d1d-9fce-43d2e891d32d" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Max30102_task.c" Guid="b83e730a-4903-44b9-b9f4-14d99f16c968" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\traitementSignal.c" Guid="a285a8d9-824a-4def-9038-de19c9d0d914" /><DocumentWindow Key="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\motionTask.h" Guid="0d757314-73c3-495f-91bd-b171f68167c6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

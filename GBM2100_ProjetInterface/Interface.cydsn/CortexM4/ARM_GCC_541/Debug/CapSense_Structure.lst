@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
   28:Generated_Source\PSoC6/CapSense_Structure.c **** * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
   29:Generated_Source\PSoC6/CapSense_Structure.c **** * Cypress reserves the right to make changes without further notice to the
   30:Generated_Source\PSoC6/CapSense_Structure.c **** * materials described herein. Cypress does not assume any liability arising out
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 2
 
 
   31:Generated_Source\PSoC6/CapSense_Structure.c **** * of the application or use of any product or circuit described herein. Cypress
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
   85:Generated_Source\PSoC6/CapSense_Structure.c **** static uint8 CapSense_debounceButton0[CapSense_BUTTON0_NUM_SENSORS];
   86:Generated_Source\PSoC6/CapSense_Structure.c **** static uint8 CapSense_debounceButton1[CapSense_BUTTON1_NUM_SENSORS];
   87:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 3
 
 
   88:Generated_Source\PSoC6/CapSense_Structure.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  142:Generated_Source\PSoC6/CapSense_Structure.c ****             0u,
  143:Generated_Source\PSoC6/CapSense_Structure.c ****             (SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT *)0u,
  144:Generated_Source\PSoC6/CapSense_Structure.c ****             0u,
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 4
 
 
  145:Generated_Source\PSoC6/CapSense_Structure.c ****         },
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  199:Generated_Source\PSoC6/CapSense_Structure.c ****     { /* 7: Button1_Rx0 */
  200:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_Rx_1_PORT,
  201:Generated_Source\PSoC6/CapSense_Structure.c ****         (uint8)CapSense_Rx_1_NUM,
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 5
 
 
  202:Generated_Source\PSoC6/CapSense_Structure.c ****     },
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  256:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_NNOISE_TH,
  257:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_HYSTERESIS,
  258:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_ON_DEBOUNCE,
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 6
 
 
  259:Generated_Source\PSoC6/CapSense_Structure.c ****         CapSense_BUTTON1_LOW_BSLN_RST,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  313:Generated_Source\PSoC6/CapSense_Structure.c **** #define DS_PARAM_TYPE_UINT32    (0x03u)
  314:Generated_Source\PSoC6/CapSense_Structure.c **** 
  315:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 7
 
 
  316:Generated_Source\PSoC6/CapSense_Structure.c **** /* Defines PARAM_ID structure */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  370:Generated_Source\PSoC6/CapSense_Structure.c ****     #if ((CapSense_ENABLE == CapSense_CSX_EN) && \
  371:Generated_Source\PSoC6/CapSense_Structure.c ****          (CapSense_ENABLE == CapSense_CSX_SKIP_OVSMPL_SPECIFIC_NODES))
  372:Generated_Source\PSoC6/CapSense_Structure.c ****         uint16 subConvNumber;
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 8
 
 
  373:Generated_Source\PSoC6/CapSense_Structure.c ****     #endif
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  427:Generated_Source\PSoC6/CapSense_Structure.c ****         /* Initialize IDAC data */
  428:Generated_Source\PSoC6/CapSense_Structure.c ****         ptrFlashWdgt = CapSense_dsFlash.wdgtArray;
  429:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 9
 
 
  430:Generated_Source\PSoC6/CapSense_Structure.c ****         for (wdgtId = CapSense_TOTAL_WIDGETS; wdgtId-- > 0u; )
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  484:Generated_Source\PSoC6/CapSense_Structure.c **** #if (0u != CapSense_ADC_EN)
  485:Generated_Source\PSoC6/CapSense_Structure.c ****     /*******************************************************************************
  486:Generated_Source\PSoC6/CapSense_Structure.c ****     * Function Name: CapSense_AdcDsInitialize
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 10
 
 
  487:Generated_Source\PSoC6/CapSense_Structure.c ****     ****************************************************************************//**
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  530:Generated_Source\PSoC6/CapSense_Structure.c **** 
  531:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 i;
  532:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 actualCrc = 0u;
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 11
 
 
  533:Generated_Source\PSoC6/CapSense_Structure.c ****         uint32 crcIndex;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  565:Generated_Source\PSoC6/CapSense_Structure.c **** 
  566:Generated_Source\PSoC6/CapSense_Structure.c ****         if (0u != actualCrc)
  567:Generated_Source\PSoC6/CapSense_Structure.c ****         {
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 12
 
 
  568:Generated_Source\PSoC6/CapSense_Structure.c ****             /* CRC mismatch */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  612:Generated_Source\PSoC6/CapSense_Structure.c ****                 result = CY_RET_BAD_PARAM;
  613:Generated_Source\PSoC6/CapSense_Structure.c ****             }
  614:Generated_Source\PSoC6/CapSense_Structure.c ****         }
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 13
 
 
  615:Generated_Source\PSoC6/CapSense_Structure.c ****         else
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  102 0050 012B     		cmp	r3, #1
  103 0052 08D1     		bne	.L15
  104 0054 0CE0     		b	.L5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 14
 
 
  105              	.L6:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  660:Generated_Source\PSoC6/CapSense_Structure.c **** }
  132              		.loc 1 660 0
  133 0070 30BC     		pop	{r4, r5}
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 15
 
 
  134              		.cfi_restore 5
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  399:Generated_Source\PSoC6/CapSense_Structure.c **** 
  181              		.loc 1 399 0
  182 0026 0223     		movs	r3, #2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 16
 
 
  183 0028 E377     		strb	r3, [r4, #31]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  227              		.loc 1 434 0 is_stmt 0 discriminator 1
  228 0060 591E     		subs	r1, r3, #1
  229              	.LVL23:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 17
 
 
  230 0062 002B     		cmp	r3, #0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  678:Generated_Source\PSoC6/CapSense_Structure.c **** *    3. T - encodes the parameter type:
  679:Generated_Source\PSoC6/CapSense_Structure.c **** *      - 01b: uint8
  680:Generated_Source\PSoC6/CapSense_Structure.c **** *      - 10b: uint16
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 18
 
 
  681:Generated_Source\PSoC6/CapSense_Structure.c **** *      - 11b: uint32
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  722:Generated_Source\PSoC6/CapSense_Structure.c **** 
  723:Generated_Source\PSoC6/CapSense_Structure.c ****     result = DsParseParamId(paramId, &pData);
  276              		.loc 1 723 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 19
 
 
  277 0006 6946     		mov	r1, sp
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  746:Generated_Source\PSoC6/CapSense_Structure.c ****         else if (DS_PARAM_TYPE_UINT16 == pData.type)
  309              		.loc 1 746 0
  310 0030 022B     		cmp	r3, #2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 20
 
 
  311 0032 03D1     		bne	.L30
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  349              		.section	.text.CapSense_SetParam,"ax",%progbits
  350              		.align	2
  351              		.global	CapSense_SetParam
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 21
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 21
 
 
  352              		.thumb
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  812:Generated_Source\PSoC6/CapSense_Structure.c **** * \return
  813:Generated_Source\PSoC6/CapSense_Structure.c **** *  Returns the status of the operation:
  814:Generated_Source\PSoC6/CapSense_Structure.c **** *    - CY_RET_SUCCESS - The operation is successfully completed.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 22
 
 
  815:Generated_Source\PSoC6/CapSense_Structure.c **** *    - CY_RET_BAD_PARAM - The input parameter is invalid.
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  841:Generated_Source\PSoC6/CapSense_Structure.c **** 
  842:Generated_Source\PSoC6/CapSense_Structure.c ****     /* Parse and validate paramId */
  843:Generated_Source\PSoC6/CapSense_Structure.c ****     if (CY_RET_SUCCESS == result)
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 23
 
 
  385              		.loc 1 843 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  865:Generated_Source\PSoC6/CapSense_Structure.c ****         {
  866:Generated_Source\PSoC6/CapSense_Structure.c ****             /* Parameter comes here already validated. */
  867:Generated_Source\PSoC6/CapSense_Structure.c ****             CY_ASSERT(0 != 0);
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 24
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 24
 
 
  418              		.loc 1 867 0 discriminator 1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  445              	CapSense_IsAnyWidgetActive:
  446              	.LFB136:
  895:Generated_Source\PSoC6/CapSense_Structure.c **** 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 25
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 25
 
 
  896:Generated_Source\PSoC6/CapSense_Structure.c **** /*******************************************************************************
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  920:Generated_Source\PSoC6/CapSense_Structure.c ****     {
  472              		.loc 1 920 0 is_stmt 0 discriminator 1
  473 0014 5A1E     		subs	r2, r3, #1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 26
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 26
 
 
  474              	.LVL51:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  494              		.loc 1 956 0
  495              		.cfi_startproc
  496              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 27
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 27
 
 
  497              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  969:Generated_Source\PSoC6/CapSense_Structure.c **** ****************************************************************************//**
  970:Generated_Source\PSoC6/CapSense_Structure.c **** *
  971:Generated_Source\PSoC6/CapSense_Structure.c **** * \brief
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 28
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 28
 
 
  972:Generated_Source\PSoC6/CapSense_Structure.c **** *  Reports if the specified sensor in the widget detects a touch.
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  552              		.loc 1 1009 0 discriminator 1
  553 000e 8B42     		cmp	r3, r1
  554 0010 09D9     		bls	.L58
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 29
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 29
 
 
 1011:Generated_Source\PSoC6/CapSense_Structure.c ****     {
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
 1024:Generated_Source\PSoC6/CapSense_Structure.c **** 
 1025:Generated_Source\PSoC6/CapSense_Structure.c **** #if (0u != CapSense_MATRIX_WIDGET_EN)
 1026:Generated_Source\PSoC6/CapSense_Structure.c **** /*******************************************************************************
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 30
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 30
 
 
 1027:Generated_Source\PSoC6/CapSense_Structure.c **** * Function Name: CapSense_IsMatrixButtonsActive
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
 1081:Generated_Source\PSoC6/CapSense_Structure.c ****     else
 1082:Generated_Source\PSoC6/CapSense_Structure.c ****     {
 1083:Generated_Source\PSoC6/CapSense_Structure.c ****         ptrFlashWdgt = &CapSense_dsFlash.wdgtArray[widgetId];
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 31
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 31
 
 
 1084:Generated_Source\PSoC6/CapSense_Structure.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
 1138:Generated_Source\PSoC6/CapSense_Structure.c **** * \details
 1139:Generated_Source\PSoC6/CapSense_Structure.c **** *  This function reports if the specified proximity sensor has detected a touch
 1140:Generated_Source\PSoC6/CapSense_Structure.c **** *  or not by extracting information from the wdgtStatus registers
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 32
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 32
 
 
 1141:Generated_Source\PSoC6/CapSense_Structure.c **** *  (CapSense_SNS_STATUS<WidgetId>_VALUE). This function is used
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
 1195:Generated_Source\PSoC6/CapSense_Structure.c **** *  (CapSense_<WidgetName>_POSITION<X>_VALUE). This function is
 1196:Generated_Source\PSoC6/CapSense_Structure.c **** *  used only with radial or linear slider widgets. This function does not
 1197:Generated_Source\PSoC6/CapSense_Structure.c **** *  process the widget but extracts processed results from the \ref group_structures.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 33
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 33
 
 
 1198:Generated_Source\PSoC6/CapSense_Structure.c **** *
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
 1225:Generated_Source\PSoC6/CapSense_Structure.c ****         result = (uint32)wdSlider->position[0u];
  621              		.loc 1 1225 0
  622 0022 588A     		ldrh	r0, [r3, #18]
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 34
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 34
 
 
  623              	.LVL69:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  672 0020 0500     		.short	5
  673 0022 02       		.byte	2
  674 0023 01       		.byte	1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 35
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 35
 
 
  675 0024 05       		.byte	5
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  729 009c 0000     		.short	0
  730 009e FFFF     		.short	-1
  731 00a0 6400     		.short	100
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 36
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 36
 
 
  732 00a2 6400     		.short	100
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  786 0109 000000   		.space	3
  787              		.section	.rodata.str1.4,"aMS",%progbits,1
  788              		.align	2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 37
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 37
 
 
  789              	.LC0:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  835 0021 00000000 		.4byte	.Ldebug_line0
  836 0025 02       		.uleb128 0x2
  837 0026 01       		.byte	0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 38
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 38
 
 
  838 0027 06       		.byte	0x6
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  892 0090 02       		.uleb128 0x2
  893 0091 04       		.byte	0x4
  894 0092 07       		.byte	0x7
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 39
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 39
 
 
  895 0093 28030000 		.4byte	.LASF12
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  949 0105 24       		.byte	0x24
  950 0106 CA000000 		.4byte	0xca
  951 010a 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 40
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 40
 
 
  952 010b 0B       		.uleb128 0xb
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1006 0176 0B       		.uleb128 0xb
  1007 0177 9E030000 		.4byte	.LASF27
  1008 017b 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 41
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 41
 
 
  1009 017c 2E       		.byte	0x2e
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1063 01e9 0D       		.uleb128 0xd
  1064 01ea 23080000 		.4byte	.LASF34
  1065 01ee 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 42
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 42
 
 
  1066 01ef 3B       		.byte	0x3b
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1120 0264 6F020000 		.4byte	0x26f
  1121 0268 08       		.uleb128 0x8
  1122 0269 D4000000 		.4byte	0xd4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 43
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 43
 
 
  1123 026d 7F       		.byte	0x7f
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1177 02e3 0F       		.uleb128 0xf
  1178 02e4 04       		.byte	0x4
  1179 02e5 03       		.uleb128 0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 44
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 44
 
 
  1180 02e6 4B010000 		.4byte	.LASF54
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1234 0352 BF020000 		.4byte	0x2bf
  1235 0356 0B       		.byte	0xb
  1236 0357 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 45
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 45
 
 
  1237 0358 03       		.uleb128 0x3
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1291 03c4 07       		.uleb128 0x7
  1292 03c5 BF020000 		.4byte	0x2bf
  1293 03c9 D4030000 		.4byte	0x3d4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 46
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 46
 
 
  1294 03cd 08       		.uleb128 0x8
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1348 0437 0801     		.2byte	0x108
  1349 0439 C4030000 		.4byte	0x3c4
  1350 043d 09       		.byte	0x9
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 47
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 47
 
 
  1351 043e 12       		.uleb128 0x12
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1405 04b2 12       		.uleb128 0x12
  1406 04b3 640A0000 		.4byte	.LASF76
  1407 04b7 09       		.byte	0x9
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 48
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 48
 
 
  1408 04b8 3801     		.2byte	0x138
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1462 052d 7001     		.2byte	0x170
  1463 052f CB020000 		.4byte	0x2cb
  1464 0533 0E       		.byte	0xe
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 49
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 49
 
 
  1465 0534 12       		.uleb128 0x12
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1519 05a6 09       		.byte	0x9
  1520 05a7 9C01     		.2byte	0x19c
  1521 05a9 80040000 		.4byte	0x480
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 50
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 50
 
 
  1522 05ad 02       		.byte	0x2
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1576 0621 32       		.byte	0x32
  1577 0622 12       		.uleb128 0x12
  1578 0623 B1010000 		.4byte	.LASF92
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 51
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 51
 
 
  1579 0627 09       		.byte	0x9
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1633 069a A3050000 		.4byte	.LASF105
  1634 069e 09       		.byte	0x9
  1635 069f EC01     		.2byte	0x1ec
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 52
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 52
 
 
  1636 06a1 CB020000 		.4byte	0x2cb
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1690 0716 50060000 		.4byte	0x650
  1691 071a 58       		.byte	0x58
  1692 071b 12       		.uleb128 0x12
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 53
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 53
 
 
  1693 071c 62030000 		.4byte	.LASF115
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1747 0792 A5070000 		.4byte	0x7a5
  1748 0796 00       		.byte	0
  1749 0797 12       		.uleb128 0x12
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 54
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 54
 
 
  1750 0798 0F070000 		.4byte	.LASF121
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1804 080d 14       		.byte	0x14
  1805 080e 12       		.uleb128 0x12
  1806 080f 7C090000 		.4byte	.LASF129
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 55
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 55
 
 
  1807 0813 09       		.byte	0x9
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1861 0885 04       		.byte	0x4
  1862 0886 8A080000 		.4byte	0x88a
  1863 088a 16       		.uleb128 0x16
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 56
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 56
 
 
  1864 088b 15       		.uleb128 0x15
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1918 08fe 02       		.byte	0x2
  1919 08ff 12       		.uleb128 0x12
  1920 0900 11000000 		.4byte	.LASF143
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 57
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 57
 
 
  1921 0904 01       		.byte	0x1
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  1975 097e 95090000 		.4byte	0x995
  1976 0982 01       		.uleb128 0x1
  1977 0983 51       		.byte	0x51
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 58
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 58
 
 
  1978 0984 1A       		.uleb128 0x1a
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2032 0a0c 50       		.byte	0x50
  2033 0a0d 02       		.uleb128 0x2
  2034 0a0e 74       		.byte	0x74
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 59
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 59
 
 
  2035 0a0f 00       		.sleb128 0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2089 0a7c 1A       		.uleb128 0x1a
  2090 0a7d BD0A0000 		.4byte	.LASF149
  2091 0a81 01       		.byte	0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 60
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 60
 
 
  2092 0a82 C902     		.2byte	0x2c9
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2146 0af2 50000000 		.4byte	.LVL35
  2147 0af6 450E0000 		.4byte	0xe45
  2148 0afa 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 61
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 61
 
 
  2149 0afb 01       		.uleb128 0x1
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2203 0b69 3203     		.2byte	0x332
  2204 0b6b D7020000 		.4byte	0x2d7
  2205 0b6f E8010000 		.4byte	.LLST11
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 62
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 62
 
 
  2206 0b73 18       		.uleb128 0x18
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2260 0bf1 030C0000 		.4byte	0xc03
  2261 0bf5 1D       		.uleb128 0x1d
  2262 0bf6 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 63
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 63
 
 
  2263 0bf7 50       		.byte	0x50
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2317 0c56 9503     		.2byte	0x395
  2318 0c58 D7020000 		.4byte	0x2d7
  2319 0c5c 90020000 		.4byte	.LLST14
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 64
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 64
 
 
  2320 0c60 1A       		.uleb128 0x1a
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2374 0ceb 01       		.byte	0x1
  2375 0cec EF03     		.2byte	0x3ef
  2376 0cee D7020000 		.4byte	0x2d7
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 65
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 65
 
 
  2377 0cf2 E6030000 		.4byte	.LLST20
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2431 0d71 C4030000 		.4byte	0x3c4
  2432 0d75 05       		.uleb128 0x5
  2433 0d76 03       		.byte	0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 66
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 66
 
 
  2434 0d77 3C000000 		.4byte	CapSense_debounceButton1
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2488 0df0 FA0D0000 		.4byte	0xdfa
  2489 0df4 05       		.uleb128 0x5
  2490 0df5 03       		.byte	0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 67
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 67
 
 
  2491 0df6 00000000 		.4byte	CapSense_ioList
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2545 000d 11       		.uleb128 0x11
  2546 000e 01       		.uleb128 0x1
  2547 000f 10       		.uleb128 0x10
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 68
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 68
 
 
  2548 0010 17       		.uleb128 0x17
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2602 0046 01       		.byte	0x1
  2603 0047 49       		.uleb128 0x49
  2604 0048 13       		.uleb128 0x13
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 69
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 69
 
 
  2605 0049 01       		.uleb128 0x1
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2659 007f 00       		.byte	0
  2660 0080 00       		.byte	0
  2661 0081 0C       		.uleb128 0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 70
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 70
 
 
  2662 0082 13       		.uleb128 0x13
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2716 00b8 3A       		.uleb128 0x3a
  2717 00b9 0B       		.uleb128 0xb
  2718 00ba 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 71
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 71
 
 
  2719 00bb 0B       		.uleb128 0xb
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2773 00f1 0B       		.uleb128 0xb
  2774 00f2 00       		.byte	0
  2775 00f3 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 72
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 72
 
 
  2776 00f4 15       		.uleb128 0x15
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2830 012b 19       		.uleb128 0x19
  2831 012c 05       		.uleb128 0x5
  2832 012d 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 73
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 73
 
 
  2833 012e 03       		.uleb128 0x3
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2887 0167 01       		.byte	0x1
  2888 0168 11       		.uleb128 0x11
  2889 0169 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 74
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 74
 
 
  2890 016a 31       		.uleb128 0x31
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  2944 01a4 00       		.byte	0
  2945 01a5 20       		.uleb128 0x20
  2946 01a6 17       		.uleb128 0x17
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 75
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 75
 
 
  2947 01a7 01       		.byte	0x1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3001 01df 34       		.uleb128 0x34
  3002 01e0 00       		.byte	0
  3003 01e1 03       		.uleb128 0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 76
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 76
 
 
  3004 01e2 0E       		.uleb128 0xe
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3058 0218 02       		.uleb128 0x2
  3059 0219 18       		.uleb128 0x18
  3060 021a 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 77
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 77
 
 
  3061 021b 00       		.byte	0
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3115 0008 0100     		.2byte	0x1
  3116 000a 50       		.byte	0x50
  3117 000b 26000000 		.4byte	.LVL2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 78
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 78
 
 
  3118 000f 74000000 		.4byte	.LFE133
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3172 0099 00000000 		.4byte	0
  3173 009d 00000000 		.4byte	0
  3174              	.LLST3:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 79
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 79
 
 
  3175 00a1 46000000 		.4byte	.LVL14
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3229 0131 0100     		.2byte	0x1
  3230 0133 50       		.byte	0x50
  3231 0134 5A000000 		.4byte	.LVL19
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 80
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 80
 
 
  3232 0138 5C000000 		.4byte	.LVL20
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3286 01bf 0100     		.2byte	0x1
  3287 01c1 50       		.byte	0x50
  3288 01c2 00000000 		.4byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 81
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 81
 
 
  3289 01c6 00000000 		.4byte	0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3343 024a 4A000000 		.4byte	.LVL45
  3344 024e 0100     		.2byte	0x1
  3345 0250 55       		.byte	0x55
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 82
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 82
 
 
  3346 0251 4A000000 		.4byte	.LVL45
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3400 02dc 00000000 		.4byte	0
  3401 02e0 00000000 		.4byte	0
  3402              	.LLST16:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 83
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 83
 
 
  3403 02e4 00000000 		.4byte	.LVL52
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3457 036a 00       		.sleb128 0
  3458 036b 03       		.byte	0x3
  3459 036c 00000000 		.4byte	CapSense_dsRam
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 84
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 84
 
 
  3460 0370 1C       		.byte	0x1c
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3514 03ee 0200     		.2byte	0x2
  3515 03f0 30       		.byte	0x30
  3516 03f1 9F       		.byte	0x9f
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 85
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 85
 
 
  3517 03f2 20000000 		.4byte	.LVL61
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3571 0477 0400     		.2byte	0x4
  3572 0479 0A       		.byte	0xa
  3573 047a FFFF     		.2byte	0xffff
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 86
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 86
 
 
  3574 047c 9F       		.byte	0x9f
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3628 0008 00000000 		.4byte	.LFB132
  3629 000c 7C000000 		.4byte	.LFE132
  3630 0010 00000000 		.4byte	.LFB134
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 87
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 87
 
 
  3631 0014 64000000 		.4byte	.LFE134
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3662      50617261 
  3662      6D00
  3663              	.LASF3:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 88
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 88
 
 
  3664 0063 5F5F7569 		.ascii	"__uint8_t\000"
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3684      4E5F5253 
  3685              	.LASF173:
  3686 011d 49544D5F 		.ascii	"ITM_RxBuffer\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 89
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 89
 
 
  3686      52784275 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3710      7200
  3711              	.LASF163:
  3712 01c8 7764576F 		.ascii	"wdWord\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 90
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 90
 
 
  3712      726400
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3738      6F724964 
  3738      00
  3739              	.LASF5:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 91
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 91
 
 
  3740 0289 73686F72 		.ascii	"short unsigned int\000"
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3765              	.LASF93:
  3766 0335 43617053 		.ascii	"CapSense_RAM_WD_LIST_STRUCT\000"
  3766      656E7365 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 92
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 92
 
 
  3766      5F52414D 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3790      6E697469 
  3790      616C697A 
  3791              	.LASF24:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 93
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 93
 
 
  3792 03e9 494E5452 		.ascii	"INTR_MASKED\000"
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3814      64676574 
  3815              	.LASF6:
  3816 04a5 5F5F696E 		.ascii	"__int32_t\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 94
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 94
 
 
  3816      7433325F 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3840      6E666967 
  3840      00
  3841              	.LASF78:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 95
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 95
 
 
  3842 055c 6E4E6F69 		.ascii	"nNoiseTh\000"
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3863      656E7365 
  3863      5F647352 
  3863      616D00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 96
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 96
 
 
  3864              	.LASF19:
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3887      6E697400 
  3888              	.LASF15:
  3889 0739 696E7433 		.ascii	"int32_t\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 97
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 97
 
 
  3889      325F7400 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3917      494E5452 
  3917      00
  3918              	.LASF16:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 98
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 98
 
 
  3919 07e8 75696E74 		.ascii	"uint32_t\000"
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3945      6F6E00
  3946              	.LASF13:
  3947 0886 75696E74 		.ascii	"uint8_t\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 99
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 99
 
 
  3947      385F7400 
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3969 096b 5C496E74 		.ascii	"\\Interface.cydsn\000"
  3969      65726661 
  3969      63652E63 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 100
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 100
 
 
  3969      7964736E 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  3994              	.LASF164:
  3995 0a17 43617053 		.ascii	"CapSense_IsWidgetActive\000"
  3995      656E7365 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 101
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 101
 
 
  3995      5F497357 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 1
  4021 0ac4 43617053 		.ascii	"CapSense_WD_BUTTON_E\000"
  4021      656E7365 
  4021      5F57445F 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccsbWb6g.s 			page 102
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccWgAnZp.s 			page 102
 
 
  4021      42555454 

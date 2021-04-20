@@ -46,10 +46,13 @@
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\I2C_MAX.h" value="HEADER;;;;;I2C_MAX" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\I2C_1.c" value="SOURCE_C;CortexM0p,CortexM4;;;;I2C_1" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\I2C_1.h" value="HEADER;;;;;I2C_1" />
+  <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\UART_1.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UART_1" />
+  <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\UART_1.h" value="HEADER;;;;;UART_1" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\CY_EINK_SPIM_SCBCLK.h" value="HEADER;;;;;CY_EINK_SPIM_SCBCLK" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\CapSense_ModClk.h" value="HEADER;;;;;CapSense_ModClk" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\I2C_MAX_SCBCLK.h" value="HEADER;;;;;I2C_MAX_SCBCLK" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\I2C_1_SCBCLK.h" value="HEADER;;;;;I2C_1_SCBCLK" />
+  <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\UART_1_SCBCLK.h" value="HEADER;;;;;UART_1_SCBCLK" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
   <file name="C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />

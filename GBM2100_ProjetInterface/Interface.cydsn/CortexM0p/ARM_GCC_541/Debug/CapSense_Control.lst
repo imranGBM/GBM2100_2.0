@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
   28:Generated_Source\PSoC6/CapSense_Control.c **** * Cypress reserves the right to make changes without further notice to the
   29:Generated_Source\PSoC6/CapSense_Control.c **** * materials described herein. Cypress does not assume any liability arising out
   30:Generated_Source\PSoC6/CapSense_Control.c **** * of the application or use of any product or circuit described herein. Cypress
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 2
 
 
   31:Generated_Source\PSoC6/CapSense_Control.c **** * does not authorize its products for use as critical components in life-support
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
   85:Generated_Source\PSoC6/CapSense_Control.c **** *
   86:Generated_Source\PSoC6/CapSense_Control.c **** * \brief
   87:Generated_Source\PSoC6/CapSense_Control.c **** *  Initializes the Component hardware and firmware modules. This function is
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 3
 
 
   88:Generated_Source\PSoC6/CapSense_Control.c **** *  called by the application program prior to calling any other function of the
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  142:Generated_Source\PSoC6/CapSense_Control.c ****         ((CapSense_CSD_AUTOTUNE == CapSense_CSD_SS_DIS) && (0u != CapSense_CSD_IDAC_AUTOCAL_EN)))
  143:Generated_Source\PSoC6/CapSense_Control.c ****         if (CY_RET_SUCCESS == result)
  144:Generated_Source\PSoC6/CapSense_Control.c ****         {
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 4
 
 
  145:Generated_Source\PSoC6/CapSense_Control.c ****             result = CapSense_CalibrateAllWidgets();
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  199:Generated_Source\PSoC6/CapSense_Control.c **** * \return
  200:Generated_Source\PSoC6/CapSense_Control.c **** *  Return CY_RET_SUCCESS if the initialization was successful.
  201:Generated_Source\PSoC6/CapSense_Control.c **** *
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 5
 
 
  202:Generated_Source\PSoC6/CapSense_Control.c **** *******************************************************************************/
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
   63              	.L3:
   64 0024 00000000 		.word	.LANCHOR0
   65              		.cfi_endproc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 6
 
 
   66              	.LFE180:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  112 0022 0400     		movs	r4, r0
  113              	.LVL11:
  114              	.L9:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 7
 
 
  154:Generated_Source\PSoC6/CapSense_Control.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  244:Generated_Source\PSoC6/CapSense_Control.c **** *******************************************************************************/
  245:Generated_Source\PSoC6/CapSense_Control.c **** cy_status CapSense_Stop(void)
  246:Generated_Source\PSoC6/CapSense_Control.c **** {
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 8
 
 
  142              		.loc 1 246 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  272:Generated_Source\PSoC6/CapSense_Control.c **** *  previously by the CapSense_Stop() function. The following tasks are
  273:Generated_Source\PSoC6/CapSense_Control.c **** *  executed as part of the operation resume process:
  274:Generated_Source\PSoC6/CapSense_Control.c **** *    1. Reset all the Widgets/Sensors statuses.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 9
 
 
  275:Generated_Source\PSoC6/CapSense_Control.c **** *    2. Configure the hardware to perform capacitive sensing.
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  202 001e C046     		.align	2
  203              	.L15:
  204 0020 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 10
 
 
  205              		.cfi_endproc
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  216              		.loc 1 340 0
  217              		.cfi_startproc
  218              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 11
 
 
  219              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  257 002c FFF7FEFF 		bl	CapSense_DpProcessCsdWidgetRawCounts
  258              	.LVL22:
  259 0030 0500     		movs	r5, r0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 12
 
 
  260              	.LVL23:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  378:Generated_Source\PSoC6/CapSense_Control.c ****             #endif /* (CapSense_ENABLE == CapSense_TST_BSLN_DUPLICATION_EN) */
  379:Generated_Source\PSoC6/CapSense_Control.c **** 
  380:Generated_Source\PSoC6/CapSense_Control.c ****         }
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 13
 
 
  381:Generated_Source\PSoC6/CapSense_Control.c ****         ptrFlashWdgt++;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  399:Generated_Source\PSoC6/CapSense_Control.c **** *  widgets are scanned. A disabled widget is not processed by this function.
  400:Generated_Source\PSoC6/CapSense_Control.c **** *
  401:Generated_Source\PSoC6/CapSense_Control.c **** *  A pipeline scan method (i.e. during scanning of a widget perform processing
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 14
 
 
  402:Generated_Source\PSoC6/CapSense_Control.c **** *  of the previously scanned widget) can be implemented using this function and
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  346              		.loc 1 434 0
  347 000c 0124     		movs	r4, #1
  348              	.L28:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 15
 
 
  349              	.LVL38:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  387              	.LVL41:
  388 0042 FFF7FEFF 		bl	CapSense_DpProcessCsdWidgetRawCounts
  389              	.LVL42:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 16
 
 
  390 0046 0400     		movs	r4, r0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  468:Generated_Source\PSoC6/CapSense_Control.c ****             if (CY_RET_SUCCESS != result)
  469:Generated_Source\PSoC6/CapSense_Control.c ****             {
  470:Generated_Source\PSoC6/CapSense_Control.c ****                 CapSense_UpdateTestResultBaselineDuplication(widgetId, result);
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 17
 
 
  471:Generated_Source\PSoC6/CapSense_Control.c ****                 result = CY_RET_BAD_DATA;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  502:Generated_Source\PSoC6/CapSense_Control.c **** *  The pipeline scan method (i.e. during scanning of a widget, processing
  503:Generated_Source\PSoC6/CapSense_Control.c **** *  of a previously scanned widget is performed) can be implemented using this
  504:Generated_Source\PSoC6/CapSense_Control.c **** *  function and it may reduce the total scan/process time, increase the refresh
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 18
 
 
  505:Generated_Source\PSoC6/CapSense_Control.c **** *  rate and decrease the power consumption.
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  466              	.LVL58:
  543:Generated_Source\PSoC6/CapSense_Control.c ****     uint32 snsCount;
  544:Generated_Source\PSoC6/CapSense_Control.c ****     cy_status result = CY_RET_BAD_PARAM;
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 19
 
 
  545:Generated_Source\PSoC6/CapSense_Control.c ****     CapSense_FLASH_WD_STRUCT const *ptrFlashWdgt;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  570:Generated_Source\PSoC6/CapSense_Control.c ****                 /* Run the desired processing for the all CSD widget sensors */
  571:Generated_Source\PSoC6/CapSense_Control.c ****                 for (;snsCount-- > 0u;)
  572:Generated_Source\PSoC6/CapSense_Control.c ****                 {
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 20
 
 
  573:Generated_Source\PSoC6/CapSense_Control.c ****                     result = CapSense_DpProcessCsdSensorRawCountsExt(ptrFlashWdgt, ptrSnsTmp, fltrH
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  530 0050 FFF7FEFF 		bl	CapSense_DpProcessCsdWidgetStatus
  531              	.LVL71:
  532 0054 1FE0     		b	.L40
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 21
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 21
 
 
  533              	.L45:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  555              	.L43:
  607:Generated_Source\PSoC6/CapSense_Control.c ****                 {
  556              		.loc 1 607 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 22
 
 
  557 006e 5C1E     		subs	r4, r3, #1
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  637:Generated_Source\PSoC6/CapSense_Control.c ****             {
  638:Generated_Source\PSoC6/CapSense_Control.c ****                 CapSense_UpdateTestResultBaselineDuplication(widgetId, snsCount);
  639:Generated_Source\PSoC6/CapSense_Control.c ****                 result = CY_RET_BAD_DATA;
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 23
 
 
  640:Generated_Source\PSoC6/CapSense_Control.c ****             }
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  671:Generated_Source\PSoC6/CapSense_Control.c **** *  of a previously scanned sensor is performed) can be implemented using this
  672:Generated_Source\PSoC6/CapSense_Control.c **** *  function and it may reduce the total scan/process time, increase the refresh
  673:Generated_Source\PSoC6/CapSense_Control.c **** *  rate and decrease the power consumption.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 24
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 24
 
 
  674:Generated_Source\PSoC6/CapSense_Control.c **** *
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  625              		.loc 1 717 0
  626 0002 0228     		cmp	r0, #2
  627 0004 24D8     		bhi	.L57
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 25
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 25
 
 
  628              		.loc 1 717 0 is_stmt 0 discriminator 1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  741:Generated_Source\PSoC6/CapSense_Control.c ****                         fltrHistV.ptr = &fltrHistV.ptrAlp[sensorId];
  742:Generated_Source\PSoC6/CapSense_Control.c ****                     #elif (0u != CapSense_REGULAR_RC_FILTER_EN)
  743:Generated_Source\PSoC6/CapSense_Control.c ****                         fltrHistV.ptr = &fltrHistV.ptrRegular[sensorId];
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 26
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 26
 
 
  744:Generated_Source\PSoC6/CapSense_Control.c ****                     #endif
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  765:Generated_Source\PSoC6/CapSense_Control.c ****             break;
  691              		.loc 1 765 0 discriminator 1
  692 004e 02E0     		b	.L53
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 27
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 27
 
 
  693              	.LVL104:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  788:Generated_Source\PSoC6/CapSense_Control.c **** *  Currently this function is empty and exists as a place for future updates,
  789:Generated_Source\PSoC6/CapSense_Control.c **** *  this function will be used to prepare the Component to enter deep sleep.
  790:Generated_Source\PSoC6/CapSense_Control.c **** *
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 28
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 28
 
 
  791:Generated_Source\PSoC6/CapSense_Control.c **** *******************************************************************************/
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  754 0002 C046     		.section	.text.CapSense_DeepSleepCallback,"ax",%progbits
  755              		.align	2
  756              		.global	CapSense_DeepSleepCallback
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 29
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 29
 
 
  757              		.code	16
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  864:Generated_Source\PSoC6/CapSense_Control.c ****     /*******************************************************************************
  865:Generated_Source\PSoC6/CapSense_Control.c ****     * Function Name: CapSense_EnterLowPowerCallback
  866:Generated_Source\PSoC6/CapSense_Control.c ****     ****************************************************************************//**
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 30
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 30
 
 
  867:Generated_Source\PSoC6/CapSense_Control.c ****     *
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  921:Generated_Source\PSoC6/CapSense_Control.c ****     *  the CapSense Component.
  922:Generated_Source\PSoC6/CapSense_Control.c ****     *  Calling this function directly by application layer is not recommended.
  923:Generated_Source\PSoC6/CapSense_Control.c ****     *  Instead, Cy_SysPm_ExitLpMode() should be used for the LPActive to Active
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 31
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 31
 
 
  924:Generated_Source\PSoC6/CapSense_Control.c ****     *  power mode transition of the device.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  978:Generated_Source\PSoC6/CapSense_Control.c ****     *  - CY_SYSPM_FAIL     - Switching power mode cannot be done.
  979:Generated_Source\PSoC6/CapSense_Control.c ****     *
  980:Generated_Source\PSoC6/CapSense_Control.c ****     *******************************************************************************/
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 32
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 32
 
 
  981:Generated_Source\PSoC6/CapSense_Control.c ****     static cy_en_syspm_status_t CapSense_SwitchPowerModeCallback(cy_stc_syspm_callback_params_t *ca
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
 1035:Generated_Source\PSoC6/CapSense_Control.c ****     *  using the Cy_SysPm_RegisterCallback() function with CY_SYSPM_DEEPSLEEP
 1036:Generated_Source\PSoC6/CapSense_Control.c ****     *  type. After the callback is registered, this function is called by the
 1037:Generated_Source\PSoC6/CapSense_Control.c ****     *  Cy_SysPm_CpuEnterDeepSleep() function to prepare the Component to the device
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 33
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 33
 
 
 1038:Generated_Source\PSoC6/CapSense_Control.c ****     *  power mode transition.
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  778 000a 0028     		cmp	r0, #0
  779 000c 02D1     		bne	.L68
  780 000e 02E0     		b	.L65
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 34
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 34
 
 
  781              	.LVL112:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  809              		.type	CapSense_InitVar, %object
  810              		.size	CapSense_InitVar, 1
  811              	CapSense_InitVar:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 35
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 35
 
 
  812 0000 00       		.space	1
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  866 0053 03       		.uleb128 0x3
  867 0054 01       		.byte	0x1
  868 0055 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 36
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 36
 
 
  869 0056 EF0E0000 		.4byte	.LASF4
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  923 00c5 30       		.byte	0x30
  924 00c6 85000000 		.4byte	0x85
  925 00ca 03       		.uleb128 0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 37
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 37
 
 
  926 00cb 04       		.byte	0x4
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  980 0134 BF000000 		.4byte	0xbf
  981 0138 1C       		.byte	0x1c
  982 0139 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 38
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 38
 
 
  983 013a 84080000 		.4byte	.LASF27
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1037 01a6 A4100000 		.4byte	.LASF36
  1038 01aa 04       		.byte	0x4
  1039 01ab 4A       		.byte	0x4a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 39
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 39
 
 
  1040 01ac 9E000000 		.4byte	0x9e
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1094 0218 9E000000 		.4byte	0x9e
  1095 021c 3C       		.byte	0x3c
  1096 021d 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 40
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 40
 
 
  1097 021e D3040000 		.4byte	.LASF46
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1151 028a 47020000 		.4byte	.LASF55
  1152 028e 04       		.byte	0x4
  1153 028f 5F       		.byte	0x5f
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 41
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 41
 
 
  1154 0290 BF000000 		.4byte	0xbf
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1208 02fc 9E000000 		.4byte	0x9e
  1209 0300 58       		.byte	0x58
  1210 0301 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 42
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 42
 
 
  1211 0302 82000000 		.4byte	.LASF65
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1265 036e E0090000 		.4byte	.LASF74
  1266 0372 04       		.byte	0x4
  1267 0373 78       		.byte	0x78
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 43
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 43
 
 
  1268 0374 B4000000 		.4byte	0xb4
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1322 03e0 B4000000 		.4byte	0xb4
  1323 03e4 7A       		.byte	0x7a
  1324 03e5 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 44
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 44
 
 
  1325 03e6 9E0D0000 		.4byte	.LASF84
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1379 0452 E70B0000 		.4byte	.LASF93
  1380 0456 04       		.byte	0x4
  1381 0457 91       		.byte	0x91
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 45
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 45
 
 
  1382 0458 BF000000 		.4byte	0xbf
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1436 04c4 B4000000 		.4byte	0xb4
  1437 04c8 AE       		.byte	0xae
  1438 04c9 06       		.uleb128 0x6
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 46
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 46
 
 
  1439 04ca 78020000 		.4byte	.LASF103
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1493 053e 08       		.uleb128 0x8
  1494 053f 04       		.byte	0x4
  1495 0540 2C000000 		.4byte	0x2c
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 47
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 47
 
 
  1496 0544 06       		.byte	0x6
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1550 05c0 E705     		.2byte	0x5e7
  1551 05c2 E1050000 		.4byte	0x5e1
  1552 05c6 0C       		.uleb128 0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 48
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 48
 
 
  1553 05c7 7D000000 		.4byte	.LASF126
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1607 0636 04       		.byte	0x4
  1608 0637 06       		.uleb128 0x6
  1609 0638 E9100000 		.4byte	.LASF134
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 49
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 49
 
 
  1610 063c 08       		.byte	0x8
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1664 06a5 0F0A0000 		.4byte	.LASF145
  1665 06a9 09       		.byte	0x9
  1666 06aa 68       		.byte	0x68
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 50
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 50
 
 
  1667 06ab 73060000 		.4byte	0x673
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1721 071a 04       		.byte	0x4
  1722 071b 06       		.uleb128 0x6
  1723 071c EF090000 		.4byte	.LASF154
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 51
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 51
 
 
  1724 0720 09       		.byte	0x9
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1778 0792 09       		.byte	0x9
  1779 0793 2701     		.2byte	0x127
  1780 0795 9B070000 		.4byte	0x79b
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 52
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 52
 
 
  1781 0799 12       		.byte	0x12
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1835 080d 07       		.byte	0x7
  1836 080e 0C       		.uleb128 0xc
  1837 080f 5A060000 		.4byte	.LASF157
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 53
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 53
 
 
  1838 0813 09       		.byte	0x9
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1892 0885 8601     		.2byte	0x186
  1893 0887 5D080000 		.4byte	0x85d
  1894 088b 14       		.byte	0x14
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 54
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 54
 
 
  1895 088c 0C       		.uleb128 0xc
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  1949 08fe 10       		.uleb128 0x10
  1950 08ff 00060000 		.4byte	0x600
  1951 0903 0E090000 		.4byte	0x90e
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 55
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 55
 
 
  1952 0907 11       		.uleb128 0x11
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2006 0979 09       		.byte	0x9
  2007 097a CF01     		.2byte	0x1cf
  2008 097c 6B0A0000 		.4byte	0xa6b
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 56
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 56
 
 
  2009 0980 0C       		.uleb128 0xc
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2063 09f5 0C       		.uleb128 0xc
  2064 09f6 F8090000 		.4byte	.LASF186
  2065 09fa 09       		.byte	0x9
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 57
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 57
 
 
  2066 09fb 1402     		.2byte	0x214
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2120 0a70 10       		.uleb128 0x10
  2121 0a71 32050000 		.4byte	0x532
  2122 0a75 800A0000 		.4byte	0xa80
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 58
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 58
 
 
  2123 0a79 11       		.uleb128 0x11
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2177 0aec A202     		.2byte	0x2a2
  2178 0aee 32050000 		.4byte	0x532
  2179 0af2 14       		.byte	0x14
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 59
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 59
 
 
  2180 0af3 0C       		.uleb128 0xc
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2234 0b68 00       		.byte	0
  2235 0b69 0E       		.uleb128 0xe
  2236 0b6a 04       		.byte	0x4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 60
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 60
 
 
  2237 0b6b 6F0B0000 		.4byte	0xb6f
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2291 0bdd 09       		.byte	0x9
  2292 0bde 2A03     		.2byte	0x32a
  2293 0be0 C10B0000 		.4byte	0xbc1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 61
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 61
 
 
  2294 0be4 0B       		.uleb128 0xb
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2348 0c57 01       		.byte	0x1
  2349 0c58 CB       		.byte	0xcb
  2350 0c59 0E050000 		.4byte	0x50e
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 62
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 62
 
 
  2351 0c5d 00000000 		.4byte	.LFB180
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2405 0cea 28000000 		.4byte	.LVL12
  2406 0cee 16120000 		.4byte	0x1216
  2407 0cf2 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 63
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 63
 
 
  2408 0cf3 30000000 		.4byte	.LVL13
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2462 0d77 0E050000 		.4byte	0x50e
  2463 0d7b 00000000 		.4byte	.LFB183
  2464 0d7f 70000000 		.4byte	.LFE183-.LFB183
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 64
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 64
 
 
  2465 0d83 01       		.uleb128 0x1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2519 0df5 01       		.uleb128 0x1
  2520 0df6 50       		.byte	0x50
  2521 0df7 02       		.uleb128 0x2
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 65
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 65
 
 
  2522 0df8 76       		.byte	0x76
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2576 0e5a 01       		.byte	0x1
  2577 0e5b AB01     		.2byte	0x1ab
  2578 0e5d 32050000 		.4byte	0x532
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 66
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 66
 
 
  2579 0e61 DD000000 		.4byte	.LLST4
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2633 0ecc 58120000 		.4byte	0x1258
  2634 0ed0 E10E0000 		.4byte	0xee1
  2635 0ed4 21       		.uleb128 0x21
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 67
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 67
 
 
  2636 0ed5 01       		.uleb128 0x1
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2690 0f3c 1F02     		.2byte	0x21f
  2691 0f3e 32050000 		.4byte	0x532
  2692 0f42 9D020000 		.4byte	.LLST9
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 68
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 68
 
 
  2693 0f46 1F       		.uleb128 0x1f
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2747 0fb4 53       		.byte	0x53
  2748 0fb5 03       		.uleb128 0x3
  2749 0fb6 91       		.byte	0x91
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 69
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 69
 
 
  2750 0fb7 60       		.sleb128 -32
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2804 1005 16100000 		.4byte	0x1016
  2805 1009 21       		.uleb128 0x21
  2806 100a 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 70
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 70
 
 
  2807 100b 50       		.byte	0x50
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2861 1073 32050000 		.4byte	0x532
  2862 1077 49040000 		.4byte	.LLST16
  2863 107b 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 71
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 71
 
 
  2864 107c DD030000 		.4byte	.LASF223
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2918 10ec 03       		.uleb128 0x3
  2919 10ed F3       		.byte	0xf3
  2920 10ee 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 72
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 72
 
 
  2921 10ef 52       		.byte	0x52
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  2975 1160 2704     		.2byte	0x427
  2976 1162 B1050000 		.4byte	0x5b1
  2977 1166 0B060000 		.4byte	.LLST22
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 73
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 73
 
 
  2978 116a 1F       		.uleb128 0x1f
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3032 11e9 66       		.byte	0x66
  3033 11ea 2A       		.uleb128 0x2a
  3034 11eb 730B0000 		.4byte	.LASF250
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 74
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 74
 
 
  3035 11ef 730B0000 		.4byte	.LASF250
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3089 1264 22070000 		.4byte	.LASF261
  3090 1268 22070000 		.4byte	.LASF261
  3091 126c 05       		.byte	0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 75
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 75
 
 
  3092 126d 9203     		.2byte	0x392
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3146 0028 00       		.byte	0
  3147 0029 04       		.uleb128 0x4
  3148 002a 16       		.uleb128 0x16
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 76
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 76
 
 
  3149 002b 00       		.byte	0
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3203 0061 01       		.byte	0x1
  3204 0062 0B       		.uleb128 0xb
  3205 0063 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 77
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 77
 
 
  3206 0064 49       		.uleb128 0x49
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3260 009a 00       		.byte	0
  3261 009b 00       		.byte	0
  3262 009c 0D       		.uleb128 0xd
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 78
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 78
 
 
  3263 009d 0F       		.uleb128 0xf
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3317 00d3 0B       		.uleb128 0xb
  3318 00d4 3B       		.uleb128 0x3b
  3319 00d5 05       		.uleb128 0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 79
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 79
 
 
  3320 00d6 49       		.uleb128 0x49
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3374 010c 13       		.uleb128 0x13
  3375 010d 00       		.byte	0
  3376 010e 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 80
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 80
 
 
  3377 010f 18       		.uleb128 0x18
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3431 0148 03       		.uleb128 0x3
  3432 0149 0E       		.uleb128 0xe
  3433 014a 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 81
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 81
 
 
  3434 014b 0B       		.uleb128 0xb
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3488 0182 03       		.uleb128 0x3
  3489 0183 0E       		.uleb128 0xe
  3490 0184 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 82
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 82
 
 
  3491 0185 0B       		.uleb128 0xb
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3545 01c2 26       		.uleb128 0x26
  3546 01c3 00       		.byte	0
  3547 01c4 49       		.uleb128 0x49
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 83
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 83
 
 
  3548 01c5 13       		.uleb128 0x13
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3602 01fc 27       		.uleb128 0x27
  3603 01fd 34       		.uleb128 0x34
  3604 01fe 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 84
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 84
 
 
  3605 01ff 03       		.uleb128 0x3
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3659 0235 19       		.uleb128 0x19
  3660 0236 6E       		.uleb128 0x6e
  3661 0237 0E       		.uleb128 0xe
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 85
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 85
 
 
  3662 0238 03       		.uleb128 0x3
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3716              	.LLST2:
  3717 0074 02000000 		.4byte	.LVL20
  3718 0078 0A000000 		.4byte	.LVL21
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 86
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 86
 
 
  3719 007c 0200     		.2byte	0x2
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3773 010d 6A000000 		.4byte	.LVL53
  3774 0111 0100     		.2byte	0x1
  3775 0113 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 87
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 87
 
 
  3776 0114 6A000000 		.4byte	.LVL53
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3830 01a2 28000000 		.4byte	.LVL64
  3831 01a6 0100     		.2byte	0x1
  3832 01a8 50       		.byte	0x50
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 88
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 88
 
 
  3833 01a9 28000000 		.4byte	.LVL64
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3887 0238 60       		.sleb128 -32
  3888 0239 3C000000 		.4byte	.LVL68
  3889 023d 40000000 		.4byte	.LVL69
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 89
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 89
 
 
  3890 0241 0100     		.2byte	0x1
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  3944 02cd 70000000 		.4byte	.LVL77
  3945 02d1 0100     		.2byte	0x1
  3946 02d3 53       		.byte	0x53
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 90
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 90
 
 
  3947 02d4 70000000 		.4byte	.LVL77
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4001 0356 9F       		.byte	0x9f
  4002 0357 6E000000 		.4byte	.LVL76
  4003 035b 84000000 		.4byte	.LVL79
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 91
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 91
 
 
  4004 035f 0200     		.2byte	0x2
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4058 03e8 0400     		.2byte	0x4
  4059 03ea F3       		.byte	0xf3
  4060 03eb 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 92
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 92
 
 
  4061 03ec 50       		.byte	0x50
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4115 046b 52       		.byte	0x52
  4116 046c 9F       		.byte	0x9f
  4117 046d 38000000 		.4byte	.LVL96
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 93
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 93
 
 
  4118 0471 3C000000 		.4byte	.LVL98
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4172 04f2 40000000 		.4byte	.LVL99
  4173 04f6 0200     		.2byte	0x2
  4174 04f8 30       		.byte	0x30
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 94
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 94
 
 
  4175 04f9 9F       		.byte	0x9f
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4229 058a 0200     		.2byte	0x2
  4230 058c 70       		.byte	0x70
  4231 058d 08       		.sleb128 8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 95
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 95
 
 
  4232 058e 22000000 		.4byte	.LVL92
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4286 0601 50       		.byte	0x50
  4287 0602 9F       		.byte	0x9f
  4288 0603 00000000 		.4byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 96
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 96
 
 
  4289 0607 00000000 		.4byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4343 0030 00000000 		.4byte	.LFB183
  4344 0034 70000000 		.4byte	.LFE183-.LFB183
  4345 0038 00000000 		.4byte	.LFB184
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 97
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 97
 
 
  4346 003c 80000000 		.4byte	.LFE184-.LFB184
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4391      656E7365 
  4391      5F57445F 
  4391      50524F58 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 98
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 98
 
 
  4391      494D4954 
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4415      48697374 
  4415      5600
  4416              	.LASF191:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 99
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 99
 
 
  4417 00f0 736E7254 		.ascii	"snrTestWidgetId\000"
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4437      44697643 
  4437      6D645061 
  4437      54797065 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 100
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 100
 
 
  4437      53656C50 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4461      656E7365 
  4461      5F497342 
  4461      75737900 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 101
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 101
 
 
  4462              	.LASF103:
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4482              	.LASF224:
  4483 0333 43617053 		.ascii	"CapSense_Stop\000"
  4483      656E7365 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 102
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 102
 
 
  4483      5F53746F 
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4505      69737400 
  4506              	.LASF223:
  4507 03dd 72657375 		.ascii	"result\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 103
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 103
 
 
  4507      6C7400
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4529      74617475 
  4529      7300
  4530              	.LASF187:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 104
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 104
 
 
  4531 0495 6D6F6443 		.ascii	"modCsdClk\000"
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4549      65526571 
  4549      75697265 
  4549      6400
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 105
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 105
 
 
  4550              	.LASF256:
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4571      5F535452 
  4572              	.LASF157:
  4573 065a 6C6F7742 		.ascii	"lowBslnRst\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 106
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 106
 
 
  4573      736C6E52 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4593      4400
  4594              	.LASF153:
  4595 070a 6E6F6973 		.ascii	"noiseTh\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 107
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 107
 
 
  4595      65546800 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4619      5F4C4F57 
  4619      5F42534C 
  4619      4E5F5253 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 108
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 108
 
 
  4620              	.LASF150:
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4641      72696F50 
  4641      6F7300
  4642              	.LASF28:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 109
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 109
 
 
  4643 089b 63727970 		.ascii	"cryptoBase\000"
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4663      5F647352 
  4663      616D00
  4664              	.LASF194:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 110
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 110
 
 
  4665 09b0 736E7254 		.ascii	"snrTestRawCount\000"
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4687      66736574 
  4688              	.LASF140:
  4689 0a5c 43617053 		.ascii	"CapSense_WD_LINEAR_SLIDER_E\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 111
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 111
 
 
  4689      656E7365 
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4709      00
  4710              	.LASF193:
  4711 0b2c 736E7254 		.ascii	"snrTestScanCounter\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 112
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 112
 
 
  4711      65737453 
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4733      74797065 
  4733      00
  4734              	.LASF98:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 113
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 113
 
 
  4735 0bd2 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4756              	.LASF32:
  4757 0c81 666C6173 		.ascii	"flashcVersion\000"
  4757      68635665 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 114
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 114
 
 
  4757      7273696F 
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4779      5F464C54 
  4780              	.LASF235:
  4781 0d53 70747253 		.ascii	"ptrSnsTmp\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 115
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 115
 
 
  4781      6E73546D 
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4803      5F57445F 
  4803      534C4944 
  4804              	.LASF147:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 116
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 116
 
 
  4805 0e0e 43617053 		.ascii	"CapSense_SENSE_METHOD_CSD_E\000"
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4827      5F57445F 
  4827      42555454 
  4828              	.LASF92:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 117
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 117
 
 
  4829 0ecc 63707573 		.ascii	"cpussCm0StatusOffset\000"
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4850              	.LASF149:
  4851 0f74 43617053 		.ascii	"CapSense_SENSE_METHOD_BIST_E\000"
  4851      656E7365 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 118
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 118
 
 
  4851      5F53454E 
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4873      4F666673 
  4873      657400
  4874              	.LASF170:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 119
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 119
 
 
  4875 1034 62736C6E 		.ascii	"bsln\000"
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 1
  4900              	.LASF132:
  4901 10db 70617261 		.ascii	"param1\000"
  4901      6D3100
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSiMBsU.s 			page 120
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccSWJDFI.s 			page 120
 
 
  4902              	.LASF133:

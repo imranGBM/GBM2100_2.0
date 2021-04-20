@@ -23,6 +23,8 @@
 
 int main(void)
 {   
+    UART_1_Start();
+    
     __enable_irq();
     CapSense_Start();
     CapSense_ScanAllWidgets();
@@ -36,6 +38,7 @@ int main(void)
     //xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,1,NULL);
     //xTaskCreate(motionTask,"motionTask",configMINIMAL_STACK_SIZE,NULL,2,NULL);        //Start motionTask
     xTaskCreate(max30102_task,"max30102_task",1024,0,2,0);  //Start SpO2
+    //Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);            //Turn off LED on startup
     
     vTaskStartScheduler();
     for(;;)

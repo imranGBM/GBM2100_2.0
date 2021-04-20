@@ -8,8 +8,8 @@
     uint16_t idxB = 0;
     bool flag = false;
     static int size_traitement = 750;
-    volatile int32_t vectorRed[750];
-    volatile int32_t vectorInfra[750];
+    volatile float32_t vectorRed[750];
+    volatile float32_t vectorInfra[750];
 
 // uint8_t car sa return 1 byte de data
 uint8_t read_Register(uint8_t address)      //address du register qui va read
@@ -111,15 +111,16 @@ void max30102_task(void *arg)
         if(flag==true)
         {
             for (uint32_t i = idxB-size_traitement; i < idxB; i++){
-                vectorRed[i]=bufferRED[i];
-                vectorInfra[i]=bufferIR[i];
+                vectorRed[i]=(float32_t)bufferRED[i];
+                vectorInfra[i]=(float32_t)bufferIR[i];
             }
             traitement_signal();
             
 //            for (uint32_t i = 0; i < 750; i++){
 //                 vectorRed[i] = i;
 //            }
-//            
+            
+            //Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);            //Turn off LED on startup
             drawGraph(&vectorRed);
             flag = false;
             vTaskDelay(100);

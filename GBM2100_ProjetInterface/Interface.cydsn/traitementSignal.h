@@ -20,11 +20,8 @@
 #include<core_cm4.h>
 #include "TasksInterface.h"
 
-#define BLOCK_SIZE 750
-#define NUM_TAPS 50
-
-
-//void filtre(int32_t signal[],float32_t Coefficients[]);
+#define BLOCK_SIZE 750 // Longueur du vecteur traité 
+#define NUM_TAPS 50 // Nombre de coefficients dans le vecteur de coefficients fir des filtres
 
 void traitement_signal();
 

@@ -3,10 +3,9 @@
 #include "task.h"
 #include <stdio.h>
 #include "bmi160.h"         //proviens du driver sur github du capteur
-//Part 2
 #include "motionTask.h"
 #include "math.h"
-//END
+
 
 volatile bool MotionAlarmEnable;
 
@@ -14,8 +13,6 @@ static struct bmi160_dev bmi160Dev;  //Used as the interface point to my capteur
 
 //uint8_t, car c un 8bit adress
 //dev_addr = I2C address,   reg_addr = the register I want to write     *data = the data I want to write    len = the nb of bytes I want to write
-//def des fct ds OneNote
-
 static int8_t BMI160BurstWrite (uint8_t dev_addr, uint8_t reg_addr,uint8_t *data, uint16_t len)
 {
     Cy_SCB_I2C_MasterSendStart(I2C_1_HW,dev_addr,CY_SCB_I2C_WRITE_XFER,0,&I2C_1_context);
@@ -30,7 +27,6 @@ static int8_t BMI160BurstWrite (uint8_t dev_addr, uint8_t reg_addr,uint8_t *data
     return 0;
 }
 
-//This function supports the BMP180 library and read I2C Registers
 static int8_t BMI160BurstRead (uint8_t dev_addr, uint8_t reg_addr,uint8_t *data, uint16_t len)
 {
     Cy_SCB_I2C_MasterSendStart(I2C_1_HW,dev_addr,CY_SCB_I2C_WRITE_XFER,0,&I2C_1_context);
@@ -52,33 +48,31 @@ static void bmi160Init(void)
     vTaskDelay(100); 
     
     /* BMI160 */
-    bmi160Dev.read = (bmi160_read_fptr_t)BMI160BurstRead;           //c sa qui read selon un reg_addr, mais how code select sa
-    bmi160Dev.write = (bmi160_write_fptr_t)BMI160BurstWrite;        //UPDATE: changer le read en write
+    bmi160Dev.read = (bmi160_read_fptr_t)BMI160BurstRead;           
+    bmi160Dev.write = (bmi160_write_fptr_t)BMI160BurstWrite;        
     bmi160Dev.delay_ms = (bmi160_delay_fptr_t)vTaskDelay;
-    bmi160Dev.id = BMI160_I2C_ADDR; // I2C device address
+    bmi160Dev.id = BMI160_I2C_ADDR; 
     
-    bmi160_init(&bmi160Dev); // initialize the device
+    bmi160_init(&bmi160Dev); 
     
     bmi160Dev.gyro_cfg.odr = BMI160_GYRO_ODR_800HZ;
     bmi160Dev.gyro_cfg.range = BMI160_GYRO_RANGE_125_DPS;
     bmi160Dev.gyro_cfg.bw = BMI160_GYRO_BW_OSR4_MODE;
     
-    /* Select the power mode of Gyroscope sensor */
     bmi160Dev.gyro_cfg.power = BMI160_GYRO_NORMAL_MODE;
     
-    bmi160Dev.accel_cfg.odr = BMI160_ACCEL_ODR_1600HZ;              //SHOULD REDUCE BECAUSE USELESS
+    bmi160Dev.accel_cfg.odr = BMI160_ACCEL_ODR_1600HZ;              
     bmi160Dev.accel_cfg.range = BMI160_ACCEL_RANGE_2G;
     bmi160Dev.accel_cfg.bw = BMI160_ACCEL_BW_OSR4_AVG1;
     bmi160Dev.accel_cfg.power = BMI160_ACCEL_NORMAL_MODE;
     
-    /* Set the sensor configuration */
-    bmi160_set_sens_conf(&bmi160Dev);               // save configuration en-haut
+    bmi160_set_sens_conf(&bmi160Dev);               
     bmi160Dev.delay_ms(50);
     
 }
 
 //32768 = 2g
-#define MAXACCEL (32768)      // 16 bits en int (+ et -), donc de -2^15 à (2^15)-1. On divise par 2 pr les valeurs acquisitionné de -2^14 à (2^14)-1
+#define MAXACCEL (32768)      
 
 void motionTask(void *arg)
 {
@@ -107,16 +101,17 @@ void motionTask(void *arg)
         
         bmi160_get_sensor_data(BMI160_ACCEL_ONLY, &acc, NULL, &bmi160Dev);          //c sa qui fait le reading du struct bmi160Dev
         
-        //Convert counts to 2G
+        //valeur max de 1 = à 2 fois la force g
         gx[1] = (double)acc.x/MAXACCEL;
         gy[1] = (double)acc.y/MAXACCEL;
         gz[1] = (double)acc.z/MAXACCEL;
         
-        //Calculate a number between 0 and 100 based on the angle
+        //Calculé un nombre entre 0 et 100 (%)
         m1[1] = acos(gx[1])*360/(2*M_PI*1.8);
         m2[1] = acos(gy[1])*360/(2*M_PI*1.8);
         
-        //If the board moves more than X% take the time that it happened
+        //Si la valeur consécutive varie de 2.5% on active l'alarme
+        //Une faible valeur puisque le produit est pour des personnes agées
         if (fabs(m1[0]-m1[1])>2.5 || fabs(m2[0]-m2[1])>2.5 || fabs(m3[0]-m3[1])>2.5){
             lastMovement = xTaskGetTickCount();}
         

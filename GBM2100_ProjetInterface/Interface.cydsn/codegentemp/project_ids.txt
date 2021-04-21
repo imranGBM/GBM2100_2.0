@@ -1,0 +1,6 @@
+C:\Users\markm\Desktop\GBM2100 - Projet Instrum\Projet\SourceTree_Files\GBM2100_ProjetInterface\Interface.cydsn\Interface.cyprj|95032570-4209-42f6-a870-16cf58635861
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d5cb63dd-f262-43d5-a4b9-dcccd685e782
+C:\Users\markm\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|2c7b96b9-ae9e-473b-b2c5-4efbf9d0b2e7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c1c26b35-9925-4dd3-b01d-92891ab47a8f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a15d4130-c142-4cd3-8c20-cf48a0ca294b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e55f6f4d-4645-4e77-8a62-b7fc5a023a43

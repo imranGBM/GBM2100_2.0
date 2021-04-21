@@ -84,6 +84,11 @@ void read_data_ISR_fct()
 {
     
     readFIFOData(&bufferRED[indexWrite],&bufferIR[indexWrite]);
+    
+//    char Output[50];
+//    sprintf(Output,"%lu : %lu \r\n", (unsigned long) bufferRED[indexWrite], (unsigned long) bufferIR[indexWrite]);
+//    UART_1_PutString(Output);
+    
     indexWrite++;
     
     
@@ -139,7 +144,7 @@ void max30102_task(void *arg)
             //Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);            //Turn off LED on startup
             //drawGraph(&vectorRed);
             flag = false;
-            vTaskDelay(100);
+            
         }
         
     }

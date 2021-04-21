@@ -35,16 +35,18 @@ void ClearScreen(void)
 }
 
 // 3)Fonction pour tracer le graphe d'un vecteur de 750 éléments
-volatile bool DrawRedGraph=false;
+volatile bool DrawRedGraph=true;
 volatile bool DrawInfraredGraph=false;
-void drawGraph(volatile int32_t *vector750elements) 
+void drawGraph(volatile float32_t *vector750elements) 
 {
     GUI_Clear();
-    int x=0; int32_t max=0;
-    int32_t vector250elements[250];
+    GUI_SetPenSize(1); 
+    int x=0; float32_t max=0;
+    float32_t vector250elements[250];
     for (int i=0; i < 250; i++)
     {
-        vector250elements[i]=vector750elements[3*i];
+        vector250elements[i]=*(vector750elements+3*i);
+
         if (vector250elements[i]>max){
             max=vector250elements[i];
         }

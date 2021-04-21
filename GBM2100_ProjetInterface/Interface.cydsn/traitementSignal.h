@@ -18,8 +18,10 @@
 #include <stdlib.h>
 #include <arm_math.h>
 #include<core_cm4.h>
+#include "TasksInterface.h"
 
 #define BLOCK_SIZE 750
+#define NUM_TAPS 50
 
 
 //void filtre(int32_t signal[],float32_t Coefficients[]);

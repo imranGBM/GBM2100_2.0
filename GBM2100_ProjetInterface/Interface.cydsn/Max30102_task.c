@@ -61,7 +61,7 @@ void max30102_init()
     //write_Register(REG_FIFO_DATA, 0xc0);      //acquisition des données ds FIFO_DATA, so rien a write dedans
     write_Register(REG_FIFO_CONFIG, 0b00001111); //sample average = 000 (no averaging) / FIFO_ROLLOVER_EN = 0 (false) / fifo almost full a 17 data unread
     write_Register(REG_MODE_CONFIG, 0b00000011); //MODE[2:0] = 011 pr SpO2, donc RED et IR     
-    write_Register(REG_SPO2_CONFIG, 0b00100111); //ADC range = 4096nA (01), sample rate = 100Hz(001), LED PulseWidth = 411us (11), car 18bit ADC resolution
+    write_Register(REG_SPO2_CONFIG, 0b00100111); //ADC range = 4096nA (01), sample rate = 200Hz(010), LED PulseWidth = 411us (11), car 18bit ADC resolution
     write_Register(REG_LED1_PA, 0b00100100);  //8bits varie de 0 à 255, 0=0ma et 255=51ma
     write_Register(REG_LED2_PA, 0b00100100);  //donc ici on a 7.2mA (54 en binaire)
 
@@ -86,14 +86,20 @@ void read_data_ISR_fct()
     readFIFOData(&bufferRED[indexWrite],&bufferIR[indexWrite]);
     indexWrite++;
     
-    if(indexWrite%size_traitement==0)
+    
+    if(indexWrite==750)
     {
         flag = true;
-        idxB=indexWrite;
-        
-        if (indexWrite == 1500){
-        indexWrite=0;}
+        idxB=0;    
     }
+    if(indexWrite==1500)
+    {
+        flag = true;
+        idxB=1;
+        indexWrite=0;
+    }
+    
+    
     Cy_GPIO_ClearInterrupt(Pin_INT_0_PORT,Pin_INT_0_NUM);
     NVIC_ClearPendingIRQ(Max_int_cfg.intrSrc);
 }
@@ -110,10 +116,20 @@ void max30102_task(void *arg)
     for(;;){
         if(flag==true)
         {
-            for (uint32_t i = idxB-size_traitement; i < idxB; i++){
-                vectorRed[i]=(float32_t)bufferRED[i];
-                vectorInfra[i]=(float32_t)bufferIR[i];
-            }
+            if(idxB==0)
+                {
+                    for (int i = 0; i < 750; i++){
+                        vectorRed[i]=(float32_t)bufferRED[i];
+                        vectorInfra[i]=(float32_t)bufferIR[i];
+                        }
+                }
+            if(idxB==1)
+                {
+                    for (int i = 0; i < 750; i++){
+                        vectorRed[i]=(float32_t)bufferRED[i+750];
+                        vectorInfra[i]=(float32_t)bufferIR[i+750];
+                        }
+                }
             traitement_signal();
             
 //            for (uint32_t i = 0; i < 750; i++){
@@ -121,7 +137,7 @@ void max30102_task(void *arg)
 //            }
             
             //Cy_GPIO_Write(LED8_PORT,LED8_NUM,0);            //Turn off LED on startup
-            drawGraph(&vectorRed);
+            //drawGraph(&vectorRed);
             flag = false;
             vTaskDelay(100);
         }

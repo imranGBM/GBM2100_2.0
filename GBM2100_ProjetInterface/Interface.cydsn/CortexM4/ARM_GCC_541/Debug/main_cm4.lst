@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   30              		.cfi_startproc
   31              		@ Volatile: function does not return.
   32              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 2
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 2
 
 
   33              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   42:.\CMSIS\Core\Include/cmsis_gcc.h **** #endif
   43:.\CMSIS\Core\Include/cmsis_gcc.h **** #ifndef   __INLINE
   44:.\CMSIS\Core\Include/cmsis_gcc.h ****   #define __INLINE                               inline
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 3
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 3
 
 
   45:.\CMSIS\Core\Include/cmsis_gcc.h **** #endif
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   99:.\CMSIS\Core\Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
  100:.\CMSIS\Core\Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_WRITE(addr, val)    (void)((((struct T_UINT32_WRITE *)(void *)(addr))-
  101:.\CMSIS\Core\Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 4
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 4
 
 
  102:.\CMSIS\Core\Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_READ
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   64 0018 FFF7FEFF 		bl	Cy_EINK_Start
   65              	.LVL4:
   66 001c 0120     		movs	r0, #1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 5
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 5
 
 
   67 001e FFF7FEFF 		bl	Cy_EINK_Power
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   42:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Once the pin/port initialization is complete, each pin can be accessed by 
   43:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * specifying the port (GPIO_PRT_Type) and the pin (0-7) in the provided API 
   44:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * functions.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 6
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 6
 
 
   45:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   99:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>A pointer parameter in a function prototype should be declared as pointer 
  100:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *         to const if the pointer is not used to modify the addressed object.</td>
  101:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>The objects pointed to by the base addresses of the GPIO port are not always modified.
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 7
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 7
 
 
  102:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *         While a const qualifier can be used in select scenarios, it brings little benefit
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  156:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \}
  157:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_data_structures Data Structures
  158:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_enums Enumerated Types
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 8
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 8
 
 
  159:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  213:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_GPIO_AMUX_GR,        /**< Close ground switch. Close right switch. Open left switch */
  214:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_GPIO_AMUX_GLR,       /**< Close ground switch. Close right switch. Close left switch */
  215:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** }cy_en_gpio_amuxconnect_t;
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 9
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 9
 
 
  216:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  270:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} group_gpio_data_structures */
  271:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  272:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 10
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 10
 
 
  273:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *        Constants
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  327:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_EDGE3_SEL_Msk | \
  328:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_EDGE4_SEL_Msk | \
  329:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_EDGE5_SEL_Msk | \
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 11
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 11
 
 
  330:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_EDGE6_SEL_Msk | \
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  384:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                        (CY_GPIO_AMUX_GL      == (amuxConnect)) || \
  385:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                        (CY_GPIO_AMUX_GR      == (amuxConnect)) || \
  386:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                        (CY_GPIO_AMUX_GLR     == (amuxConnect)))
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 12
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 12
 
 
  387:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  441:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
  442:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_driveStrength Pin drive strength
  443:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 13
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 13
 
 
  444:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Constants to be used for setting the drive strength of the pin.
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  498:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VREF_1_2V                       (0x01UL) /**< Vref from internal 1.2V reference */
  499:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VREF_AMUX_A                     (0x02UL) /**< Vref from AMUXBUS_A */
  500:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VREF_AMUX_B                     (0x03UL) /**< Vref from AMUXBUS_B */
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 14
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 14
 
 
  501:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  555:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_Set(GPIO_PRT_Type* base, uint32_t pinNum);
  556:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_Clr(GPIO_PRT_Type* base, uint32_t pinNum);
  557:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_Inv(GPIO_PRT_Type* base, uint32_t pinNum);
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 15
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 15
 
 
  558:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetDrivemode(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  612:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \addtogroup group_gpio_functions_init
  613:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
  614:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 16
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 16
 
 
  615:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  669:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Function Name: Cy_GPIO_GetHSIOM
  670:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** ****************************************************************************//**
  671:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 17
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 17
 
 
  672:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Returns the current HSIOM multiplexer connection to the pin.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  726:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  727:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \funcusage
  728:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \snippet gpio/gpio_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_GPIO_PortToAddr
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 18
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 18
 
 
  729:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  783:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /*******************************************************************************
  784:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Function Name: Cy_GPIO_Write
  785:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** ****************************************************************************//**
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 19
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 19
 
 
  786:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
@@ -1128,17 +1128,17 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
   37:main_cm4.c    ****     //xTaskCreate(CapSense_ChangeMenu,"CapSense_ChangeMenu",configMINIMAL_STACK_SIZE,NULL,3,NULL);
   38:main_cm4.c    ****     //xTaskCreate(HeartRateAlarm,"HeartRateAlarm",configMINIMAL_STACK_SIZE,NULL,1,NULL);
   39:main_cm4.c    ****     //xTaskCreate(motionTask,"motionTask",configMINIMAL_STACK_SIZE,NULL,2,NULL);        //Start mot
-  40:main_cm4.c    ****     xTaskCreate(max30102_task,"max30102_task",1024,0,2,0);  //Start SpO2
+  40:main_cm4.c    ****     xTaskCreate(max30102_task,"max30102_task",4096,0,2,0);  //Start SpO2
   87              		.loc 1 40 0
   88 003a 0023     		movs	r3, #0
   89 003c 0193     		str	r3, [sp, #4]
   90 003e 0222     		movs	r2, #2
   91 0040 0092     		str	r2, [sp]
-  92 0042 4FF48062 		mov	r2, #1024
+  92 0042 4FF48052 		mov	r2, #4096
   93 0046 0449     		ldr	r1, .L4+4
   94 0048 0448     		ldr	r0, .L4+8
   95 004a FFF7FEFF 		bl	xTaskCreate
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 20
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 20
 
 
   96              	.LVL10:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  144 000b 01       		.uleb128 0x1
  145 000c 96070000 		.4byte	.LASF231
  146 0010 0C       		.byte	0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 21
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 21
 
 
  147 0011 E10D0000 		.4byte	.LASF232
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  201 0086 02       		.uleb128 0x2
  202 0087 08       		.byte	0x8
  203 0088 05       		.byte	0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 22
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 22
 
 
  204 0089 19020000 		.4byte	.LASF11
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  258 00fb 80       		.byte	0x80
  259 00fc 06       		.byte	0x6
  260 00fd 22       		.byte	0x22
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 23
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 23
 
 
  261 00fe CE010000 		.4byte	0x1ce
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  315 016c 20       		.byte	0x20
  316 016d 0B       		.uleb128 0xb
  317 016e 5C060000 		.4byte	.LASF27
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 24
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 24
 
 
  318 0172 06       		.byte	0x6
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  372 01de 34       		.byte	0x34
  373 01df FA000000 		.4byte	0xfa
  374 01e3 0C       		.uleb128 0xc
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 25
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 25
 
 
  375 01e4 2440     		.2byte	0x4024
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  429 0258 06       		.byte	0x6
  430 0259 42       		.byte	0x42
  431 025a E5000000 		.4byte	0xe5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 26
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 26
 
 
  432 025e 1C40     		.2byte	0x401c
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  486 02ce 39       		.byte	0x39
  487 02cf CE000000 		.4byte	0xce
  488 02d3 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 27
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 27
 
 
  489 02d4 0B       		.uleb128 0xb
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  543 0340 0B       		.uleb128 0xb
  544 0341 310B0000 		.4byte	.LASF60
  545 0345 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 28
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 28
 
 
  546 0346 45       		.byte	0x45
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  600 03b2 50       		.byte	0x50
  601 03b3 A2000000 		.4byte	0xa2
  602 03b7 33       		.byte	0x33
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 29
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 29
 
 
  603 03b8 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  657 0424 0B       		.uleb128 0xb
  658 0425 02040000 		.4byte	.LASF79
  659 0429 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 30
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 30
 
 
  660 042a 5A       		.byte	0x5a
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  714 0496 63       		.byte	0x63
  715 0497 A2000000 		.4byte	0xa2
  716 049b 53       		.byte	0x53
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 31
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 31
 
 
  717 049c 0B       		.uleb128 0xb
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  771 0508 0B       		.uleb128 0xb
  772 0509 AA080000 		.4byte	.LASF98
  773 050d 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 32
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 32
 
 
  774 050e 71       		.byte	0x71
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  828 057a 7D       		.byte	0x7d
  829 057b A2000000 		.4byte	0xa2
  830 057f 72       		.byte	0x72
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 33
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 33
 
 
  831 0580 0B       		.uleb128 0xb
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  885 05ec 0B       		.uleb128 0xb
  886 05ed 7A040000 		.4byte	.LASF117
  887 05f1 08       		.byte	0x8
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 34
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 34
 
 
  888 05f2 8A       		.byte	0x8a
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  942 065e 95       		.byte	0x95
  943 065f B8000000 		.4byte	0xb8
  944 0663 A4       		.byte	0xa4
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 35
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 35
 
 
  945 0664 0B       		.uleb128 0xb
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  999 06d1 01       		.byte	0x1
  1000 06d2 08       		.byte	0x8
  1001 06d3 AD0A0000 		.4byte	.LASF136
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 36
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 36
 
 
  1002 06d7 02       		.uleb128 0x2
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1056 0744 08070000 		.4byte	0x708
  1057 0748 52070000 		.4byte	0x752
  1058 074c 14       		.uleb128 0x14
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 37
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 37
 
 
  1059 074d CE000000 		.4byte	0xce
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1113 07c2 CE000000 		.4byte	0xce
  1114 07c6 14       		.byte	0x14
  1115 07c7 17       		.uleb128 0x17
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 38
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 38
 
 
  1116 07c8 E7060000 		.4byte	.LASF153
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1170 083d D4010000 		.4byte	.LASF162
  1171 0841 0A       		.byte	0xa
  1172 0842 DD02     		.2byte	0x2dd
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 39
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 39
 
 
  1173 0844 CE000000 		.4byte	0xce
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1227 08bb 17       		.uleb128 0x17
  1228 08bc 20000000 		.4byte	.LASF172
  1229 08c0 0B       		.byte	0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 40
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 40
 
 
  1230 08c1 7A02     		.2byte	0x27a
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1284 0936 7502     		.2byte	0x275
  1285 0938 F3090000 		.4byte	0x9f3
  1286 093c 17       		.uleb128 0x17
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 41
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 41
 
 
  1287 093d 9C0D0000 		.4byte	.LASF181
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1341 09b2 BC010000 		.4byte	.LASF174
  1342 09b6 0C       		.byte	0xc
  1343 09b7 8402     		.2byte	0x284
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 42
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 42
 
 
  1344 09b9 E5060000 		.4byte	0x6e5
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1398 0a2a CE000000 		.4byte	0xce
  1399 0a2e 08       		.byte	0x8
  1400 0a2f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 43
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 43
 
 
  1401 0a30 ED000000 		.4byte	.LASF193
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1455 0a9c 910B0000 		.4byte	.LASF202
  1456 0aa0 0D       		.byte	0xd
  1457 0aa1 42       		.byte	0x42
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 44
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 44
 
 
  1458 0aa2 CE000000 		.4byte	0xce
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1512 0b0e 03       		.byte	0x3
  1513 0b0f 2503     		.2byte	0x325
  1514 0b11 03       		.byte	0x3
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 45
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 45
 
 
  1515 0b12 3B0B0000 		.4byte	0xb3b
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1569 0b9c 0E000000 		.4byte	.LVL1
  1570 0ba0 B60C0000 		.4byte	0xcb6
  1571 0ba4 20       		.uleb128 0x20
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 46
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 46
 
 
  1572 0ba5 12000000 		.4byte	.LVL2
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1626 0c1d 01       		.uleb128 0x1
  1627 0c1e 51       		.byte	0x51
  1628 0c1f 05       		.uleb128 0x5
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 47
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 47
 
 
  1629 0c20 03       		.byte	0x3
@@ -2768,7 +2768,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1633 0c27 52       		.byte	0x52
  1634 0c28 03       		.uleb128 0x3
  1635 0c29 0A       		.byte	0xa
- 1636 0c2a 0004     		.2byte	0x400
+ 1636 0c2a 0010     		.2byte	0x1000
  1637 0c2c 22       		.uleb128 0x22
  1638 0c2d 01       		.uleb128 0x1
  1639 0c2e 53       		.byte	0x53
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1683 0c7f 10       		.byte	0x10
  1684 0c80 1F       		.byte	0x1f
  1685 0c81 850C0000 		.4byte	0xc85
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 48
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 48
 
 
  1686 0c85 06       		.uleb128 0x6
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1740 0cff 3D0A0000 		.4byte	.LASF227
  1741 0d03 16       		.byte	0x16
  1742 0d04 C001     		.2byte	0x1c0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 49
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 49
 
 
  1743 0d06 26       		.uleb128 0x26
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1797 0024 0B       		.uleb128 0xb
  1798 0025 3B       		.uleb128 0x3b
  1799 0026 0B       		.uleb128 0xb
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 50
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 50
 
 
  1800 0027 49       		.uleb128 0x49
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1854 005d 3B       		.uleb128 0x3b
  1855 005e 0B       		.uleb128 0xb
  1856 005f 01       		.uleb128 0x1
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 51
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 51
 
 
  1857 0060 13       		.uleb128 0x13
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1911 0096 0B       		.uleb128 0xb
  1912 0097 49       		.uleb128 0x49
  1913 0098 13       		.uleb128 0x13
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 52
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 52
 
 
  1914 0099 38       		.uleb128 0x38
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  1968 00cf 13       		.uleb128 0x13
  1969 00d0 00       		.byte	0
  1970 00d1 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 53
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 53
 
 
  1971 00d2 13       		.uleb128 0x13
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2025 0108 0B       		.uleb128 0xb
  2026 0109 00       		.byte	0
  2027 010a 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 54
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 54
 
 
  2028 010b 18       		.uleb128 0x18
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2082 0141 3B       		.uleb128 0x3b
  2083 0142 05       		.uleb128 0x5
  2084 0143 49       		.uleb128 0x49
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 55
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 55
 
 
  2085 0144 13       		.uleb128 0x13
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2139 017c 12       		.uleb128 0x12
  2140 017d 06       		.uleb128 0x6
  2141 017e 58       		.uleb128 0x58
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 56
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 56
 
 
  2142 017f 0B       		.uleb128 0xb
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2196 01bc 49       		.uleb128 0x49
  2197 01bd 13       		.uleb128 0x13
  2198 01be 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 57
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 57
 
 
  2199 01bf 19       		.uleb128 0x19
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2253 01f5 00       		.byte	0
  2254 01f6 00       		.byte	0
  2255 01f7 00       		.byte	0
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 58
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 58
 
 
  2256              		.section	.debug_loc,"",%progbits
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2305      4275734D 
  2305      61737465 
  2305      724D6173 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 59
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 59
 
 
  2305      6B00
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2329      73497063 
  2329      4972714E 
  2329      7200
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 60
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 60
 
 
  2330              	.LASF3:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2353      7369676E 
  2353      65642069 
  2354              	.LASF191:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 61
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 61
 
 
  2355 0151 636C6F63 		.ascii	"clockPrescaler\000"
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2376              	.LASF90:
  2377 01fd 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
  2377      6843746C 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 62
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 62
 
 
  2377      4D61696E 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2397      6E646C65 
  2398              	.LASF74:
  2399 02ce 73727373 		.ascii	"srssNumClkpath\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 63
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 63
 
 
  2399      4E756D43 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2422              	.LASF82:
  2423 0376 73797350 		.ascii	"sysPmSimoPresent\000"
  2423      6D53696D 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 64
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 64
 
 
  2423      6F507265 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2447      6B537461 
  2447      72745363 
  2447      68656475 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 65
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 65
 
 
  2447      6C657200 
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2469      75666665 
  2469      72496478 
  2469      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 66
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 66
 
 
  2470              	.LASF66:
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2493      6843746C 
  2493      4D61696E 
  2493      57733246 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 67
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 67
 
 
  2493      72657100 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2517      42617365 
  2517      00
  2518              	.LASF207:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 68
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 68
 
 
  2519 0628 636F756E 		.ascii	"countInputMode\000"
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2542              	.LASF95:
  2543 06d0 64774368 		.ascii	"dwChOffset\000"
  2543      4F666673 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 69
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 69
 
 
  2543      657400
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2567      63654E72 
  2567      00
  2568              	.LASF234:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 70
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 70
 
 
  2569 0778 5F5F656E 		.ascii	"__enable_irq\000"
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2588      53494F00 
  2589              	.LASF33:
  2590 088a 52455345 		.ascii	"RESERVED1\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 71
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 71
 
 
  2590      52564544 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2612      72657100 
  2613              	.LASF213:
  2614 0936 49544D5F 		.ascii	"ITM_RxBuffer\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 72
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 72
 
 
  2614      52784275 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2634      00
  2635              	.LASF149:
  2636 09db 6D617374 		.ascii	"masterPause\000"
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 73
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 73
 
 
  2636      65725061 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2658 0a82 63795F73 		.ascii	"cy_stc_scb_i2c_context_t\000"
  2658      74635F73 
  2658      63625F69 
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 74
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 74
 
 
  2658      32635F63 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2684      7433325F 
  2684      7400
  2685              	.LASF60:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 75
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 75
 
 
  2686 0b31 64775665 		.ascii	"dwVersion\000"
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2708      74727563 
  2708      7453697A 
  2708      6500
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 76
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 76
 
 
  2709              	.LASF145:
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2730      4E756D48 
  2730      66726F6F 
  2730      7400
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 77
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 77
 
 
  2731              	.LASF215:
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2752      7075744D 
  2752      6F646500 
  2753              	.LASF186:
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 78
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 78
 
 
  2754 0d6f 72785269 		.ascii	"rxRingBufTail\000"
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 1
  2778      52657175 
  2778      69726564 
  2778      00
-ARM GAS  C:\Users\markm\AppData\Local\Temp\ccMyrEqx.s 			page 79
+ARM GAS  C:\Users\markm\AppData\Local\Temp\ccCCKoNZ.s 			page 79
 
 
  2779              	.LASF225:
